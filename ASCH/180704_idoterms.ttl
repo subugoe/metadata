@@ -1,0 +1,179 @@
+#################################################################################################################
+#                                       Item Description Ontology                                               #
+#################################################################################################################
+
+@prefix ido: <http://purl.org/asch/ido/180704#> .
+@prefix pdo: <http://purl.org/asch/pdo/180704#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix crm: <http://erlangen-crm.org/170309/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix gnd: <http://d-nb.info/gnd/> . 
+@prefix nms: <http://nomisma.org/ontology#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dwc <http://rs.tdwg.org/dwc/> .
+@prefix edm <http://www.europeana.eu/schemas/edm/> .
+@prefix dc <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms <http://purl.org/dc/terms/> .
+@prefix prov <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://purl.org/asch/ido/180704#> a owl:Ontology ;
+	rdfs:label "Item Description Ontology (PDO)"@en ;
+	rdfs:comment "This ontology defines core classes and properties for the description of items. The ontology was developed for the description of of items from university collections but is not limited to this context."@en ;
+	rdfs:comment "Created by Stefanie Rühle (SUB Göttingen)"@en ;
+	owl:versionInfo "2018-07-04 (version 3.0)"^^xsd:string .
+
+
+###########
+# Classes #
+###########
+
+ido:Appearance a owl:Class ;
+    rdfs:Label "appearance"@en , "Aussehen"@de ;
+    rdfs:subClassOf rdfs:Resource , crm:E26_Physical_Feature ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Appearance> ;
+    rdfs:comment "The physical characteristics of an item."@en .
+
+ido:Appellation a owl:Class ;
+    rdfs:label "Appellation"@en ; "Bezeichnung"@de ;
+    rdfs:subClassOf crm:E41_Appellation , dwc:Identification ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Appellation> ;
+    rdfs:comment "A name of a resource."@en ;
+    rdfs:seeAlso aat:300404658 .
+
+ido:Artifact a owl:Class ;
+    rdfs:label "Artifact"@en , "Artefakt"@de ;
+    rdfs:subClassOf pdo:Item , crm:E22_Man-Made_Object ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Artifact> ;
+    rdfs:comment "Something created by humans."@en ;
+    rdfs:seeAlso aat: 300117127 .
+	
+ido:Collection a owl:Class ;
+    rdfs:label "Collection"@en , "Sammlung"@de ;
+    rdfs:subClassOf pdo:Item , dcmitype:"Collection" , nms:Collection , crm:E78_Collection ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Collection> ;
+    rdfs:comment "An aggregation of items collected by an agent on a particular topic."@en ;
+    rdfs:seeAlso aat:300025976 .
+	
+ido:DigitalRepresentation a owl:Class ;
+    rdfs:label "digital representation"@en , "Digitalisat"@de ;
+    rdfs:subClassOf rdfs:Resource , edm:WebResource ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#DigitalRepresentation> ;
+    rdfs:comment "A digital resource used as a proxy for a real-world-thing in a digital environment." .
+	
+ido:Fossil a owl:Class ;
+    rdfs:label "Fossil"@en , "Fossil"@de ;
+    rdfs:subClassOf ido:Organism , dwc:FossilSpecimen ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Fossil> ;
+    rdfs:comment "Remains of humans, animals or plants."@en ;
+    rdfs:seeAlso aat:300247919 .
+	
+ido:InorganicItem a owl:Class ;
+    rdfs:label "Inorganic Item"@en , "Anorganisches Objekt"@de ;
+    rdfs:subClassOf pdo:NaturalItem ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#InorganicItem> ;
+    rdfs:comment "Natural substance like minerals, rocks or other objects alike."@en ;
+    rdfs:seeAlso aat:300010360 .
+	
+ido:NaturalItem a owl:Class ;
+    rdfs:label "Natural Item"@en , "Naturobjekte"@de ;
+    rdfs:subClassOf pdo:Item ; 
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#NaturalItem> ;
+    rdfs:comment "Somthing that occurs in nature and is not made by humans."@en ;
+    rdfs:seeAlso aat:300404125 .
+	
+ido:NumismaticItem a owl:Class ;
+    rdfs:label "Numismatic Item"@en , "Numismatisches Objekt"@de ;
+    rdfs:subClassOf ido:Artifact , nms:NumismaticObject , gnd:4040629-5 ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#NumismaticItem> ;
+    rdfs:comment "A thing used as money in the present, past or future (e.g. a coin or a banknote)."@en ;
+    rdfs:seeAlso aat:300037222 , aat:300046025 .	
+	
+ido:Organism a owl:Class ;
+    rdfs:label "Organism"@en , "Organismus"@de ;
+    rdfs:subClassOf ido:NaturalItem , dwc:Organism , crm:E20_Biological_Object ;
+    rdfs:isDefinedBy <http://ido:Organism> ;
+    rdfs:comment "Natural item living or having lived as a human, animal, plant etc."@en .
+	
+ido:Skull a owl:Class ;
+    rdfs:label "Skull"@en , "Schädel"@de ;
+    rdfs:subClassOf ido:Organism ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Skull> ;
+    rdfs:comment "Bones of the head."@en ;
+    rdfs:seeAlso aat:300191856 .
+	
+ido:Text a owl:Class ;
+    rdfs:label "Text"@en , "Text"@de ;
+    rdfs:subClassOf ido:Artifact , dcmitype:Text ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Text> ;
+    rdfs:comment "A resource consisting primarily of words for reading." . 
+
+	
+ido:WorkOfArt a owl:Class ;
+    rdfs:label "Work of Art"@en , "Kunstwerk"@de ;
+    rdfs:subClassOf ido:Artifact , gnd:4123592-7 ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#WorkOfArt> ;
+    rdfs:comment "Outcome of an artistic creation process." ;
+    rdfs:seeAlso aat:300133025 .
+	
+
+##############
+# Properties #
+##############
+
+ido:colour a rdf:Property ;
+    rdfs:label "colour"@en , "Farbe"@de ;
+    rdfs:subPropertyOf dc:description ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#colour> ;
+    rdfs:comment "The colouring of an item."@en .
+	
+ido:condition a rdf:Property ;
+    rdfs:label "condition"@en , "Zustand"@de ;
+    rdfs:subPropertyOf dc:description , crm:P44_has_condition ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#condition> ;
+    rdfs:comment "Describes the condition state of an item."@en .
+
+ido:hasAppellation a owl:ObjectProperty ;
+    rdfs:label "has appellation"@en , "Name" ;
+    rdfs:subPropertyOf dc:title , crm:P1_is_identified_by , dwc:organismName , dwc:hasIdentification ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#hasAppellation> ;
+    rdfs:comment "Relates to a resource describing the name of a resource."@en .
+	
+ido:hasDigitalRepresentation a owl:ObjectProperty ;
+    rdfs:label "digital representation"@en , "Digitalisat"@de ;
+    rdfs:subPropertyOf dc:relation , crm:P138i_has_representation ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#hasDigitalRepresentation> ;
+    rdfs:comment "Relates to a digital representation or copy of a resource."@en .
+	
+ido:inscription a rdf:Property ;
+    rdfs:label "inscription/mark"@en , "Aufschrift/Aufdruck"@de ;
+    rdfs:subPropertyOf dc:description ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#inscription> ;
+    rdfs:comment "Short text attached to an item."@en .
+	
+ido:isGatheredInto a owl:ObjectProperty ;
+    rdfs:label "is gathered into"@en , "in Sammlung"@de ;
+    rdfs:subPropertyOf dcterms:isPartOf , edm:isGatheredInto , crm:P46i_forms_part_of ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#isGatheredInto> ;
+    rdfs:comment "Relates a resource with a collection of which it is a member."@en .
+	
+ido:numberOfParts a rdf:Property ;
+    rdfs:label "number of parts"@en , "Anzahl der Teile"@de ;
+    rdfs:subPropertyOf dc:description , crm:P57_has_number_of_parts ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#numberOfParts> ;
+    rdfs:comment "The number of the parts an item consists of."@en .
+	
+ido:physicalDescription a owl:ObjectProperty ;
+    rdfs:label "physical description"@en , "äußere Erscheinung"@de ;
+    rdfs:subPropertyOf dc:relation , nms:hasAppearance ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#physicalDescription> ;
+    rdfs:comment "Relates an item with the description of its appearance." .
+	
+ido:wasAffectedBy a owl:ObjectProperty ;
+    rdfs:label "was affected by"@en , "betroffen von" ;
+    rdfs:subPorpertyOf dc:relation , dcterms:provenance , crm:P12i_was_present_at , prov:wasInfluencedBy ;
+    rdfs:isDefinedBy <http://purl.org/asch/ido/180704#wasAffectedBy> ;
+    rdfs:comment "Relates an item with an event happened to it."@en .
