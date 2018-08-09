@@ -74,7 +74,6 @@ pdo:Group a owl:Class ;
 	  rdfs:subClassOf pdo:Agent , crm:E74_Group , foaf:Group , gndo:GroupOfPersons ;
 	  rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Group> ;
 	  rdfs:comment "Two or more persons interacting with a common goal."@en .
-
 	
 pdo:Item a owl:Class
     rdfs:label "Item"@en , "Objekt"@de ;
@@ -100,8 +99,6 @@ pdo:Time a owl:Class ;
     rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Time> ;
     rdfs:comment "A resource representing a point in time"@en ;
     rdfs:seeAlso crm:E61_Time_Primitive .    
-	
-
 	
 ##############
 # Properties #
