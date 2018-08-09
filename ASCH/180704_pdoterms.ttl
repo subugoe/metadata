@@ -2,7 +2,7 @@
 #                                       Provenance Description Ontology                                         #
 #################################################################################################################
 
-@prefix pdo: <http://purl.org/asch/pdo/180704> . 
+@prefix pdo: <http://purl.org/asch/pdo/180704#> . 
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -25,7 +25,7 @@
 <http://pdo/> a owl:Ontology ;
 	rdfs:label "Provenance Description Ontology (PDO)"@en ;
 	rdfs:comment "This ontology defines core classes and properties for the description of provenance. The ontology was developed for the description of provenance of items from university collections but is not limited to this context."@en ;
-	rdfs:comment "Created by Stefanie Rühle (SUB Göttingen)"@en ;
+	rdfs:comment "Created by Stefanie RÃ¼hle (SUB GÃ¶ttingen)"@en ;
 	owl:versionInfo "2018-07-04 (version 3.0)"^^xsd:string .
 	
 ###########
@@ -39,7 +39,7 @@ pdo:Agent a owl:Class ;
     rdfs:comment "A person, organization or group that acts or may act."@en .
 
 pdo:CorporateBody a owl:Class ;
-	  rdfs:label "Corporate Body"@en , "Körperschaft"@de ;
+	  rdfs:label "Corporate Body"@en , "KÃ¶rperschaft"@de ;
 	  rdfs:subClassOf pdo:Agent, crm:E40_Legal_Body , foaf:Organization , gndo:CorporateBody ;
 	  rdfs:isDefinedBy <http://pdo/CorporateBody> ;
 	  rdfs:comment "A group of people recognized by law as one agent."@en .
@@ -143,7 +143,7 @@ pdo:happenedTo a owl:ObjectProperty ;
     rdfs:comment "Relates an event with an item it affected."@en .
 	
 pdo:hasBuyer a owl:ObjectProperty ;
-    rdfs:label "buyer"@en , "Käufer"@de ;
+    rdfs:label "buyer"@en , "KÃ¤ufer"@de ;
     rdfs:subPropertyOf dc:contributor ;
     rdfs:isDefinedBy <http://pdo/hasBuyer> ;
     rdfs:comment "Relates to the agent purchasing the resource."@en ;
@@ -171,14 +171,14 @@ pdo:hasCopyist a owl:ObjectProperty ;
     rdfs:seeAlso aat: 300025189 , marcrel:acp , marcrel:fac , marcrel:frg , marcrel:mcp .
 	
 pdo:hasDealer a owl:ObjectProperty ;
-    rdfs:label "dealer"@en , "Verkäufer"@de ;
+    rdfs:label "dealer"@en , "VerkÃ¤ufer"@de ;
     rdfs:subPropertyOf dc:contributor ;
     rdfs:isDefinedBy <http://pdo/hasDealer> ;
     rdfs:comment "Relates to the agent selling the resource."@en ;
     rdfs:seeAlso aat:300025236 .
 	
 pdo:hasExcavator a owl:ObjectProperty ;
-    rdfs:label "excavator"@en , "Ausgräber"@de ;	
+    rdfs:label "excavator"@en , "AusgrÃ¤ber"@de ;	
     rdfs:subPropertyOf dc:contributor ;
     rdfs:isDefinedBy <http://pdo/hasExcavator> ;
     rdfs:comment "Relates to the agent digging for the resource."@en ;
@@ -192,7 +192,7 @@ pdo:hasMaker a owl:ObjectProperty ;
     rdfs:seeAlso aat:300251917 .
 	
 pdo:hasPreparator a owl:ObjectProperty ;
-    rdfs:label "preparator"@en , "Präparator"@de ;
+    rdfs:label "preparator"@en , "PrÃ¤parator"@de ;
     rdfs:subPropertyOf dc:contributor ;
     rdfs:isDefinedBy <http://pdo/hasPreparator> ;
     rdfs:comment "Relates to the agent preparing the resource."@en ;
@@ -252,7 +252,7 @@ pdo:placeOfDestination a owl:ObjectProperty ;
     rdfs:comment "Relates an event with the place where it ended."@en .
 	
 pdo:pupilOf a owl:ObjectProperty ;
-    rdfs:label "Pupil of"@en , "Schüler von"@de ;
+    rdfs:label "Pupil of"@en , "SchÃ¼ler von"@de ;
     rdfs:subPorpertyOf dc:relation ;
     rdfs:isDefinedBy <http://pdo/pupilOf> ;
     rdfs:comment "Describes the relation between an agent and the agent who was his teacher."@en .
