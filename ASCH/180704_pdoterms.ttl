@@ -1,0 +1,300 @@
+#################################################################################################################
+#                                       Provenance Description Ontology                                         #
+#################################################################################################################
+
+@prefix pdo: <http://purl.org/asch/pdo/180704> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix crm: <http://erlangen-crm.org/170309/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gndo: <http://d-nb.info/standards/elementset/gnd> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix edm: <http://www.europeana.eu/schemas/edm/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix eventType: <http://terminology.lido-schema.org/eventType> .
+
+
+<http://pdo/> a owl:Ontology ;
+	rdfs:label "Provenance Description Ontology (PDO)"@en ;
+	rdfs:comment "This ontology defines core classes and properties for the description of provenance. The ontology was developed for the description of provenance of items from university collections but is not limited to this context."@en ;
+	rdfs:comment "Created by Stefanie Rühle (SUB Göttingen)"@en ;
+	owl:versionInfo "2018-07-04 (version 3.0)"^^xsd:string .
+	
+###########
+# Classes #
+###########
+
+pdo:Agent a owl:Class ;
+    rdfs:label "Agent"@en , "Handelnder"@de ;
+    rdfs:subClassOf foaf:Agent , crm:E39_Actor , prov:Agent , edm:Agent , dcterms:Agent ; 
+    rdfs:isDefinedBy <http://pdo/Agent> ;
+    rdfs:comment "A person, organization or group that acts or may act."@en .
+
+pdo:CorporateBody a owl:Class ;
+	  rdfs:label "Corporate Body"@en , "Körperschaft"@de ;
+	  rdfs:subClassOf pdo:Agent, crm:E40_Legal_Body , foaf:Organization , gndo:CorporateBody ;
+	  rdfs:isDefinedBy <http://pdo/CorporateBody> ;
+	  rdfs:comment "A group of people recognized by law as one agent."@en .
+
+pdo:Custody a owl:Class , skos:Concept ;
+    rdfs:label "Custody"@en , "Aufbewahrung"@de ;
+    rdfs:subClassOf pdo:Event , crm:E87_Curation_Activity , eventType:lido00004 ;
+    rdfs:isDefinedBy <http://pdo/Custody> ;
+    rdfs:comment "The keeping and maintenance of an item."@en .
+	
+pdo:DataBase a owl:Class ;
+    rdfs:label "Database"@en , "Datenbestand"@de ;
+    rdfs:subClassOf prov:Entity , dcat:Dataset , dcmitype:Dataset ;
+    rdfs:isDefinedBy <http://pdo/DataBase> ;
+    rdfs:comment "A collection of data" .
+	
+pdo:Event a owl:Class ;
+    rdfs:label "Event"@en , "Ereignis@de" ;
+    rdfs:subClassOf crm:E5_Event , dcmitype:Event , edm:Event , prov:Activity , dwc:Event ;
+    rdfs:isDefinedBy <http://pdo/Event> ;
+    rdfs:comment "Something that happened and affected the lifecycle of the resource."@en .
+
+pdo:Exploration a owl:Class , skos:Concept ;
+    rdfs:label "Exploration"@en , "Expedition"@de ;
+    rdfs:subClassOf pdo:Event ;
+    rdfs:isDefinedBy <http://pdo/Exploration> ;
+    rdfs:comment "Journey or voyage to search for the discovery of resources."@en .
+	
+pdo:Group a owl:Class ;
+	  rdfs:label "Group"@en , "Gruppe"@de ;
+	  rdfs:subClassOf pdo:Agent , crm:E74_Group , foaf:Group , gndo:GroupOfPersons ;
+	  rdfs:isDefinedBy <http://pdo/Group> ;
+	  rdfs:comment "Two or more persons interacting with a common goal."@en .
+
+	
+pdo:Item a owl:Class
+    rdfs:label "Item"@en , "Objekt"@de ;
+    rdfs:subClassOf dcterms:PhysicalResource , edm:ProvidedCHO , prov:Entity , crm:E18_PhysicalThing , dwc:Occurrence ;
+    rdfs:isDefinedBy <http://pdo/Item> ; 
+    rdfs:comment "A real world thing."@en .
+	
+pdo:Person a owl:Class ;
+	  rdfs:label "Person"@en , "Person"@de ;
+	  rdfs:subClassOf pdo:Agent , crm:E21_Person , foaf:Person , gndo:Person ;
+	  rdfs:isDefinedBy <http://pdo/Person> ;
+	  rdfs:comment "An individual human being."@en .
+	
+pdo:Record a owl:Class ;
+    rdfs:label "Record"@en , "Datensatz"@de ;
+    rdfs:subClassOf prov:Entity , dcat:CatalogRecord ;
+    rdfs:isDefinedBy <http://pdo/Record> ;
+    rdfs:comment "An entity in a catalog, describing a single resource."@en .
+	
+pdo:Time a owl:Class ;
+    rdfs:label "Time"@en , "Zeitangabe"@de ;
+    rdfs:subClassOf https://w3c.github.io/sdw/time/#time:TemporalPosition ;
+    rdfs:isDefinedBy <http://pdo/Time> ;
+    rdfs:comment "A resource representing a point in time"@en ;
+    rdfs:seeAlso crm:E61_Time_Primitive .    
+	
+
+	
+##############
+# Properties #
+##############
+
+pdo:assitentOf a owl:ObjectProperty ;
+    rdfs:label "Assistent of"@en , "Mitarbeiter von"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/assistentOf> ;
+    rdfs:comment "Describes the relation between an agent and the agent he worked for."en .
+
+pdo:attributedTo a owl:ObjectProperty ;
+    rdfs:label "attributed to"@en , "Zuweisung"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/attributedTo> ;
+    rdfs:comment "Relates an event to an agent whose participation in the event is uncertain."@en .
+	
+pdo:copyistOf a owl:ObjectProperty ;
+    rdfs:label "Copyist of"@en , "Nachahmer von"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/copyistOf> ;
+    rdfs:comment "Describes the relation between an agent and the agent he imitated"@en .
+	
+pdo:culturalContext a owl:ObjectProperty ;
+    rdfs:label "cultural context"@en , "kultureller Zusammenhang"de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/culturalContext> ;
+    rdfs:comment "Relates to a resource describing the cultural or ethnic context, the artistic style or era."@en .
+
+pdo:end a owl:ObjectProperty ;
+    rdfs:label "end"@en , "Ende"@de ;
+    rdfs:subPropertyOf dc:date , dc:relation , edm:end , prov:endedAtTime ;
+    rdfs:isDefinedBy <http://pdo/end> ;
+    rdfs:comment "Relates to a resource representing the date of ending."@en .
+	
+pdo:happenedTo a owl:ObjectProperty ;
+    rdfs:label "happened to"@en , "wirkte auf"@de ;
+    rdfs:subPropertyOf dc:relation , crm:P12_occurred_in_the_presence_of ; prov:influenced ; edm:hasMet  ;
+    rdfs:isDefinedBy <http://pdo/happenedTo> ;
+    rdfs:comment "Relates an event with an item it affected."@en .
+	
+pdo:hasBuyer a owl:ObjectProperty ;
+    rdfs:label "buyer"@en , "Käufer"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasBuyer> ;
+    rdfs:comment "Relates to the agent purchasing the resource."@en ;
+    rdfs:seeAlso aat:300025211 .
+	
+pdo:hasCollector a owl:ObjectProperty ;
+    rdfs:label "collector"@en , "Sammler"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasCollector> ;
+    rdfs:comment "Relates to the agent collecting or finding the resource."@en ;
+    rdfs:seeAlso aat:300025234 .
+	
+pdo:hasCommissioner a owl:ObjectProperty ;
+    rdfs:label "commissioner"@en , "Auftraggeber"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasCommissioner> ;
+    rdfs:comment "Relates to the agent ordering the resource."@en ;
+    rdfs:seeAlso att:300400903 .
+	
+pdo:hasCopyist a owl:ObjectProperty ;
+    rdfs:label "copyist"@en , "Kopist"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefiniedBy <http://pdo/hasCopyist> ;
+    rdfs:comment "Relates to the agent making a copy."@en ;
+    rdfs:seeAlso aat: 300025189 , marcrel:acp , marcrel:fac , marcrel:frg , marcrel:mcp .
+	
+pdo:hasDealer a owl:ObjectProperty ;
+    rdfs:label "dealer"@en , "Verkäufer"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasDealer> ;
+    rdfs:comment "Relates to the agent selling the resource."@en ;
+    rdfs:seeAlso aat:300025236 .
+	
+pdo:hasExcavator a owl:ObjectProperty ;
+    rdfs:label "excavator"@en , "Ausgräber"@de ;	
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasExcavator> ;
+    rdfs:comment "Relates to the agent digging for the resource."@en ;
+    rdfs:seeAlso aat:300390592 . 
+	
+pdo:hasMaker a owl:ObjectProperty ;
+    rdfs:label "maker"@en , "Hersteller"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasMaker> ;
+    rdfs:comment "Relates to the agent making the resource."@en ;
+    rdfs:seeAlso aat:300251917 .
+	
+pdo:hasPreparator a owl:ObjectProperty ;
+    rdfs:label "preparator"@en , "Präparator"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasPreparator> ;
+    rdfs:comment "Relates to the agent preparing the resource."@en ;
+    rdfs:seeAlso aat:300025643 .
+	
+pdo:hasPurpose a owl:ObjectProperty ;
+    rdfs:label "has purpose"@en , "Zweck"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/hasPurpose> ;
+    rdfs:comment "Relates to a resource describing the intention or general goal of an event."@en ;
+    rdfs:seeAlso crm:P20_had_specific_purpose , crm:P21_had_general_purpose .
+	
+pdo:hasSculptor a owl:ObjectProperty ;
+    rdfs:label "sculptor"@en , "Bildhauer"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasSculptor> ;
+    rdfs:comment "Relates to the agent creating the sculpture."@en ;
+    rdfs:seeAlso aat:300025181 .
+	
+pdo:hasShipper a owl:ObjectProperty ;
+    rdfs:label "shipper"@en , "Spediteur"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasShipper> ;
+    rdfs:comment "Relates to the agent responsible for the transporation."@en ;
+    rdfs:seeAlso aat:300025875 .
+	
+pdo:hasUser a owl:ObjectProperty ;
+    rdfs:label "user"@en , "Benutzer"@de ;
+    rdfs:subPropertyOf dc:contributor ;
+    rdfs:isDefinedBy <http://pdo/hasUser> ;
+    rdfs:comment "Relates to the agent using the resource."@en ;
+    rdfs:seeAlso aat:300068844 .
+	
+pdo:material a owl:ObjectProperty ;
+    rdfs:label "material"@en , "Material"@de ;
+    rdfs:subPropertyOf dc:relation , crm:P45_consists_of ;
+    rdfs:isDefinedBy <http://pdo/material> ;
+    rdfs:comment "Relates to a resource describing a substance related to an item or an event."@en ;
+    rdfs:seeAlso  crm:P126_employed_by .
+	
+pdo:participant a owl:ObjectProperty ;
+    rdfs:label "participant"@en , "anwesend"@de ;
+    rdfs:subPropertyOf dc:relation , crm:P11_had_participant , prov:wasAssociatedWith , edm:hasMet ;
+    rdfs:isDefinedBy <http://pdo/participant> ;
+    rdfs:comment "Relates an event with an agent who was present."@en .
+	
+pdo:placeOfDeparture a owl:ObjectProperty ;
+    rdfs:label "Place of Departure"@en , "Ausgangsort" ;
+    rdfs:subPropertyOf pdo:tookPlaceAt ;
+    rdfs:isDefinedBy <http://pdo/placOfDeparture> ;
+    rdfs:comment "Relates an event with the place where it started."@en .
+    
+pdo:placeOfDestination a owl:ObjectProperty ;
+    rdfs:label "Place of Destination"@en , "Zielort"@de ;
+    rdfs:subPropertyOf pdo:tookPlaceAt ;
+    rdfs:isDefinedBy <http://pdo/placeOfDestination> ;
+    rdfs:comment "Relates an event with the place where it ended."@en .
+	
+pdo:pupilOf a owl:ObjectProperty ;
+    rdfs:label "Pupil of"@en , "Schüler von"@de ;
+    rdfs:subPorpertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/pupilOf> ;
+    rdfs:comment "Describes the relation between an agent and the agent who was his teacher."@en .
+		
+pdo:qualifier a owl:DatatypeProperty ;
+    rdfs:label "qualifier"@en , "Qualifikator"@de ;
+    rdfs:isDefinedBy <http://pdo/qualifier> ;
+    rdfs:comment "Specifies the reliability of a statement."@en .  
+	
+pdo:schoolOf a owl:ObjectProperty ;
+    rdfs:label "School of"@en , "Schule von"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/schoolOf> ;
+    rdfs:comment "Describes the relation between a group of agents and the agent who was their teacher."@en .
+
+pdo:start a owl:ObjectProperty ;
+    rdfs:label "start"@en , "Beginn"@de ;
+    rdfs:subPropertyOf dc:date , dc:relation , edm:begin , prov:startedAtTime ;
+    rdfs:isDefinedBy <http://pdo/start> ;
+    rdfs:comment "Relates to a resource representing the date of beginning."@en .
+	
+pdo:technique a owl:ObjectProperty ;
+    rdfs:label "technique"@en , "Technik"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/technique> ;
+    rdfs:comment "Relates to a resource describing a process or method used within the event."@en ;
+    rdfs:seeAlso crm:P32_used_general_technique , crm:P33_used_specific_technique .
+	
+pdo:tookPlaceAt a owl:ObjectProperty ;
+    rdfs:label "took place at"@en , "geschah" ;
+    rdfs:subPropertyOf dc:relation , edm:happenedAt , prov:atLocation , crm:P7_took_place_at ; dwc:habitat ;
+    rdfs:isDefinedBy <http://pdo/tookPlaceAt> ;
+    rdfs:comment "Relates an event with the place of this event."@en .
+	
+pdo:wasParticipantAt a owl:ObjectProperty ;
+    rdfs:label "was participant at"@en , "war Teilnehmer"@de ;
+    rdfs:subPropertyOf dc:relation , crm:P11i_participated_in , edm:hasMet ;
+    rdfs:isDefinedBy <http://pdo/wasParticipantAt> ;
+    rdfs:comment "Relates an agent with an event where he/she/it was present."@en .
+	
+pdo:workshopOf a owl:ObjectProperty ;
+    rdfs:label "Workshop of"@en , "Werkstatt von"@de ;
+    rdfs:subPropertyOf dc:relation ;
+    rdfs:isDefinedBy <http://pdo/workshopOf> ;
+    rdfs:comment "Describes the relation between a group of agents and the agent they worked for."@en .
