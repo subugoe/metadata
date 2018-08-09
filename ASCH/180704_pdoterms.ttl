@@ -20,6 +20,7 @@
 @prefix aat: <http://vocab.getty.edu/aat/> .
 @prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
 @prefix eventType: <http://terminology.lido-schema.org/eventType> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
 <http://pdo/> a owl:Ontology ;
