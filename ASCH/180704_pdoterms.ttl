@@ -27,7 +27,7 @@
 	rdfs:label "Provenance Description Ontology (PDO)"@en ;
 	rdfs:comment "This ontology defines core classes and properties for the description of provenance. The ontology was developed for the description of provenance of items from university collections but is not limited to this context."@en ;
 	rdfs:comment "Created by Stefanie Rühle (SUB Göttingen)"@en ;
-	owl:versionInfo "2018-07-04 (version 3.0)"^^xsd:string .
+	owl:versionInfo "2018-07-04 (version 3.0)" .
 	
 ###########
 # Classes #
