@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 05./16.08.1784</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1783/87) : BL. 34-35</idno>
+                     <idno type="recordID">Cod_Ms_Asch_1_1_1783-1787|LOG_0034</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1784-10-10"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1784-10-10">
+                  <hi rendition="#left">10.10.1784</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1784-06-05" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">05./</hi>
+                     <date when="1784-08-16" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">16.08.1784</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Bester, sehr verehrter Gönner,<lb/>
+               </salute>
+            </opener>
+            <p>Euer Wohlgebohren erwünschtes Schreiben vom 3tn Jul, mit ge-<lb/>
+               neigter Versicherung sich des so empfohlenen <name type="person" ref="per:per_442">Hrn. D. Stechs</name> gütigst<lb/>
+               anzunehmen, hat mir viele Freude gemacht, weswegen ich meine schuldigste<lb/>
+               Danksagung hiemit entrichte. Zu sehr bin ich überzeugt wie gern Sie<lb/>
+               Menschenfreund jemanden helfen, wenn sichs nur irgend thun läßt.<lb/>
+               Den <name type="person" ref="per:per_443">Herrn Etatsrath Jelagin</name> habe ich noch nicht gesprochen – nun ich<lb/>
+               mich etwas erhohlt habe, ist er nicht in der Stadt sondern soll auf<lb/>
+               dem Lande wohnen. In der That ist das Verfahren des Vormunds von<lb/>
+               hier aus so seltsam, daß nicht die beste Wirkung davon vorauszusehen.<lb/>
+               Das Ungereimte davon wird man endlich aus dem Erfolg erkennen.<lb/>
+               In meinem letzteren Briefe vom 14/25 Jun. habe ich schon die Abferti-<lb/>
+               gung zweyer Kisten und eines großen Packts angezeigt. Der<lb/>
+               <name type="person" ref="per:per_444">Schiffer Saager</name> wird selbige schon an die Herren <name key="corporation" ref="cor:cor_145">Heyn u. Meltzer</name> in <name type="place" ref="pla:pla_232">Lübeck</name><lb/>
+               zur weiteren Beförderung abgegeben haben, und nun muthmaße ich<lb/>
+               auch schon deren Anlangung in <name type="place" ref="pla:pla_233">Göttingen</name>.           Auch sind wir begierig<lb/>
+               von dorten die weitere Vervollkomnung des <name key="thing" ref="thi:thi_346">achromatischen Microscops</name><lb/>
+               zu erfahren, worüber besonders der Erfinder desselben sich hier freuen<lb/>
+               wird. Wie ich an allem Wohl der <name key="corporation" ref="cor:cor_146">Georg Auguste</name> innigen Antheil <lb/>
+               nehme so gratuliere ich herzlich dieser <name key="corporation" ref="cor:cor_147">Universitaet</name> zur vortreflichen<lb/>
+               Acquisition an <name type="person" ref="per:per_445">Herrn Hofrath Frank</name>, dessen medicinische Policey mir<lb/>
+               nicht unbekannt ist: ein Werk das ihm vielen Ruhm erworben.<lb/>
+               Ihren Einschluß nach <name type="place" ref="pla:pla_234">Moscau</name> habe ich alsogleich dahin abgesandt.<lb/>
+               Einen von hier nach <name type="place" ref="pla:pla_235">Göttingen</name> zurückreisenden <name type="person" ref="per:per_446">Hr Gumprecht</name> habe <pb/>
+               ich die in beyfolgendem Verzeichnisse angezeigte <name key="thing" ref="thi:thi_347">Bücher</name>, und <name key="thing" ref="thi:thi_348">Abdruck</name><lb/>
+               der neuesten Medaille über die Besitznehmung der Crimm, zur<lb/>
+               Abgabe daselbst, unversiegelt mitgegeben, auch kleine Päckchen<lb/>
+               versiegelt an die <name type="person" ref="per:per_447">Herren Murray</name>, <name type="person" ref="per:per_448">Wrisberg</name>, <name type="person" ref="per:per_449">Richter</name>, <name type="person" ref="per:per_450">Blumenbach</name><lb/>
+               und <name type="person" ref="per:per_451">Gmelin</name>.          Mich auch in Ihre schätzbarste Wohlgewogenheit<lb/>
+               theuerster Freund, nachdrücklichst empfehlend, verbleibe ich mit<lb/>
+               wahrer Verehrung und Ergebenheit<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>Baron <name type="person" ref="per:per_16">Asch</name>.</signed><pb/>
+            </closer>
+            <postscript>
+               <p>N. S. Im Journal Encycloped. Juin 1784. pag. 406. stehet <name type="person" ref="per:per_452">Mr le Clercs</name> wun-
+                  derliche Erklärung einer A. 1718 d. 20 Dez. Peter dem Grossen zugeeigneten
+                  <name key="thing" ref="thi:thi_349">Medaille</name>, die zur Legende hat: Welitschestwo twoé wésdé jásno:
+                  i.e. Maiestas tua ubique lucet, und einen gekrönten Fels oder
+                  Berg, darneben eine Sonne, vorstellt. Vermuthlich hat der Erfinder
+                  mit Petra auf des Kaisers Namen oder Person angespielt, die so
+                  hell wie die Sonne ist.       gemeiniglich wird diese <name key="thing" ref="thi:thi_818">Medaille</name>
+                  neizvestnaja Gorà (kyrillisch im Original), Montagne inconnue, genannt, weil
+                  die Erklärung derselben vielen unbekannt ist. <name type="person" ref="per:per_453">Mr le Clerc</name>,
+                  der rußischen Sprache nicht genug kundig, scheint Gorà (kyrillisch) Berg, mit
+                  Góre (kyrillisch) Kummer, verwechselt zu haben; wodurch eine Folgerung
+                  von seiner ganz ungereimten Erdichtung entstanden. Bekannt
+                  ist übrigens auch, daß <name type="person" ref="per:per_454">Carl XII.</name> Leben in demselben 1718 Jahre
+                  geendigt worden. Vielleicht wolte der Erfinder dieser <name key="thing" ref="thi:thi_819">Medaille</name> <name type="person" ref="per:per_1038">den
+                  größeren Peter</name> Vergleichungsweise vorstellen.       Sonsten kömmt
+                  der 20. Dez. auch auf einer andern <name key="thing" ref="thi:thi_350">Medaille</name> von 1717 vor, mit der
+                  Legende: dobrodetel’ tvorit’ Blagodušia (kyrillisch im Original): Virtus parit
+                  benignitatem, davon den Anlaß nicht anzugeben weiß.
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

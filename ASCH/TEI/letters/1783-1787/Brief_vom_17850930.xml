@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 19./30.09.1785</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1783/87) : BL. 83-84</idno>
+                     <idno type="recordID">Cod_Ms_Asch_1_1_1783-1787|LOG_0082</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1786-01-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1786-01-12">
+                  <hi rendition="#left">12.01.1786</hi> 
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1785-09-19" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">19./</hi>
+                     <date when="1785-09-30" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">30.09.1785</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuehrender Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p><name type="person" ref="per:per_516">Herr Fueslin</name> der als Gouverneur mit dem <name type="person" ref="per:per_517">Grafen Rasumofski</name><lb/>
+               nach <name type="place" ref="pla:pla_262">Göttingen</name> reiset, wird das Vergnügen haben, gegenwärtiges<lb/>
+               mit einem Packet vom <name type="person" ref="per:per_518">Hrn. Dr. Reineggs</name> aus <name type="place" ref="pla:pla_263">St. Georg</name> erhaltener<lb/>
+               <name key="thing" ref="thi:thi_392">Persich-arabischer Gold</name> und <name key="thing" ref="thi:thi_393">Silber Münzen</name> unter 37 Numern, <name key="thing" ref="thi:thi_394">Kupferner</name><lb/>
+               unter 14 Numern, wie auch <name key="thing" ref="thi:thi_393">Bücher</name> unter 14 Numern, nebst einem<lb/>
+               Kupfer verguldten <name key="thing" ref="thi:thi_396">Maidari Burchan</name> mit kleinen Türkissen besetzt, <lb/>
+               und einem Fragment vom Hirschgeweih (???) von Türkiß ähnlicher Farbe<lb/>
+               aus dem Altaischen Gebirge, für das <name key="corporation" ref="cor:cor_165">Universitaets Museum</name> daselbst<lb/>
+               Eurer Wohlgebohren Händen zuzustellen; davon zwey Verzeichniße<lb/>
+               im Folianten unversiegelt beygelegt sind, um die Zollvisitations-<lb/>
+               Beschwerlichkeiten unterwegens zu vermindern. <name type="person" ref="per:per_519">Herr Fueßlin</name><lb/>
+               ein lieber feiner Mann, wird gewiß das Glück haben Ihnen,<lb/>
+               mein theuerster Gönner, zu gefallen. Alle Aufträge dahin <lb/>
+               hat er mit besonderer Güte angenommen.<lb/>
+               Aus dem entferntern <name type="place" ref="pla:pla_264">Georgien</name> hat <name type="person" ref="per:per_520">Herr Dr. Jacob Reineggs</name><lb/>
+               durch Zusendung so mancher Seltenheiten für das <name key="corporation" ref="cor:cor_166">Göttingische Museum</name><lb/>
+               mich besonders sich sehr verbindlich gemacht. Er ist aus <name type="place" ref="pla:pla_265">Hannover</name><lb/>
+               gebürtig, sehr vieler Europaeischen und Orientalischen Sprachen gut<lb/>
+               kundig, dabey wie seine verschiedene Schriften erweisen von ausge-<lb/>
+               breiteten und seltenen Kenntnissen, auch hier wegen wichtiger<pb/>
+               Verdienste ein überaus geachteter Mann. In allem Betracht<lb/>
+               ein Zweyter Kaempfer, von dem wir eine geographisch historische<lb/>
+               Beschreibung von <name type="place" ref="pla:pla_266">Georgien</name> ehestens zu erwarten haben. Von<lb/>
+               der <name key="corporation" ref="cor:cor_167">Naturforschender Freunde Gesellschaft</name> in <name type="place" ref="pla:pla_267">Berlin</name> ist er Mitglied. Gar zu<lb/>
+               gerne wünschte ich Ihn auch näher mit der <name key="corporation" ref="cor:cor_168">Göttingischen Gesellschaft<lb/>
+               der Wissenschaften</name> verbunden zu sehen, da er so vielen Eyfer<lb/>
+               und Ergebenheit für dieselbe thätlich bezeiget hat. Ist es möglich,<lb/>
+               biß eine Vacanz als Mitglied aufgenommen zu werden sich ereignet,<lb/>
+               indessen ihn als Correspondenten der Societaet zu ernennen, so<lb/>
+               schmeichle ich mir, gütigster Gönner, von Ihrer ausnehmenden Gefällig-<lb/>
+               keit, daß Sie ihm eine solche Ehre auswirken werden. Besonders<lb/>
+               würde ich mich glücklich schätzen dem so würdigen <name type="person" ref="per:per_521">Reineggs</name> damit<lb/>
+               eine unerwartete Freude zu machen; welchen hiemit der Erlauchten<lb/>
+               Societaet inständigst zu empfehlen mich erdreiste.<lb/>
+               Von der Ankunft einer mit <name type="person" ref="per:per_522">Schiffer Riegel</name> den 19/30 August nach <name type="place" ref="pla:pla_268">Lübeck</name><lb/>
+               abgesandten Kiste erwarte ich zu seiner Zeit gute Nachricht, da manche<lb/>
+               auch durch <name type="person" ref="per:per_523">Hrn. Reineggs</name> darinn enthaltene Seltenheit dorten<lb/>
+               angenehm zu seyn, mich verspreche.              Noch lege ich hiebey für<lb/>
+               das <name key="corporation" ref="cor:cor_169">Museum</name> <name key="thing" ref="thi:thi_397">fünf antike tatarisch arabische Silber Münzen</name> mit<lb/>
+               Cuffischer Schrift, jede von verschiedenem Zeitalter, welche bey Asot<lb/>
+               gefunden worden.<lb/>
+               Ein Packet gedruckter Sachen hat <name type="person" ref="per:per_524">Hr. Fueßlin</name> auch für <name type="person" ref="per:per_525">Hrn Professor<lb/>
+               Blumenbach</name> mitgenommen, den von meiner Hochachtung und<pb/>
+               Bemühung wegen Anschaffung asiatischer Schädel zu versichern ersuche.<lb/>
+               Ihren letzteren Einschluß an <name type="person" ref="per:per_526">Herrn Prof. Heym</name> in <name type="place" ref="pla:pla_269">Moscau</name><lb/>
+               habe ich zu befördern nicht ermangelt.<lb/>
+               Einlage hiebey ist vom <name type="person" ref="per:per_527">Hrn. Hofrath Koch</name>, der sein Mspt. wie neulich<lb/>
+               gemeldet, erhalten, und nun sich mit mir Eurer Wohlgebohren<lb/>
+               Gewogenheit bestens empfhielt. Wir wünschen Ihnen alle Glück-<lb/>
+               seligkeiten, das, bester Freund, niemand mit grösserer Wärme<lb/>
+               thun kann als ich, indem mit Herz und Seele bin<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">ganz der Ihrige<lb/></salute>
+               <signed rendition="#right"><name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

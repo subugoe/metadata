@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 15./26.12.1786</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1783/87) : BL. 108-109</idno>
+                     <idno type="recordID">Cod_Ms_Asch_1_1_1783-1787|LOG_0096</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1787-01-17"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1787-01-17">
+                  <hi rendition="#left">17. Jan. 87</hi> 
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1786-12-15" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">15./</hi>
+                     <date when="1786-12-26" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">26.12.1786</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuehrender Herr Hofrath<lb/>
+                  Theuerster Freund!<lb/>
+               </salute>
+            </opener>
+            <p>Alle Ihre geehrte Zuschriften vom 12tn April, 21 May, 26 Jun. 1 Sept. <lb/>
+               und 30 Nov. die mir so viele Freude gemacht habe ich erhalten,<lb/>
+               nur bedaure ich daß mein ergebenstes Schreiben vom 19/30 Jun. v. J.<lb/>
+               nicht zu Eurer Wohlgebohren Hände gelanget ist. Sie können<lb/>
+               sich’s nicht vorstellen, wie sehr mich dieser Umstand beunruhigt<lb/>
+               daß dadurch Ihnen mein Herzensfreund, einiges Misvergnügen<lb/>
+               erweckt worden – Nach jetzt eingezogener Kundschaft ist mein<lb/>
+               Brief durch den hiesigen Zoll Spediteur nicht mit <name type="person" ref="per:per_546">Schiffer Sager</name>,<lb/>
+               dem die 3. Packe unterm 19/30 Jun mitgegeben waren, sondern mit<lb/>
+               <name type="person" ref="per:per_547">Schiffer Serpentien</name> nach <name type="place" ref="pla:pla_275">Lübeck</name> abgesandt worden. Sollte also<lb/>
+               selbiger worinn ein Einschluß von Ihrem Herrn Sohn mitbefindlich<lb/>
+               ist noch nicht in <name type="place" ref="pla:pla_276">Göttingen</name> angelangt seyn, so könnte <name type="person" ref="per:per_548">Hr. Heyn</name><lb/>
+               in <name type="place" ref="pla:pla_277">Lübeck</name> den Brief vom <name type="person" ref="per:per_549">S. Serpentien</name> abfordern und Ihnen<lb/>
+               zusenden – vermuthlich ist dieser Schiffer dadurch in einiger<lb/>
+               Verlegenheit, daß die auf dem Couvert angezeigte Päcke ihm<lb/>
+               nicht mitgegeben worden, welche aber zum guten Glücke schon<lb/>
+               längst in <name type="place" ref="pla:pla_278">Göttingen</name> eingetroffen sind.<lb/>
+               Der <name type="person" ref="per:per_550">Herr Dr. Heyne</name> wird ehestens von hier nach seinem<lb/>
+               Bestimmungs Orte abgehen. Unterdeßen genieße ich manchesmal<pb/>
+               des Vergnügens den würdigen Sohn meines besten Freundes<lb/>
+               bey mir zu sehen; und dann ist das geliebte <name type="place" ref="pla:pla_279">Göttingen</name> der<lb/>
+               ergötzlichste Gegenstand unsrer Unterredung – Sehr bitte ich<lb/>
+               Sie, verehrtester Gönner, versichert zu seyn, daß seine glückliche<lb/>
+               Ankunft alhier mich ungemein erfreut hat, und was ich<lb/>
+               immer zu seinem Nutzen etwa beytragen kan, wird als<lb/>
+               heilige Pflicht meiner Seits beobachtet werden.<lb/>
+               Wiederholen muß ich jetzt anzuzeigen, daß das den 19/30 Jun.<lb/>
+               abgesandte Exemplar <name key="thing" ref="thi:thi_421">Stritteri Memoriae populorum</name> vom <name type="person" ref="per:per_551">Hrn.<lb/>
+               Etatsrath Aepinus</name> für Eure Wohlgebohren bestimmt ist, wie auch<lb/>
+               <name key="thing" ref="thi:thi_422">Gmelini Historia Fucorum</name>, wenn diese letztere in der <name key="corporation" ref="cor:cor_173">Universitaets<lb/>
+               Bibliothek</name> nicht fehlet.<lb/>
+               Aus <name type="place" ref="pla:pla_280">Moscau</name> habe ich in diesen Tagen vom ... Assessor <name type="person" ref="per:per_552">Heym</name><lb/>
+               ein Päckchen für Sie empfangen, welches ich mit erster Gelegenheit<lb/>
+               zu befördern trachten werde.<lb/>
+               Unlängst sind <name key="thing" ref="thi:thi_423">Virgilii Georgica</name> mit des Erzbischoffs<lb/>
+               <name key="thing" ref="thi:thi_424">Evgenii de Bulgaris</name> griechischer Uebersetzung und Noten in<lb/>
+               folio hier gedruckt erschienen, davon ein Exemplar so bald<lb/>
+               möglich auch dahin abgehen soll.<lb/>
+               Für die <name key="thing" ref="thi:thi_425">Comment. Vol. III</name> und alle übrige nachgefolgte<lb/>
+               Schriften, die unbeschädigt erhalten, danke ich verbindlichst.<lb/>
+               Auch des <name type="person" ref="per:per_553">Herrn Prof. Blumenbachs</name> <name key="thing" ref="thi:thi_848">Introductio in Hist. Med. Litter.</name><lb/>
+               hat mir besondere Freude gemacht. Meine doppelte Danksagung<pb/>
+               dafür werde ich künftig abtragen, und vielleicht noch etwas zur<lb/>
+               Schädel-Sammlung beyfügen können. Lieb ist es mir indeßen<lb/>
+               zu wißen, daß die übersandten <name key="thing" ref="thi:thi_426">Schädel</name> ihm nicht unangenehm ge-<lb/>
+               wesen – Inständigst ersuche ich Sie, mich dem werthgeschätzten<lb/>
+               <name type="person" ref="per:per_554">Herrn Blumenbach</name>, den <name type="person" ref="per:per_555">Herren Hofräthen Murray</name>, <name type="person" ref="per:per_556">Wrisberg</name>,<lb/>
+               <name type="person" ref="per:per_557">Kaestner</name>, <name type="person" ref="per:per_558">Gatterer</name> und allen Gönnern daselbst bestens zu<lb/>
+               empfehlen – Und Sie mein bester Freund werden Ihre<lb/>
+               Gewogenheit, worinn ich einen wesentlichen Theil meiner Glückselig-<lb/>
+               keit setze, auch fernerhin mir gütigst beybehalten, so wie ich<lb/>
+               dagegen mit der aufrichtigsten Freundschaft, innigster Ergebenheit<lb/>
+               und vollkommener Verehrung meine ganze Lebenszeit verbleibe<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">verbundenst gehorsamer Diener<lb/><name type="person" ref="per:per_16">Asch.</name>.</signed>
+            </closer>
+            <postscript>
+               <p>N.S. Noch neulich hat der <name type="person" ref="per:per_559">Hr. CollegienRath Pallas</name> mich versichert, daß ein<lb/>
+                  Exemplar von der <name key="thing" ref="thi:thi_427">Flora Rossica</name> auch für die Königliche <name key="corporation" ref="cor:cor_174">Universitaets<lb/>
+                     Bibliothek</name> in <name type="place" ref="pla:pla_281">Göttingen</name> bestimmt seye.<lb/>
+                  Die den 19/30 Jun. abgeschickte wenige Sämereyen wollte ich an <name type="person" ref="per:per_560">Hrn. Hofrath<lb/>
+                  Murray</name> adreßiren.<lb/>
+                  Auch im 191 St. Gött. Anzeigen wird <name type="person" ref="per:per_561">Hr. Weickardt</name> Ruß. Kaiserl. Leibarzt genannt;<lb/>
+                  Er ist es nicht, sondern Hofmedicus.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

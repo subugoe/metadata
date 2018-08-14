@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 19./30.06.1787</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1783/87) : BL. 114</idno>
+                     <idno type="recordID">Cod_Ms_Asch_1_1_1783-1787|LOG_0099</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1787-10-18"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1787-10-18">
+                  <hi rendition="#left">18 Oktb.</hi> 
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1786-12-19" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">19./</hi>
+                     <date when="1786-12-30" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">30.06.1787</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuehrender Herr Hofrath<lb/>
+                  Theuerster Gönner<lb/>
+               </salute>
+            </opener>
+            <p>Viel Vergnügen hat Euer Wohlgebohren angenehmstes Schreiben<lb/>
+               vom 21. Febr. mir gemacht, da es neue Beweise Ihrer schätzbarsten<lb/>
+               Freundschaft mitgebracht, um deren gütige Fortsetzung ich so innig<lb/>
+               ersuche. Von Ihrem bey der 3tn Division als Arzt angestellten<lb/>
+               Herrn Sohne werden Sie wohl aus <name type="place" ref="pla:pla_455">Charkow</name> schon längst<lb/>
+               Nachrichten erhalten haben. Ob ich gleich nicht von ihm selbst<lb/>
+               Briefe gehabt, so wissen wir doch aus seinen Berichten an das<lb/>
+               <name key="corporation" ref="cor:cor_306">Reichs Medicinische Collegium</name> daß er sich wohl befindet, und ich<lb/>
+               zweifle nicht daß es ihm auch in dasigen wohlfeileren Gegenden<lb/>
+               gefallen werde.<lb/>
+               Mit <name type="person" ref="per:per_895">Schiffer Saager</name> sende ich jetzt für das <name key="corporation" ref="cor:cor_307">Universitaets<lb/>
+                  Museum</name> <name key="thing" ref="thi:thi_702">Bücher</name>, <name key="thing" ref="thi:thi_703">Münzen</name>, Naturalien, ein <name key="thing" ref="thi:thi_704">Schinesisches dreysaitiges<lb/>
+                     Instrument</name>, und eine hiesige <name key="thing" ref="thi:thi_705">Balalaika</name> pp nebst deren fünf<lb/>
+               Verzeichnißen, in drey Kisten, unter Euer Wohlgebohren Addreße<lb/>
+               nach <name type="place" ref="pla:pla_456">Lübeck</name> ab. <name type="person" ref="per:per_896">Tschulkows</name> historische Beschreibung vom rußischen<lb/>
+               Commercium ist ein Geschenk vom <name type="person" ref="per:per_897">Hrn. Hofrath Klint</name>, und einige<lb/>
+               <name key="thing" ref="thi:thi_706">arabische Bücher</name> vom <name type="person" ref="per:per_898">Hrn. CollegienRath Reineggs</name>; die beyde sich<lb/>
+               Euer Wohlgebohren mit empfehlen.         Anbey sind zwey academische<lb/>
+               Päcke an <name type="person" ref="per:per_899">Herrn Hofrath Kaestner</name>, eines vom <name type="person" ref="per:per_900">Herrn Stritter</name> an <name type="person" ref="per:per_901">Hrn.<lb/>
+                  Hofrath Schlözer</name>, und die für <name type="person" ref="per:per_902">Herrn Prof. Blumenbach</name> bestimmten<lb/>
+               <name key="thing" ref="thi:thi_707">Schädel</name> und <name key="thing" ref="thi:thi_708">Beine</name> beygelegt. Ein Exemplar vom schwer aufzu-<lb/>
+               treibenden <name key="thing" ref="thi:thi_709">Statutum Canonicum Petri M.</name> werden Sie, verehrter<lb/>
+               Gönner, zur eigenen Disposition mit dabey finden. Gerne hätte<lb/>
+               ich Thee zugefügt; allein die unartigen Schineser laßen seit<lb/>
+               einigen Jahren uns nichts mehr zukommen.<lb/>
+               Die Gegenwart der Königlichen Prinzen daselbst, muß die<lb/>
+               <name key="corporation" ref="cor:cor_308">Universitaet</name> sehr brillant machen und mehrere Freunde anlocken.<lb/>
+               Wie gerne wünschte ich selbst dort zu seyn, und hauptsächlich<lb/>
+               das Glück zu haben, Sie verehrtester Gönner, persönlich zu ver-<lb/>
+               sichern von der unbeschränkten Hochachtung und Ergebenheit, <lb/>
+               womit ich allezeit bin und seyn werde<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener <lb/><name type="person" ref="per:per_16">Asch.</name>.</signed>
+            </closer>
+            <postscript>
+               <p><name key="thing" ref="thi:thi_710">N.S. Popowa Dosugi. 1772</name>, und <name key="thing" ref="thi:thi_711">Nowikows Opyt istoriczeskago<lb/>
+                  Slowarao Rossijskich Pisatelei</name>, in 8vo werden im verwichenen<lb/>
+                  Jahre doch wohl dort eingelangt seyn?<lb/>
+                  Nachstehende Schriften in 8vo fehlen wol nicht in der <name key="corporation" ref="cor:cor_309">Universitaets<lb/>
+                     Bibliothek</name>? 1.) <name key="thing" ref="thi:thi_712">Catullus Tibullus. Propertius. Multis in locis reftituti<lb/>
+                        Parifus apud Simonem Colinaeum. 1534.</name>    2) <name key="thing" ref="thi:thi_713">Traittez des Barometres,<lb/>
+                  Thermométres, ou Hygrométres. par Mr. D xxx à Amsterdam<lb/>
+                           1688.</name>    3) <name key="thing" ref="thi:thi_714">M. Georg Litzels Gymn. Spir. Conrect.</name> Beschreibung der<lb/>
+                  Römischen Todten = Töpfe und anderer heidnischen Leichengefäße, welche<lb/>
+                  1600 bis 1700 Jahre unter der Erde gelegen, und bey <name type="place" ref="pla:pla_457">Speyer</name> ausgegraben<lb/>
+                  worden pp mit Kupfern. Speyer 1749.<lb/>
+                  Vor einigen Monathen hat <name type="person" ref="per:per_903">Hr. Reineggs</name> an Eure Wohgeb.<lb/>
+                  ein <name key="thing" ref="thi:thi_715">Exemplar vom Virgil</name> mit griechischer Uebersetzung in fol.<lb/>
+                  zugesandt, wo nicht irre, mit dem von hier abgereißten ..... <name type="person" ref="per:per_904">Schuback</name>.<lb/>
+                  Sollten Sie, schätzbarer Freund, selbiges nicht bekommen haben, so <lb/>
+                  bitte mir nur eine Nachricht davon zu ertheilen.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

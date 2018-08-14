@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 18./29.04.1785</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1783/87) : BL. 56-57</idno>
+                     <idno type="recordID">Cod_Ms_Asch_1_1_1783-1787|LOG_0056</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1785-06-06"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1785-06-06">
+                  <hi rendition="#left">6 Jun. 85</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1784-12-20" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">18./</hi>
+                     <date when="1784-12-31" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">29.04.1785</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr,
+                  Hochvererhrtester Gönner
+                  <lb/>
+               </salute>
+            </opener>
+            <p>Der Empfang zweyer Briefe von Ihnen theuerster Freund, unterm<lb/>
+               27. Merz u. 6. April, hat mir grosse Freude gemacht. Nur die Nachricht<lb/>
+               von den schweren Krankheiten, woran Sie und Ihre verehrte Frau<lb/>
+               Gemalin gelegen, hat mich sehr betrübt.      Gottlob! daß Sie beyde nun wieder<lb/>
+               hergestellt sind, wozu ich Ihnen herzlich gratuliere. Alle Verehrer <lb/>
+               der Wissenschaften nehmen gewiß mit Antheil daran, und wünschen<lb/>
+               wie ich Ihnen eine sehr lange ununterbrochene Gesundheit.<lb/>
+               Für alle mir gütigst mitgetheilte Nachrichten, und besonders für Ihre<lb/>
+               nie genug zu schätzende geneigte Gesinnungen gegen mich danke ich<lb/>
+               verbindlichst. Immer bin ich auf das lebhafteste davon gerührt; und<lb/>
+               tausend warme Wünsche für Ihr beständiges Wohl folgen nach. – <lb/>
+               Vom <name type="person" ref="per:per_475">Hrn. Etatsrath Aepinus</name> habe ich an Ew. Wohlgeb. viele Empfeh-<lb/>
+               lungen auszurichten. Ueberaus lieb war es ihm zu erfahren, daß seine<lb/>
+               mitgetheilte Gedanken über das neue <name key="thing" ref="thi:thi_365">Microscop</name> dort angenehm gewesen.<lb/>
+               Wegen dessen Aufnahme zum Mitgliede bey der <name key="corporation" ref="cor:cor_154">Königl. Societät d. W.</name><lb/>
+               habe ich ihm noch nichts merken lassen, damit wenn etwa solches bey<lb/>
+               einer künftig sich ereignenden Vacanz in Wirklichkeit käme, es bey ihm <lb/>
+               alsdann eine desto größere Freude erwecken möchte. Könnte zugleich<lb/>
+               <name type="person" ref="per:per_476">Herr Collegien Assessor Koch</name> nur inter Amicos Societatis aufgenommen werden,<lb/>
+               so würde dieser sich auch daraus eine grosse Ehre machen. Dies mein<lb/>
+               Anliegen übergebe ich zur geneigten Willfahrung gänzlich dem Gutdünken<lb/>
+               Eurer Wohlgebohren und aller verehrten Gliedern der Erlauchten <name key="corporation" ref="cor:cor_340">Societät.</name><pb/>
+               Sehr bedaure ich, bester Freund, daß wir Ihnen wegen des <name key="thing" ref="thi:thi_366">Mscpts. <lb/>
+               über die alte Völkergeschichte Ungarns</name> so viele Angelegenheiten verursacht<lb/>
+               haben. Weil nun wol kein Verleger dazu sich dort finden möchte, so<lb/>
+               bittet <name type="person" ref="per:per_477">Herr Koch</name>, wie in beyliegendem Blatte von ihm selbst angezeigt ist,<lb/>
+               die Schrift bey bequemer Gelegenheit zu Waßer oder zu Lande gütigst<lb/>
+               zurückzusenden. Der Vorschlag, selbige in <name type="place" ref="pla:pla_248">Wien</name> drucken zu lassen,<lb/>
+               ist unstreitig der beste.        Der Mann gleiches Nahmens, den Eure<lb/>
+               Wohlgebohren kennen, ist ein andrer, da der unsrige nie in <name type="place" ref="pla:pla_249">Deutschland</name><lb/>
+               gewesen, folglich des Glückes Sie persönlich gesehen zu haben nicht hat<lb/>
+               theilhaftig werden können, so sehr er es auch sonst als Ihr wahrer<lb/>
+               Verehrer wünschte.<lb/>
+               Mir ist es sehr erfreulich zu wissen, daß Sie, schätzbarer Gönner,<lb/>
+               mit der mühsamen Arbeit die rußische Münzen und Medaillen Sammlung<lb/>
+               in Ordnung zu bringen, fertig geworden. Was immer<lb/>
+               möglich seyn wird von fehlenden hier geprägten <name key="thing" ref="thi:thi_367">Medaillen</name> noch dazu<lb/>
+               zu verschaffen, soll mir sehr angelegen seyn. Verschiedene von den <lb/>
+               angezeigten, aber in <name type="place" ref="pla:pla_250">Deutschland</name> ausgekommenen <name key="thing" ref="thi:thi_368">Medaillen</name>, werden<lb/>
+               schwerlich anders als bey Gelegenheit etwa dort vorfallender Auctionen,<lb/>
+               zu erhalten seyn.          Doch <name key="thing" ref="thi:thi_369">drey Münzen</name>, wo mich nicht irre, möchten<lb/>
+               schon da seyn, wie in hier beygefügter Note umständlicher angezeigt habe.<lb/>
+               Mein Exemplar <name key="thing" ref="thi:thi_370">Agricola de re Metallica Basel 1620</name> ist in folio.<lb/>
+               Wenn dieses dort fehlet, so soll es mit den übrigen <name key="thing" ref="thi:thi_371">Büchern</name> bey<lb/>
+               erster Schiffsgelegenheit dahin nachfolgen.<lb/>
+               Unlängst habe ich ein Päckchen mit Saamen und frischen Sibirischen<lb/>
+               Ceder Nüssen, pinus cedrus, durch <name type="person" ref="per:per_478">Hrn. Hartknoch</name> an <name type="person" ref="per:per_479">Hrn. H. R. Murray</name><lb/>
+               abgesandt. Jetzt lege für ihn hiebey noch einige Saamen von ..... (scheint persisch zu sein)<lb/>
+               Sumāgh, aus <name type="place" ref="pla:pla_525">Ispahan</name>. Der hohe Baum trägt rothe Beeren, deren<lb/>
+               Fleisch die Persianer trocknen, und gepulvert seiner citronen ähnlichen<pb/>
+               Säure wegen zum Sorbet, auch zu FleischSpeisen gebrauchen.<lb/>
+               Ihm und <name type="person" ref="per:per_480">Hrn. Prof. Blumenbach</name>, dessen angenehmes Schreiben näch-<lb/>
+               stens beantworten werde, mache ich hiebey meine ergebensten<lb/>
+               Empfehlungen.            Für die gütigste Beforderung meines letzten<lb/>
+               Packets an <name type="person" ref="per:per_481">Hrn. Stadthalter Freyherrn v. Dalberg</name>, entrichte auch meine<lb/>
+               schuldigste Danksagungen.<lb/>
+               Euer Wohlgebohren Einschluß an <name type="person" ref="per:per_482">Frau v. Glaiboff</name> habe ich also<lb/>
+               gleich nach <name type="place" ref="pla:pla_251">Moscau</name> abgesandt. Der guten Dame wird Ihres Bruders<lb/>
+               erwünschte Ausbildung und Zurückkunfft viele Freude machen. Wie sehr<lb/>
+               theuerster Gönner, bin auch ich Ihnen für alle die Bemühungen und<lb/>
+               Sorgfalt verbunden, die Sie dem <name type="person" ref="per:per_483">H (??) v. Adaduroff</name> haben zufließen<lb/>
+               lassen. Möchte dieser Cavalier jene seltene Wohlthaten nie vergessen,<lb/>
+               und so wie ich dafür ewig dankbar seyn. Ueberaus lieb ist es mir<lb/>
+               daß sein Gouverneur <name type="person" ref="per:per_484">Herr Rath Schäfer</name> ihn auf der Rückreise hieher<lb/>
+               begleitet.<lb/>
+               Darf ich noch gütiger Gönner, eine gehorsamste Bitte zu des<lb/>
+               dortigen <name type="person" ref="per:per_485">Hrn. Stechs</name> <name type="person" ref="per:per_486">Dr. Jur. Besten</name> wiederholen.     ich zweifle gar<lb/>
+               nicht daß Sie so ganz Menschenfreund alles mögliche zu Beförderung<lb/>
+               dessen Wohls beytragen werden. Sind seine Kenntnisse groß genug<lb/>
+               so hoffe ich den erwünschten Erfolg, daß er irgend eine Bestellung<lb/>
+               daselbst erhalten werde – alle ihm dort zukommende Gnade<lb/>
+               werde ich als mir selbst erwiesene dankbarlichst ansehen müssen.<lb/>
+               Inständigst empfehle ich mich Ihrer fortdauernden Wohlgewogenheit<lb/>
+               und verbleibe mit unaussprechlicher Verehrung<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">dankbarer und gehorsamster Diener<lb/>Ge. <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
