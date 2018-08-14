@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 1./12.06.1779] : </title>
+            <title type="sub">4. Verzeichniß beyfolgender Münzen für das Göttingische Universitaets Museum.
+            </title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 131</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0109</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-08-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="list">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-08-15">
+                  <hi rendition="#left">15 Augt. 79</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1778-06-01" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">01./</hi>
+                     <date when="1779-06-12" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">12.06.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>Silberne.<lb/>
+               Rußische No. 1. Б.М. Анна Императрица и Самодержица всероссиская [B. M. Anna Imperatrica i Samoderzhica vserossiskaja].<lb/>
+               _____________Монета Рубль. 1730. [Moneta Rubl’]. 1730<lb/>
+               2. Alter Denga. Царь и велики Князь Иванъ. [Zar’ i veliki Knjaz‘ Ivan]. überaus rar.<lb/>
+               ________ ein Reuter in der rechten Hand einen Säbel haltend. Sigla No.<lb/>
+               (diese art Münzen ist älter als der Copeken, wo der Reuter eine Lanze hält,<lb/>
+               welche davon Копеика [Kopeika] heißen).<lb/>
+               3. drey alte Kopeiken vom Czar Joans. Sehr rar.<lb/>
+               Türkische 	4. fünf parà.<lb/>
+               5. drey asper.<lb/>
+               Persisch – 	6. oder Bucharische Münze.<lb/>
+               Tatarische 	7. Zwey antike tatarische Münzen, die ungefehr 20 Werst vom jetzig Astrachan <lb/>
+               in den Ruinen des alten Astrachans gefunden worden.<lb/>
+               8. tatarische Münze, gilt 10. Parà.<lb/>
+               9. alte tatarische Münze, gilt 2. para.<lb/>
+               10. Zwey tatarische Münzen gelte à 2. para.<lb/>
+               11. Münze vom jetzigen Tatar-Chan Sahib-Guerag. gilt 2 asper = 1. Copik.<lb/>
+               Polnisch 	12. Zwey Tymt. – D. G. Augustus III. Rex Poloniarum 1754. – 1756.<lb/>
+               Curlandt. 	13. Schostak. D. G. Ernest Joh. in Curl Liv. Curland. et Semig. Dux 1764.<lb/>
+               14. dreyer. E. I. 1763. – Mon. argent. Duc. Curland.<lb/>
+               Kupferne.<lb/>
+               Griechisch.	15. An Constantinus?<lb/>
+               Rußisch		16. Копеика [Kopeika] – 1724. Года [Goda]. rar.<lb/>
+               17. A. I. i.e. Anna Imperatriza. Vel Anna Ioanowna.<lb/>
+               __________ Новая Россіиская Копеика. __ вь Москвѣ [novaja rossijskaja Kopeika. __ v Moskve’] 1735.<lb/>
+               18. (Paetak.) Пять Корѣекъ [Pjat’ Koreek‘] [hier scheint Asch einen Schreibfehler gemacht zu haben, offenbar hat er durch den Wechsel von lateinischen und kyrillischen Buchstaben p und r verwechselt] – 1740. (dergleichen sollten von Silber geprägt<lb/>
+               werden, so aber wegen erfolgtem Todesfall der K. Anna unterblieben.)<lb/>
+               Polnisch	19. Joh. Casimir Rex polon. ___ Solid. Mag. Duc. Litu. 1666.<lb/>
+               Bleyerne.<lb/>
+               Curland. 	20. Catharina II. Imp. omn. Russ. Avtocr.<lb/>
+               ____Resititutrici __ Curlandia parata. 1762.<lb/>
+               21. D. G. Ernest. Joh. in Liv. Curl. et Sem. Dux.<lb/>
+               ______ Superet casus longoque virescat in avo gloria____<lb/>
+               Nebst einigen Sardinischen, Preußisch, u. andern Münz Sorten.<lb/>
+               <lb/>
+               Nota: die Rußische Regenten schreiben Ihre Namen auf Slavonisch und nicht<lb/>
+               Rußisch: Joan, also nicht Iwan; Ekaterina, also nicht Catharina.<lb/>
+               die 5 Copekenstücke heißen rußisch Paeták.<lb/>
+               die 2. Copekenstücke heißen Rußisch Gròsch.<lb/>
+            </p>
+            <closer>
+               <signed rendition="#right">Baron <lb/><name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

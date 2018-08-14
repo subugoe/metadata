@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 17./28.05.1777] :</title>
+            <title type="sub">Specification des Monnoyes et Medailles expediées pour
+               l’Université à Göttingue.
+            </title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 34</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0024</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+   <text type="letter">
+      <body>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1777-05-28" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">17./</hi>
+                     <date when="1777-05-28" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">28.05.1777</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>en Argent:<lb/>
+               No. 1. Medaille de Pierre le Grand sur le combat naval près d’Aland. 1714.<lb/>
+               avec l’Inscription: Prileschànje i Wernost préwoschòdit silno. c.a.d.<lb/>
+               Zéle et fidelité surpassent puissamment.<lb/>
+               2. Jetton sur la Mort de l’Imperatrice Anne. 1740.<lb/>
+               3. _____ sur le Couronnement d’Elisabet. 1742.<lb/>
+               4. Med: sur le Couronnement de Frederic Roi de Prusse. 1701.<lb/>
+               5. Monnoie. Un Griwen. 1733.<lb/>
+               6. _______ Altyn. 1704. (piece très rare) on 3. Copeck.<lb/>
+               7. _______ Copeck. du Czar Michails Feodorowitz. fort rare.<lb/>
+               8. _______ Grossus. de Sigismund. III. R. pol. 1622.<lb/>
+               <lb/>
+               en Bronze et en cuivre.<lb/>
+               No. 1. Medaille sur le transport d’une fort grande Pierre 1770 avec l’Inscript:<lb/>
+               Dérsnowenjù podobno. Audaciae similis.<lb/>
+               2. _____ sur le Jubilé de l’Academie des Sciences à St. Peterbourg. 1776.<lb/>
+               3. Jetton sur le Jubile de l’Ac. d. Sc. à St. P. 1776.<lb/>
+               4. _____ sur la Mort d’Elisabet. 1762.<lb/>
+               5. Monnoye de Siberie. 	Dix Copeck.		       Il est defendu de laisser sortir ces<lb/>
+               6. _________________. 	Cinq Copeck		      piéces hors les frontières de la Siberie,<lb/>
+               7. _________________ 	Deux Copeck.		       parce que ce Cuivre contenant encor<lb/>
+               8. _________________	Copecka.		       de l’argent a une plus grande valeur<lb/>
+               9. _________________	Denga.			        intrinseque.<lb/>
+               10._________________	Poluschka.		<lb/>
+               11._________Paet Copeck. 1726. Piece de 5. Copeck n’a plus de cours.<lb/>
+               12._________Copeck du Czar Pierre ҂AѰЗ. piece rare.<lb/>
+               13._________Denga. ҂AѰЗ. (1707)      piéces rares.<lb/>
+               14._________Poluochka 17.. _ _ _<lb/>
+               15._________Copeck 1756. qui n’a plus cours.<lb/>
+               16._________Parà Russe avec les armes de la Moldavie et Valachie. 3. Dengi. 1772.<lb/>
+               <lb/>
+               en or. Monnoyes Turques.<lb/>
+               No. 1. Sérimachbúb. du Sultan Mahmud. fils de Mustafà chan. (vaut 110. parà)<lb/>
+               2. Nésphiàh Serimachbub. (signifie demi piece d’or. vaut 55. parà) avec l’Inscription<lb/>
+               Mustafà fils de’Ahmed Chan. frappé à Islambol. sur le Revers:<lb/>
+               Sultan el berein ve Chakan el berein esSultan ibn esSultan. i.e.<lb/>
+               Maitre des deux Continents et Empereur de deux Mers. Sultan<lb/>
+               fils de Sultan.<lb/>
+               3. Fundúc Altùm. du Sultan Regnant Abdúl Chamid. l’an 1187.<lb/>
+               suribe fi Islambol. i.e. frappé à Constantinople (vaut 1. Lew. ou 40. para)<lb/>
+               Funduc altum signifie la quatriéme partie d’un entier Funduc.<lb/>
+               i.e. noisette d’or.<lb/>
+            </p>
+            <closer>
+               <signed rendition="#right">Le Baron <name type="person" ref="per:per_16">George d’Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

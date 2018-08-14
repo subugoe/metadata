@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 01./12.06.1779] : </title>
+            <title type="sub">Verzeichnis beyfolgender Bücher für die Universitaets Bibliothek in Göttingen</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 126</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0105</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-08-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="list">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-08-15">
+                  <hi rendition="#left">15 Augt 79</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1778-06-01" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">01./</hi>
+                     <date when="1779-06-12" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">12.06.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>1.	Verzeichnis beyfoldender Bücher für die Universitaets Bibliothek<lb/>
+               in Göttingen.<lb/>
+               in Folio.<lb/>
+               No. 	1. Koran. Arabische Handschrift.<lb/>
+               2. Vier Volumina Calmuckischer Handschriften.<lb/>
+               3. Географическое Описание Рѣки Волги. Санктпетербург 1767.<lb/>
+               4. Ge. Asch de 1. Pare Nervor. Medull. Spinal. Manuscriptum, cum censura<lb/>
+               Halleri et Iconibus Kaltenhoferi. Gotting. 1750. (die kupferne<lb/>
+               Platen sind in St. Petersb. verlohren worden, während der Zeit da ich bey der<lb/>
+               Russischen Armee im Preußischen Kriege mich befand.)<lb/>
+               in quarto.<lb/>
+               5. Priviléges et Reglements de l’Academie des Beaux Arts. à St. Peterb. 1765.<lb/>
+               6. Mr. de Domaschnes Discours sur l’Importance de l’histoire pp prononcé dans<lb/>
+               l’Academie des Sciences à St. Petersb. 1776.<lb/>
+               7. Леѯіконь Треязычныи. Вь Москвѣ ҂AѰД. Dictionarium trilingue<lb/>
+               Slauonico – Graeco – Latinum. Moscua. 1704.)<lb/>
+               8. Jac. Lange Deutsch-Lettisches u. Lettisch-Deutsches Lexicon. Mitau. u. OberPahlen. 1777.<lb/>
+               9.	Exposé des injustices que les protestants ont souffertes des Princes de la <lb/>
+               maison d’Autriche. 1756.<lb/>
+               10. Remarques d’un Courlandois sur le Mémoire donné relativement aux<lb/>
+               affaires de Courlande. 1763.<lb/>
+               11. Diarium des Curlandischen Landtages. Mitau. den 20tn Oct. 1775.<lb/>
+               12. -  -  -  - -  -  -  -  -  -  -                                               den 6. Febr. 1778.<lb/>
+               13. -  -  -  -  -  -                                                               den 14. Sept. 1778.<lb/>
+               14. Orationes Genethliacae neonato principi Magno Duci Alexandro Paulidi<lb/>
+               dicatae. Moscuae 1778.<lb/>
+               15. I. M. Schaden Oratio de eo quod instum est in jure principio circa educationem<lb/>
+               ciuium, frientiarum artiumque studia. Moscuae 1770.<lb/>
+               16. I. I. Rost. Oratio de facilion melioris fontium salis praeparatione. Mosc. 1769.<lb/>
+               17. de St. Nicolas Discours panegyrique de S. M. I. Catherine II. Mosc. 1771.<lb/>
+               18. de la Bordelière panegyrique de S. M. I. Chaterine II. Mosc. 1772.<lb/>
+               19. Семенова Десницкина Июридическое Разсужденіе о вещахъ священныхь<lb/>
+               святых и приняатых вь благочестіе, сь показаніемь правь, какимь<lb/>
+               оные у разных народовь защищаются. Вь Москвѣ 1772.<lb/>
+               20. Амврозіева слово на годичномъ поминовеніи просвященнаго<lb/>
+               Амвросія удіеннаго Архіепископа. Вь Москвы 1772.<lb/>
+               21. Аничкова слово о разныхъ причинахъ, не малое прспятетые причина<lb/>
+               ющихъ вь продолженіе познанія человеческаго вь Москвы. 1774.<lb/>
+               22. Ge. W. Krafft. Sermo de nouo quodam concentus musicos efficiendi genere,<lb/>
+               de clanicordio niminurm oculario. Petropoli. 1742.<lb/>
+               23. C. G. Kratzenstein. Sermo de suis nouiter inuentis in arte nautica, Petrop. 1751.<lb/>
+               24. Mich. Skiada Diss. de Summo bono cognoscendo consequendoque  Lugd. Bat. 1771<lb/>
+               de Solidis artis salutaris fundamentis.    Lugd. Bat. 1771.<lb/>
+               25. Joh. Heunii prosopographia metrica .... Gryphiswald. 1668.<lb/>
+               26. Joh. I. Amnell. in Suio – Gothiam antiquitus eruditam Elegidion. Upsal 1702.<lb/>
+               27. D. Chr. Langius de Visionibus Hildegardis. Praes. chart. Chladenico. Witzemb. 1716.<lb/>
+               No.<lb/>
+               28. Paul Neucrantz de Harengo. Lubecae 1654.<lb/>
+               29. Petr. Elvci delineatio Magnae fodinae Cuprimontanae. Resp. Ol. Naucter. Upsal. 1702.<lb/>
+               30. Jo. Jac. Lerche. Oryctographia Halensis. Hal. 1730.<lb/>
+               31. Nicolai Fontani Responsum ad quaestionem, an manus, clauis transfixae,<lb/>
+               pares ferendo corpus, inde pendulum. Amstelrad. 1643.<lb/>
+               32. Nicol Oseretskowsky Diss. de Spiritu ardente ex lacte bubulo. Argentor. 1778.<lb/>
+               <lb/>
+               in octavo.<lb/>
+               33. Il Petrarcha. con l’Espositione d’Alessandro Vellutello. in Vinecia 1547.<lb/>
+               34. Наказь Коммиссіи о составленіи Проекта Новаго Уложенія. С. Петерб. 1776.<lb/>
+               35. ЛексиконЬ Россіском и Француской. Часть I. и II. Санктпетерб. 1762.<lb/>
+               36. Волчкова, новаго волжирова Лексиконь на фпанцускомъ, Нѣмецкомъ,<lb/>
+               Датинском и Россіискомъ Яазыкахъ. С. П. Б. Часть I. II. 1764.<lb/>
+               37. Маѯімова Грамматіка Славенсая. Вь Великомь Новѣ Традѣ ҂AѰЌГ. (1723.)<lb/>
+               38. Комедіи изъ Театра Г. Мольера. переведенная Иваномъ Кропотовымъ. вь Москвѣ. <lb/>
+               39. Белизерь Г. Мартонтела. переведенъ на волгѣ. Вь Москвѣ 1768.<lb/>
+               40. Барона Голдера Басны. Вь Москвѣ 1761.<lb/>
+               41. Исторія о Принцѣ Соліи. Вь Москвѣ 1761. <lb/>
+               42. Дружескіе Совѣты. Freundschaftliche Erinnerungen p Moscau 1762-<lb/>
+               43. Записки Графа Монтекукули. вь Москѣ 1760.<lb/>
+               44. Краткое Руководство кь Ариометикѣ. Вь Санктпетерб. 1758.<lb/>
+               45. Происки и Хитрости воинскіе. Вь С. П.б. 1759.<lb/>
+               46. Мѣсяцословь сь Росписью Чиновныхь Особь. вь Государстѣь на Лѣто 1779. С.п.б.<lb/>
+               47. Барона Димедала Способ Прибивать Оспу. С.П.Б. 1770.<lb/>
+               48. Исторія и Записки Амстердамскаго Общество вь ползу Утопшихь. С.п.б. 1769.<lb/>
+               49. Собраніе разныхь наилучшихь наставленіи и предохранительныхъ<lb/>
+               Средствь оть Скотскаго Падежа pp С.п.б. 1763.<lb/>
+               50. О неумѣренности вь любострастіт обоихь Половь. Вь С.п.б. 1775.<lb/>
+               51. G. Fr. Stenders Lettische Grammatik nebst Lexico. Braunschweig 1761.<lb/>
+               52. Simon Ockley’s Account of South-West Barbary with Muley Ismaels<lb/>
+               Letter. London. 1713.<lb/>
+               53. de Bilistein Essay sur la Ville de Nancy. à Amsterd. 1762.<lb/>
+               54. Namentliche Liste der Deputirten zur Gesetz Commißion. Moskau. 1778.<lb/>
+               55. Христофора Целларія Краткои Латинскои Лексиконь. Санктпетерб. 1746.<lb/>
+            </p>
+            <closer>
+                  <signed rendition="#right">Baron <lb/><name type="person" ref="per:per_16">Asch</name>. </signed>
+               </closer>
+            <postscript>
+               <p>56. Графа Шереметева Письма кь Государю Петру Великому. Част I. Москва. 1764.<lb/>
+                  57 (Antoine Ribeiro Sanchez) Dissertation sur l’Origine de la maladie Venerienne à Paris 1752.<lb/>
+                  58. - - - Examen historique sur l’apparition de la maladie venerienne en Europe. à Lisbonne. 1774.<lb/>
+                  59. Reglements de S. M. I. Catherine II. pour l’Administration des Gouvernements<lb/>
+                  de l’Empire des Russies. à St. Petersb. 1778. in 4to.<lb/>
+               </p>
+               
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

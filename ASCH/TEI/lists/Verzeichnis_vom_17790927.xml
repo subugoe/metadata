@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 16./27.09.1779] : </title>
+            <title type="sub">Verzeichniß Rußischer, mit Schiffer Sager den 4/15 Sept für das Universitaets Museum, abgesandten Medaillen.</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 153</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0129</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-11-28"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="list">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-11-28">
+                  <hi rendition="#left">28.11.1779</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1778-09-16" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">16./</hi>
+                     <date when="1779-09-27" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">27.09.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>Silberne.
+               No.	1. auf das adeliche LandCadettenCoprs mit der Legende ДОСТОЙНЕМУ[Dostojnemu].<lb/>
+               <lb/>
+               bronzene.<lb/>
+               2. auf das Fraulein Stift. Legende Тако созрѣвають [Tako sozrevajut’].<lb/>
+               3. auf die Akad. der Künste. Leg. Тако тверды пребудете [Tako Tverdy prebudete]. 1765.<lb/>
+               4. auf das FindelHaus in Moskau. Leg. И вы живи будете [I vy živi budete]. 1763.<lb/>
+               5. Anast. Pr. Trubetzkoi. L. Gr. Hess. Homb. 1755.<lb/>
+               <lb/>
+               1-5. de Mr. De Betzky<lb/>              
+               1. Silberne ??? 1. Bronzene.<lb/>
+               6	6 et 7. O.L.B.A Weismann. Leg. Insigni meruit virtute.<lb/>
+               <lb/>
+               ___________________________<lb/>
+               <lb/>
+               No. 	1. Ein Kästchen mit Rußisch Marmorn. von Se. Exc. dem Hr. v. Betzky.<lb/>
+               2. 3. 4. auch drey Kästchen mit Naturalien von mir.<lb/>
+               ______ Baron Asch.<lb/>
+               <lb/>
+               Außerdem wird Hr. ??? Trendelenburg ein besonders Päcket mit Hn. v. Betzky<lb/>
+               Büste, en biscuit, so von Hrn. H. R. Voelkner an Eure Wohlgeborhen<lb/>
+               gehet, nach Götting übersenden.<lb/>
+               Ich hoffe dass meine Schreiben vom 8/19 Aug nebst einer Kiste mit Rußischen<lb/>
+               Naturalien, 18. Münzen, und einer Lettischen Bibel, über Lübeck durch<lb/>
+               Hrn. Heyn et Melzers Vorsorge in Göttingen angelanget seyen.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

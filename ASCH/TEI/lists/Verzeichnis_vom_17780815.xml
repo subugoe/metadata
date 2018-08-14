@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 04./15.08.1778] : </title>
+            <title type="sub">Verzeichniß beyfolgender Abdrücke von Polnischen Medaillen in Zinn</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 93</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0076</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1778-07-07"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1778-12-11">
+                  <hi rendition="#left">11.12.1778</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1778-08-04" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">04./</hi>
+                     <date when="1778-08-15" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">15.08.1778</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>Verzeichniß <lb/>
+               beyfolgender Abdrücke von Polnischen Medaillen in Zinn, ...: <lb/>
+               <lb/>
+               No.	1. Prosperitatis et industriae publicae pignus et inerementum __ 1766. <lb/>
+               ______ Non dissolvenda cum fide iunxit amor. <lb/>
+               2. Jetton avec le Chiffre du Prime Czartorinsky. <lb/>
+               3. Stanislaus Augustus D. G. Rex Poloniae M. D. L. <lb/>
+               ______ Thalerus Polonicus LXXXV. Floren. Pol. Marca. 1765. <lb/>
+               4. Stanislaus Augustus D. G. Rex Poloniae M. D. Litu. <lb/>
+               ______ Pro Fide Grege et Lege. <lb/>
+               5. Stanislaus Augustus D. G. Rex Poloniae M.D. Litua. <lb/>
+               ______ Ne cede malis. <lb/>
+               6. Stanislaus Augustus D. G. Rex Poloniae M. D. Litu (länglicht) <lb/>
+               7. Stanislaus Augustus D. G. Rex Poloniae M. D. Litu. <lb/>
+               ______ Dat iusti pretium. 1771. <lb/>
+               8. Stanislaus Augustus D. G. Rex Poloniae M. D. Litua                <lb/>
+               ______ Merentibus.                                                                                 größer <lb/>
+               9. Stanislaus Augustus D. G. Rex Poloniae M. D. Litu.
+               ______ Fortunae donum vertutis incitamentum.- El. un voce 7. Sept. coron. 25. Nov. 1764. <lb/>
+               10. Congeriem fecuit fectamque in membra redegit. <lb/>
+               11. Adam Naruszewitz N. 1733. Mat. Sarbiewski M. 1640. – Poetae. <lb/>
+               ______Duo non pertinget, coeptans, ubi desiit ille. S. A. R. F. F. __ 1771. <lb/>
+               12. Mart: Poczobut. Astron. Reg. Pol. Soc: R. Lond. N. 1728. <lb/>
+               _____ Sic itur ad astra __ Bene merentis laudi dedit Stan. Aug. Rex. 1775. <lb/>
+               13. Stan: Konarski. Schol: Piar. In Pol: et Litu: antiq: Praep. Prov I. P. Holzhaeusser F. <lb/>
+               _____Sapere auso ___ Stan: Aug: Rex. 1765. <lb/>
+               14. Carol: Wyrwicz Rector Col: nob: Wars: Soc. Jes: <lb/>
+               _____ Juventutis institutione Scriptisque de patria et Litteris bene merenti Stan: Aug: Rex 1772. <lb/>
+               15. Anton. Portalupi Rector. Col: nob: Wars: P.P. Theat. __ Holzhaeusser F. <lb/>
+               ______ Quam colui ea tegor ___ Institutori inventutis suae Stan: Aug: Rex. 1774. <lb/>
+               16. Stanislaus Augustus D. G. Rex Polon. M. D. Lit.        kleiner <lb/>
+               _______Merentibus <lb/>
+               17. Stanislaus Augustus D. G. Rex Polon. M.D. Litu. <lb/>
+               _______Vincit fraudem. 1771. <lb/>
+               18. Stanislaus Augustus D. G. Rex Pol. M. D. L. <lb/>
+               ______Expertus credit. 1771. <lb/>
+               19. Stanislaus Aug. D. G. Rex Pol. M. D. L. <lb/>
+               ______ Probatus metior. 1771. <lb/>
+               20. S. A. R. <lb/>
+               ______Non timet. 1771. <lb/>
+               21. S. A. R. <lb/>
+               ______Et in parvis purus. 1771. <lb/>
+               _________________________________ <lb/>
+               <lb/>
+               22. rußische Medaille Alexius Comes a Bestuschef Riumin. .... von Zinn. <lb/>
+               ___________Immobilis in mobili ____ Semper idem. 1762. <lb/>
+               ________ noch überdem verschiedene rußische KupferMünzen. <lb/>
+               Ein Kästchen, worinn verschiedene Abdrücke von Anticken Köpfen <lb/>
+               in Gips, so ich aus Warschau erhalten. <lb/>
+               =================================== <lb/>
+               Eine ursprünglich von den Chinesen hergekommene Rechnungs=Tafel, <lb/>
+               der sich die Rußische Nation zum addiren und subtrahiren mit großter <lb/>
+               Fertigkeit bedienet. <lb/>
+               ================================== <lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

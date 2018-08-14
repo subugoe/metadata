@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 21.02./04.03.1778] : </title>
+            <title type="sub">[Miscellanea]</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 62</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0045</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1778-05-23"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1778-05-23">
+                  <hi rendition="#left">23.05.1778</hi>
+               </date>
+               
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1778-02-21" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">21.02./</hi>
+                     <date when="1778-03-04" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">04.03.1778</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>Register der beyfolgenden Münzen.<lb/>
+               Silberne<lb/>
+               Russische No.	 	1. Halber Rubel oder Poltinick von Peter II. Ao. 1727.<lb/>
+               2. Livonés gilt 96. Cop.	       <lb/>
+               3. Halber Livonés = 48 Cop.	 Elisabetha I. D.G. Imp. Tot. Ross. <lb/>
+               4. Viertel Livones = 24 Cop. sind seit Ao. 1757. nicht mehr geschlagen <lb/>
+               5. Livonés 4 Copick.               worden, dahero schon sehr rar.<lb/>
+               6. ______ 2. Copick.<lb/>
+               7. Alter Griwnae. ҂AѰД.<lb/>
+               8. Grossus Regni prussiae 1760. mit doppeltem Russischen Reichsadler.<lb/>
+               Preußisch.		9. Moneta Regni Prussiae 1754. Fridericus R.<lb/>
+               Curlandische		10. Moneta Curland. 1762. Carol. Princeps Polon. et Saxon. in Liv. C. et S. Dux.<lb/>
+               11. Zwey Monet Curland. 1763. Ernest Joh. (Biron)<lb/>
+               Türkische		12. Altmyslyk. gilt 60. para oder 1 ½ Léu.<lb/>
+               13. Grùss, (Léu Moldavice) gilt 40. para.<lb/>
+               14. Sòlot gilt 30. para.<lb/>
+               15. Gígirmilìk (contracte Yàrimlik) gilt 20. para.<lb/>
+               16. Onlúk vel Rúb. (ort Moldavice) gilt 10. para.<lb/>
+               17. Béslyk. gilt 5. para.<lb/>
+               18. Sechs parà. davon einer 3 Asper gilt.<lb/>
+               19. Zwey persische oder tatarische Münzen, von den türken Késelbásch<lb/>
+               genannt. i.e. Persisch.<lb/>
+               Kupferne<lb/>
+               Rußische No.		1. Kopeika ҂AѰЗI. Zar Petr Alexiewitz Wseia Rossii Powelitel<lb/>
+               2. Poluschka ҂AѰB. Zar Petr. Alexiewitz Wseia Rossii Powelitel.<lb/>
+               3. Poluschka Sibirskaja 1769. Ekaterina II.<lb/>
+               4. 2 Para vel 3 Kopeiki. 1774. Moneta Moldawskaja i Woloskaia.<lb/>
+               5. Para. vel 3 Dengi 1771. Ekaterina II. der Rußische Reichsadler mit 2 Schilden			von der Moldau u. Walachei.<lb/>
+               Schwedisch.	6.- 15. Collection von den zehn Münzen der beruffenen Thaler Silber Münzen.<lb/>
+               von Ao. 1715 – 1718.<lb/>
+               16. 1/6 Ort. Ao. 1666.<lb/>
+               Ein Silbern Türkisch Schélong, woran noch 6. Ranken, die im letzteren Kriege<lb/>
+               vom Vizir Azém den Kriegsleuten als Sieges Zeichen ausgetheilt<lb/>
+               worden am Turban zu tragen; deren andre viel kleiner und von<lb/>
+               3. Ranken waren. Nachdem einer mehrere oder wenigere feindliche<lb/>
+               Köpfe brachte, bekam er einen größeren oder kleineren Schelong; deren<lb/>
+               ganzer Vorrath aber nach der Schlacht bey Kahùl von der Rußischen<lb/>
+               Armee erbeutet worden.<lb/>
+               Eine Kupferne verguldte Vorstellung des Kutuchtù der Mongolen, eines <lb/>
+               der UnterPäbste der Lamaischen Religion.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

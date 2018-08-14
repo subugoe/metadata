@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[Titelliste einer Schenkung des Barons von Asch vom 13./24.01.1779] : </title>
+            <title type="sub">Verzeichniß der 18/29 December 1778 dem Herrn Voelkner mitgegebenen Sachen vor die Göttingische Universität. Eine Suite Rußischer goldenen Münzen.</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 108</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0094</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-03-27"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="list">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-03-27">
+                  <hi rendition="#left">27.03.1779</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1778-01-13" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">13./</hi>
+                     <date when="1778-01-24" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">24.01.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <!-- Kommentar in eckigen Klammern von 1. bis 10. ist im Originaldokument durch eine geschweifte Klammer dargestellt -->
+            <p>1. Imperial. Elisabeth. I. Ao. 1756. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               2. Halb Imperial. Peter III. Ao. 1762. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               3. doppelter Ducate. Elisabeth 1. Ao. 1751. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               4. Ducaten. Peter Alexiewitz. Ao. 1712 [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               5. zwey Rubel Stück. Peter Alexiewitz. 1720. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               6. ______________. Elisabeth. 1756. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               7. Ein Rubel Stück. Elisabeth 1756. [diese sind im Briefe selbst beygelegt u. versiegelt worden.] <lb/>                                   
+               8. Poltina. Elisabeth. 1756. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]   <lb/>                                                    
+               <lb/>
+               silberne<lb/>
+               <lb/>
+               9. fünfCopecken Stück. Elisabeth 1761. [diese sind im Briefe selbst beygelegt u. versiegelt worden.]<lb/>
+               10. Polnisch Tyms. Augustus III. Rex Polon. 1755. [diese sind im Briefe selbst beygelegt u. versiegelt worden.] <lb/>
+               <lb/>
+               <lb/>
+               in Bronze oder kupferne.<lb/>
+               <lb/>
+               11. Graf Grigori Gregoriewitz Orlow. 1771.<lb/>
+               12. Comes ab Osterman. von Zinn.<lb/>
+               13. viereckigte Bartmünze. 1725.<lb/>
+               14. ähnlich nachgeprägte 4eckigte BartMünze. 1725.<lb/>
+               15. Catharinenburgischer 4eckigter Griwen. 1726.<lb/>
+               16. ähnlich nachgeprägter Catharinenburgischer Griwen. 1726.<lb/>
+               17. Kopeika. 1728. Moskwa.<lb/>
+               18. Ungarisch Poltura. 1763.<lb/>
+               19. et 20. Zwey Japanische Idschimene.<lb/>
+               ============================<lb/>
+               Bücher in 8vo<lb/>
+               1. Franz Hölterhofs Rußisch Deutsch Lateinisches Wörterbuch. Moskau 1778.<lb/>
+               2. Mendel Recherches nouvelles sur les noiés – à Paris 1778.<lb/>
+               3. Oliger Pauli, Saul en Sijn WapenKnecht – t’Amsterdam. 1700.<lb/>
+            </p>
+            <closer>
+                  <signed rendition="#right">Baron <lb/><name type="person" ref="per:per_16">Asch</name>. </signed>
+               </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
