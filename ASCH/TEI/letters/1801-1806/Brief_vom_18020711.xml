@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 29.06./11.07.1802</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1801/06) : Bl. 19</idno>
+                     <idno type="recordID">DE_611_BF_5619_1801_1806|LOG_0024</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1802-09-23"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1802-09-23">
+                  <hi rendition="#left">23. Sept 1802</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1802-06-29" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">29.06./</hi>
+                     <date when="1802-07-11" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">11.07.1802</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Sehr verehrter Gönner,</salute><lb/>
+            </opener>
+            <p>Zur Zeit des <name type="person" ref="per:per_791">Fürsten Orlows</name> Durchreise daselbst vor 20 Jahren,<lb/>
+               hatte <name type="person" ref="per:per_792">Hr Freygang</name>, nunmehro Kaiserl. Leibarzt und EtatsRath,<lb/>
+               das Glück Ihnen ein Päckchen von mir einzuhändigen.<lb/>
+               Jetzt ist sein ältester Sohn nicht weniger glücklich, mein<lb/>
+               Schreiben nebst einem Päckchen mit <name key="thing" ref="thi:thi_614">21. Münzen</name> für die <name key="corporation" ref="cor:cor_266">academische<lb/>
+               Bibliothek</name>, zu überbringen. Erlauben Sie, theuerster Freund,<lb/>
+               diesen Jüngling, Secrétaire Interprête beym Reichs Collegio der<lb/>
+               auswärtigen Afairen, auch Ihrer Gewogenheit zu empfehlen.<lb/>
+               Ihm ist expresse von seinen Oberen anbefohlen, die <name key="corporation" ref="cor:cor_267">Göttingische<lb/>
+               Universität</name> zu benutzen; demnach nicht zu zweifeln daß<lb/>
+               er seine Zeit dort so wohl anwenden werde, um dadurch sich<lb/>
+               auch die Zuneigung der dasigen vortreflichen Lehrer zu erwerben.<lb/>
+               Seit einigen Tagen habe ich die Freude, liebster Gönner,<lb/>
+               Ihre beyde Zuschriften vom 20. May d. J. zu besitzen; und<lb/>
+               eben jetzt erhalte auch die gute Nachricht, daß <name type="person" ref="per:per_793">Schiffer Gave</name><lb/>
+               aus <name type="place" ref="pla:pla_417">Lübeck</name>, führend das Schiff der Friede, mit einer Kiste<lb/>
+               für mich, schon in <name type="place" ref="pla:pla_418">Cronstadt</name> angelangt ist. Genehmigen Sie<lb/>
+               indessen meine vorläufige verbindlichste Danksagungen dafür _ <lb/>
+               wie viele bin ich Ihnen seit langer Zeit schon schuldig!<lb/>
+               An dem Flor der dasigen <name key="corporation" ref="cor:cor_268">Academie</name> nehme ich gewiß<lb/>
+               immer vorzüglichen Antheil: um so mehr bin ich Ihnen<lb/>
+               liebster Freund, verpflichtet für die Güte von derselben<lb/>
+               zunehmenden Vervollkommnung mir Nachrichten mitzutheilen:<lb/>
+               haupsächlich interessirt mich die Versicherung Ihres schätzbarsten<lb/>
+               Wohlbefindens, das zu wichtig für die Literatur, noch eine<lb/>
+               sehr lange Zeit ungekränkt fortdauern muß!<lb/>
+               Zum <name key="thing" ref="thi:thi_616">Tischbeinischen Homer</name> habe ich dem <name type="person" ref="per:per_794">Hofrath Koehler</name><lb/>
+               einige Hofnung gegeben, wenn er sein Versprechen wegen<lb/>
+               der <name key="thing" ref="thi:thi_615">Homerischen Gemmen Abdrücke</name>, in Erfüllung setzt, welche<lb/>
+               alsdann mit dem Uebrigen zusammen für <name type="place" ref="pla:pla_419">Göttingen</name><lb/>
+               über See nach <name type="place" ref="pla:pla_420">Lübeck</name> abfolgen soll.<lb/>
+               Während daß ich mich so gut als möglich in einem hohen<lb/>
+               Alter befinde, sterben jüngere Aerzte dahin. Den Verlust <lb/>
+               des würdigen <name type="person" ref="per:per_795">Dr. Gregorius Basilewitz</name> CollegienRaths, zu <name type="place" ref="pla:pla_421">Moscau</name><lb/>
+               den 18/30 Januar d. J. haben wir sehr bedauert; auch <name type="person" ref="per:per_796">Dr. Melart</name><lb/>
+               Hofrath, ist den 13/25 May in <name type="place" ref="pla:pla_422">Wiburg</name> gestorben. Beyde waren<lb/>
+               ehmals in <name type="place" ref="pla:pla_423">Göttingen</name>.<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Die wärmsten Wünsche für Ihr bestes Wohlergehen<lb/>
+                  verdoppelnd,
+               </salute><lb/>
+               <signed rendition="#right">ganz der Ihrige <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

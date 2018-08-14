@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 05./17.08.1804</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1801/06) : Bl. 44</idno>
+                     <idno type="recordID">DE_611_BF_5619_1801_1806|LOG_0043</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1804-09-06"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1804-09-06">
+                  <hi rendition="#left">6 Sept 1804</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1804-08-05" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">05./</hi>
+                     <date when="1804-08-17" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">17.08.1804</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Theuerster, verehrtester Gönner,</salute><lb/>
+            </opener>
+            <p>Mein letztes durch <name type="person" ref="per:per_818">Hrn. Etats Rath v. Freygang</name> dahin befördertes<lb/>
+               Schreiben vom 6/18 May hat den richtigen Empfang aller Ihrer liebreichen<lb/>
+               Zuschriften vom 23 Dec. 1802, vom 13 Febr. 30 Jul. und 11tn October 1803,<lb/>
+               angekündigt. Beygelegt war <name type="person" ref="per:per_819">Hrn. Klostermann’s</name> kleine <name key="thing" ref="thi:thi_638">Schrift</name>:<lb/>
+               Le quarré d’une quantité négative est négatif, et non positiv.<lb/>
+               Die Absendung einer Kiste mit <name key="thing" ref="thi:thi_639">Büchern</name>, <name key="thing" ref="thi:thi_640">Mineralien</name>, für das<lb/>
+               <name key="corporation" ref="cor:cor_275">Universitäts Museum</name> wartet nur auf bessere Zeiten in Ihrer<lb/>
+               Gegend, um ohne Gefahr dahin zu gelangen.                Indessen<lb/>
+               hoffen wir ehestens die glückliche Zurückkunft Ihres geliebten<lb/>
+               Zöglings unsers <name type="person" ref="per:per_820">Freygangs</name>, und mit ihm viele erfreuliche<lb/>
+               Nachrichten von Ihnen bester Gönner, und den übrigen Wohlthätern<lb/>
+               <name type="person" ref="per:per_821">Herren Pütter</name>, <name type="person" ref="per:per_822">Wrisberg</name>, <name type="person" ref="per:per_823">Blumenbach</name>, <name type="person" ref="per:per_824">Gmelin</name>, <name type="person" ref="per:per_825">Osiander</name>, p p.<lb/>
+               <name type="person" ref="per:per_826">Herr Etats Rath Freygang</name> hat mir jetzt besonders aufgetragen<lb/>
+               Bey Bezeugung dessen äußerster Verbindlichkeit, Sie inständigst<lb/>
+               zu bitten, seinem Sohne auch bey der Abreise mit Ihrem geneigten<lb/>
+               Rathe beyzustehen, und falls die neulichst übermachten 1500 Rubel<lb/>
+               nicht völlig zureichen sollten dessen Schulden dort zu tilgen, und<lb/>
+               die Reise über <name type="place" ref="pla:pla_432">Lübeck</name> hieher zu Wasser zu bestreiten, die etwanige<lb/>
+               Gläubiger allda so lang Geduld haben möchten, biß nach erhaltener<lb/>
+               Nachricht die noch dazu erforderliche Summe zur gänzlichen<lb/>
+               Tilgung von hieraus nachgesandt werde, der junge <name type="person" ref="per:per_827">Freygang</name> aber<lb/>
+               ungehindert die Reise hieher beschleunigen könne, dessen Ankunft<lb/>
+               weiterer Beförderungs wegen so bald als möglich geschehen<lb/>
+               müste. In diesem Betracht wäre die kürzere Seereise von <name type="place" ref="pla:pla_433">Lübeck</name><lb/>
+               hieher, bey noch guter Jahreszeit, erwünscht.<lb/>
+               Indem ich sehr bekümmert dem glücklichen Zeitpunct entgegen<lb/>
+               sehe, daß die Kiste von hieraus sicher dahin befördert werden<lb/>
+               könne, ersuche ich Sie, bester Freund, Ihre über alles geschätzte<lb/>
+               Wohlgewogenheit mir auch fernerhin zu gönnen, dem, der<lb/>
+               nie unterlassen kann, mit Verehrung und Erkenntlichkeit allezeit<lb/>
+               zu verbleiben<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Ganz der Ihrige</salute><lb/>
+               <signed rendition="#right">Baron <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

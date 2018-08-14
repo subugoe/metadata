@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 15./27.08.1805</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1801/06) : Bl. 53-54</idno>
+                     <idno type="recordID">DE_611_BF_5619_1801_1806|LOG_0050</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1805-11-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1805-11-15">
+                  <hi rendition="#left">15 Nov 5</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1805-08-15" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">15./</hi>
+                     <date when="1805-08-27" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">27.08.1805</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Verehrtester Gönner!</salute><lb/>
+            </opener>
+            <p>Nach langem widrigen Stillschweigen ist es mir jetzt doppelt<lb/>
+               erfreulich, durch Vermittelung des <name type="person" ref="per:per_842">Hrn. Gesandten v. Alopoeus</name> Excell.,<lb/>
+               das Diplom von der hiesigen <name key="corporation" ref="cor:cor_281">Kaiserl. Academie der Wissenschaften</name><lb/>
+               dahin zu befördern, und Sie, theuerster Freund, nun auch als<lb/>
+               Ehren Mitglied derselben zu begrüßen.     Diese Gelegenheit<lb/>
+               benutze ich zugleich für dasige <name key="corporation" ref="cor:cor_282">academische Bibliothek</name> einige <name key="thing" ref="thi:thi_649">Münzen</name><lb/>
+               mit deren Verzeichniße beyzulegen; darunter manche, von dem<lb/>
+               EtatsRathe und Ritter <name type="person" ref="per:per_843">Marschal v. Biberstein</name> erhaltene, Ihrem<lb/>
+               geehrten <name type="person" ref="per:per_844">Hrn. Tychsen</name> vielleicht angenehme Beschäftigung geben möchten.<lb/>
+               Schon vor einiger Zeit habe ich das Glück gehabt, Bester Freund,<lb/>
+               Ihre gütige Zuschriften d. d. 1 Aug. 804, und 23. März 805, nebst <name key="thing" ref="thi:thi_650">Vol. XV.<lb/>
+                  Commentat Soc. Reg. Scient</name>: mit dem <name key="thing" ref="thi:thi_651">5tn Hefte von Tischbeins Homer</name>,<lb/>
+               auch nachher ein Exemplar Ihrer <name key="thing" ref="thi:thi_652">2tn Ausgabe der Ilias</name> zu erhalten:<lb/>
+               Letztere beyden Werke sind zufolge Ihres geäußerten Willens, hier<lb/>
+               dem <name type="person" ref="per:per_845">Collegien Rath Koehler</name> eingehändigt worden. Nicht weniger<lb/>
+               Vergnügen macht mir des unschätzbaren Freundes <name type="person" ref="per:per_846">Blumenbach</name><lb/>
+               Schreiben mit beygefügtem <name key="thing" ref="thi:thi_653">Handbuche der vergleichenden Anatomie</name><lb/>
+               und 7 dem <name key="thing" ref="thi:thi_654">Hefte der Abbildungen Naturhistorischer Gegenstände</name>; davon<lb/>
+               jetzt nur vorläufige Anzeige geschiehet, bey mehrerer Musse aber<lb/>
+               besonders noch meine Danksagung nachfolgen soll. Die seligste<lb/>
+               Stunden zuverläßig kommen mir aus <name type="place" ref="pla:pla_437">Göttingen</name>. Möchten doch meine<lb/>
+               Gönner dorten davon überzeugt seyn! denn Allen zum geneigten<lb/>
+               Andenken ich mich dringendst empfehle.<pb/>
+               Ihren Verlust des sehr geschätzten <name type="person" ref="per:per_847">Hofraths Gmelin</name> bedaure ich sehr.<lb/>
+               Seitdem sind auch hier Ihre Societäts-Correspondenten, der Academiker<lb/>
+               Etats Rath und Ritter <name type="person" ref="per:per_848">Tobias Lowitz</name> den 26. Nov/8. Dec. 804, und EtatsRath<lb/>
+               <name type="person" ref="per:per_849">Joh. Koch</name> Director des <name key="corporation" ref="cor:cor_283">Pädagogischen Instituts</name> den 15/27 März, 805 in<lb/>
+               die Ewigkeit übergegangen.<lb/>
+               Von dem Inspector des <name key="corporation" ref="cor:cor_283">Gymnasiums</name> zu <name type="place" ref="pla:pla_438">Kasan</name>, <name type="person" ref="per:per_850">Elias Jakowkin</name><lb/>
+               weiß ich nicht ob er noch im Leben ist; deswegen könnte dessen<lb/>
+               Aufnahme zum Correspondenten füglich noch aufgeschoben werden.<lb/>
+               Für Ihre gütigst bezeigte Willfährigkeit hierinn, verbleibe ich jedoch<lb/>
+               Ihnen sehr verbunden.<lb/>
+               Die bedrängte Lage Ihrer Gegend verursacht noch immerfort die<lb/>
+               verzögerte Absendung der für <name key="corporation" ref="cor:cor_285">Georgia Augusta</name> bestimmten <name key="thing" ref="thi:thi_655">Bücher</name>, etc.<lb/>
+               Mehrere Lehrer haben diese alma mater verlassen; desto glänzender<lb/>
+               bleibt der Ruhm, den ausharrenden grossen Männern, den ächten<lb/>
+               Säulen des herrlichen Musen Sitzes... et ipsum animum spe finis, dura ferentem.<lb/>
+               Die Nachwelt wird es zu preisen wissen.<lb/>
+               qui didicit patriae quid debeat - - - -<lb/>
+               quod sit conscripti, quod Judicis officium, kann unmöglich<lb/>
+               anders wie Sie, erhabenster Lehrer! handeln. Unaussprechlich freuen<lb/>
+               werde ich mich bey jeder Nachricht, daß mein Freund, mein Gönner<lb/>
+               <name type="person" ref="per:per_851">Heyne</name> nach Wunsche, sich beständig wohl befindet.<lb/>
+            </p>
+            <closer>
+               <signed rendition="#right">Baron <name type="person" ref="per:per_16">Asch</name>. </signed></closer><pb/>
+            <postscript>
+               <p>P.S. 
+                  In der <name key="corporation" ref="cor:cor_286">academischen Bibliothek</name> sind wol befindlich:<lb/>
+                  1. <name key="thing" ref="thi:thi_656">Compte rendu des Constitutions des Jésuites, par M. Jean-<lb/>
+                  Pierre-Francois de Ripert de Monclar, Procureur Général du Roi<lb/>
+                  au Parlement de Provence, les 28 Mai, 3 et 4 Juin 1762, en exécution<lb/>
+                  de l’Arrêt de la Cour de 15 Mars précédent. 1763. s. l. 548 pag. 8vo.</name><lb/>
+                  2. ... .... (zwei Worte in Griechisch). <name key="thing" ref="thi:thi_657">Stultitiae Laudatio. Desiderii Erasmi Declamatio.<lb/>
+                  Editio castiqatissima. Londini, et venit Parisiis, apud Barbon, via Mathuri-<lb/>
+                  ensium. M. DCC.LXV klein 8.</name><lb/>
+                  <name type="person" ref="per:per_852">Freygang</name> bittet, Ihnen seine volle Verehrung zu bezeugen.<lb/>
+                  Bey bequemer Gelegenheit würde ich mir ausbitten:<lb/>
+                  1. <name key="thing" ref="thi:thi_658">Th. Chr. Tychsen. Commentatio de Rei numariae apud Arabes<lb/>
+                  oriqine et progressu, cum examine critico Historiae Monetae<lb/>
+                  Arabicae Macrizii nuper editae. recitata 1799.</name><lb/>
+                  2. <name key="thing" ref="thi:thi_659">Th. C. Tychsen. Commentatio, qua disquiritur quatenus Muhammedes<lb/>
+                  aliarum religionum Sectatores toleraverit, cum examine etc. rec. 1801.</name><lb/>
+                  doch nur in dem Falle allein, daß diese besonders abgedruckt worden.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

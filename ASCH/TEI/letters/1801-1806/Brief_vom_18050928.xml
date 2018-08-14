@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 16./28.09.1805</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1801/06) : Bl. 61</idno>
+                     <idno type="recordID">DE_611_BF_5619_1801_1806|LOG_0063</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1806-01-03"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1806-01-03">
+                  <hi rendition="#left">3 Jan 6</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1805-09-16" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">16./</hi>
+                     <date when="1805-09-28" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">28.09.1805</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Theuerster, verehrtester Gönner,</salute><lb/>
+            </opener>
+            <p>Wenn es glücklich gehet, so werden Sie beyde Kisten No. 1 et No. 2.<lb/>
+               für die <name key="corporation" ref="cor:cor_291">academische Bibliothek</name> über <name type="place" ref="pla:pla_441">Lübeck</name>, auch mein Schreiben<lb/>
+               d. d. 7/19 Sept. zu gleicher Zeit erhalten.<lb/>
+               Ihres freundschaftlichen schon vor 10 Jahren ergangenen<lb/>
+               Auftrags, betreffend den <name key="thing" ref="thi:thi_843">Catalogum Bibliothecae Imperialis</name><lb/>
+               für <name type="person" ref="per:per_856">Herrn Hofrath Reuss</name>, immer eingedenk, habe mir alle<lb/>
+               ersinnliche Mühe gegeben ein Exemplar aufzutreiben; allein<lb/>
+               bisher nicht reussiret. Bey dieser Gelegenheit also übersende mein<lb/>
+               eigenes obgleich incompletes Exemplar, nemlich die <name key="thing" ref="thi:thi_664">2 ersten<lb/>
+                  Volumina in 4 Bänden</name>; mit Ersuchen, daß Ihr geehrter Hr. College<lb/>
+               selbiges zum Andenken behalten möge. So vollständig wie <lb/>
+               das in Ihrer <name key="corporation" ref="cor:cor_292">academischen Bibliothek</name>, könnte etwa auch eines in <lb/>
+               der Hallerischen jetzt zu <name type="place" ref="pla:pla_442">Paris</name>, befindlich seyn. Dem verewigten<lb/>
+               Lehrer hatte ich es noch in <name type="place" ref="pla:pla_443">Göttingen</name> gegeben.            Wie schon<lb/>
+               ehedem erwähnet habe, sollen hier bey dem fatalen academischen<lb/>
+               Brande die vorhanden gewesenen Exemplare des <name key="thing" ref="thi:thi_665">Musei Petropolitani</name>,<lb/>
+               davon der <name key="thing" ref="thi:thi_666">Catalogus Bibliotheca Imperialis</name> nur ein Theil ist, mit<lb/>
+               verbrannt seyn. Selbst <name type="person" ref="per:per_857">Hr. Bacmeister</name> hat gar nichts davon. Mit Recht<lb/>
+               kann man das Werk, nun als eines der seltensten betrachten.<lb/>
+               Das  Packet mit <name key="thing" ref="thi:thi_667">Münzen</name>, und mit dem Diplom von der <name key="corporation" ref="cor:cor_293">Kaiserl<lb/>
+               Academie der Wissenschaften</name> für Sie als Ehrenmitglied, soll unter<lb/>
+               Adresse des Rußisch Kais. Gesandten <name type="person" ref="per:per_858">Herrn v. Alopeus</name> bey sicherer<lb/>
+               Gelegenheit nach <name type="place" ref="pla:pla_444">Berlin</name> befördert werden.<lb/>
+               Von dem Freygangschen Hause viele Empfehlungen an Sie.<lb/>
+               Das durch <name type="person" ref="per:per_859">Hrn. Turneisen</name> hier überkommene Schreiben von Ihnen, <lb/>
+               ist seinem zum Corps des Generals <name type="person" ref="per:per_860">Grafen v. Buxhoeden</name>, abgereisten<lb/>
+               Sohne abgesandt.<lb/>
+               Der Himmel erfülle meine Wünsche für Ihr beständiges<lb/>
+               Wohlergehen! auch daß Sie, bester Gönner, immerfort gewogen<lb/>
+               bleiben
+            </p>
+            <closer>
+               <signed rendition="#right">Ihrem aufrichtigen Verehrer Baron <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+            <postscript>
+               <p>P.S. In <name key="thing" ref="thi:thi_665">Lipsii Bibliotheca Numaria</name> finde ich Blankenhagens Thaler-<lb/>
+                  und Münz-Sammlung nicht angezeigt, muthmasse daher daß das<lb/>
+                  Verzeichniss davon, Riba 1799. 4. bey Ihrer <name key="corporation" ref="cor:cor_294">academischen Bibliothek</name><lb/>
+                  fehle, weswegen mein einziges Exemplar jetzt mit dahin abgehet.<lb/>
+                  Zufolge <name type="person" ref="per:per_861">Herrn Pastor v. Bergmann’s</name> Nachricht ist der 2te Theil davon <lb/>
+                  ungedruckt geblieben.<lb/>
+                  Von <name type="person" ref="per:per_862">Rasche</name> <name key="thing" ref="thi:thi_669">Lexicon Numismaticum</name> wird der 3te Supplement<lb/>
+                  Band wol schwerlich gedruckt erscheinen?<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

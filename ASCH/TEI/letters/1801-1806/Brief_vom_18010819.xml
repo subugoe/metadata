@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 07./19.08.1801</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1801/06) : Bl. 8</idno>
+                     <idno type="recordID">DE_611_BF_5619_1801_1806|LOG_0011</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1801-11-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1801-11-15">
+                  <hi rendition="#left">15 Nov. 1801</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1801-08-07" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">07./</hi>
+                     <date when="1801-08-19" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">19.08.1801</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr geheimer Justiz Rath<lb/>
+                  Verehrtester Gönner,<lb/>                  
+               </salute>
+            </opener>
+            <p>Ich eile bey der erwünschten Gelegenheit, durch des Cammerherrn<lb/>
+               <name type="person" ref="per:per_780">Baron von Oertzen</name> gütigsten Besorgung, eine Kiste mit<lb/>
+               <name key="thing" ref="thi:thi_592">Büchern</name>, <name key="thing" ref="thi:thi_593">Münzen</name> und Naturalien nebst deren Verzeichnissen<lb/>
+               für die <name key="corporation" ref="cor:cor_256">Königl. academische Bibliothek</name> zu <name type="place" ref="pla:pla_411">Göttingen</name> hiemit<lb/>
+               nach <name type="place" ref="pla:pla_412">Lübeck</name> abzusenden. Sie mein Bester Gönner, erlauben<lb/>
+               für Ihre verehrte Frau Gemalin ein Päckchen Thé beyzulegen.<lb/>
+               Den <name type="person" ref="per:per_781">Herren Hofräthen Blumenbach</name>, <name type="person" ref="per:per_782">Gmelin</name>, <name type="person" ref="per:per_783">Hoffmann</name>,<lb/>
+               und allen meinen Gönnern daselbst, bitte ich mich bestens<lb/>
+               zu empfehlen. Wie sehr ich Ihnen verbunden bin, und<lb/>
+               mit welcher Verehrung, davon theuerster Freund, sind<lb/>
+               Sie wohl so sehr überzeugt, als ich mich fühle ganz<lb/>
+               der Ihrige zu seyn.<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center"><name type="person" ref="per:per_16">Asch</name></salute>
+            </closer>
+            <postscript>
+               <p>N.S. In der <name key="corporation" ref="cor:cor_257">academischen Bibliothek</name> wird wol nicht fehlen <name key="thing" ref="thi:thi_594">Dell Eneide<lb/>
+                  Di virgilis Dell Commendator Annibal Caro.</name> <name key="thing" ref="thi:thi_595">In Padoa<lb/>
+                     Per Pietro Paulo Tozzi. 1609.</name> In 16.?<lb/>
+                  Das <name key="thing" ref="thi:thi_596">Auctarium ad Halleri Elementa Physiologiae: Lausanne<lb/>
+                     1780. 4.</name> und Gmelini <name key="thing" ref="thi:thi_597">Apparatum Medicaminum</name>, ungebunden,<lb/>
+                  ersuche ich gelegenheitlich mir gütigst zuzuschicken.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
