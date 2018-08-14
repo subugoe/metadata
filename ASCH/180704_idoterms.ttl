@@ -11,7 +11,7 @@
 @prefix gnd: <http://d-nb.info/gnd/> . 
 @prefix nms: <http://nomisma.org/ontology#> .
 @prefix dcmitype: <http://purl.org/dc/dcmitype/> .
-@prefix dwc <http://rs.tdwg.org/dwc/> .
+@prefix dwc <http://rs.tdwg.org/dwc/terms/> .
 @prefix edm <http://www.europeana.eu/schemas/edm/> .
 @prefix dc <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms <http://purl.org/dc/terms/> .
@@ -23,7 +23,7 @@
 <http://purl.org/asch/ido/180704#> a owl:Ontology ;
 	rdfs:label "Item Description Ontology (PDO)"@en ;
 	rdfs:comment "This ontology defines core classes and properties for the description of items. The ontology was developed for the description of of items from university collections but is not limited to this context."@en ;
-	rdfs:comment "Created by Stefanie Rühle (SUB Göttingen)"@en ;
+	rdfs:comment "Created by Stefanie RÃ¼hle (SUB GÃ¶ttingen)"@en ;
 	owl:versionInfo "2018-07-04 (version 3.0)"^^xsd:string .
 
 
@@ -99,7 +99,7 @@ ido:Organism a owl:Class ;
     rdfs:comment "Natural item living or having lived as a human, animal, plant etc."@en .
 	
 ido:Skull a owl:Class ;
-    rdfs:label "Skull"@en , "Schädel"@de ;
+    rdfs:label "Skull"@en , "SchÃ¤del"@de ;
     rdfs:subClassOf ido:Organism ;
     rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Skull> ;
     rdfs:comment "Bones of the head."@en ;
@@ -167,7 +167,7 @@ ido:numberOfParts a rdf:Property ;
     rdfs:comment "The number of the parts an item consists of."@en .
 	
 ido:physicalDescription a owl:ObjectProperty ;
-    rdfs:label "physical description"@en , "äußere Erscheinung"@de ;
+    rdfs:label "physical description"@en , "Ã¤uÃŸere Erscheinung"@de ;
     rdfs:subPropertyOf dc:relation , nms:hasAppearance ;
     rdfs:isDefinedBy <http://purl.org/asch/ido/180704#physicalDescription> ;
     rdfs:comment "Relates an item with the description of its appearance." .
