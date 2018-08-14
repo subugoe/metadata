@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 18./29.12.1778</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1772/79) : BL. 101-102</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0096</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-01-09"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-01-09">
+                  <hi rendition="#left">09.01.1779</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1793-05-18" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">01./</hi>
+                     <date when="1793-05-29" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">12.05.1779.</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>Hochzuverehrender Herr Hoffrath,<lb/></salute>
+            </opener>
+            <p>Eurer Wohlgebohren geehrteste Schreiben vom 22. Sept. u. 14. Oct.<lb/>
+               insbesondere die mir darinn ertheilte geneigte Nachrichten, daß alle<lb/>
+               von hier, biß den 8/19 August, abgesandte Sachen dort richtig eingetroffen,<lb/>
+               haben mich sehr erfreuet, imgleichen die Art des gütigsten Annehmens<lb/>
+               und wie daselbst den Sachen dadurch mehrerer Werth beygelegt worden.<lb/>
+               Ich erkenne es mit allem Gefühl des innigsten Dankes, den ich der<lb/>
+               ganzen <name key="corporation" ref="cor:cor_55">Universität</name> und der Erlauchten <name key="corporation" ref="cor:cor_56">Societät der Wißenschaften</name><lb/>
+               schuldig bin, besonders aber auch der ausnehmenden Gewogenheit<lb/>
+               womit Eure Wohlgebohren mich auf die angenehmste Art verpflichten<lb/>
+               und sich ganz zu eigen machen. Wie sehr reitzen mich deroselben<lb/>
+               schätzbare Briefe die Glückseeligkeit zu haben einen so liebenswürdigen<lb/>
+               Gelehrten von so seltenen Verdiensten dort persönlich zu sehen und<lb/>
+               meine ganze Verehrung gegenwärtig zu bezeigen; zu deren Erfüllung<lb/>
+               aber mancherley Schwierigkeiten bey meiner schwächlichen Gesundheit<lb/>
+               mir wol wenig Hofnung übrig lassen. Indeßen ergötzen mich hier<lb/>
+               deroselben unvergleichliche Abhandlungen in den <name
+                  key="thing" ref="thi:thi_185">Commentarien</name>, die<lb/>
+               ich mit so vieler Begierde und wahrem Vergnügen lese. Sehr bedaure<lb/>
+               ich eben deswegen daß der gütigst abgeschickte <name
+                  key="thing" ref="thi:thi_186">8te Band</name> hier noch nicht<lb/>
+               angekommen ist, welcher bey Versendung über <name type="place" ref="pla:pla_111"
+                  >Lübeck</name> bis künftig<lb/>
+               frühJahr ausbleiben möchte: wenigstens haben die in <name type="place" ref="pla:pla_112"
+                  >Cronstadt</name> einge-<lb/>
+               kommenen Schiffe für mich nichts mitgebracht. Um aber dennoch<lb/>
+               mehrere Gewißheit zu erlangen habe ich auch nach <name type="place" ref="pla:pla_113"
+                  >Reval</name> geschrieben,<lb/>
+               ob nicht vielleicht dorten das Päckchen befindlich seye, indem der<lb/>
+               Eisgang einigen Lübeckschen Schiffen die Einfahrt in <name type="place" ref="pla:pla_114"
+                  >Cronstadt</name><lb/>
+               verhindert und selbige nach <name type="place" ref="pla:pla_115"
+                  >Reval</name> zurückzuseegeln genöthiget hat.<lb/>
+               Erlauben Eure Wohlgebohren daß ich mir deroselben übrige<lb/>
+               die Alterthümer und MünzWissenschaft betreffende Schriften unge-<lb/>
+               bunden ausbitten darf; als die <name
+                  key="thing" ref="thi:thi_187">commentationes quibus recensentur<lb/>
+                  numi familiarum Romanarum</name> – die Lobschrift auf <name type="person" ref="per:per_170">Winkelmann</name> - <lb/>
+               wo möglich auch <name
+                  key="thing" ref="thi:thi_188">Halleri Enumerationem numismatum Ithii</name>; und<lb/>
+               den defect Bogen <name type="person" ref="per:per_171">F. von Hrn. Hubers</name> Abhandlung <name
+                  key="thing" ref="thi:thi_189">de Vagina Uteri<lb/>
+               structura rugosa p Gottingae 1742.</name> die ich ohne derselben Güte schwerlich<lb/>
+               werde erhalten können. Sollte diesen Winter über keine ...<lb/>
+               Gelegenheit vorfallen selbige Schriften nach <name type="place" ref="pla:pla_116"
+                  >Berlin</name> an <name type="person" ref="per:per_172">Hrn. Nicolai</name><lb/>
+               abzusenden, so wäre wol am zuträglichsten sie über <name type="place" ref="pla:pla_117"
+                  >Lübeck</name> durch<lb/>
+               <name type="person" ref="per:per_174">Hrn. D.Trendelenburgs</name> Vermittelung befördern zu lassen. Wenn<lb/>
+               dieser Gönner nur die Päckchen für mich allemal den Herrn <name key="corporation" ref="cor:cor_57">Heyn<lb/>
+                  et Meltzer</name> in <name type="place" ref="pla:pla_118"
+                     >Lübeck</name> zustellt um sie über See hieher an deren<lb/>
+               Correspondenten <name type="person" ref="per:per_175">Hrn. Bertolotti</name> abzusenden, so werden selbige<lb/>
+               unfehlbar mir richtig zu Handen kommen. Vergeben Sie mir<lb/>
+               theuerster Gönner, daß ich mit meinen Aufträgen so dreiste beschwerlich<lb/>
+               falle, und noch mehr daß einen von hier dahin abgesanden jungen<lb/>
+               <name type="person" ref="per:per_176">Hrn. Voelkner</name> Üeberbringern dieses Eurer Wohlgebohren liebreichen<lb/>
+               Vorsorge geflißentlich empfehle. Desselben <name type="person" ref="per:per_177">Hr.Vater</name>, Hoffrath und<lb/>
+               Secretair bey der hiesigen <name key="corporation" ref="cor:cor_58">Akademie der Künste</name>, hat auf meine Anrathen<lb/>
+               sich entschlossen ihn eine Zeitlang in <name type="place" ref="pla:pla_119"
+                  >Göttingen</name> zu lassen, daß er vorerst<lb/>
+               die Lateinische und griechische Sprachen und hernach die philosophischen<lb/>
+               Wissenschaften, Mathesin (???), Physick gründlich erlernen, um sich dadurch<lb/>
+               Beßer zur ArzeneyWissenschaft den Weg zu bahnen. Er genießt<lb/>
+               den Vortheil einer <name key="corporation" ref="cor:cor_59">fürstl. Galitzinschen Stiftung</name>, vermöge welcher von den<lb/>
+               Einkünften immer einige junge Leute die Medicin, ausdrücklich in<lb/>
+               <name type="place" ref="pla:pla_120"
+                  >Strasburg</name>, studieren können. Eben dieser Einschränkung wegen hat<lb/>
+               es Mühe gekostet ihm die Erlaubniß zu erhalten in <name type="place" ref="pla:pla_121"
+                  >Göttingen</name> ver-<lb/>
+               bleiben zu dürfen, wozu der Ruhm Eurer Wohlgebohren hauptsachlich<lb/>
+               beygetragen hat. Mit völligem Zutrauen einer geneigten Willfahrung<lb/>
+               ersuche ich inständigst den Fremdling deroselben wohlgewogenen<lb/>
+               Aufsicht zu würdigen, und Ihm mit Rath und That beyzustehen wie<lb/>
+               Er seine Studien dorten am nützlichsten einrichten müsse. Durch<lb/>
+               solche Wohlthat werden Eure Wohlgebohren auch dessen rechtschaffenen<lb/>
+               Natur und mich höchstens verpflichten; zumalen wenn Sie auch<lb/>
+               künftighin bey Gelegenheit von des Jünglings Aufführung und Studieren<lb/>
+               erwünschte Nachrichten mir gütigst mitzutheilen belieben werden.<lb/>
+               Bey der Abreise des <name type="person" ref="per:per_178">Hrn. Professor Bernoulli</name> von hier habe ich<lb/>
+               die Ehre gehabt ein Schreiben den 22. Aug./2. Sept. an Eure Wohlgebohren und<lb/>
+               <name
+                  key="thing" ref="thi:thi_190">einige Münzen</name> auch <name
+                     key="thing" ref="thi:thi_191">Schriften</name> nebst einem Verzeichniße davon für die<lb/>
+               <name key="corporation" ref="cor:cor_60">Universität</name> mitzugeben, die vermuthlich dort schon werden eingetroffen <lb/>
+               seyn.<lb/>
+               Aus <name type="place" ref="pla:pla_122"
+                  >Berlin</name> hat <name type="person" ref="per:per_179">Hr. Nicolai</name> mir gemeldt, daß Er mein Päckchen<lb/>
+               mit <name
+                  key="thing" ref="thi:thi_192">Buxbaums Centuria Vta</name>, und <name
+                     key="thing" ref="thi:thi_193">pharmacopoea Rossica</name> für <name type="person" ref="per:per_180">Hrn.<lb/>
+               Professor Murray</name>, an den meinen Empfehl hiebey entrichte, schon<lb/>
+               empfangen habe, und mit ehester Gelegenheit weiter befördern werde.<lb/>
+               Jetzt sende mit <name type="person" ref="per:per_181">Hrn. Voelkner</name> noch einige <name
+                  key="thing" ref="thi:thi_194">Münzen</name> nebst<lb/>
+               deren Verzeichniß für das <name key="corporation" ref="cor:cor_61">Museum</name>, wie auch ein versiegelt<lb/>
+               Päckchen mit Chinesischen, so genannten grünen und schwarzen<lb/>
+               Thee für Eure Wohlgebohren, bey deßen Gebrauch Sie<lb/>
+               zuweilen sich freundschaftlich erinnern werden, daß<lb/>
+               beym kalten <name type="place" ref="pla:pla_123"
+                  >Ladoga</name> jemand lebt, der mit unaussprechlich<lb/>
+               warmer Hochachtung und unbegränzter Ergebenheit<lb/>
+               beharrt
+            </p>
+            <closer>
+               <salute rendition="#center">Euer Wohlgebohren</salute>
+               <signed rendition="#right">
+                  gehorsamster Diener<lb/>Baron Georg <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

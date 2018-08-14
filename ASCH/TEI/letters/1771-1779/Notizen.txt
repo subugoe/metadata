@@ -1,0 +1,14 @@
+* Wenn bei dem Dateinamen des Briefes ein "fr" steht, ist der Brief auf Französisch. Diese bitte noch auszeichnen.
+-> Wenn komplett ausgezeichnet ist, können die Briefe umbenannt werden (sodass das "_fr" dann weg ist), da die Info dann nicht mehr so interessant ist -> dient zZ nur der Kennzeichnung
+
+
+
+
+ASCH-1771-1779
+
+* Bl. 130/121 ausgelassen -> keine Briefe
+
+* Brief_vom_17790512 -> in den Rohfassungen gibt es keine 101-102 (wo Fehler?) -> erstmal ohne pagebreak
+
+* 121 - nicht auffindbar
+* 130 - nicht auffindbar

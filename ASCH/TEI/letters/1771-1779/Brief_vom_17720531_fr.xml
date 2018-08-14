@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief von Bulgakov an namentlich nicht genannte(n) Adressaten vom 31.05.1772</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1772/79) : Bl. 6</idno>
+                     <idno type="recordID">:DE_611_BF_5619_1772_1779|LOG_008</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+        
+         <langUsage>
+            <language ident="fre">Französisch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div>
+            <opener>
+               <add hand="Bulgakov" resp="#bulgakov"/>
+               <dateline>
+                  <date when="1772-05-31" calendar="#cal_ISO">
+                     <hi rendition="#rubricated">31. may 1772</hi>
+                     </date>
+               </dateline>
+               <salute>Messieurs.</salute>
+            </opener>
+            <p>À mon depart de Varsovie, M. le baron d’asch, resident<lb/>
+               de Russie, m’ayant chargé d’un manuscrit arabe, que son frere a eu<lb/>
+               le moyen d’acquerir, pour le faire parvenir à l’Academie Royalle,<lb/>
+               j’ai l’honneur de m’acquitter de cette commission, en vous l’adressant<lb/>
+               dans le paquet ci-joint. Ma joie auroit eté infinie, si je pouvois<lb/>
+               en etre le porteur moi-même; mais ni le tems, ni mon etat ne me<lb/>
+               permettant point de faire ce detour, qui me mettroit a portée de<lb/>
+               jouir de votre connoissance et de profiter de vos lumieres, je me<lb/>
+               vois obligé de me satisfaire pour à present de la seule idée de<lb/>
+               vous avoir fait un plaisir, ne doutant point, que vous ne soyez<lb/>
+               contents d’avoir parmi vos curiosités un manuscrit d’une rareté<lb/>
+               extreme meme chez les Turcs.<lb/>
+               Si vous daignerez, Messieurs, d’accuser la reception de<lb/>
+               ce paquet, je vous supplie de vouloir bien envoyer votre reponse<lb/>
+               sous l’adresse, que vous trouverez en bas, au prince Dolgoruki,<lb/>
+               Envoyé de Russie à Berlin, qui me le fera parvenir a (???, ainci<lb/>
+               que de me croire ave l’estime la plus parfaite<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Messieurs!</salute>
+            </closer>
+            <postscript>
+               <p>  Votre tres humble et tres obeis-<lb/>
+                  sant serviteur de Bulhakow<lb/>
+                  conseiller d’ambassade de Russie<lb/>
+                  auprès de Roi et de la Republique de<lb/>
+                  Pologne</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

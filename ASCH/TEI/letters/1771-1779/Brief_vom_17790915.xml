@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 04./15.09.1779</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1772/79) : BL. 145</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0123</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-11-15"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-11-15">
+                  <hi rendition="#left">15 Nov 79</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1779-09-04" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">04./</hi>
+                     <date when="1779-09-15" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">15.09.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hoffrath<lb/>                  
+               </salute>
+            </opener>
+            <p>Wie ich in meinem letzteren unterm 29 Aug./9. Sept, dem Rußisch Kayserlichen<lb/>
+               Hrn. LegationsRath in <name type="place" ref="pla:pla_516">Dresden</name> <name type="person" ref="per:per_230">v. Lizakewitz</name> anempfohlenen Schreiben<lb/>
+               Euer Wohlgebohren vorläufig zu melden die Ehre gehabt; sende<lb/>
+               jetzt die von Sr. Exz: dem <name type="person" ref="per:per_231">Hrn. Geheimen Rath v. Betzky</name> erhaltenen<lb/>
+               <name key="thing" ref="thi:thi_236">5 Medaillen</name> nebst einem Kästchen mit rarer Sammlung <name key="thing" ref="thi:thi_237">Rußischer<lb/>
+                  Marmor</name> für das <name key="corporation" ref="cor:cor_77">Göttingische Museum</name> durch Schiffsgelegenheit<lb/>
+               an die Hrn. <name key="corporation" ref="cor:cor_78">Heyn et Melzer</name> zur weiteren Beförderung nach<lb/>
+               <name type="place" ref="pla:pla_137">Lübeck</name> ab. Das von mir noch zugefügte ist in drey hiebey<lb/>
+               liegenden Verzeichnißen angezeigt, und alles in 4. Kästchen eingepackt.<lb/>
+               <name type="person" ref="per:per_232">Hrn v. Betzky</name> in hiesiger Porzellan Fabrike verfertigtes<lb/>
+               <name key="thing" ref="thi:thi_238">Medaillon en biscuit</name> überschickt <name type="person" ref="per:per_233">Hr. Hoffrath Voelkner</name> nebst<lb/>
+               tausend Empfehlungen an Euer Wohlgebohren. Derselbe Schiffer<lb/>
+               <name type="person" ref="per:per_234">Saager</name> wird solches unserm Freunde <name type="person" ref="per:per_235">Hrn. D. Trendelenburg</name> in<lb/>
+               <name type="place" ref="pla:pla_138">Lübeck</name> abgeben um selbiges durch sichere Gelegenheit zu befördern.<lb/>
+               <name type="person" ref="per:per_236">Dr. Paeken</name> ist zwar angekommen, hat aber seinen Kasten über<lb/>
+               <name type="place" ref="pla:pla_139">Stettin</name> noch zu erwarten; und auf diese Weise vermiße ich<lb/>
+               noch immer Ihre gelehrte Abhandlungen.<lb/>
+               Beyfolgende <name key="thing" ref="thi:thi_239">3. Kupferstiche</name> vom Moskowischen Erziehungs Hause<lb/>
+               ersuche Eure Wohlgebohren zu behalten, welche dazu dienen sollen<lb/>
+               falls es angienge daß eines Ungenannten verfertigte deutsche<lb/>
+               ausführlichere Uebersetzung von den hiesigen Erziehungsanstalten<lb/>
+               auf deßelben Kosten in <name type="place" ref="pla:pla_140">Göttingen</name> gedruckt werden könte. Doch<lb/>
+               hievon künftig ein mehreres: indeßen empfehle mich in Eurer<lb/>
+               Wohlgebohren schätzbarsten Gewogenheit indem mit ausneh-<lb/>
+               mender Verehrung verbleibe<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/>
+               </salute>
+               <signed rendition="#right">ergebenst gehorsamer Diener <lb/>Baron Ge. <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

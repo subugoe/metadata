@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 07./18.07.1779</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1772/79) : BL. 133</idno>
+                     <idno type="recordID">DE_611_BF_5619_1772_1779|LOG_0114</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1779-08-28"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-08-28">
+                  <hi rendition="#left">28 Aug 79</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1779-07-07" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">07./</hi>
+                     <date when="1779-07-18" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">18.07.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrener Herr<lb/>
+                  Hochzuehrender Herr Hofsrath.<lb/>
+               </salute>
+            </opener>
+            <p>Der junge Studirens wegen nun dahin abreisende <name type="person" ref="per:per_209">Hr. Melart</name>,<lb/>
+               den ich auch Eurer Wohlgebohren Wohlgewogenheit bestens zu<lb/>
+               empfehlen mich erdreiste, wird die Ehre haben, dieses und bey=<lb/>
+               folgende Naturalien, <name key="thing" ref="thi:thi_810">Bücher</name> p dort zuzustellen, deren drey<lb/>
+               Verzeichniße hiebey schließe.<lb/>
+               Ich zweifle nicht daß der vor zwey Wochen von hier abge=<lb/>
+               seegelte <name type="person" ref="per:per_210">Hr. Klint</name> werde die Reise geschwinde abgelegt, und<lb/>
+               folglich die ihm unterm 19/30 Junius mitgegebene Sachen abgeliefert<lb/>
+               haben.                     <name type="person" ref="per:per_211">Hr. Panken</name> ist hier noch nicht eingetroffen.<lb/>
+               Den Einschluß an <name type="person" ref="per:per_212">Hrn. Geheimen Rath Betzky</name> habe bisher nicht<lb/>
+               einhändigen können, indem Se. Exzell. sich jetzt mehrentheils auf <lb/>
+               dem Lande aufhalten.<lb/>
+               Ich empfehle mich Eurer Wohlgebohren unendlich schätzbarem<lb/>
+               Wohlwollen, und ersuche inständig den dasigen Hrn. Lehrern<lb/>
+               meine ergebenste Ehrerbietung zu bezeugen, mit welcher ich auch<lb/>
+               zu verbleiben das Glück habe<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/>
+               </salute>
+               <signed rendition="#right">
+                  gehorsamster Diener<lb/>Baron Ge.<name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
