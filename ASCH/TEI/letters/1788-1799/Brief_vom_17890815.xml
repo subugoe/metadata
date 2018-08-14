@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 04./15.08.1789</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 65-66</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0060</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1789-10-21"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1789-10-21">
+                  <hi rendition="#left">21 Oktb 89</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1789-08-04" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">04./</hi>
+                     <date when="1789-08-15" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">15.08.1789</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochgeehrtester Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Mit gegenwärtiger Gelegenheit, der Abreise des <name type="person" ref="per:per_631">Hrn. Operateur<lb/>
+               Eman:Bay</name> habe ich das Vergnügen anzukündigen, daß Ihre<lb/>
+               erfreulichste Schreiben vom 20. Jun. und 5tn. Jul. richtig einge-<lb/>
+               kommen, und der Einschluß alsofort an den Hrn. Sohn<lb/>
+               nach <name type="place" ref="pla:pla_333">Cherson</name> befördert worden – die Antwort soll<lb/>
+               auch unverzüglich, Ihnen, theuerster Gönner, zugesandt<lb/>
+               werden. So viel wir bisher Nachricht haben, befindt<lb/>
+               sich der Hr. Dr. gesund – ich zweifle daß dieser die Stelle<lb/>
+               bey der Armee gegen eine im Gouvernement tauschen möchte,<lb/>
+               da zumal die Vortheile seiner Capitulation dadurch leiden<lb/>
+               könnten. Doch kommt Zeit, kommt Rath - wenn wir erst<lb/>
+               seine Gesinnungen darüber wissen.<lb/>
+               Wie sehr freue ich mich, daß Sie, verehrtester Gönner,<lb/>
+               für <name type="place" ref="pla:pla_334">Göttingens</name> Wohl die Canzlers Stelle in <name type="place" ref="pla:pla_335">Copenhagen</name><lb/>
+               ausgeschlagen haben. ich danke Ihnen herzlich davor.<lb/>
+               Mein letzteres Schreiben vom 3./14. Jul: nebst einer Kiste<lb/>
+               mit einer <name key="thing" ref="thi:thi_490">Schamanischen Mütze</name> und <name key="thing" ref="thi:thi_491">Zaubertrummel</name>, <name key="thing" ref="thi:thi_492">dreyer<pb/>
+                  Mungalischen Schriften</name>, einer dritten <name key="thing" ref="thi:thi_493">Perlenmuschel</name> mit<lb/>
+               cufischer Innschrift, <name key="thing" ref="thi:thi_494">Kochii Tentamen Enucleationis<lb/>
+                  Sphingium</name> pp, und einem grossen Pack mit <name key="thing" ref="thi:thi_495">Landkarten</name> und<lb/>
+               <name key="thing" ref="thi:thi_496">Kupferstichen</name> p für das <name key="corporation" ref="cor:cor_193">academische Museum</name>, ist über <name type="place" ref="pla:pla_336">Riga</name><lb/>
+               und <name type="place" ref="pla:pla_337">Lübeck</name> vermuthlich nun schon abgegangen – ich hoffe<lb/>
+               vom Empfange dieser Sachen auch Nachricht zu bekommen,<lb/>
+               so wie besonders versichert seyn möchte, daß die Zwey Päckchen<lb/>
+               unterm 10./21. März 1788, in deren Einem die Zweye <name key="thing" ref="thi:thi_497">Perlenmuschel</name><lb/>
+               mit cufischer Innschrift, und im Andern Erzbischofs <name key="thing" ref="thi:thi_498">Platon<lb/>
+               Reden</name> 12ten Theil, Madgi Relation des Cures admirables par l’<lb/>
+               Electrisation (moscou???)p enthalten waren, (welche 2. Päckchen der<lb/>
+               <name type="person" ref="per:per_632">Hofmaler Dolst</name> aus <name type="place" ref="pla:pla_338">Riga</name> mitgenommen hatte) endlich auch<lb/>
+               dort eingetroffen sind.<lb/>
+               Der <name type="person" ref="per:per_633">Herr Operateur Bay</name> überbringt gegenwärt-<lb/>
+               tiges nebst einem Kästchen mit <name key="thing" ref="thi:thi_499">3. petrificierten Fragmenten<lb/>
+               von einem ThierKopfe</name> die im Tschelaebinsschen Kreise in<lb/>
+               einem vitriolischen Flötzgebirge ausgegraben worden.<lb/>
+               Einige <name key="thing" ref="thi:thi_500">Quarze</name> für <name type="person" ref="per:per_633">Hrn. Hofrath Blumenbach</name> sind beygelegt.<lb/>
+               Mit ehestem sollen auch die <name key="thing" ref="thi:thi_501">türkische Schädel</name> nachfolgen,<lb/>
+               unterdessen tausend Empfehlungen von <name type="person" ref="per:per_635">Herrn Hofrath Koch</name><lb/>
+               und von mir, an alle die uns dort wohl wollen.<pb/>
+               Leben Sie, liebster Gönner, beständig gesund und vergnügt<lb/>
+               beglücken Sie auch fernerhin mit Ihrer unschätzbaren Freund-<lb/>
+               schaft mich, da ich Sie so sehr verehre und hochschätze.<lb/>
+               Mit diesen Gesinnungen verbleibe ich mein ganzes<lb/>
+               Leben
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/>
+                  aufrichtiger und gehorsamer<lb/>
+               </salute>
+               <signed rendition="#right">Diener <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+            <postscript>
+               <p>N.S. das Päckchen für das<lb/>
+                  <name key="corporation" ref="cor:cor_194">Museum Borgianum Velitris</name><lb/>
+                  vom <name type="person" ref="per:per_636">Hrn. H. R. Koch</name> Bitte ich bey<lb/>
+                  bequemer Gelegenheit abzusenden.<lb/>
+                  Doch sollte die für <name type="place" ref="pla:pla_339">Göttingen</name> abgefertigte<lb/>
+                  Exemplare ausbleiben, so behalten Sie gegenwärtige Exemplare: denn es sind<lb/>
+                  nur Zweyhundert gedruckt und schon ausgetheilt worden.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

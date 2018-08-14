@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 18./29.04.1790</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 99-100</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0073</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1790-10-03"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1790-10-03">
+                  <hi rendition="#left">3 Octb. 90.</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1790-06-08" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">18./</hi>
+                     <date when="1790-06-19" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">29.04.1790</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr, <lb/>
+                  Hochzuverehrender Herr Hofrath!<lb/>
+               </salute>
+            </opener>
+            <p>Des hofnungsvollen <name type="person" ref="per:per_920">Hrn Jaenisch</name> Abreise nach <name type="place" ref="pla:pla_468">Göttingen</name> giebt<lb/>
+               mir die beste Gelegenheit verschiedene höchst seltene <name key="thing" ref="thi:thi_727">Mongolische</name><lb/>
+               und <name key="thing" ref="thi:thi_728">arabische Schriften</name> p für die <name key="corporation" ref="cor:cor_317">academische Bibliothek</name>, auch<lb/>
+               <name key="thing" ref="thi:thi_729">Münzen</name> unter 10. Numern dahin abzufertigen, davon die<lb/>
+               Verzeichnisse zugleich mit beyfolgen. Den Ueberbringer habe<lb/>
+               ich die Ehre Euer Wohlgebohren und den übrigen ruhmvollen<lb/>
+               Lehrern daselbst zum geneigten Wohlwollen um so nachdrücklicher<lb/>
+               zu empfehlen, da er unfehlbar es durch Fleiß und Wohlverhalten<lb/>
+               dort verdienen wird.<lb/>
+               Zu dem Packet No. 1. habe ich für Sie, Liebster Freund, beyde<lb/>
+               <name key="thing" ref="thi:thi_730">Medaillen</name>, auf die Errichtung und Inauguration der <name key="corporation" ref="cor:cor_318">Georg-<lb/>
+               Auguste</name> beygelegt. Durch Ihre sorgfältige Bemühungen sind<lb/>
+               mir 5 Exemplare von jeder zu Theil worden – und wer hat<lb/>
+               gerechteren Anspruch auf selbige, mein Gönner, als Sie, der<lb/>
+               Glanz der dasigen <name key="corporation" ref="cor:cor_319">Academie</name>. Gleich beym Empfange derselben<lb/>
+               hatte ich ein Exemplar von jeder für Sie bestimmt. Verzeihen<lb/>
+               Sie, daß ich meinen Vorsatz so spät erst in Erfüllung bringe.<pb/>
+               Meine beide letztern Schreiben vom 18./29. April, und 8./19. Junius d. J.<lb/>
+               mit allen Beylagen werden hoffentlich dort richtig eingekommen seyn.<lb/>
+               Ersteres mit <name key="thing" ref="thi:thi_731">Münzen</name> unter 20 Numern gieng über <name type="place" ref="pla:pla_469">Berlin</name>.<lb/>
+               Letzteres mit einem Briefe von Ihrem Hrn. Sohne aus <name type="place" ref="pla:pla_470">Jassy</name>, nebst<lb/>
+               einem Pack <name key="thing" ref="thi:thi_732">Landkarten</name>, einem unversiegelten Päckchen <name key="thing" ref="thi:thi_733">Kupferstiche</name>,<lb/>
+               und einem versiegelten Kästchen darinn unter andern eine<lb/>
+               Orenburgische mit dortigen Marmortäfelchen belegte <name key="thing" ref="thi:thi_734">Pyramide</name>,<lb/>
+               ist einem durchreisenden <name type="person" ref="per:per_921">Rospini</name> zur Abgabe daselbst anver-<lb/>
+               trauet worden; der mit dem Schiffe Joseph der Zweyte, Schiffer<lb/>
+               <name type="person" ref="per:per_922">David Michelson</name>, nach <name type="place" ref="pla:pla_471">Lübeck</name> abgesegelt ist.<lb/>
+               Alle jetzt dahin abgesande <name key="thing" ref="thi:thi_735">Mongolische Schriften</name> sind vom<lb/>
+               <name type="person" ref="per:per_923">Hrn. Johann Jaehrig</name>, Translateur der Mongolischen Sprache in<lb/>
+               Russisch Kaiserlichen Diensten, bey seinem letzteren Hierseyn<lb/>
+               für die <name key="corporation" ref="cor:cor_320">Göttingische Universitaets Bibliothek</name> bestimmt. Im<lb/>
+               vorigen Winter ist er auch schon wieder nach <name type="place" ref="pla:pla_472">Kiachta</name> zurückgereist.<lb/>
+               In solcher weiten Entfernung würde die Ehrenvolle Aufname<lb/>
+               von der <name key="corporation" ref="cor:cor_321">Königlichen Societaet der Wissenschaften</name> zum Correspondenten<lb/>
+               ihm gewiß, wie mir selbst, ungemein Freude machen. In dem<lb/>
+               Falle, theuerster Gönner, haben Sie die Gewogenheit das Diplom<lb/>
+               über <name type="place" ref="pla:pla_473">Berlin</name>, durch Courier Gelegenheit, unter Adresse des <name type="person" ref="per:per_924">Hrn.<pb/>
+               Etatsrath und Ritters von Koch</name> mir zuzusenden. Die weitere<lb/>
+               Beförderung desselben werde ich schon besorgen.<lb/>
+               Noch erwarte ich alhier die Ankunft des Packets, so Sie<lb/>
+               mit dem <name key="thing" ref="thi:thi_736">Abdrucke</name> der Preismedaille, zufolge der den 11ten März<lb/>
+               ertheilten Ankündigung, auf <name type="place" ref="pla:pla_474">Lübeck</name> abzusenden die Gewogenheit<lb/>
+               gehabt, wofür ich vorläufig schuldigst danke.<lb/>
+               <name type="person" ref="per:per_925">Herr Jaenisch</name> eilt nach <name type="place" ref="pla:pla_475">Cronstadt</name>, deswegen muß ich <lb/>
+               jetzt abbrechen mit dem herzlichen Wunsche, daß Sie sich dort<lb/>
+               immerfort wohlbefinden, Ihre schätzbarste Freundschaft so gütig<lb/>
+               mir fernerhin beybehalten, als gewiß ich mit unbeschränkter<lb/>
+               Verehrung und Ergebenheit allezeit verbleibe<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/>Ganz der Ihrige </salute>
+               <signed rendition="#right"><name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+            <postscript>
+               <p>N.S. Noch ein Packet <name key="thing" ref="thi:thi_737">academischer Schriften</name><lb/>
+                  vom <name type="person" ref="per:per_926">Hrn. Euler</name> an <name type="person" ref="per:per_927">Hrn Hofrath Kaestner</name>, und<lb/>
+                  eines vom <name type="person" ref="per:per_928">Hrn Bacmeister</name> an .?  <name type="person" ref="per:per_929">HR Schlözer</name>,<lb/>
+                  zusammen in schwarz Wachstuch emballirt,<lb/>
+                  auch unter Ew. Wohlgebohren Adresse,<lb/>
+                  wird <name type="person" ref="per:per_930">Hr. Jaenisch</name> dort zustellen.<lb/>
+                  An alle die theuersten Herren daselbst<lb/>
+                  meine ergebenste Empfehlungen.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

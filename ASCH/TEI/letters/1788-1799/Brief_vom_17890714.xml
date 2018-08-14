@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 03./14.07.1789</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 61-62</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0057</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1789-08-29"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1789-08-29">
+                  <hi rendition="#left">29. Aug 89</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1789-01-01" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">03./</hi>
+                     <date when="1789-04-30" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">14.07.1789</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Ich eile, Liebster Gönner, Ihnen meine Freude beym Empfange<lb/>
+               Ihres geehrten Schreibens vom 20tn Jun. anzuzeigen. Es ist mir<lb/>
+               überaus lieb zu wissen, daß Sie, schätzbarster Freund, sich wohl<lb/>
+               befinden, und mich in geneigtem Andenken erhalten, dem ich mich<lb/>
+               so dringend immerfort empfehle. Auch freut es mich, daß ein lange<lb/>
+               vermißtes Packet vom 12/23 Febr. vor. J. dort angelangt ist - -<lb/>
+               Möchten doch die dem <name type="person" ref="per:per_624">Hofmaler Dolst</name> unterm 10/21 März vor. J. mitgegebenen Päckchen sich<lb/>
+               auch dort einfinden, in deren einem eine <name key="thing" ref="thi:thi_475">Muschel</name> mit schoen-<lb/>
+               rer cufischen Inscription, und im andern besonders der <name key="thing" ref="thi:thi_476">12te Tom<lb/>
+               von Erzbischofs Platon Reden</name> befindlich waren.<lb/>
+               Mit heutiger Gelegenheit sende über <name type="place" ref="pla:pla_326">Riga</name> eine Kiste sub. No. 2<lb/>
+               worinn nun die dritte <name key="thing" ref="thi:thi_477">Muschel</name> mit cufischer Inschrift, eine <name key="thing" ref="thi:thi_478">Mütze</name><lb/>
+               zur Schamanischen Kleidung, eine <name key="thing" ref="thi:thi_479">Schamanische Zaubertrommel</name>,<lb/>
+               eine <name key="thing" ref="thi:thi_480">Kirgisische Mütze</name>, ein <name key="thing" ref="thi:thi_481">Kopfputz</name> von einer Wotaekin, nebst <lb/>
+               <name key="thing" ref="thi:thi_481">3. Mungalischen Büchern</name> und einigen andern Schriften p ausserdem <lb/>
+               noch eine Rolle sub No. 1 mit <name key="thing" ref="thi:thi_483">Landcarten</name> und <name key="thing" ref="thi:thi_484">Kupferstichen</name> mit-<lb/>
+               folgen.              Indessen daß diese zwey Packete dort hinkommen,<pb/>
+               hoffe ich von Ew. Wohlgebohren zu vernehmen den richtigen Empfang<lb/>
+               meines Schreibens vom 19./30. April, nebst beygefügten <name key="thing" ref="thi:thi_485">3. goldenen<lb/>
+                  Münzen</name> und 2. kleiner Schriften für das <name key="corporation" ref="cor:cor_190">academische Museum</name> mich<lb/>
+               versichert zu sehen, und dies um so begieriger, da selbiges auch<lb/>
+               einen Brief von Ihrem Herrn Sohne enthielte, von dem wir<lb/>
+               bisher wissen, daß er sich in <name type="place" ref="pla:pla_327">Cherson</name> wohl befindet.<lb/>
+               Für meinen Freund <name type="person" ref="per:per_624">Herrn Hofrath Blumenbach</name> habe ich<lb/>
+               einige <name key="thing" ref="thi:thi_486">Schädel</name> in Bereitschaft, welche mit ehestem von hier über<lb/>
+               <name type="place" ref="pla:pla_328">Lübeck</name> zusenden werde.<lb/>
+               Vom <name type="person" ref="per:per_626">Herrn Hofrath Koch</name> folgen jetzt hiebey sein <name key="thing" ref="thi:thi_485">Tentamen<lb/>
+                  Enucleationes Sphingium</name> für die <name key="corporation" ref="cor:cor_191">academische Bibliothek</name>, für Euer<lb/>
+               Wohlgebohren auch für <name type="place" ref="pla:pla_329">London</name>, <name type="place" ref="pla:pla_330">Paris</name> und <name type="place" ref="pla:pla_331">Tübingen</name>. Das für <name type="place" ref="pla:pla_332">Upsal</name><lb/>
+               wird <name type="person" ref="per:per_627">Hr. Hofrath Ritter Murray</name> wohl gelegentlich zu befördern<lb/>
+               die Güte haben. Wir empfehlen uns Eurer Wohlgeboren und<lb/>
+               aller dortigen Gönner Wohlgewogenheit. Keine Nachricht kann<lb/>
+               mir erfreulicher seyn, mein bester Freund, als die von Ihrem schätzbar-<lb/>
+               sten Wohlbefinden. Lange, sehr lange müssen Sie den Wissenschaften<lb/>
+               zum größten Vortheile immerfort gesund bleiben. Dies wünscht von<lb/>
+               ganzer Seele bey vollkommenster Verehrung<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/>treu ergebenster Diener<lb/>
+               </salute>
+               <signed rendition="#right"><name type="person" ref="per:per_16">Asch</name>.</signed><pb/>
+            </closer>
+            <postscript>
+               <p>N. S. Das geneigte Andenken des jetzigen ersten curators <name type="person" ref="per:per_628">Herrn<lb/>
+                  von Beulwitz</name> macht mir wahre Freude; auch ich erinnere<lb/>
+                  mich des Vergnügens Sr. Excellenz Bekanntschaft in damaligen<lb/>
+                  für mich glücklichen Zeiten.<lb/>
+                  Einige wenige <name key="thing" ref="thi:thi_488">Münzen</name> sind in der Kiste No. 2 für <name type="person" ref="per:per_629">Hrn. Hofrath<lb/>
+                  Blumenbach</name> zu seiner eigenen Disposition, wenns gefällig<lb/>
+                  für sich zu behalten; weil dergleichen schönern im <name key="corporation" ref="cor:cor_192">academischen<lb/>
+                  Museum</name> schon vorhanden sind; so wie einige Stücke ohne Numern<lb/>
+                  auch im vorigen Jahre für Ihn beygelegt waren. Grüssen Sie,<lb/>
+                  ich bitte sehr, Ihn und <name type="person" ref="per:per_630">Herrn Hofrath Gmelin</name> auf das freund-<lb/>
+                  schaftlichste von mir, welchem letzteren für den erhaltenen<lb/>
+                  ersten Theil von <name key="thing" ref="thi:thi_489">Linné Systema Naturae</name> zu danken, noch<lb/>
+                  besonders mir vorbehalte. <lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

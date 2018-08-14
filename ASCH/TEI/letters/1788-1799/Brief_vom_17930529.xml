@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 18./29.05.1793</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1793/99) : BL. 17-18</idno>
+                     <idno type="recordID">DE_611_BF_5619_1793_1799|LOG_0019</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1793-08-09"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1793-08-09">
+                  <hi rendition="#left">9 Aug 93</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1792-05-18" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">18./</hi>
+                     <date when="1793-05-29" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">29.05.1793</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr,<lb/>
+                  Sehr verehrter Herr Hofrath,<lb/>
+               </salute>
+            </opener>
+            <p>Des <name type="person" ref="per:per_646">Herrn Chir. Bouttaz</name> Abreise mit Schiffer <name type="person" ref="per:per_647">Caspar N. Daniel Menck</name>,<lb/>
+               Schiff die Einigkeit, nach <name type="place" ref="pla:pla_345">Lübeck</name>, giebt mir nun die gute Gelegenheit<lb/>
+               <name key="thing" ref="thi:thi_512">gedruckte Schriften in 22 Numern</name>, <name key="thing" ref="thi:thi_513">9 Kupferne Medaillen</name> p für das<lb/>
+               <name key="corporation" ref="cor:cor_197">academische Museum</name>, auch einige Saamen vom Gebirge Buchtorma,<lb/>
+               für <name type="person" ref="per:per_648">Herr Prof. Hoffmann</name> abzusenden. Die Herren <name key="corporation" ref="cor:cor_198">Platzmann &amp; Roeder</name> <lb/>
+               werden diese Sachen in einer mit Matten emballirte Kiste sub No. 1;<lb/>
+               auch ein kleines Kästchen Sub No. 2. worinn ein aus Thon vergoldter<lb/>
+               <name key="thing" ref="thi:thi_514">Lamaischer Burchan</name> der sehr geschätzt wird, weil dem Vorgeben nach die<lb/>
+               Asche eines heiligen Lama zur Masse gebraucht worden; und ein<lb/>
+               <name key="thing" ref="thi:thi_515">Lithoxylon</name> aus der Sand Steppe bey <name type="place" ref="pla:pla_345">Cherson</name> in Linden Bork einge-<lb/>
+               packt sub No. 3. von ihm zur weiteren Beförderung erhalten;<lb/>
+               da <name type="person" ref="per:per_649">Hr. Bouttatz</name> ehe er den <name key="corporation" ref="cor:cor_199">Göttingischen Musensitz</name> besucht, noch in <lb/>
+               <name type="place" ref="pla:pla_347">Berlin</name> sich einige Zeit aufhalten will.<lb/>
+               Wenn Sie theuerster Gönner mein an den wirkl. Etats Rath<lb/>
+               Minister und Ritter <name type="person" ref="per:per_650">Hrn v. Alopeus</name> in <name type="place" ref="pla:pla_348">Berlin</name> addressirtes Päckchen<lb/>
+               mit <name key="thing" ref="thi:thi_516">Japonischen</name> und anderen <name key="thing" ref="thi:thi_517">Münzen</name> in 6 Numern vom 9/20 März 793.<lb/>
+               erhalten haben, so sind Sie zugleich berichtet, daß zwey Päcke, eines<lb/>
+               mit dem grossen <name key="thing" ref="thi:thi_518">Malachit</name>, das andre mit ein paar <name key="thing" ref="thi:thi_519">Tungusischen<lb/>
+               Lyschi/Schnee Schuhen</name>/ p noch vorig Jahr d. 2/13 Sept in das Schiff<lb/>
+               die Trawe, Schiffer <name type="person" ref="per:per_651">Jurgen Albrecht Sukau</name>, eingeladen, und dem <name type="person" ref="per:per_652">Hrn.<lb/>
+                  Franz Pauli</name> in <name type="place" ref="pla:pla_349">Lübeck</name> zur weiteren Absendung anempfohlen worden.<pb/>
+               Noch habe ich eine Rolle mit <name key="thing" ref="thi:thi_520">Landkarten</name> in 38., und <name key="thing" ref="thi:thi_521">Kupferstiche</name> in 37.<lb/>
+               Numern letzverwichenen 3/14 April dem <name type="person" ref="per:per_653">Hrn Hofrath D. Walther</name> in <name type="place" ref="pla:pla_350">Reval</name><lb/>
+               zur schleunigeren Beförderung nach <name type="place" ref="pla:pla_351">Lübeck</name> zugesandt; aber ein günstiger<lb/>
+               Wind machte, daß die Schiffe drey Tage früher als die Rolle ankam<lb/>
+               abgeseegelt waren: sie kann also nicht so bald als ich es wünschte in<lb/>
+               <name type="place" ref="pla:pla_352">Göttingen</name> eintreffen.        Bey allen Sendungen sind jedesmal auch<lb/>
+               die Verzeichnisse beygelegt.<lb/>
+               Mit Betrübniß muß ich Ihnen, theuerster Freund, den<lb/>
+               Verlust unsers guten <name type="person" ref="per:per_654">Reineggs</name> anzeigen. Er starb plötzlich gegen<lb/>
+               Mittag den 27. März/7. April 93. im Posthause, wo er sich nach Briefen erkundigte.<lb/>
+               In allem Betracht ein ausserordentlicher Mann. Er machte Versuche<lb/>
+               mit Borax, Ambra und Cereum Plinii, worüber er schreiben wollte.<lb/>
+               Seine Beschreibung besonders von <name type="place" ref="pla:pla_353">Georgien</name> hatte er fertig. Schade<lb/>
+               daß seine besonderen Kenntnisse in Orientalischen Sprachen nun so<lb/>
+               unbenutzt bleiben, und er sein beständiges Vorhaben die Reise nach <name type="place" ref="pla:pla_354">Göttingen</name><lb/>
+               nicht ausführen konnte. An Opium zu sehr gewöhnt, welches er mit<lb/>
+               Ambra in Coffé einzunehmen pflegte, war im Herbst und Frühjahr die<lb/>
+               Congestion des Geblüts zu stark nach dem Kopfe, und verursachte<lb/>
+               heftiges Nasenbluten, woran er noch eine Woche vor seinem Ende<lb/>
+               litte. Bey ereigneter heftigen Ohnmacht mit Uebelseyn kömmet zum<lb/>
+               Unglück ein Chirurgus, und zieht ihm durch unzeitigen Aderlaß noch<lb/>
+               das letzte Blut ab, so daß nach wenigen Stunden es mit ihm aus war,<lb/>
+               der noch den Morgen anscheinend gesund aus seinem Hause fuhr.<pb/>
+               Diese traurige Begebenheit hat mich sehr gerührt; denn er war ein gar<lb/>
+               unterhaltender angenehmer Gesellschafter: gebohren in <name type="place" ref="pla:pla_355">Celle</name> den 24. Nov. 1746.<lb/>
+               Gottlob! bessern Nachrichten haben wir von Ihrem Herrn Sohne aus<lb/>
+               <name type="place" ref="pla:pla_356">Warschau</name>, dessen letzter hier eingekommener Rapport vom 6tn März war.<lb/>
+               Haben Sie die Gewogenheit, Verehrtester Gönner, mich den <name type="person" ref="per:per_655">Herrn<lb/>
+                  Hofräthen Wrisberg</name>, <name type="person" ref="per:per_656">Richter</name>, <name type="person" ref="per:per_657">Gmelin</name>, <name type="person" ref="per:per_658">Hoffmann</name>, <name type="person" ref="per:per_659">Gatterer</name> und allen<lb/>
+               bestens zu empfehlen: auch <name type="person" ref="per:per_660">Herr Hofrath Koch</name> hat gleiche Wünsche.<lb/>
+               Mit unbeschränkter Verehrung und Ergebenheit verbleibe ich<lb/>
+               biß zum letzten Atemzug<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Ew. Wohlgebohren</salute>
+               <signed rendition="#right">Ganz gehorsamer Diener<lb/><name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 12./23.09.1791</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 136</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0105</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1791-11-21"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1791-11-21">
+                  <hi rendition="#left">21 Nov. 91</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1791-09-12" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">12./</hi>
+                     <date when="1791-09-23" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">23.09.1791</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Seit 8. Wochen, bester Gönner, bin ich in dem glücklichen Besitz<lb/>
+               Ihres grossen Packets, das die <name key="thing" ref="thi:thi_768">3. Exemplare Tychsen de Numis<lb/>
+                  Cuficis</name>, <name key="thing" ref="thi:thi_769">Schow</name>, <name key="thing" ref="thi:thi_770">Zoega</name>, <name key="thing" ref="thi:thi_771">Recueil des principaux Traités in 3 Tomen</name>,<lb/>
+               und so viele andere schätzbare Beylagen enthielte: für welche<lb/>
+               grosse Freundschaftsbezeigungen ich Ihnen verbindlichst danke.<lb/>
+               Das vom <name type="person" ref="per:per_967">Hrn. Dr. Heyne</name> aus der Moldau hiebeyfolgende<lb/>
+               Schreiben, obgleich alt, wird doch durch die befriedigende Versiche-<lb/>
+               Rung seines Wohlbefindens willkommen seyn.<lb/>
+               Mein unterm 4./15. April über <name type="place" ref="pla:pla_494">Riga</name> nach <name type="place" ref="pla:pla_495">Lübeck</name> gesandtes<lb/>
+               Rouleau mit <name key="thing" ref="thi:thi_772">Landkarten</name> und <name key="thing" ref="thi:thi_773">Kupferstichen</name> wird vermuthlich<lb/>
+               dort längst eingetroffen seyn.<lb/>
+               Unter den jetzt für das <name key="corporation" ref="cor:cor_327">academische Museum</name> dahin abfolgenden<lb/>
+               Naturalien und <name key="thing" ref="thi:thi_774">Büchern</name>, habe ich für Sie, verehrtester Freund, das<lb/>
+               <name key="thing" ref="thi:thi_775">Ambodicks Symbola et Emblemata</name>, für <name type="person" ref="per:per_968">Hrn Hofrath Blumenbach</name><lb/>
+               <name key="thing" ref="thi:thi_776">Schädeln</name>, ausserdem einige Packete für die <name type="person" ref="per:per_969">Herren Kästner</name> und<lb/>
+               <name type="person" ref="per:per_970">Gmelin</name> beygelegt. Diese Schriften, so wie die übrigen an die<lb/>
+               <name type="person" ref="per:per_971">Herren Delius</name> und <name type="person" ref="per:per_972">Crell</name> bitte ich gelegenheitl. weiter befördern<lb/>
+               zu lassen. Besonders habe ich die Ehre von unserm <name type="person" ref="per:per_973">Lowitz</name> ein an<lb/>
+               die <name key="corporation" ref="cor:cor_328">Königl. Societät der Wissenschaften</name> gerichtetes Päckchen mit <lb/>
+               gehorsamstem Empfehl zuzusenden.<lb/>
+               Unter den Seltenheiten sind die beyde dem Scheigh Mansur<lb/>
+               in Anape abgenommenen <name key="thing" ref="thi:thi_777">Talisman</name>. Gewiß hat dieser Prophet<lb/>
+               sich nicht vorgestellt, daß seine Heiligthümer sobald in ein<lb/>
+               entferntes <name key="corporation" ref="cor:cor_329">Museum</name> Deutschlandes kommen würden. Doch<lb/>
+               dies zur Verschwiegenheit empfhohlen.<lb/>
+               Den zu frühen Verlust durch das Ableben des verehrten<lb/>
+               <name type="person" ref="per:per_974">Herrn Murray</name> bedaure ich sehr.<lb/>
+               Die <name type="person" ref="per:per_975">Herren Reineggs</name> und <name type="person" ref="per:per_976">Koch</name> lassen Ew. Wohlgebohren<lb/>
+               von ihrer ganzen Hochachtung versichern. Genehmigen<lb/>
+               Sie, verehrtester Gönner, meine Empfehlungen hiebey an die<lb/>
+               so wertgeschätzte <name type="person" ref="per:per_977">Herren Pütter</name>, <name type="person" ref="per:per_978">Kästner</name>, <name type="person" ref="per:per_979">Wrisberg</name>, <name type="person" ref="per:per_980">Richter</name>, <name type="person" ref="per:per_981">Tychsen</name>,<lb/>
+               <name type="person" ref="per:per_982">v. Martens</name>.... Auch Sie, liebster Freund, bleiben immerfort <lb/>
+               gewogen dem Sie mit ununterbrochener inniger Verehrung<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">ergebenst gehorsamen Diener</salute>
+               <signed rendition="#right"><name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

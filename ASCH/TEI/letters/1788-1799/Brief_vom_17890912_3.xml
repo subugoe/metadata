@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 01./12.09.1789</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 73</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0064</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1789-11-03"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1789-11-03">
+                  <hi rendition="#left">3. Nov. 89</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1789-08-04" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">01./</hi>
+                     <date when="1789-08-15" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">12.09.1789</hi>
+                     </date>
+                  </date>
+               </dateline>
+            </opener>
+            <p>Berlin d 10.tn Juny 1789<lb/>
+               <lb/>
+               Beylagen<lb/>
+               <lb/>
+               Hochverehrter Herr<lb/>
+               Wegen diesen Päckgen, warum sie mir geschrieben haben,<lb/>
+               können Ew. Hochw nunmehr ganz ruhig seyn, da ich<lb/>
+               es nach vielen Nachforschen, auf dem Packhoff sich <lb/>
+               gefunden hat, so habe ich es auch sogleich besorgt,<lb/>
+               und den nemlichen Tag da der Brief von Ew. Edle<lb/>
+               ankam, den 9tn Julii dieses Päckchen in Leinwand<lb/>
+               eingewickelt, und einen Brief dabey an den <name type="person" ref="per:per_906">Herrn<lb/>
+                  Professor Heyne</name> nach <name type="place" ref="pla:pla_458">Göttingen</name>, wie sie mir den<lb/>
+               Auftrag gegeben abgesendet. ich hoffe daß es<lb/>
+               richtig ankommen wird. ich überschicke ihnen hier<lb/>
+               mit diesen Zettel der eigentlich bey des <name type="person" ref="per:per_907">Herrn<lb/>
+               Professors</name> Brief gehört hätte ist aber nachgehend<lb/>
+               erst angekommen, wo sie ersehen können was<lb/>
+               darinnen war, und was die Unkosten daran waren<lb/>
+               habe ich hier bezahlet. Der ich im übrigens verbleibe<lb/>
+               mit aller Estime dero ergebenster<lb/>
+               <lb/>
+               .....zum König<lb/>
+               von Engelland.<lb/>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

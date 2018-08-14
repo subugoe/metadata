@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 20./31.07.1792</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 157-158</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0120</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1792-08-29"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1792-08-29">
+                  <hi rendition="#left">29 Aug 92</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1792-07-20" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">20./</hi>
+                     <date when="1792-07-31" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">31.07.1792</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Theuerster, Verehrtester Gönner!<lb/>
+               </salute>
+            </opener>
+            <p>Nie bin ich erfreuter gewesen als bey dem Glücke, von Ew. Wohlgeb.<lb/>
+               drey Schreiben vom 30. Dec., 12tn. Febr. und 24. März, auch das grosse<lb/>
+               über <name type="place" ref="pla:pla_499">Lübeck</name> gehende Packet mit dem <name key="thing" ref="thi:thi_783">10tn Bande der Commentationes</name><lb/>
+               nebst so vielen anderen schätzbaren Beylagen zu empfangen. Für welche<lb/>
+               gütige Vorsorge ich der <name key="corporation" ref="cor:cor_333">Königl. Societät der Wissenschaften</name>, und Ihnen,<lb/>
+               bester Gönner, meinen schuldigsten Dank abtrage. Zugleich habe ich das<lb/>
+               Vergnügen von Ihrem sich wohlbefindenden Herrn Sohne ein Antwortschreiben<lb/>
+               dahin zu befördern. In dem Briefe an mich ist gar nichts von seinem<lb/>
+               Vorhaben geäußert.<lb/>
+               Für das <name key="corporation" ref="cor:cor_334">academische Museum</name> habe ich die Ehre unter <name key="thing" ref="thi:thi_784">31. Numern<lb/>
+                  Münzen</name>, <name key="thing" ref="thi:thi_785">29 türkische</name>, <name key="thing" ref="thi:thi_786">1 Persische</name>, und <name key="thing" ref="thi:thi_787">1 Georgianische</name> beyzulegen. Dies ist,<lb/>
+               liebster Freund, das Scherflein der Witwe, welches dort auch wol<lb/>
+               gütig aufgenommen wird. Einige mitfolgende aus <name type="place" ref="pla:pla_500">Krasnojarsk</name> am<lb/>
+               Irtisch, von einem <name type="person" ref="per:per_995">Apotheker Siewers</name> kürzlich angekommene Sämereyen<lb/>
+               ersuche ich mit meinem Empfehl Ihrem Berühmten Botaniker dort<lb/>
+               geneigt zustellen zu lassen.<lb/>
+               Unser fleißiger <name type="person" ref="per:per_996">Lowitz</name> war vor Freude ganz außer sich, als ich<lb/>
+               das Königl. Societäts Diplom ihm hier einhändigte. Durch ihn<lb/>
+               habe ich nun die zuverläßige Nachricht, daß sein Schwager <name type="person" ref="per:per_997">Jaehrig</name><lb/>
+               in <name type="place" ref="pla:pla_501">Kiachta</name> das Diplom gleichfalls richtig erhalten hat. So gütig<lb/>
+               verbinden Sie sich Männer überall!   und mir macht es eine unaus-<lb/>
+               sprechliche Freude, noch ehe ich diese Welt verlasse, zu wissen, daß <lb/>
+               auch im entfernesten Orient dankbare Verehrer des Göttingischen<pb/>
+               Musensitzes leben;        Mein letzter Wunsch wird gewiß dieser seyn,<lb/>
+               daß die Wissenschaften dort immerfort wie bisher glänzen mögen!<lb/>
+               Schmerzhaft ist der vorig Jahr daselbst zweyfach erlittene Verlust;<lb/>
+               deren eine Stelle doch durch den vortreflichen <name type="person" ref="per:per_998">Hofmann</name> wieder gut<lb/>
+               besetzt ist; wozu ich herzlich gratuliere. Die Vorsehung erhalte<lb/>
+               die Säulen der Wissenschaften, und namentlich Sie, theuerster Gönner,<lb/>
+               biß in die späteste Zeiten in ununterbrochenem Wohlergehen, und<lb/>
+               vollkommenster Zufriedenheit.<lb/>
+               Die <name type="person" ref="per:per_999">Herren Reineggs</name> und <name type="person" ref="per:per_1000">Koch</name> danken verbindlichst für die<lb/>
+               ihnen hier zugekommene Schriften, und empfehlen sich Ew. Wohlgebohren<lb/>
+               fortdauernder Wohlgewogenheit. Ersterer hoft sicher daß noch fehlende<lb/>
+               von Ferdusi Schah Name zu verschaffen. <name key="thing" ref="thi:thi_788">Tatischtschefs Istoria<lb/>
+                  Rossiiskaja</name> werde ich unfehlbar übersenden nur <name key="thing" ref="thi:thi_789">Burgii Elementa<lb/>
+               Oratoria Ed Kamenski</name> habe ich noch nicht habhaft werden können<lb/>
+               es soll aber nicht vergessen werden.<lb/>
+               Ja! der Schinesische Handel ist wieder glücklich eröfnet, und mit<lb/>
+               nächstem Winter wird wol die Caravane hier eintreffen. Mir solls<lb/>
+               alsdann neues Vergnügen machen, meinen besten Freund mit <lb/>
+               gutem Thee zu versorgen.<lb/>
+               Des überausgeschätzten <name type="person" ref="per:per_1001">Hrn. Hofrath Blumenbachs</name> Reise nach <name type="place" ref="pla:pla_502">Engelland</name><lb/>
+               ist mir gar angenehm zu hören gewesen: ich zweifle nicht daß<lb/>
+               sie seiner werthen Gesundheit sehr zuträglich sey, wovon ich so<lb/>
+               grossen Antheil nehme. Aus <name type="place" ref="pla:pla_503">Sibirien</name> habe ich einen <name key="thing" ref="thi:thi_790">Tungusischen</name><lb/>
+               und <name key="thing" ref="thi:thi_791">zwey ächte Kirghis Kaisakische Schädeln</name> unlängst erhalten.<pb/>
+               Könnte diese Nachricht etwas zu unseres lieben Freundes Aufheiterung<lb/>
+               mit beytragen! wie froh würde ich selbst dabey seyn. Zu solchen<lb/>
+               Seltenheiten zu gelangen, sind hier anhaltendes Betreiben und<lb/>
+               ausnehmendes Glück nothwendig.<lb/>
+               Noch immer verspricht <name type="person" ref="per:per_1002">Herr Collegien Rath Pallas</name> die <name key="thing" ref="thi:thi_792">Flora<lb/>
+               Rossica</name>  zu überschicken. – Bald kommt ein neuer Theil davon<lb/>
+               heraus; und alsdann wol alles zusammen auch nach <name type="place" ref="pla:pla_504">Göttingen</name>.<lb/>
+               Den <name type="person" ref="per:per_1003">Herren Hofräthen Wrisberg</name>, <name type="person" ref="per:per_1004">Richter</name>, <name type="person" ref="per:per_1005">Kästner</name>, <name type="person" ref="per:per_1006">G?HR Pütter</name>,<lb/>
+               und <name type="person" ref="per:per_1007">Hrn. v. Martens</name> ersuche ich gelegenheitlich mich bestens zu <lb/>
+               empfehlen. Ach! ich denke gewiß oft, sehr oft mit Hochachtung an<lb/>
+               Sie alle.    Leben Sie wohl, theuerster Gönner! und bleiben<lb/>
+               Sie fernerhin gewogen Ihrem mit vorzüglicher Verehrung,<lb/>
+               Freundschaft und Dankbarkeit<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">ergebensten Diener</salute><lb/><name type="person" ref="per:per_16">Asch</name>.
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

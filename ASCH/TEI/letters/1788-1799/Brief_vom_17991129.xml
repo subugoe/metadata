@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 18./29.11.1799</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">Cod. Ms. Asch 1 : 2 (1793/99) : Bl. 130</idno>
+                     <idno type="recordID">DE_611_BF_5619_1793_1799|LOG_0118</idno>
+                  </idno>
+               </msIdentifier>
+              <!-- in der Transkriptionsfassung: Bl. 130r & 257. Im GDZ ist 257 (ebenso 130v nicht) nicht auffindbar. Anhand des Inhalts und der Daten gehören die beiden allerdings zusammen -->
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1800-03-09"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1800-03-09">
+                  <hi rendition="#left">9 März 18</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1799-11-18" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">18./</hi>
+                     <date when="1799-11-29" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">29.11.1799</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr,<lb/>
+                  Hochgeehrtester Herr Hofrath,<lb/>
+               </salute>
+            </opener>
+            <p>Mit unbeschreiblicher Freude habe ich Ihr gütigstes Schreiben vom 3. Jan.<lb/>
+               d. J. alhier den 7ten Jun. erhalten: und daß mein letzteres vom 8/19<lb/>
+               März bey Ihnen angelanget seyn müße, habe ich durch Ihre Recension<lb/>
+               der Koehlerischen <name key="thing" ref="thi:thi_580">Description d’une Amethyste</name> in den G. Anzeigen,<lb/>
+               vermuthen können. Groß ist nun mein Vergnügen eine neuere<lb/>
+               ungedruckte Abhandlung von ihm an Sie, herzlich verehrter Gönner,<lb/>
+               durch geneigte Vermittelung des Herzogl. Meklenburgischen <name type="person" ref="per:per_759">Cammerherrn<lb/>
+               von Oertzen</name> dahin zu befördern. Derselben Gewogenheit habe<lb/>
+               ich auch zu verdanken, daß eine Rolle mit <name key="thing" ref="thi:thi_581">14 Kupferstichen</name>, auch<lb/>
+               ein Päckchen mit <name key="thing" ref="thi:thi_582">12. Münzen</name> und sibirischen Sämereyen für das<lb/>
+               <name key="corporation" ref="cor:cor_235">Academische Museum</name> unter Euer Wohlgebohren Adresse dahin<lb/>
+               zugleich mit abgehet. Das botanische davon bitte ich mit meinen<lb/>
+               Empfehlungen dem <name type="person" ref="per:per_760">Hrn Hofrath Hoffmann</name> zustellen zu lassen.<lb/>
+               Ueberaus erfreulich ist es mir zu wissen, daß Sie, theuerster<lb/>
+               Gönner, sich immerfort wohlbefinden, und daß <name key="corporation" ref="cor:cor_236">Georgia Augusta</name><lb/>
+               im blühenden Zustande fortdauert. Die Vorsehung wird für<lb/>
+               Ihrer Aller Wohlfarth auch fernerhin sorgen!<lb/>
+               Mit künftiger Schiffarth hoffe ich ein mehreres dahin zu übersenden,<lb/>
+               indessen ersuche ich inständigst mich in Ihrem schätzbarsten Wohlwollen<lb/>
+               zu behalten, und versichert zu seyn, daß nichts diejenigen<lb/>
+               Gesinnungen von Verehrung und inniger Freundschaft<lb/>
+               übertreffen könne, womit ich allezeit bin und seyn werde<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Ew. Wohlgebohren</salute>
+               <signed rendition="#right">
+                  <name type="person" ref="per:per_16">ganz ergebenster<lb/>Asch</name>. </signed>
+            </closer>
+            <postscript>
+               <p>N. S. dürfte ich aus Ihrer Güte gelegenheitlich<lb/>
+                  mir ausbitten. <name key="thing" ref="thi:thi_838">Gött Anz. Stück 154.</name> &amp; <name key="thing" ref="thi:thi_839">156.</name> Ao. 1797.<lb/>
+                  Stück <name key="thing" ref="thi:thi_840">8</name>, <name key="thing" ref="thi:thi_841">16.</name> &amp; <name key="thing" ref="thi:thi_842">29.</name> Ao. 798.<lb/>
+                  Eine von dortiger Buchhandlung abgesandte Kiste<lb/>
+                  mit <name key="thing" ref="thi:thi_583">Büchern</name> für das <name key="corporation" ref="cor:cor_237">ReichsMedic. Collegium</name><lb/>
+                  mit dem Lübeckschen Schiffe Die Resolution<lb/>
+                  geführt von <name type="person" ref="per:per_761">Thom. Heinrich Jürgens</name> hat<lb/>
+                  sehr Schaden gelitten. Der Werth davon ist<lb/>
+                  assecurirt worden.<lb/>
+                  Sehr bedaure ich, daß <name type="person" ref="per:per_762">Hr. Collegien Rath Dr.<lb/>
+                  Basilewitsch</name>, unser gelehrter Secretaire,<lb/>
+                  gefährlich krank ist; dessen Aerzte wenig<lb/>
+                  Hofnung geben.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

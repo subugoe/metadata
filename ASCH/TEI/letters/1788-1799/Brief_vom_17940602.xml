@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 22.05./02.06.1794</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1793/99) : BL. 39-40</idno>
+                     <idno type="recordID">DE_611_BF_5619_1793_1799|LOG_0046</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1794-07-13"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1794-07-13">
+                  <hi rendition="#left">Jul. 13. 94.</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1794-05-22" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">22.05./</hi>
+                     <date when="1794-06-02" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">02.06.1794</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>
+                  Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath,<lb/>
+               </salute>
+            </opener>
+            <p>Ganz unvermuthet kündigt <name type="person" ref="per:per_661">Hr. Professor Vairin</name> mir seine<lb/>
+               schnelle Abreise von hier über <name type="place" ref="pla:pla_357">Lübeck</name> nach <name type="place" ref="pla:pla_358">Göttingen</name> an. Mit<lb/>
+               Freude ergreife ich diese Gelegenheit, bester Gönner, Ihnen die<lb/>
+               richtige Ankunft Ihrer geschätzten Briefe vom 21 Dec. 93 und<lb/>
+               vom 12. Januar 94, mit <name key="thing" ref="thi:thi_832">Diplomen</name> für <name type="person" ref="per:per_662">Hofrath Tumansky</name> und<lb/>
+               <name type="person" ref="per:per_663">Professor Stephan</name>, zu melden. Vom ersteren erfolgt auch schon<lb/>
+               die Danksagung – und mich haben Sie und die Erlauchte <name key="corporation" ref="cor:cor_200">Societät<lb/>
+               der Wissenschafften</name> durch diese ausnehmende Gefälligkeit sich noch<lb/>
+               mehr verbindlich gemacht. Von meiner unbegräntzten Erkenntlichkeit<lb/>
+               für sie, geliebtester Gönner, doch wol versichert.<lb/>
+               <name type="person" ref="per:per_664">Herrn Vairin</name> empfehle ich Ihrer aller Wohlgewogenheit,<lb/>
+               als Mathematiker besonders dem verehrten <name type="person" ref="per:per_665">Hrn. Hofrath Kaestner</name>.<lb/>
+               Die <name key="thing" ref="thi:thi_522">Acta Ac. Sc. Petrop. Tom VI</name>, <name key="thing" ref="thi:thi_833">Eulers Algebra in 2. Bänden</name>,<lb/>
+               nebst andern <name key="thing" ref="thi:thi_834">Schriften</name>, <name key="thing" ref="thi:thi_523">Münzen</name> pp wovon die Verzeichniße<lb/>
+               hiebey folgen, wird er das Vergnügen haben, Ihnen einzuhändigen.<lb/>
+               Ein Glück! dessen ich so gerne selbst theilhaftig seyn möchte!<lb/>
+               Die Zeit leider! ist mir jetzt gar zu kurz, als daß ich meine<lb/>
+               Danksagungen den <name type="person" ref="per:per_666">Herren Blumenbach</name>, <name type="person" ref="per:per_667">Gmelin</name>, <name type="person" ref="per:per_668">Hoffmann</name> und<lb/>
+               <name type="person" ref="per:per_669">Althoff</name> auch besonders schriftlich bezeigen könnte. Vors erste<lb/>
+               muß ich mich begnügen <name key="thing" ref="thi:thi_524">Zwey Schädeln</name> einen Türken aus Anape<lb/>
+               vom <name type="person" ref="per:per_670">Hrn. Prof. Hiltebrandt</name> aus <name type="place" ref="pla:pla_359">Moscau</name>, und einen <name key="thing" ref="thi:thi_525">Daurischen<pb/>
+                  Tungusen</name> vom <name type="person" ref="per:per_671">Hrn. Hofrath Dr. Joh. Roesslein</name> aus <name type="place" ref="pla:pla_360">Nertschinsk</name>,<lb/>
+               für <name type="person" ref="per:per_672">Hrn H. R. Blumenbach</name>; Saemereyen aus der Bucharischen<lb/>
+               <name type="place" ref="pla:pla_361">Mongoley</name> von <name type="person" ref="per:per_673">Apotheker Sievers</name> der glücklich von dort zurück<lb/>
+               gekommen, auch 2. Päcke Sämereyen aus <name type="place" ref="pla:pla_362">Taurien</name> von ... <name type="person" ref="per:per_674">Pallas</name>,<lb/>
+               für Ihren gütigen <name type="person" ref="per:per_675">Hrn Hoffmann</name>, zu übersenden; in Hoffnung<lb/>
+               daß manches darunter angenehm seyn wird.<lb/>
+               Des sel. <name type="person" ref="per:per_676">Reineggs</name> Reisebeschreibung ist, Gott weiß, in was<lb/>
+               vor Hände gerathen. Bey allem Nachforschen habe ich doch<lb/>
+               nichts erfahren können.             <name type="person" ref="per:per_677">Graf Kohary</name> ist in <name type="place" ref="pla:pla_363">Teflis</name><lb/>
+               bald nach des <name type="person" ref="per:per_678">Reineggs</name> Abreise gestorben.<lb/>
+               Hier hat die <name key="corporation" ref="cor:cor_201">Academie d. W.</name> einen grossen Verlust er-<lb/>
+               litten; der berühmte Anatomiker <name type="person" ref="per:per_679">Caspar Frid. Wolff</name><lb/>
+               starb plötzlich den 22. Febr/4 Mart 1794. Schade, daß sein Werk<lb/>
+               de Monstris nicht vollendet ist.<lb/>
+               Dem geheimen Rath u. <name type="person" ref="per:per_680">Senateur Soimonow</name> habe ich<lb/>
+               Ihren Einschluß richtig zugestellt. Se. Exc. hat das Amt als<lb/>
+               CabinetsMinister und Directeur vom Bergdepartement<lb/>
+               niedergelegt, und ist nicht mehr im vorigen Verhältniße bey Hofe.<lb/>
+               Wenn Sie, verehrtester Gönner, einen Catalogum von<lb/>
+               dortigen <name key="thing" ref="thi:thi_526">Russischen Büchern</name> drucken lassen, so ersuche ich<lb/>
+               inständigst meiner dabey gar nicht zu gedenken, besonders<lb/>
+               die Handschriften nicht darinn anzuzeigen. Meine Lebenszeit kann<lb/>
+               doch nicht lange mehr dauern. Hernach! wie es Ihnen gefällt.<pb/>
+               Ein junger <name type="person" ref="per:per_681">Mediciner Bouttaz</name> aus <name type="place" ref="pla:pla_364">Moskau</name>, der vorig Jahr<lb/>
+               aus <name type="place" ref="pla:pla_365">Lübeck</name> einige Sachen so gut befördert hatte, wird nun wol<lb/>
+               bey Ihnen angelangt seyn. Durch seine vorzüglich gute Auffüh-<lb/>
+               rung und Denkungsart wird er sich die Gewogenheit der dortigen<lb/>
+               vortreflichen Lehrer gewiß erwerben – aus <name type="place" ref="pla:pla_366">Berlin</name> hat er mich<lb/>
+               ersuchet, ihn Ihrer aller Gewogenheit bestens zu empfehlen.<lb/>
+               Leben Sie wohl, mein bester Gönner! Nichts in der Welt<lb/>
+               ist mir erfreulicher und tröstlicher als zu denken – <name type="person" ref="per:per_682">Heyne</name> ist<lb/>
+               mir gewogen. Biß zum letzten Athemszug verbleibe ich<lb/>
+               mit inniger Verehrung<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Ew. Wohlgebohren</salute>
+               <signed rendition="#right">treu ergebenster Diener<lb/><name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+            <postscript>
+               <p>N.S. Seit langer Zeit habe ich keine zuverläßige<lb/>
+                  Nachrichten vom Ihrem Herrn Sohn, noch<lb/>
+                  von meinem Bruder aus <name type="place" ref="pla:pla_367">Warschau</name> __ .<lb/>
+                  <name type="person" ref="per:per_683">Dr. Jaenisch</name> hat mir den Brief vom <name type="person" ref="per:per_684">Hrn. G.R.<lb/>
+                  Blumenbach</name> richtig eingehändigt. Jetzt ist er<lb/>
+                  in <name type="place" ref="pla:pla_368">Wiburg</name>.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 19./30.04.1789</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 58-59</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0052</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1789-07-01"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1789-07-01">
+                  <hi rendition="#left">1 Jul. 89</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1789-01-01" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">19./</hi>
+                     <date when="1789-04-30" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">30.04.1789</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr,
+                  Sehr verehrter Herr Hofrath,
+               </salute>
+            </opener>
+            <p>Wie viele Freude, theuerster Gönner, haben Sie mir mit den<lb/>
+               schätzbarsten Zuschriften vom 9tn Nov. 25. Dec. vor. J, und 8tn. März. d J.<lb/>
+               gemacht, und wie vielen Dank bin ich Ihnen für diese Beweise<lb/>
+               Ihrer fortdauernden Gewogenheit schuldig, den ich nun mit mehrerem<lb/>
+               Vergnügen entrichte, indem zugleich die Ehre habe einen eben<lb/>
+               erhaltenen Einschluß von Ihrem Herrn Sohn aus <name type="place" ref="pla:pla_323">Cherson</name> dahin<lb/>
+               zu befördern. Seinen Nachrichten zu folge hat er eine Krankheit<lb/>
+               glücklich überstanden, worüber ich mich sehr freue.<lb/>
+               Der Verlust meines vielversprechenden Nefen bey <name type="place" ref="pla:pla_324">Oczakow</name><lb/>
+               bleibt mir ein nagender Schmerz, welchen Sie, liebster Gönner<lb/>
+               durch freundschaftliche Theilnehmung gelindert haben.<lb/>
+               In Ihren Gegenden muß wie überall die vollkommene<lb/>
+               Genesung des besten Königes grosses frohlocken verursachen.<lb/>
+               Welch Entzücken für <name key="corporation" ref="cor:cor_188">Georgia Augusta</name>, wenn dieser Musen Sitz<lb/>
+               auch Ser Majestaet höchsten Gegenwart gewürdigt werden möchte.<lb/>
+               God save the King!!!<lb/>
+               Wenn es möglich ist, gütigster Gönner, so bitte mir von der<lb/>
+               dort geschlagenen <name key="thing" ref="thi:thi_469">Medaille</name> mit der Legende: Georgius III ... 1785.<lb/>
+               auf dessen Revers: Ingenio et Studio, eines in Silber und eines<lb/>
+               in Bronze zu verschaffen; mit welchem Auftrage ich Eure Wohlgebohren<lb/>
+               gerne verschonen  wolte, wenn durch ein anderes Mittel dazu gelangen <lb/>
+               könnte.<pb/>
+               Bey dieser Gelegenheit übersende zugleich mit für das <name key="corporation" ref="cor:cor_189">academi-<lb/>
+                  sche Museum</name> <name key="thing" ref="thi:thi_470">drey goldene Münzen</name> die bey uns schon rar werden, <lb/>
+               und <name key="thing" ref="thi:thi_829">ein paar kleine Schriften</name>, wie im Verzeichnisse ausführlicher<lb/>
+               angezeigt ist.<lb/>
+               Ein paar <name key="thing" ref="thi:thi_471">türkische Schädel</name> habe ich neulich durch Vermittelung<lb/>
+               des <name type="person" ref="per:per_618">Staabschirurgus Schindler</name> über <name type="place" ref="pla:pla_325">Cherson</name> schon erhalten. <lb/>
+               Gerne wolte ich selbige par Couvert an meinen Freund mit=<lb/>
+               senden – Da aber dies sich nicht thun läßt, so muß ich wol<lb/>
+               eine bequemere Schifsgelegenheit abwarten. Ich wünschte<lb/>
+               daß <name type="person" ref="per:per_619">Herr Hofrath Blumenbach</name> jetzt alle die hier durchzie-<lb/>
+               hende Baschkiren, Kalmukken, Kirgisen pp, selbst anschauen<lb/>
+               könnte, welche unserm nördlichen Nachbar eine Visite<lb/>
+               abzulegen eilen – Zu bedauren ist nur daß schreckliche<lb/>
+               Elend, so dadurch auch dem unschuldigen Landmann erfolgen<lb/>
+               wird, welches gewiß kein König wieder gutmachen kann.<lb/>
+               Von dem <name type="person" ref="per:per_620">Sächsischen Hofminiatur Maler D.</name> werden die zwey<lb/>
+               vermißte Packete vom 10/21 März vor. J. doch wol endlich dort eingetroffen<lb/>
+               seyn; Auch hoffe ich daß das <name key="thing" ref="thi:thi_472">taurische 20. Copekenstück</name>, mit<lb/>
+               der Aufschrift .E carica Chersonissa Tavriceskago (in kyrillisch)<lb/>
+               1787. unter den im vorigen Jahre dort angelangten Sachen<lb/>
+               gefunden worden. Allenfalls bitte ich mir eine Nachricht<lb/>
+               davon aus, um diese merkwürdige seltene Münze wieder <lb/>
+               anzuschaffen.<pb/>
+               Meines guten Freundes <name type="person" ref="per:per_621">Hofraths Koch</name> Erklärung einer<lb/>
+               <name key="thing" ref="thi:thi_473">antiken Figur</name>, in <name key="thing" ref="thi:thi_474">Comte de Caylus Recueil d’Antiquités</name><lb/>
+               Tome IV. planche XIII. fig. 3. überschicke ich hiebey, von welchem<lb/>
+               viele Empfehlungen Euer Wohlgebohren mitfolgen – Sehr oft<lb/>
+               sind Sie hier, theuerster Gönner, der süss e Gegenstand unserer<lb/>
+               Unterredungen – Wir wünschen Ihnen herzlich ein Dauerhaftes<lb/>
+               Wohlergehen, besonders vorzüglich ich, indem ganz mit <lb/>
+               unbeschränkter Verehrung verbleibe<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Euer Wohlgebohren<lb/>treu ergebenster Diener
+               </salute>
+               <signed rendition="#right"><name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+            <postscript>
+               <p>N. S.<lb/>
+                  Die <name type="person" ref="per:per_622">Herren Voelkner</name> und <name type="person" ref="per:per_623">Koch</name> haben beyde<lb/>
+                  auch die Briefe von Ew. Wohlgebohren schon<lb/>
+                  längst richtig erhalten.<lb/>
+                  An alle meine Gönner daselbst tausend Empfehle von mir.<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

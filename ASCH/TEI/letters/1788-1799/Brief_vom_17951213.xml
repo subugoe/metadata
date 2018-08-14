@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 02./13.12.1795</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1793/99) : BL. 60-61</idno>
+                     <idno type="recordID">DE_611_BF_5619_1793_1799|LOG_0059</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1796-06"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1796-06">
+                  <hi rendition="#left">Juni 96</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1795-12-02" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">02./</hi>
+                     <date when="1795-12-13" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">13.12.1795</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>
+                  Wohlgebohrner Herr,<lb/>
+                  Verehrtester Herr Hofrath!<lb/>
+               </salute>
+            </opener>
+            <p>Schon vorig Jahr hat ein Mathematiker <name type="person" ref="per:per_685">Mr. Vairin</name> mein<lb/>
+               Schreiben vom 22. May/ 2. Jun 94 an Sie theuerster Gönner! nebst <lb/>
+               mehreren Sachen für die <name key="corporation" ref="cor:cor_202">academische Bibliothek</name> mitgenommen,<lb/>
+               nämlich <name key="thing" ref="thi:thi_527">12 Numern an Münzen</name>, <name key="thing" ref="thi:thi_528">12 Kupferstiche</name>, <name key="thing" ref="thi:thi_529">8 Landkarten</name>, <name key="thing" ref="thi:thi_529">12 Plane</name><lb/>
+               von Sibirischen Städten, <name key="thing" ref="thi:thi_531">Eulers Algebra</name> pp, <name key="thing" ref="thi:thi_532">3 Lamaische Icones</name>, eine<lb/>
+               Sammlung <name key="thing" ref="thi:thi_533">Lamaischer Gebetbücher</name>, ein Packet <name key="thing" ref="thi:thi_534">Mongolischer Schriften</name><lb/>
+               länglich schmal folio, auch einige <name key="thing" ref="thi:thi_535">Buraetische</name> und <name key="thing" ref="thi:thi_536">Tungusische</name> <name key="thing" ref="thi:thi_537">Ongons</name><lb/>
+               oder <name key="thing" ref="thi:thi_538">Idole</name>, wie die beygelegten Verzeichnisse davon es ausführlicher<lb/>
+               anzeigen. Zugleich habe ich damals Sämereyen aus der Bucharischen<lb/>
+               <name type="place" ref="pla:pla_369">Mongoley</name> und aus <name type="place" ref="pla:pla_370">Taurien</name> für den <name type="person" ref="per:per_686">Hrn. Prof. Hoffmann</name>, und ein<lb/>
+               paar <name key="thing" ref="thi:thi_539">Schädeln</name> für den <name type="person" ref="per:per_687">Hrn Hofrath Blumenbach</name> mitgesandt.<lb/>
+               ich hoffe doch daß <name type="person" ref="per:per_688">Hr. Vairin</name> das alles dort richtig abgeliefert hat.<lb/>
+               Die nachtheilige Kriegsbegebenheiten am Schlusse des Feldzuges<lb/>
+               in dortigen Gegenden haben mich abgeschreckt mehreres dahin<lb/>
+               nachzusenden. Doch will ich es wieder wagen ein Päckchen<lb/>
+               mit <name key="thing" ref="thi:thi_540">20 Numern Münzen</name> für die <name key="corporation" ref="cor:cor_203">academische Bibliothek</name>, und einige<lb/>
+               Sämereyen aus der Bucharischen <name type="place" ref="pla:pla_371">Mongoley</name> für den <name type="person" ref="per:per_689">Hrn. Pr. Hoffman</name><lb/>
+               bey dieser Gelegenheit dahin zu befördern. Der Apotheker <name type="person" ref="per:per_690">Joh. Aug.<lb/>
+                  Sievers</name> aus <name type="place" ref="pla:pla_372">Peina</name> gebürtig, überbrachte mir diese Sämereyen<lb/>
+               zu Anfang dieses Jahres, und endigte alhier sein Leben schleunig<lb/>
+               den 6./17 April, eben da er seine Rückreise nach <name type="place" ref="pla:pla_373">Kiachta</name> antreten<lb/>
+               sollte. Er war unverheyrathet – ich bedaure den Verlust eines Mannes<lb/>
+               der für die Naturgeschichte noch so nützlich hätte seyn können.<pb/>
+               Der Mongolische Translateur <name type="person" ref="per:per_691">Johann Jährig</name> ist auch bald nach<lb/>
+               seiner Zurückkunfft von <name type="place" ref="pla:pla_374">Kiachta</name> alhier den 15/26 Junius 95. gestorben.<lb/>
+               Seine verwittwete Frau, eine Schwester unsers Chymikers <name type="person" ref="per:per_692">Hrn Lowitz</name>,<lb/>
+               ist ohne Kinder und ohne Vermögen nachgeblieben.<lb/>
+               Der Geheime Rath und Ritter <name type="person" ref="per:per_693">Iwan Iwanowitz Betzkoy</name>, zu<lb/>
+               <name type="place" ref="pla:pla_375">Stockholm</name> Ao. 1702 gebohren, natürlicher Sohn von dem FeldMarschall<lb/>
+               Fürsten <name type="person" ref="per:per_694">Iwan Trubetzkoy</name> und einer Schwedischen <name type="person" ref="per:per_695">Baronne Wrede</name>,<lb/>
+               hat hier sein Leben den 31 Aug./11 Sept 95. beschlossen. Da er unverheyrathet<lb/>
+               war, so ist auch der Name <name type="person" ref="per:per_696">Betzkoy</name> mit ihm erloschen.<lb/>
+               Das schmerzlichste aber ist mir, Liebster Freund, der unglück-<lb/>
+               liche Zufall, das zu frühe Ableben Ihres würdigen Herrn Sohnes.<lb/>
+               Zufolge eines Berichtes vom <name type="person" ref="per:per_697">Stabschirurgus Malitansky</name> an das<lb/>
+               <name key="corporation" ref="cor:cor_204">Reichs Medicinische Collegium</name>, hat der <name type="person" ref="per:per_698">Hr Doctor Carl Ludwig<lb/>
+                  Heyne</name> bey dem Rußischen Corps unter dem Commando des <name type="person" ref="per:per_699">Hrn<lb/>
+                     General Major Denisoff</name> in <name type="place" ref="pla:pla_376">Polen</name> an einem Faulfieber den 16 Jun./2 Jul.<lb/>
+               1794. seinen irdischen Feldzug geendigt, welchen Trauerfalls wegen<lb/>
+               ich mit wahrer Theilname Ihnen herzlich mein Beyleid bezeuge.<lb/>
+               Ein <name type="person" ref="per:per_700">Oberster v. Wolkoff</name> liebte ihn sehr, und theilte sein Zelt<lb/>
+               und Tafel mit ihm, erzeigte ihm auch alle mögliche Freundschaffts-<lb/>
+               Bezeigungen biß an sein Lebens-Ende. Nach genauerer Erkundi-<lb/>
+               gung war der Hr. Doctor unverheyrathet, und hat seine Gage vom<lb/>
+               1tn Januar 94. an gerechnet, nicht gehoben; auch höre ich nicht<lb/>
+               daß Er Schulden nachgelassen habe. Dessen Anverwandte könnten<lb/>
+               also deswegen gerade an Se Excellenz den Herrn Geheimen Rath,<pb/>
+               Senateur und Ritter <name type="person" ref="per:per_701">Alexei Iwanowitz Wasiljew</name>, General Director<lb/>
+               vom <name key="corporation" ref="cor:cor_205">Reichs Medicinischen Collegium</name>, deutsch zuschreiben, um<lb/>
+               authentische Nachrichten den <name type="person" ref="per:per_702">Hrn. Dr. Heyne</name> betreffend einzuziehen;<lb/>
+               und dessen Nachlaß reclamiren. Sorgen Sie, theuerster<lb/>
+               Gönner, für die Erhaltung Ihrer schätzbarsten Gesundheit,<lb/>
+               und trösten Sie dadurch zugleich denjenien, der mit inniger<lb/>
+               Verehrung und Ergebenheit Zeitlebens verbleibt<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Ew. Wohlgebohren</salute>
+               <signed rendition="#right">gehorsamster Diener<lb/><name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+            <postscript>
+               <p>N.S. darf ich bitten meine ergebenste<lb/>
+                  Empfehlungen den verehrten Herren<lb/>
+                  <name type="person" ref="per:per_703">Wrisberg</name>, <name type="person" ref="per:per_704">Richter</name>, <name type="person" ref="per:per_705">Gmelin</name>, <name type="person" ref="per:per_706">Althoff</name><lb/>
+                  und <name type="person" ref="per:per_707">Blumenbach</name> zu entrichten, auch <lb/>
+                  Letzterem anzukündigen, daß ich mit<lb/>
+                  künftiger Schifsgelegenheit <name key="thing" ref="thi:thi_541">Schädeln</name><lb/>
+                  von einem Griechen aus <name type="place" ref="pla:pla_377">Constantinopel</name>,<lb/>
+                  und von einem Schotten überschicken werde.<lb/>
+                  Aus Ihrer Güte besitze ich Ihre vortreflichen<lb/>
+                  <name key="thing" ref="thi:thi_542">Opuscula academica collecta, Vol, I. et II.</name><lb/>
+                  Solte eine Fortsetzung davon erschienen seyn,<lb/>
+                  so ersuche ich inständigst selbige mir auch <lb/>
+                  zukommen zu lassen.<lb/>
+                  <lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 01./12.09.1788</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 32-33</idno>
+                     <idno type="recordID">Cod_Ms_Asch_1_1_1788-1792|LOG_0029</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+        
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text type="letter">
+      <body>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1788-09-01" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">01./</hi>
+                     <date when="1788-09-12" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">12.09.1788</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/> 
+                  Vererhungswürdiger Herr Hofrath<lb/> 
+               </salute>
+            </opener>
+            <p>Jetzt folgt hiebey noch das Kästchen sub No. 1. mit der <name key="thing" ref="thi:thi_453">Sinesisch<lb/>
+               figur</name>, welches der <name type="person" ref="per:per_597">Hr. Hofrath Gretsch</name> letztverwichenen 8./19. Jul.<lb/>
+               hier nachgelassen hatte.          ich will versuchen, ob dessen<lb/>
+               nunmehrige Beförderung über <name type="place" ref="pla:pla_302">Riga</name> glücklicher ablaufen wird.<lb/>
+               Zu jenen Sachen habe ich noch einige schöne <name key="thing" ref="thi:thi_454">Chalcedonen</name> pp<lb/>
+               mit einem Verzeichnisse beygelegt.<lb/>
+               Der junge <name type="person" ref="per:per_598">Hr. Strenge</name> wird vermuthlich die Packete vom 20./31. <lb/>
+               Jul. richtig Ihnen, theuerster  Gönner, zugestellt haben.<lb/>
+               Auch hoffe ich, daß mein letztes Schreiben vom 25. Aug./5. Sept. bey <lb/>
+               Ihnen angelangt ist.<lb/>
+               Unser <name type="person" ref="per:per_599">Herr Dr. Heyne</name> ist jetzt in <name type="place" ref="pla:pla_303">Kinburn</name>, von wo<lb/>
+               seine jüngsten Berichte  an das Collegium gesandt waren.<lb/>
+               Ihrer schätzbarsten Gewogenheit, Bester Freund, empfehle<lb/>
+               ich mich dringendst, und verbleibe mit innigster Verehrung<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Ew. Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster ergebenster Diener<lb/><name type="person"
+                     ref="per:per_16">Asch.</name>.</signed><pb/>
+            </closer>
+            <postscript>
+               <p>P.S. Sind folgende Bücher in der Academischen Bibliothek?<lb/>
+                  1) <name key="thing" ref="thi:thi_826">Memoires pour Servir à l’Histoire de Port-Royal.<lb/>
+                     par M. Fontaine T I et II à Utrecht 1736</name> in 8vo<lb/>
+                     2) <name key="thing" ref="thi:thi_827">Memoires pour servir à l’Histoire de Port-Royal.<lb/>
+                        par M. Du Fosse. à Utrecht 1739</name> in 8 vo<lb/>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

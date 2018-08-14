@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 04./15.04.1791</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 2 (1788/92) : BL. 143</idno>
+                     <idno type="recordID">DE_611_BF_5619_1783_1787|LOG_0100</idno>
+                  </idno>
+               </msIdentifier>
+               <physDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1791-06-04"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1791-06-04">
+                  <hi rendition="#left">4 Jun 91</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1791-04-04" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">04./</hi>
+                     <date when="1791-04-15" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">15.04.1791</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgeborner Herr,<lb/>
+                  Hochverehrter Herr Hofrath,<lb/>
+               </salute>
+            </opener>
+            <p>Vielleicht ist dies von <name type="place" ref="pla:pla_490">Riga</name> aus zur See auf <name type="place" ref="pla:pla_491">Lübeck</name> abgehende<lb/>
+               Packet mit <name key="thing" ref="thi:thi_765">Landkarten</name> p so glücklich noch eher als das gestern<lb/>
+               mit <name key="thing" ref="thi:thi_766">Münzen</name> über <name type="place" ref="pla:pla_492">Berlin</name> abgefertigte Päckchen, theuerster<lb/>
+               Gönner, in Ihre Hände zu kommen. Ich wiederhole hier<lb/>
+               noch die Anzeige, daß Ihre wertheste Zuschriften vom 3tn Sept.<lb/>
+               10. Oct. und 16. Nov. mir richtig zugestellt worden.<lb/>
+               <name type="person" ref="per:per_960">Herr Collgien Rath Reineggs</name> hat sein Diplom erhalten, und<lb/>
+               das für <name type="person" ref="per:per_961">Hrn Jaehrig</name> bestimmte muß auch in dieser Zeit<lb/>
+               in <name type="place" ref="pla:pla_493">Kiachta</name> eintreffen. Für das alles unsere innigste<lb/>
+               Danksagungen.<lb/>
+               Die Briefe Päckchen vom <name type="person" ref="per:per_962">Hrn. H. R. Blumenbach</name> und besonders<lb/>
+               die <name key="thing" ref="thi:thi_767">22. Bogen vom Handbuch der N.G.</name> haben mir hier viele Freude<lb/>
+               gemacht. Grüssen und danken Sie ihn, auch die <name type="person" ref="per:per_963">Herren Hofräthe<lb/>
+                  Murray</name> <name type="person" ref="per:per_964">Gmelin</name> und <name type="person" ref="per:per_965">Tychsen</name> herzlich von mir<lb/>
+               Vom <name type="person" ref="per:per_966">Hrn. Dr. Heyne</name> wissen wir nicht anders als daß er<lb/>
+               sich in der Moldau recht wohl befindet – dieses, bester Freund,<lb/>
+               zu Ihrer Beruhigung.<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Mit unaussprechlicher Verehrung verbleibe ich Zeitlebens<lb/>
+                  Eur. Wohlgebohren<lb/>
+                  Verbundenster Diener<lb/></salute>
+               <signed rendition="#right">Baron <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
