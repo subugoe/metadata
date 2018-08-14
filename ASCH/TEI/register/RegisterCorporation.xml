@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns:gnd="http://d-nb.info/gnd/">
+    <list xml:id="corporation">
+        <item xml:id="cor_1">
+            <name>academische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_2">
+            <name>Herren Platzmann &amp; Roeder</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="cor_3">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_4">
+            <name>Hannöverische Post</name>
+            <p>in Hannover zu verorten</p>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="cor_5">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_6">
+            <name>K. academische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_7">
+            <name>academische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_8">
+            <name>academische Bibliothek</name>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_9">
+            <name>academischen Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_10">
+            <name>academischen Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_11">
+            <name>Cronstadtschen Hospital</name>
+            <p>in Cronstadt zu verorten</p>
+            <ref type="GND"></ref>
+            </item>
+        <!-- cor_12 bis cor_19 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="cor_20"><!-- nicht in den Briefen auffindbar -->
+            <name>Gesellschaft der Wissenschaften</name>
+            <ref type="GND">2003658-9</ref>
+        </item>
+        <item xml:id="cor_21"><!-- nicht in den Briefen auffindbar -->
+            <name>Universitaets Bibliothek</name>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_22"><!-- nicht in den Briefen auffindbar -->
+            <name>Königliche Universitaets Bibliothek in Göttingen</name>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_23"><!-- nicht in den Briefen auffindbar -->
+            <name>Reichs Medicinische Collegium</name> <!-- gemeint ist jenes der Uni Moskau -->
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="cor_24"><!-- nicht in den Briefen auffindbar -->
+            <name>Universitaet</name> <!-- vmtl. Uni Göttingen -->
+            <ref type="GND"></ref>
+        </item>
+        <!-- cor_25 bis cor_28 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="cor_29">
+            <name>Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_30">
+            <name>Orenburgischen Corps</name>
+            <p>in Orenburg zu verorten</p>
+        </item>
+        <item xml:id="cor_31">
+            <name>Catharinoslawskischen Armee</name>
+        </item>
+        <item xml:id="cor_32">
+            <name>K. academische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_33">
+            <name>Königl. Universitäts Museum</name>
+        </item>
+        <item xml:id="cor_34">
+            <name>Bibliotheck</name>
+            <p>Göttingen gelegen</p>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_35">
+            <name>Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_36">
+            <name>Königl. Societät der Wißenschafte</name>
+        </item>
+        <item xml:id="cor_37">
+            <name>Göttingische Universität</name> 
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_38">
+            <name>Kayserl. Reichs Medicinische Collegium</name> 
+            <p>womöglich in Sankt Petersburg zu verorten</p>
+        </item>
+        <item xml:id="cor_39">
+            <name>Akademie der Wiße.</name> 
+            <p>womöglich in Sankt Petersburg zu verorten</p>
+            <ref type="GND">5052646-7</ref>
+        </item>
+        <item xml:id="cor_40">
+            <name>Königl. Societät der Wißenschaften</name> 
+        </item>
+        <item xml:id="cor_41">
+            <name>Georg-Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_42">
+            <name>Bibliotheck</name>
+            <p>Universität zugehörig</p>
+        </item>
+        <item xml:id="cor_43">
+            <name>Museum</name>
+            <p>Universität zugehörig</p>
+        </item>
+        <item xml:id="cor_44">
+            <name>Kaiserl. Academie der Wissensch.</name>
+        </item>
+        <item xml:id="cor_45">
+            <name>Königl. Universitaets Musaeum</name>
+        </item>
+        <item xml:id="cor_46">
+            <name>Erlauchte Societät der Wißenschaften</name>
+        </item>
+        <item xml:id="cor_47">
+            <name>Königl. Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_48">
+            <name>Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_49">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_50">
+            <name>Universität</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_51">
+            <name>Universitäts Bibliothek</name>
+        </item>
+        <item xml:id="cor_52">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_53">
+            <name>Universitäts Museum</name>
+        </item>
+        <item xml:id="cor_54">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_55">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_56">
+            <name>Societät der Wißenschaften</name>
+        </item>
+        <item xml:id="cor_57">
+            <name>Heyn et Meltzer</name>
+        </item>
+        <item xml:id="cor_58">
+            <name>Akademie der Künste</name>
+            <p>In St. Petersburg gelegen, gemeint ist die 1757 gegründete russische Kunstakademie</p>
+        </item>
+        <item xml:id="cor_59">
+            <name>fürstl. Galitzinschen Stiftung</name>
+        </item>
+        <item xml:id="cor_60">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_61">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_62">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_63">
+            <name>Königl. Societaet</name>
+        </item>
+        <item xml:id="cor_64">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_65">
+            <name>Societät d.W.</name>
+        </item>
+        <item xml:id="cor_66">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_67">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_68">
+            <name>Gottingische Bibliothek</name>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_69">
+            <name>Königl. Gesellschaft der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_70">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_71">
+            <name>Königlichen Gesellschaft der Wissenschafften</name>
+        </item>
+        <item xml:id="cor_72">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_73">
+            <name>Hrn. Heyn et Melzer</name>
+        </item>
+        <item xml:id="cor_74">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_75">
+            <name>Heyn et Melzer</name>
+        </item>
+        <item xml:id="cor_76">
+            <name>Königl. Societät der Wißenschaften</name>
+        </item>
+        <item xml:id="cor_77">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_78">
+            <name>Heyn et Melzer</name>
+        </item>
+        <item xml:id="cor_79">
+            <name>Universitaets Museum</name>
+            <p>womöglich ist Lübeck gemeint</p>
+        </item>
+        <item xml:id="cor_80">
+            <name>Heyn et Meltzer</name>
+        </item>
+        <item xml:id="cor_81">
+            <name>Akademie der freyen Künste</name>
+        </item>
+        <item xml:id="cor_82">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_83">
+            <name>Königlichen Societaet der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_84">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_85">
+            <name>Heyn u. Meltzer</name>
+        </item>
+        <item xml:id="cor_86">
+            <name>K. Societät der Wißen-schaften</name>
+        </item>
+        <item xml:id="cor_87">
+            <name>Acad. d. Künste</name>
+        </item>
+        <item xml:id="cor_88">
+            <name>Königl. Societaet der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_89">
+            <name>Akademie der Künste</name>
+        </item>
+        <item xml:id="cor_90">
+            <name>Academie d. Wiss.</name>
+        </item>
+        <item xml:id="cor_91">
+            <name>Göttingischen Gesellschaft „der Wissenschaften</name>
+            <ref type="GND">2003658-9</ref>
+        </item>
+        <item xml:id="cor_92">
+            <name>Königl. Gesellschaft der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_93">
+            <name>Academie der freyen Künste</name>
+        </item>
+        <item xml:id="cor_94">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_95">
+            <name>Königlichen Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_96">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_97">
+            <name>Academie der Künste</name>
+        </item>
+        <item xml:id="cor_98">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_99">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_100">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_101">
+            <name>Societät</name>
+            <p>gemeint ist die königliche Gesellschaft der Wissenschaften</p>
+        </item>
+        <item xml:id="cor_102">
+            <name>Heyn u. Melzer</name>
+        </item>
+        <item xml:id="cor_103">
+            <name>Societät</name>
+            <p>gemeint ist die Gesellschaft der Wissenschaften</p>
+        </item>
+        <item xml:id="cor_104">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_105">
+            <name>Akademie der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_106">
+            <name>Göttingische Universitaet</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_107">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_108">
+            <name>Musen</name>
+        </item>
+        <item xml:id="cor_109">
+            <name>Kais. Acad. der freyen Künste</name>
+        </item>
+        <item xml:id="cor_110">
+            <name>freyen Oeconomischen Gesellschaft</name>
+        </item>
+        <item xml:id="cor_111">
+            <name>StutgardtischeMilitair Academie</name>
+        </item>
+        <item xml:id="cor_112">
+            <name>Göttingischen Universität</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_113">
+            <name>K. ReichsCollegium</name>
+        </item>
+        <item xml:id="cor_114">
+            <name>Universitäten</name>
+        </item>
+        <item xml:id="cor_115">
+            <name>Heyn und Meltzer</name>
+        </item>
+        <item xml:id="cor_116">
+            <name>Academie der freyen Künste</name>
+        </item>
+        <item xml:id="cor_117">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_118">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_119">
+            <name>Göttingischen Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_120">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_121">
+            <name>K. Acad. der Wiß.</name>
+        </item>
+        <item xml:id="cor_122">
+            <name>K. MünzCabinet</name>
+        </item>
+        <item xml:id="cor_123">
+            <name>Academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_124">
+            <name>Heyn und Melzer</name>
+        </item>
+        <item xml:id="cor_125">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_126">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_127">
+            <name>Université à Göttingen</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_128">
+            <name>Heyn und Melzer</name>
+        </item>
+        <item xml:id="cor_129">
+            <name>Universitaets Museum</name>
+        </item>
+        <item xml:id="cor_130">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_131">
+            <name>Heyn und Melzer</name>
+        </item>
+        <item xml:id="cor_132">
+            <name>Georg Auguste</name>
+            <p>gemeint ist die Universität</p>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_133">
+            <name>Museo petropolitano</name>
+        </item>
+        <item xml:id="cor_134">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_135">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_136">
+            <name>Heyn et Melzer</name>
+        </item>
+        <item xml:id="cor_137">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_138">
+            <name>Universitaets Museum</name>
+        </item>
+        <item xml:id="cor_139">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_140">
+            <name>Heyn et Meltzer</name>
+        </item>
+        <item xml:id="cor_141">
+            <name>Göttingische Societät der Wissenschaften</name>
+            <ref type="GND">2003658-9</ref>
+        </item>
+        <item xml:id="cor_142">
+            <name>Gesellsch. d. W.</name>
+        </item>
+        <item xml:id="cor_143">
+            <name>Gött. Münzcabinet</name>
+            <p>https://portal.wissenschaftliche-sammlungen.de/SciCollection/1441</p>
+        </item>
+        <item xml:id="cor_144">
+            <name>Societät d. W.</name>
+        </item>
+        <item xml:id="cor_145">
+            <name>Heyn u. Meltzer</name>
+        </item>
+        <item xml:id="cor_146">
+            <name>Georg Auguste</name>
+            <p>gemeint ist die Universität</p>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_147">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_148">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_149">
+            <name>Heyn u. Melzer</name>
+        </item>
+        <item xml:id="cor_150">
+            <name>Königlichen Gesellschaft der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_151">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_152">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_153">
+            <name>Heyn et Melzer</name>
+        </item>
+        <item xml:id="cor_154">
+            <name>Königl. Societät d. W.</name>
+        </item>
+        <item xml:id="cor_155">
+            <name>Königliche Societaet der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_156">
+            <name>Braumann et Röder</name>
+        </item>
+        <item xml:id="cor_157">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_158">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_159">
+            <name>Heyn et Meltzer</name>
+        </item>
+        <item xml:id="cor_160">
+            <name>Braumann et Roeder</name>
+        </item>
+        <item xml:id="cor_161">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_162">
+            <name>Braumann et Röder</name>
+        </item>
+        <item xml:id="cor_163">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_164">
+            <name>Universitaets Biblio-thek</name>
+        </item>
+        <item xml:id="cor_165">
+            <name>Universitaets Museum</name>
+        </item>
+        <item xml:id="cor_166">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_167">
+            <name>Naturforschender Freunde Gesellschaft</name>
+        </item>
+        <item xml:id="cor_168">
+            <name>Göttingischen Gesellschaft der Wissenschaften</name>
+            <ref type="GND">2003658-9</ref>
+        </item>
+        <item xml:id="cor_169">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_170">
+            <name>Societaet der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_171">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_172">
+            <name>Universitaets-Museum</name>
+        </item>
+        <item xml:id="cor_173">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_174">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_175">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_176">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_177">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_178">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_179">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_180">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_181">
+            <name>Soc. d. Wiss.</name>
+        </item>
+        <item xml:id="cor_182">
+            <name>Oxfordsche</name>
+            <p>gemeint ist die Universität</p>
+            <ref type="GND">36214-1</ref>
+        </item>
+        <item xml:id="cor_183">
+            <name>Tubingische Universitäten</name>
+            <ref type="GND">36187-2</ref>
+        </item>
+        <item xml:id="cor_184">
+            <name>Acad. des Inscript. et belles Lettres à Paris</name>
+            <ref type="GND">35017-5</ref>
+        </item>
+        <item xml:id="cor_185">
+            <name>Königl. Museum</name>
+        </item>
+        <item xml:id="cor_186">
+            <name>K. academische Museum</name>
+        </item>
+        <item xml:id="cor_187">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_188">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_189">
+            <name>academi-sche Museum</name>
+        </item>
+        <item xml:id="cor_190">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_191">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_192">
+            <name>academischen Museum</name>
+        </item>
+        <item xml:id="cor_193">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_194">
+            <name>Museum Borgianum Velitris</name>
+        </item>
+        <item xml:id="cor_195">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_196">
+            <name>Cronstadtschen Hospital</name>
+        </item>
+        <item xml:id="cor_197">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_198">
+            <name>Platzmann &amp; Roeder</name>
+        </item>
+        <item xml:id="cor_199">
+            <name>Göttingischen Musensitz</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_200">
+            <name>Societät der Wissenschafften</name>
+        </item>
+        <item xml:id="cor_201">
+            <name>Academie d. W.</name>
+        </item>
+        <item xml:id="cor_202">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_203">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_204">
+            <name>Reichs Medicinische Collegium</name>
+        </item>
+        <item xml:id="cor_205">
+            <name>Reichs Medicinischen Collegium</name>
+        </item>
+        <item xml:id="cor_206">
+            <name>ReichsMedicinischen Collegio</name>
+        </item>
+        <item xml:id="cor_207">
+            <name>Meder et Bach</name>
+        </item>
+        <item xml:id="cor_208">
+            <name>Meder et Bach</name>
+        </item>
+        <item xml:id="cor_209">
+            <name>Rußischen Academie</name>
+        </item>
+        <item xml:id="cor_210">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_211">
+            <name>Königl. academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_212">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_213">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_214">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_215">
+            <name>Königl Soc. d. W.</name>
+        </item>
+        <item xml:id="cor_216">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_217">
+            <name>Universität</name>
+        </item>
+        <item xml:id="cor_218">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_219">
+            <name>Kaiserlichen Bibliothek</name>
+        </item>
+        <item xml:id="cor_220">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_221">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_222">
+            <name>ReichsMedicinische Collegium</name>
+        </item>
+        <item xml:id="cor_223">
+            <name>Königliche Academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_224">
+            <name>Königliche Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_225">
+            <name>Societät</name>
+            <p>gemeint ist die Societät der Wissenschaften</p>
+        </item>
+        <item xml:id="cor_226">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_227">
+            <name>Georg Auguste</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_228">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_229">
+            <name>Georg August Universitaet</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_230">
+            <name>Georg August Universitaet</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_231">
+            <name>medicinische Collegium</name>
+        </item>
+        <item xml:id="cor_232">
+            <name>Kriegs. Collegium</name>
+        </item>
+        <item xml:id="cor_233">
+            <name>Königlichen Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_234">
+            <name>medicinisch-chirurgische Academien</name>
+        </item>
+        <item xml:id="cor_235">
+            <name>Academische Museum</name>
+        </item>
+        <item xml:id="cor_236">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_237">
+            <name>ReichsMedic. Collegium</name>
+        </item>
+        <item xml:id="cor_238">
+            <name>Georg August Universitaet</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_239">
+            <name>Academie</name>
+            <p>gemeint ist die Georg-August-Universität</p>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_240">
+            <name>Meder et Bach</name>
+        </item>
+        <item xml:id="cor_241">
+            <name>Reichs Medicinischen Collegio</name>
+        </item>
+        <item xml:id="cor_242">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_243">
+            <name>Königlichen Gesellschaft der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_244">
+            <name>Königl Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_245">
+            <name>Kriegs Collegium</name>
+        </item>
+        <item xml:id="cor_246">
+            <name>Reichs Medicinischen Collegio</name>
+        </item>
+        <item xml:id="cor_247">
+            <name>Meder und Bach</name>
+        </item>
+        <item xml:id="cor_248">
+            <name>Georg August Universität</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_249">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_250">
+            <name>Georg Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_251">
+            <name>Königl. Societ. der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_252">
+            <name>Societät</name>
+        </item>
+        <item xml:id="cor_253">
+            <name>K. Soc. d. W.</name>
+        </item>
+        <item xml:id="cor_254">
+            <name>Bach et Compagnie</name>
+        </item>
+        <item xml:id="cor_255">
+            <name>Bach et Compagnie</name>
+        </item>
+        <item xml:id="cor_256">
+            <name>Königl. academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_257">
+            <name>academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_258">
+            <name>K. Societäts</name>
+        </item>
+        <item xml:id="cor_259">
+            <name>Königl. academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_260">
+            <name>Platzmann et fils</name>
+        </item>
+        <item xml:id="cor_261">
+            <name>Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_262">
+            <name>Bach et Comp.</name>
+        </item>
+        <item xml:id="cor_263">
+            <name>Ekaterinburgischen Bergwerks Verwaltung</name>
+        </item>
+        <item xml:id="cor_264">
+            <name>Königl. Societät d. W.</name>
+        </item>
+        <item xml:id="cor_265">
+            <name>K. Societät d. W.</name>
+        </item>
+        <item xml:id="cor_266">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_267">
+            <name>Göttingische Universität</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_268">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_269">
+            <name>Kaiserl. Academie der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_270">
+            <name>Königl. academische Museum</name>
+        </item>
+        <item xml:id="cor_271">
+            <name>Bibliothek</name>
+        </item>
+        <item xml:id="cor_272">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_273">
+            <name>Platzmann et Sohn</name>
+        </item>
+        <item xml:id="cor_274">
+            <name>Göttingische Universitaet</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_275">
+            <name>Universitäts Museum</name>
+        </item>
+        <item xml:id="cor_276">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_277">
+            <name>Königl. Gesellschaft der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_278">
+            <name>Kaysl. Gymnasii</name>
+        </item>
+        <item xml:id="cor_279">
+            <name>Göttingische academische Bibliothek</name>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_280">
+            <name>K. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_281">
+            <name>Kaiserl. Academie der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_282">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_283">
+            <name>Pädagogischen Instituts</name>
+        </item>
+        <item xml:id="cor_284">
+            <name>Gymnasiums</name>
+        </item>
+        <item xml:id="cor_285">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_286">
+            <name>academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_287">
+            <name>Königl. academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_288">
+            <name>Kaiserl. Academie der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_289">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_290">
+            <name>Georgia Augusta</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_291">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_292">
+            <name>academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_293">
+            <name>Kaiserl Academie der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_294">
+            <name>academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_295">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_296">
+            <name>academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_297">
+            <name>Göttingische Museum</name>
+            <ref type="GND">7858426-7</ref>
+        </item>
+        <item xml:id="cor_298">
+            <name>Academie der Künste</name>
+        </item>
+        <item xml:id="cor_299">
+            <name>Acad. d. Künste</name>
+        </item>
+        <item xml:id="cor_300">
+            <name>Universitaets Museum</name>
+        </item>
+        <item xml:id="cor_301">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_302">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_303">
+            <name>Reichs Medicinische Collegium</name>
+        </item>
+        <item xml:id="cor_304">
+            <name>Universitaets Museum</name>
+        </item>
+        <item xml:id="cor_305">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_306">
+            <name>Reichs Medicinische Collegium</name>
+        </item>
+        <item xml:id="cor_307">
+            <name>Universitaets Museum</name>
+        </item>
+        <item xml:id="cor_308">
+            <name>Universitaet</name>
+        </item>
+        <item xml:id="cor_309">
+            <name>Universitaets Bibliothek</name>
+        </item>
+        <item xml:id="cor_310">
+            <name>Universitaet zu Halle</name>
+            <ref type="GND">2024276-1</ref>
+        </item>
+        <item xml:id="cor_311">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_312">
+            <name>Bibliothek</name>
+        </item>
+        <item xml:id="cor_313">
+            <name>Königl. Regierung</name>
+        </item>
+        <item xml:id="cor_314">
+            <name>Academische Museum</name>
+        </item>
+        <item xml:id="cor_315">
+            <name>Medizinische Collegium</name>
+        </item>
+        <item xml:id="cor_316">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_317">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_318">
+            <name>Georg-Auguste</name>
+            <ref type="GND">2024315-7</ref>
+        </item>
+        <item xml:id="cor_319">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_320">
+            <name>Göttingische Universitaets Bibliothek</name>
+            <ref type="GND">2020450-4</ref>
+        </item>
+        <item xml:id="cor_321">
+            <name>Königlichen Societaet der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_322">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_323">
+            <name>academische Bibliothek</name>
+        </item>
+        <item xml:id="cor_324">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_325">
+            <name>Societät d. W.</name>
+        </item>
+        <item xml:id="cor_326">
+            <name>K. Soc. d. W.</name>
+        </item>
+        <item xml:id="cor_327">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_328">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_329">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_330">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_331">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_332">
+            <name>Museums</name>
+        </item>
+        <item xml:id="cor_333">
+            <name>Königl. Societät der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_334">
+            <name>academische Museum</name>
+        </item>
+        <item xml:id="cor_335">
+            <name>academischen Bibliothek</name>
+        </item>
+        <item xml:id="cor_336">
+            <name>Museum</name>
+        </item>
+        <item xml:id="cor_337">
+            <name>Königl. Gesellschaft der Wis.</name>
+        </item>
+        <item xml:id="cor_338">
+            <name>Bibliothek</name>
+        </item>
+        <item xml:id="cor_339">
+            <name>Academina</name>
+            <p>in zweierlei Verortung, Leidern sowie Strasburg</p>
+        </item>
+        <item xml:id="cor_340">
+            <name>Societät.</name>
+            <p>Societät der Wissenschaften</p>
+        </item>
+        <item xml:id="cor_341">
+            <name>Reichs Medicinischen Collegium</name>
+        </item>
+        <item xml:id="cor_342">
+            <name>Institut</name>
+        </item>
+        <item xml:id="cor_343">
+            <name>Gesellschaft der Wissenschaften</name>
+        </item>
+        <item xml:id="cor_344">
+            <name>Academie</name>
+        </item>
+        <item xml:id="cor_345">
+            <name>Societät</name>
+        </item>
+    </list>
+</div>

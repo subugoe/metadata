@@ -1,0 +1,3092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns:ppn="https://gso.gbv.de/" xmlns:hdl="https://hdl.handle.net/">
+    <list xml:id="thing">
+        <item xml:id="thi_1">
+            <name>gedruckte Schriften in 22 Numern</name>
+            <linkGrp>
+                <item>nachträglich identifizierte Schrift</item>
+                <!-- jede nachträglich identifizierte Schrift bekommt einen eigenen item-Eintrag -->
+                <ref type="PPN"/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_2">
+            <name>9 Kupferne Medaillen</name>
+            <linkGrp>
+                <item>nachträglich identifizierte Medaille</item>
+                <!-- jede nachträglich identifizierte Medaille bekommt einen eigenen item-Eintrag -->
+                <ref type="KUN"/>
+                <!--http://id.uni-goettingen.uni-sammlungen/objects/ob7654321 = handle-ID der Münze-->
+            </linkGrp>
+        </item>
+        <!-- thi_3 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_4">
+            <name>aus Thon vergoldter Lamaischer Burchan</name>
+        </item>
+        <item xml:id="thi_5">
+            <name>Lithoxyton</name>
+        </item> 
+        <item xml:id="thi_6">
+            <name>Japonischen und anderen Münzen in 6 Numern</name>
+        </item>
+        <item xml:id="thi_7">
+            <name>Malachit</name>
+        </item>
+        <item xml:id="thi_8">
+            <name>Tungusischen Lyschi/Schnee Schuhen</name>
+            <ref type="HDL">21.11107/96462a30-f871-4203-b9d3-51bb86a1dbf6</ref>
+            <p>bezieht sich möglicherweise auf das angegebene Paar</p>
+        </item>
+        <item xml:id="thi_9">
+            <name>Landkarten in 38.</name>
+        </item> 
+        <item xml:id="thi_10">
+            <name>Kupferstiche in 37. Numern</name>
+        </item>
+        <item xml:id="thi_11">
+            <name>Göttingische Anzeigen von gelehrten Sachen, 1798/1</name>
+            <p>S. 928 über die Versuche von Reineggs mit Borax…</p>
+            <ref type="PPN"/>
+        </item>       
+        <item xml:id="thi_12">
+            <name>5. Packchens</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_13">
+            <name>Kupferstiche</name>
+        </item>
+        <item xml:id="thi_676">
+            <name>Landcarten</name>
+        </item>
+        <item xml:id="thi_14">
+            <name>Büchern</name>
+        </item>
+        <!-- thi_15 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_16">
+            <name>vollständigen Tungusisch-Schamanischen<lb/> Kleidung</name>
+            <ref type="HDL">21.11107/2b88bf2b-486f-4d52-9431-5072e5934f69</ref>
+        </item>
+        <item xml:id="thi_17">
+            <name>Lateinisch-rußische Cellarius</name>
+        </item>
+        <item xml:id="thi_18">
+            <name>rußl. Uebersetzung Kochii Tentam. Enuel. Numor.
+                Hieroglyphicon</name>
+        </item>
+        <item xml:id="thi_19">
+            <name>geheftete Exemplar: Linguarum Vocabularia comparatima</name>
+            <ref type="PPN">ppn:135956013</ref>
+        </item>
+        <item xml:id="thi_20">
+            <name>Güldenstaedts Reise; 1. Theil</name>
+            <ref type="PPN">ppn:144616548</ref>
+        </item>
+        <item xml:id="thi_21">
+            <name>Instruction für die Gesetz Commission in 4 Sprachen auf Royal Papier</name>
+        </item>
+        <item xml:id="thi_22">
+            <name>Nikitisch Boltins Critique über Le Clercs rußische Geschichte</name>
+        </item>
+        <item xml:id="thi_23">
+            <name>Büchern</name>
+        </item>
+        <!-- thi_24 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_25">
+            <name>vollständigen Tungusich-Schamanische Kleidung</name>
+        </item>
+        <item xml:id="thi_26">
+            <name>Bouteille mit Bitumen Maltha</name>
+        </item>
+        <item xml:id="thi_27">
+            <name>Sinesische Figur aus Speckstein</name>
+        </item>
+        <!-- thi_28 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_29">
+            <name>rußischer Landcarten</name>
+        </item>
+        <item xml:id="thi_30">
+            <name>Perlen Muschel mit cufischer Inschrift</name>
+        </item>
+        <item xml:id="thi_31">
+            <name>Platons Reden Tom. XII</name>
+        </item>
+        <item xml:id="thi_32">
+            <name>türkische Schädel</name>
+        </item>
+        <item xml:id="thi_33">
+            <name>Lesghische Schädel</name>
+        </item>
+        <item xml:id="thi_34">
+            <name>Tataren Schädel</name>
+        </item>
+        <item xml:id="thi_35">
+            <name>Sinesischen Figur</name>
+        </item>
+        <item xml:id="thi_36">
+            <name>Granitstein mit Quarz</name>
+        </item>
+        <item xml:id="thi_37">
+            <name>Perlen Muschel mit hübscher cufischer Innschrift</name>
+        </item>
+        <item xml:id="thi_38">
+            <name>Platons Werke zwölfter Theil</name>
+        </item>
+        <item xml:id="thi_39">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_40">
+            <name>Büchern</name>
+        </item>
+        <!-- thi_41 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_42">
+            <name>Schamanischen Kleidung</name>
+        </item>
+        <item xml:id="thi_43">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_44">
+            <name>Medaillen</name>
+        </item>
+        <item xml:id="thi_45">
+            <name>kleine Schriften</name>
+        </item>
+        <item xml:id="thi_46">
+            <name>Mineralien</name>
+        </item>
+        <item xml:id="thi_47">
+            <name>Weißer Mondstein</name>
+        </item>
+        <item xml:id="thi_48">
+            <name>Muschel mit schoenrer cufischen Inscription</name>
+        </item>
+        <item xml:id="thi_49">
+            <name>Platon Reden</name>
+        </item>
+        <item xml:id="thi_50">
+            <name>dritte Muschel mit cufischer Inschrift</name>
+        </item>
+        <item xml:id="thi_51">
+            <name>Mütze zur Schamanischen Kleidung</name>
+        </item>
+        <item xml:id="thi_52">
+            <name>Schamanische Zaubertrommel</name>
+        </item>
+        <item xml:id="thi_53">
+            <name>Kirgisische Mütze</name>
+        </item>
+        <item xml:id="thi_54">
+            <name>Kopfputz von einer Wotaekin</name>
+        </item>
+        <item xml:id="thi_55">
+            <name>3. Mungalischen Büchern</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_56">
+            <name>Landcarten</name>
+        </item>
+        <item xml:id="thi_57">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_58">
+            <name>3. goldenen Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_59">
+            <name>2. kleiner Schriften</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_60">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_61">
+            <name>Tentamen Enucleationes Sphingium</name>
+        </item>
+        <item xml:id="thi_62">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_63">
+            <name>ersten Theil von Linné Systema Naturae</name>
+            <ref type="PPN">ppn:141107979</ref>
+        </item>
+        <!-- thi_64 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_65">
+            <name>Büchern</name>
+        </item>
+        <!-- thi_66 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_67">
+            <name>Hölterhofs russisches alphabetisches Wörterbuch</name>
+        </item>
+        <item xml:id="thi_68">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_69">
+            <name>Pack Landcarten</name>
+        </item>
+        <item xml:id="thi_70">
+            <name>Schamanischer Zaubertrummel</name>
+        </item>
+        <item xml:id="thi_71">
+            <name>3 petrificirten Fragmenten eines Thierkopfs</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_72">
+            <name>Perlen-Muschel mit cufischer Innschrift</name>
+        </item>
+        <item xml:id="thi_73">
+            <name>2te Muschel</name>
+        </item>
+        <item xml:id="thi_74">
+            <name>dritte Perlen Muschel mit cufischer Schrift</name>
+        </item>
+        <item xml:id="thi_75">
+            <name>Schamanisch Trummel</name>
+        </item>
+        <!-- thi_76 bis thi_89 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_90"><!-- nicht in den Briefen auffindbar -->
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_91">
+            <name>andern Beylagen samt deren Verzeichniß</name>
+        </item>
+        <item xml:id="thi_92"><!-- nicht in den Briefen auffindbar -->
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_93"><!-- nicht in den Briefen auffindbar -->
+            <name>drey silberne Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_94"><!-- nicht in den Briefen auffindbar -->
+            <name>Abhandlung zur Geschichte und Volkerkunde</name>
+        </item>
+        <!-- thi_95 bis thi_129 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_130"><!-- nicht in den Briefen auffindbar -->
+            <name>Flora Rossica</name>
+            <ref type="PPN">145639681</ref>
+        </item>
+        <item xml:id="thi_131">
+            <name>Münzen in 6. Numern</name>
+        </item>
+        <item xml:id="thi_132">
+            <name>versteinerten 4. £b schweren Zahn</name>
+        </item>
+        <!-- thi_133 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_134">
+            <name>Perlenmuschel mit cufischer Innschrift nebst dazugehöriger Coquille als Obertheil</name>
+        </item>
+        <item xml:id="thi_135">
+            <name>4 £b schweren petrificirten Zahn</name>
+        </item>
+        <item xml:id="thi_136">
+            <name>Lesghier Schädel</name>
+        </item>
+        <!-- thi_137 bis thi_148 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_149">
+            <name>Viaggi di Moscovia de gli anni 1633-1636 libri tre cavati dal Tedesco</name><lb/>
+            <ref type="PPN">155926365</ref>
+            <p>ein paar Bücher, welche direkt benannt werden</p>
+        </item>
+        <item xml:id="thi_150">
+            <name>Mesocoslov Istoriceskij i Geograficeskij na 1778.</name><lb/>
+            <p>ein paar Bücher, welche direkt benannt werden</p>
+        </item>
+        <item xml:id="thi_151">
+            <name>Sibirische Erzt</name><lb/>
+            <p>dazugehöriges Kästchen</p>
+        </item>
+        <item xml:id="thi_152">
+            <name>Rußische Medaillen in bronze</name>
+        </item>
+        <!-- thi_153 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_154">
+            <name>Medaillen in bronze</name>
+        </item>
+        <item xml:id="thi_155">
+            <name>6. rareren silbernen Copicken</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_156">
+            <name>6. Rußische Medaillen</name>
+            <p>unter welchen No. 48 Czar Wasili Iwanowitz mit beigelegt worden ist</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_157">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_158">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_159">
+            <name>6. Medaillen</name>
+            <p>darunter die zur Suite Rußischer Regenten gehörige 40te No. Czar Iwan<lb/>
+                Wasiliewitz mit befindlich</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_160">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_161">
+            <name>Rußische Medaillen in Bronze</name>
+        </item>
+        <item xml:id="thi_162">
+            <name>Pharmacopoea Rossica</name>
+            <ref type="PPN">253416841</ref>
+        </item>
+        <item xml:id="thi_163">
+            <name>Medaille No. 48</name>
+            <p>beschädigt</p>
+        </item>
+        <item xml:id="thi_164">
+            <name>Türkischen Schelóng</name>
+        </item>
+        <item xml:id="thi_165">
+            <name>Kupfern verguldten Vorstellung des Kutuchtu der Mongolen</name>
+            <p>eines der Unterpäbste der Lamaischen Religion</p>
+        </item>
+        <item xml:id="thi_166">
+            <name>Rußische Mineralien</name>
+        </item>
+        <item xml:id="thi_167">
+            <name>Mongolische Handschrift</name>
+        </item>
+        <!-- thi_168 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_169">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_170">
+            <name>Kupferne verguldte Vorstellung des Dschakatschimmuni</name>
+            <p>Götze mit dem Zepter in der Hand, welchen die Priester bey dem Gottesdienste in den Händen zu haben pflegen</p>
+        </item>
+        <item xml:id="thi_171">
+            <name>Medaille in Bronze</name>
+        </item>
+        <item xml:id="thi_172">
+            <name>Buch</name>
+            <p>les plans et les Statuts des differents Etablissements de Catherine II. pour l’Education de la Jeunesse Tom 1 &amp; 2</p>
+            <ref type="PPN">155895834</ref>
+            <ref type="PPN">155895842</ref>
+        </item>
+        <item xml:id="thi_173">
+            <name>16. Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_174">
+            <name>8. goldenen</name>
+            <p>Münzen</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_175">
+            <name>2. silbernen Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_176">
+            <name>10. kupfernen Medaillen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_177">
+            <name>Münzen</name>
+        </item>
+        <!-- thi_178 wurde gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="thi_179">
+            <name>8tn Band der Commentarien</name>
+        </item>
+        <item xml:id="thi_180">
+            <name>pharmacopoea Rossica</name>
+            <ref type="PPN">253416841</ref>
+        </item>
+        <item xml:id="thi_181">
+            <name>3 silbernen Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_182">
+            <name>5. ersten Bände der Nov. Commentar. Soc. Gotting.</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+          </item>
+            <item xml:id="thi_183">
+                <name>Relazione de Moscovia di Rafaello Barberino in 4to in Viterbo 1658</name><!-- nicht im OPAC Göttingen zu finden, die ISBN-10: 883891107X verweist jedoch auf das gemeinte Werk von Raffaello Barberini  -->
+            </item>
+            <item xml:id="thi_184">
+                <name>Medaillen</name>
+                <p>dazugehöriges Verzeichnis</p>
+            </item>
+            <item xml:id="thi_185">
+                <name>Commentarien</name>
+            </item>
+            <item xml:id="thi_186">
+                <name>8te Band</name>
+            </item>
+            <item xml:id="thi_187">
+                <name>commentationes quibus recensentur numi familiarum Romanarum</name>
+                <p>die Lobschrift auf Winckelmann</p>
+            </item>
+            <item xml:id="thi_188">
+                <name>Halleri Enumerationem numismatum Ithii</name>
+            </item>
+            <item xml:id="thi_189">
+                <name>de Vagina Uteri structura rugosa p Gottingae 1742.</name>
+                <ref type="PPN">144729024</ref>
+            </item>
+            <item xml:id="thi_190">
+                <name>einige Münzen</name>
+                <p>nebst einem Verzeichniße</p>
+            </item>
+            <item xml:id="thi_191">
+                <name>Schriften</name>
+                <p>nebst einem Verzeichniße</p>
+            </item>
+            <item xml:id="thi_192">
+                <name>Buxbaums Centuria Vta</name>
+                <ref type="PPN">155827472</ref>
+            </item>
+            <item xml:id="thi_193">
+                <name>pharmacopoea Rossica</name>
+                <ref type="PPN">253416841</ref>
+            </item>
+            <item xml:id="thi_194">
+                <name>Münzen</name>
+                <p>nebst deren Verzeichniß</p>
+            </item>
+            <item xml:id="thi_195">
+                <name>Münzen</name>
+            </item>
+            <item xml:id="thi_196">
+                <name>8tn Bande der Commentarien</name>
+            </item>
+            <item xml:id="thi_197">
+                <name>Commentationes Numismatum Familiar. Romanar.</name>
+                <p>Angenehme Beilage, die am 22. Sept. erhalten worden ist</p>
+            </item>
+            <item xml:id="thi_198">
+                <name>fünf ersten Bände</name>
+                <p>Nov. Commentar. Soc. Götting</p>
+            </item>
+            <item xml:id="thi_199">
+                <name>4. Tomos Comment. Götting.</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_200">
+                <name>pharmacopoea Rossica</name>
+                <ref type="PPN">253416841</ref>
+            </item>
+            <item xml:id="thi_201">
+                <name>Slava Rossii</name>
+            </item>
+            <item xml:id="thi_202">
+                <name>Medaillen</name>
+                <p>1770 zu Moscau in Kupfer Stichen (???) herausgekommen</p>
+            </item>
+            <item xml:id="thi_203">
+                <name>Münze</name>
+                <p>höchstrare Münze und  von Ioan III.</p>
+            </item>
+            <item xml:id="thi_204">
+                <name>Kupferne verguldte Vorstellung des Dschak-dschim-muni</name>
+                <p>mit Verzeichnis erwähnt</p>
+            </item>
+            <item xml:id="thi_205">
+                <name>16. Münzen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_206">
+                <name>Sibirischen Mineralien</name>
+                <p>mit Verzeichnis erwähnt</p>
+            </item>
+            <item xml:id="thi_207">
+                <name>Bücher</name>
+                <p>mit Verzeichnis erwähnt</p>
+            </item>
+            <item xml:id="thi_208">
+                <name>Rußische Kupferstiche</name>
+                <p>mit Verzeichnis erwähnt</p>
+            </item>
+            <item xml:id="thi_209">
+                <name>Kupfer-stichen</name>
+                <p>mit Verzeichnis erwähnt</p>
+            </item>
+            <item xml:id="thi_210">
+                <name>Slavonische Lexicon trilingue</name>
+                <ref type="PPN">136745261</ref>
+            </item>
+            <item xml:id="thi_211">
+                <name>pharmacopoea Rossica</name>
+                <ref type="PPN">253416841</ref>
+            </item>
+            <item xml:id="thi_212">
+                <name>pharmacopoea Castrensis</name>
+                <ref type="PPN">155872192</ref>
+            </item>
+            <item xml:id="thi_213">
+                <name>Sibirischen Mineralien</name>
+                <p>nebst Verzeichnis</p>
+            </item>
+            <item xml:id="thi_214">
+                <name>Eisen Fragmente</name>
+                <p>gemeint ist ein Meteorit</p>
+            </item>
+            <item xml:id="thi_215">
+                <name>Mineralien</name>
+            </item>
+            <item xml:id="thi_216">
+                <name>Rußischen Büchern</name>
+            </item>
+            <item xml:id="thi_217">
+                <name>Kupferstichen</name>
+            </item>
+            <item xml:id="thi_218">
+                <name>fünf ersten Bänden der Neuen Commentarien</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_219">
+                <name>Tibull</name>
+                <p>Arbeiten des Schriftstellers Tibullus</p>
+            </item>
+            <item xml:id="thi_220">
+                <name>Tibull</name>
+                <p>Arbeiten des Schriftstellers Tibullus (GND: 11862251X)</p>
+            </item>
+            <item xml:id="thi_221">
+                <name>Commentationes Numorum</name>
+            </item>
+            <item xml:id="thi_222">
+                <name>Idol</name>
+                <p>Dschakdschimmuni</p>
+            </item>
+            <item xml:id="thi_223">
+                <name>Pharmacopoeam Castrensem</name>
+                <ref type="PPN">155872192 </ref>
+            </item>
+            <item xml:id="thi_224">
+                <name>pharmacop. Rossicam</name>
+                <ref type="PPN">155872192 </ref>
+            </item>
+            <item xml:id="thi_225">
+                <name>5. Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_226">
+                <name>Rußischer Marmor-Arten</name>
+            </item>
+            <item xml:id="thi_227">
+                <name>Steine</name>
+                <p>gemeint sind die russischen Marmor-Arten</p>
+            </item>
+            <item xml:id="thi_228">
+                <name>Medaille</name>
+                <p>in Silber sowie Bronze geprägte Medaille auf Aschs Herzensfreund Weismann, deren Wappen eine Kanone unter 3 Sternen im oberen Bereich offeriert</p>
+            </item>
+            <item xml:id="thi_229">
+                <name>Bücher</name>
+            </item>
+            <item xml:id="thi_230">
+                <name>Mineralien</name>
+            </item>
+            <item xml:id="thi_231">
+                <name>5. Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_232">
+                <name>Commentat I.</name>
+            </item>
+            <item xml:id="thi_233">
+                <name>Medaille</name>
+                <p>in Silber sowie Bronze geprägte Medaille auf Aschs Herzensfreund Weismann, deren Wappen eine Kanone unter 3 Sternen im oberen Bereich offeriert</p>
+            </item>
+            <item xml:id="thi_234">
+                <name>Medaille de Russie</name>
+            </item>
+            <item xml:id="thi_235">
+                <name>Krönungs Medaille der Kayserin Anna</name>
+                <p>Inschrift: Bogom’ Rodom’ i simi (kyrillisch im Original)</p>
+            </item>
+            <item xml:id="thi_236">
+                <name>5. Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_237">
+                <name>Rußischer Marmor</name>
+            </item>
+            <item xml:id="thi_238">
+                <name>Medaillon en biscuit</name>
+            </item>
+            <item xml:id="thi_239">
+                <name>3. Kupferstiche</name>
+                <p>vom Moskowischen Erziehungs Hause</p>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_240">
+                <name>5 Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_241">
+                <name>Rußischen Marmorn</name>
+            </item>
+            <item xml:id="thi_242">
+                <name>2 Medaillen</name>
+                <p>auf Weismann</p>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_243">
+                <name>Silberne</name>
+                <p>gemeint ist eine Medaille</p>
+            </item>
+            <item xml:id="thi_244">
+                <name>bronzene</name>
+                <p>gemeint ist eine Medaille</p>
+            </item>
+            <item xml:id="thi_245">
+                <name>Commentat. Soc. R. Vol. 1</name>
+            </item>
+            <item xml:id="thi_246">
+                <name>4 Bänden der alten Commentarien</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_247">
+                <name>Formulae Medicamentorum Neap. 1773.</name>
+            </item>
+            <item xml:id="thi_248">
+                <name>Medaillen</name>
+            </item>
+            <item xml:id="thi_249">
+                <name>Russischen Marmorarten</name>
+            </item>
+            <item xml:id="thi_250">
+                <name>Medaillen</name>
+                <p>rare Medaillen</p>
+            </item>
+            <item xml:id="thi_251">
+                <name>Münzen</name>
+                <p>in 10. Nummern mit deren Verzeichnis</p>
+            </item>
+            <item xml:id="thi_252">
+                <name>Medaillen</name>
+                <p>rare Medaillen</p>
+            </item>
+            <item xml:id="thi_253">
+                <name>Münzen</name>
+                <p>in 10. Nummern mit deren Verzeichnis</p>
+            </item>
+            <item xml:id="thi_254">
+                <name>8. Russischen Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_255">
+                <name>8. Medaillen</name>
+                <p>nebst deren Verzeichniß</p>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_256">
+                <name>acht Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_257">
+                <name>zwey Medaillen</name>
+                <p>eine silberne sowie bronzene Medaillie</p>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_258">
+                <name>grossen Steines</name>
+            </item>
+            <item xml:id="thi_259">
+                <name>Medaille</name>
+                <p>in Bronze</p>
+            </item>
+            <item xml:id="thi_260">
+                <name>Legende Za Ekspressijs’ natur’i – c. P. (kyrillisch) d. 1779</name>
+            </item>
+            <item xml:id="thi_261">
+                <name>Pharmacie cultivirt</name>
+            </item>
+            <item xml:id="thi_262">
+                <name>Kalmukkischen Handschriften</name>
+            </item>
+            <item xml:id="thi_263">
+                <name>7. Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_264">
+                <name>Russischen</name>
+                <p>gemeint sind Handschriften in 6 Nummern</p>
+            </item>
+            <item xml:id="thi_265">
+                <name>Kal-mukkischen</name>
+                <p>gemeint sind Handschriften in 6 Nummern</p>
+            </item>
+            <item xml:id="thi_266">
+                <name>Mungalischen Handschriften</name>
+                <p>In 6 Nummern</p>
+            </item>
+            <item xml:id="thi_267">
+                <name>Medaillen</name>
+            </item>
+            <item xml:id="thi_268">
+                <name>Medaille</name>
+            </item>
+            <item xml:id="thi_269">
+                <name>ausgestopfte Thiere</name>
+            </item>
+            <item xml:id="thi_270">
+                <name>Bücher</name>
+            </item>
+            <item xml:id="thi_271">
+                <name>2. Medaillen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_272">
+                <name>Portrait</name>
+                <p>vom Maler Golowatschefsky angefertigt</p>
+            </item>
+            <item xml:id="thi_273">
+                <name>154. Nummern Kupferstiche</name>
+            </item>
+            <item xml:id="thi_274">
+                <name>38. Nummern Landcharten</name>
+            </item>
+            <item xml:id="thi_275">
+                <name>Rußischen Büchern in 11. Nummern</name>
+            </item>
+            <item xml:id="thi_276">
+                <name>137. Nummern an Mineralien</name>
+            </item>
+            <item xml:id="thi_277">
+                <name>3 kupferne Münzen</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_278">
+                <name>Chalcedonen</name>
+            </item>
+            <item xml:id="thi_279">
+                <name>Cacholongen</name>
+            </item>
+            <item xml:id="thi_280">
+                <name>Steine</name>
+                <p>gemeint sind Chalcedonen sowie Cacholongen</p>
+            </item>
+            <item xml:id="thi_281">
+                <name>Charten</name>
+            </item>
+            <item xml:id="thi_282">
+                <name>Plane</name>
+            </item>
+            <item xml:id="thi_283">
+                <name>Marmor Täfelchen</name>
+                <p>alle aus dem Catharinburgischen</p>
+            </item>
+            <item xml:id="thi_284">
+                <name>Epidaurischen Schlange</name>
+            </item>
+            <item xml:id="thi_285">
+                <name>Silberne</name>
+                <p>gemeint ist eine silberne epidaurische Schlange</p>
+            </item>
+            <item xml:id="thi_286">
+                <name>Portrait</name>
+            </item>
+            <item xml:id="thi_287">
+                <name>Bild</name>
+                <p>gemeint ist das Porträt</p>
+            </item>
+            <item xml:id="thi_288">
+                <name>Gemälde</name>
+                <p>gemeint ist das Porträt</p>
+            </item>
+            <item xml:id="thi_289">
+                <name>Romanzoffsche Medaille</name>
+            </item>
+            <item xml:id="thi_290">
+                <name>Medaille</name>
+            </item>
+            <item xml:id="thi_291">
+                <name>Mongolische</name>
+                <p>gemeint sind Handschriften</p>
+            </item>
+            <item xml:id="thi_292">
+                <name>Sinesische Handschriften</name>
+            </item>
+            <item xml:id="thi_293">
+                <name>Kupferstiche</name>
+            </item>
+            <item xml:id="thi_294">
+                <name>Bücher</name>
+            </item>
+            <item xml:id="thi_295">
+                <name>Kupferstiche</name>
+            </item>
+            <item xml:id="thi_296">
+                <name>Münzen</name>
+            </item>
+            <item xml:id="thi_297">
+                <name>Münzen No. 1 bis 57</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_298">
+                <name>Russischen Münzen</name>
+            </item>
+            <item xml:id="thi_299">
+                <name>Medaillen</name>
+            </item>
+            <item xml:id="thi_300">
+                <name>Medaille</name>
+                <p>geprägt mit einer Büste der Kaiserin Elisabeth sowie der Legende Firmamenta Imperii Russici</p>
+            </item>
+            <item xml:id="thi_301">
+                <name>Marmor Täfelchen</name>
+                <p>sub No. 138</p>
+            </item>
+            <item xml:id="thi_302">
+                <name>Malachitartig Berg-grün</name>
+                <p>sub No. 46</p>
+            </item>
+            <item xml:id="thi_303">
+                <name>Commentat Vol. iii.</name>
+            </item>
+            <item xml:id="thi_304">
+                <name>Estampes</name>
+            </item>
+            <item xml:id="thi_305">
+                <name>kleineren Plans von St. Petersb.</name>
+            </item>
+            <item xml:id="thi_306">
+                <name>General Charte des Rußischen Reichs</name>
+            </item>
+            <item xml:id="thi_307">
+                <name>Rußischer Münzen</name>
+            </item>
+            <item xml:id="thi_308">
+                <name>Medaillen</name>
+            </item>
+            <item xml:id="thi_309">
+                <name>Musei Imperialis Petropolitani</name>
+                <p>Vol. II. parte Tertia, qua continentur Nummi Recentionres</p>
+                <ref type="PPN">137559828</ref>
+            </item>
+            <item xml:id="thi_310">
+                <name>Büchern</name>
+            </item>
+            <item xml:id="thi_311">
+                <name>Landcharten</name>
+            </item>
+            <item xml:id="thi_312">
+                <name>seltene Burchan</name>
+            </item>
+            <item xml:id="thi_313">
+                <name>5. rußische silberne Jettons</name>
+                <linkGrp>
+                    <item/>
+                    <ref/>
+                </linkGrp>
+            </item>
+            <item xml:id="thi_314">
+                <name>Museum Petropolitanum</name>
+                <p>in 7. Bänden</p>
+                <ref type="PPN">137559747</ref>
+            </item>
+            <item xml:id="thi_315">
+                <name>Münzen</name>
+            </item>
+            <item xml:id="thi_316">
+                <name>Kupferstiche</name>
+            </item>
+            <item xml:id="thi_317">
+                <name>Antike</name>
+                <p>erinnert an eine ägyptische Plastik, offeriert einen spitzen Bart, einen Adler auf der Brust sowie eine Aufschrift darunter liegend</p>
+            </item>
+            <item xml:id="thi_318">
+                <name>Büchern</name>
+            </item>
+            <item xml:id="thi_319">
+                <name>Büchern</name>
+            </item>
+            <item xml:id="thi_320">
+                <name>Denkmünze</name>
+            </item>
+            <item xml:id="thi_321">
+                <name>Rußischen Münzen</name>
+            </item>
+            <item xml:id="thi_322">
+                <name>Römischen</name>
+                <p>gemeint sind Münzen</p>
+            </item>
+            <item xml:id="thi_323">
+                <name>Göttingischen Commentationes</name>
+            </item>
+            <item xml:id="thi_324">
+                <name>3 Amphibien</name>
+                <p>aus Astrachan stammend</p>
+            </item>
+        <item xml:id="thi_325">
+            <name>Schinesische Statera</name>
+        </item>
+        <item xml:id="thi_326">
+            <name>gelbe türkische Papusch</name>
+            <p>mit Saffianen Ueberstrümpfen</p>
+        </item>
+        <item xml:id="thi_327">
+            <name>3 kupferne rußische Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_328">
+            <name>5. Theil der Commentat.</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_329">
+            <name>Naturalien</name>
+            <p>vier beigelegte Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_330">
+            <name>Bücher</name>
+            <p>vier beigelegte Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_331">
+            <name>Landcarten</name>
+            <p>vier beigelgte Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_332">
+            <name>Medaille</name>
+        </item>
+        <item xml:id="thi_333">
+            <name>Büchern</name>
+            <p>samt 4. Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_334">
+            <name>Naturalien</name>
+            <p>samt 4. Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_335">
+            <name>Münzen</name>
+            <p>samt 4. Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_336">
+            <name>Landcarten</name>
+            <p>samt 4. Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_337">
+            <name>Rußische Goldmünze</name>
+            <p>selten</p>
+        </item>
+        <item xml:id="thi_338">
+            <name>metallennen Burchan Abida</name>
+        </item>
+        <item xml:id="thi_339">
+            <name>Landcharten</name>
+        </item>
+        <item xml:id="thi_340">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_341">
+            <name>Insekten</name>
+        </item>
+        <item xml:id="thi_342">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_343">
+            <name>Naturalien</name>
+            <p>nebst zwei Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_344">
+            <name>Pallas Gmelins</name>
+        </item>
+        <item xml:id="thi_345">
+            <name>Georgi Reisen</name>
+        </item>
+        <item xml:id="thi_346">
+            <name>achromatischen Microscops</name>
+            <p>zu jenem Zeitpunkt noch nicht vervollständigt</p>
+        </item>
+        <item xml:id="thi_347">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_348">
+            <name>Abdruck</name>
+            <p>der neuesten Medaille über die Einnahme der Krim</p>
+        </item>
+        <item xml:id="thi_349">
+            <name>Medaille</name>
+            <p>Für Peter den Großen. Zeigt folgende Legende: Welitschestwo twoé wésdé jásno:
+                i.e. Maiestas tua ubique lucet. Ebenfalls zu sehen ist eine angedeutete Landschaftsdarstellung</p>
+        </item>
+        <item xml:id="thi_350">
+            <name>Medaille</name>
+            <p>Mit der Legende: Legende: dobrodetel’ tvorit’ Blagodušia (kyrillisch im Original): Virtus parit
+                benignitatem</p>
+        </item>
+        <item xml:id="thi_351">
+            <name>Microscops</name>
+            <p>gemeint ist das achromatische Mikroskop</p>
+        </item>
+        <item xml:id="thi_352">
+            <name>Laetantius</name>
+            <p>ein Werk des römischen Gelehrten Lucius Caecilius Firmianus, kurz Lactantius</p>
+        </item>
+        <item xml:id="thi_353">
+            <name>C. Hoffmannus de vsu Lienis</name>
+            <ref type="PPN">146098196</ref>
+        </item>
+        <item xml:id="thi_354">
+            <name>Stritteri Memoriae Populorum</name>
+            <ref type="PPN">155890824</ref>
+        </item>
+        <item xml:id="thi_355">
+            <name>Büchern</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_356">
+            <name>drey silberne Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_357">
+            <name>achromatischen Microscops</name>
+        </item>
+        <item xml:id="thi_358">
+            <name>Lexicon universale rei Monetariae</name>
+            <ref type="PPN">473244152</ref>
+        </item>
+        <item xml:id="thi_359">
+            <name>Titi Livii Patavini Romanae Historiae Principis Libri Omnes p, Francofurti ad Moenum. MDLXVIII.</name>
+            <ref type="PPN">14215797x</ref>
+        </item>
+        <item xml:id="thi_360">
+            <name>Georgii Agricolae Kempnicensis – de Re Metallica Libri XM. Basileae Helvet. Ano MDCXXI.</name>
+            <ref type="PPN">554116014</ref>
+        </item>
+        <item xml:id="thi_361">
+            <name>Cl. Galeni Methodi Medendi vel de morbis curandis Libri XIIII. Lugdeni apus Gulielmum Rovillium MDCLVII.</name>
+            <ref type="PPN">145285979</ref>
+        </item>
+        <item xml:id="thi_362">
+            <name>3 Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_363">
+            <name>Abhandlung von der Völkergeschichte Ungarns</name>
+        </item>
+        <item xml:id="thi_364">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_365">
+            <name>Microscop</name>
+        </item>
+        <item xml:id="thi_366">
+            <name>Mscpts. über die alte Völkergeschichte Ungarns</name>
+        </item>
+        <item xml:id="thi_367">
+            <name>Medaillen</name>
+        </item>
+        <item xml:id="thi_368">
+            <name>Medaillen</name>
+        </item>
+        <item xml:id="thi_369">
+            <name>drey Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_370">
+            <name>Agricola de re Metallica Basel 1620</name>
+            <ref type="PPN">033253986</ref>
+            <p>angeführt ist die Ausgabe von 1557</p>
+        </item>
+        <item xml:id="thi_371">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_372">
+            <name>Medaillen</name>
+            <p>unter sechs Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_373">
+            <name>Münzen</name>
+            <p>unter sechs Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_374">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_375">
+            <name>seltenen Idol</name>
+            <p>von Kupfer mit verguldtem Gesicht</p>
+        </item>
+        <item xml:id="thi_376">
+            <name>Götzen</name>
+        </item>
+        <item xml:id="thi_377">
+            <name>4tn Theil von Gmelins Reisen</name>
+        </item>
+        <item xml:id="thi_378">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_379">
+            <name>Opuscula Academica</name>
+            <p>möglicherweise jener PPN entsprechend</p>
+            <ref type="PPN">150858892</ref>
+        </item>
+        <item xml:id="thi_380">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_381">
+            <name>Idolen</name>
+            <p>in zweifacher Form vorhanden, beide kupfern sowie vergoldet. Zeigen jeweils Zaghan Dara-eke eine Göttinn<lb/>
+                Mutter des Schigemuni, und Tzonchaba ein vergötterter Pabst <lb/>
+                Vorgänger des Dalai Lama in Tibet</p>
+        </item>
+        <item xml:id="thi_382">
+            <name>Schedel</name>
+            <p>Schädel von asiatischen Völkern</p>
+        </item>
+        <item xml:id="thi_383">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_384">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_385">
+            <name>Bücher</name>
+            <p>in armenischer Sprache</p>
+        </item>
+        <item xml:id="thi_386">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_387">
+            <name>Agricola de Re Metallica in fol. 1621</name>
+            <ref type="PPN">033253986</ref>
+            <p>angeführt ist die Ausgabe von 1557</p>
+        </item>
+        <item xml:id="thi_388">
+            <name>Sibirische seltene Stufen</name>
+            <p>nicht eindeutig, was mit Stufen gemeint ist</p>
+        </item>
+        <item xml:id="thi_389">
+            <name>Zaghán-Dara-Eke</name>
+            <p>vergoldetes Idol aus Kupfer</p>
+        </item>
+        <item xml:id="thi_390">
+            <name>Tzónchabà</name>
+            <p>vergoldetes Idol aus Kupfer</p>
+        </item>
+        <item xml:id="thi_391">
+            <name>Carte</name>
+            <p>große Karte von Russland</p>
+        </item>
+        <item xml:id="thi_392">
+            <name>Persich-arabischer Gold</name>
+            <p>gemeint sind Münzen, in 37 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_393">
+            <name>Silber Münzen</name>
+            <p>gemeint sind Persich-arabische Münzen, in 37 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_394">
+            <name>Kupferner</name>
+            <p>gemeint sind Persich-arabische Münzen, in 14 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_395">
+            <name>Bücher</name>
+            <p>in 14 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_396">
+            <name>Maidari Burchan</name>
+            <p>aus Kupfer, vergoldet, mit kleinen Türkissen besetzt und einem Fragment vom Hirschgeweih (???) von Türkis ähnlicher Farbe, aus dem Altaischen Gebirge stammend</p>
+        </item>
+        <item xml:id="thi_397">
+            <name>fünf antike tatarisch arabische Silber Münzen</name>
+            <p>mit cuffischer Schrift, jede aus verschiedenen Zeitaltern stammend, in Asot (Indien) gefunden</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_398">
+            <name>Maidari Burchan</name>
+            <p>Kupfer, vergoldet</p>
+        </item>
+        <item xml:id="thi_399">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_400">
+            <name>persischer</name>
+            <p>gemeint sind Münzen, Teil einer Sammlung</p>
+        </item>
+        <item xml:id="thi_401">
+            <name>arabischer</name>
+            <p>gemeint sind Münzen, Teil einer Sammlung</p>
+        </item>
+        <item xml:id="thi_402">
+            <name>armenischer Münzen</name>
+            <p>gemeint sind Münzen, Teil einer Sammlung</p>
+        </item>
+        <item xml:id="thi_403">
+            <name>Tomum XII Nov. Comment. Acad. Petrop.</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_404">
+            <name>Schriften</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_405">
+            <name>zweyen kupfernen Medaillen</name>
+            <p>nebst Verzeichnis</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_406">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_407">
+            <name>Nov. Comment. Acad. Sc. Petropolit. Tom XII</name>
+        </item>
+        <item xml:id="thi_408">
+            <name>Nowikows Verzeichniß Rußischer Schriftsteller</name>
+        </item>
+        <item xml:id="thi_409">
+            <name>Platons Reden Tom XI.</name>
+        </item>
+        <item xml:id="thi_410">
+            <name>Popowa Dosugi</name>
+        </item>
+        <item xml:id="thi_411">
+            <name>zwey kupferne Medaillen</name>
+            <p>eine nimmt Bezug auf die Siege im Jahre 1771 und weist eine Legende ("Alio vultu proftigavit Turcas") auf, die andere verweist auf Alexander Dmitriewitz<lb/>
+                Lanskoi, 1784</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_412">
+            <name>Persicher</name>
+            <p>gemeint sind Münzen aus Gold oder Silber, unter 37 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_413">
+            <name>armenischer</name>
+            <p>gemeint sind Münzen aus Gold oder Silber, unter 37 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_414">
+            <name>Gold-</name>
+            <p>gemeint sind Münzen aus Gold, unter 37 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_415">
+            <name>Silber Münzen</name>
+            <p>gemeint sind Münzen aus Silber, unter 37 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_416">
+            <name>Kupfermünzen</name>
+            <p>unter 14 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_417">
+            <name>Maidari Burchan</name>
+            <p>Kupfer, vergoldet</p>
+        </item>
+        <item xml:id="thi_418">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_419">
+            <name>Arabischer</name>
+            <p>gemeint sind Münzen, in 107 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_420">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_421">
+            <name>Stritteri Memoriae populorum</name>
+            <ref type="PPN">155890824</ref>
+        </item>
+        <item xml:id="thi_422">
+            <name>Gmelini Historia Fucorum</name>
+            <ref type="PPN">332436691</ref>
+        </item>
+        <item xml:id="thi_423">
+            <name>Virgilii Georgica</name>
+            <p>entspricht womöglich folgender PPN</p>
+            <ref type="PPN">142308021</ref>
+        </item>
+        <item xml:id="thi_424">
+            <name>Evgenii de Bulgaris</name>
+        </item>
+        <item xml:id="thi_425">
+            <name>Comment. Vol. III</name>
+        </item>
+        <item xml:id="thi_426">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_427">
+            <name>Flora Rossica</name>
+            <ref type="PPN">145639681</ref>
+        </item>
+        <item xml:id="thi_428">
+            <name>Münzen</name>
+            <p>nebst fünf Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_429">
+            <name>Büchern</name>
+            <p>nebst fünf Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_430">
+            <name>arabischen</name>
+            <p>gemeint sind Handschriften ,nebst fünf Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_431">
+            <name>tatarischen Handschriften</name>
+            <p>nebst fünf Verzeichnisse</p>
+        </item>
+        <item xml:id="thi_432">
+            <name>Karten</name>
+        </item>
+        <item xml:id="thi_433">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_434">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_435">
+            <name>Lesghischen Schädel</name>
+        </item>
+        <item xml:id="thi_436">
+            <name>zweyer weniger bekannten Medaillen</name>
+            <p>Eine wiegt in Silber 2 Loth, mit der Legende: Musarum iungit amores, die Kleinere 1 Loth schwer führt die Legende: Vt capiant fructus. Beide führen das Bild ihres Stifters</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_437">
+            <name>Denkmünzen</name>
+            <p>bei einer Auktion erworben</p>
+        </item>
+        <item xml:id="thi_438">
+            <name>Flora Rossica</name>
+            <ref type="PPN">145639681</ref>
+        </item>
+        <item xml:id="thi_439">
+            <name>8tn Tom. Commentat.</name>
+        </item>
+        <item xml:id="thi_440">
+            <name>Münzen in 6. Nummern</name>
+        </item>
+        <item xml:id="thi_441">
+            <name>Zahn</name>
+            <p>versteinerter Zahn aus Menselinsk, 4. lb schwer</p>
+        </item>
+        <item xml:id="thi_442">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_443">
+            <name>Münzen in Zwey Nummern</name>
+        </item>
+        <item xml:id="thi_444">
+            <name>Tentamen Enucleationis Hieroglyphicorum quorundam nummorum</name>
+            <ref type="PPN">155858033</ref>
+        </item>
+        <item xml:id="thi_445">
+            <name>1. Exemplar</name>
+            <p>gemeint ist ein Exemplar von Herrn Kochs Tentamen Enucleationis Hieroglyphicorum quorundam nummorum</p>
+            <ref type="PPN">155858033</ref>
+        </item>
+        <item xml:id="thi_446">
+            <name>rußischer Landcarten</name>
+        </item>
+        <item xml:id="thi_447">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_448">
+            <name>Lesghische Schädel</name>
+        </item>
+        <item xml:id="thi_449">
+            <name>Münzen</name>
+            <p>unter 2. Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_450">
+            <name>Tentamen Enucl. Num. Hieroglyphicor</name>
+            <ref type="PPN">155858033</ref>
+        </item>
+        <item xml:id="thi_451">
+            <name>Land=carten</name>
+        </item>
+        <item xml:id="thi_452">
+            <name>ausgestopfte Alca</name>
+        </item>
+        <item xml:id="thi_453">
+            <name>Sinesisch figur</name>
+        </item>
+        <item xml:id="thi_454">
+            <name>Chalcedonen</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_455">
+            <name>Sinesischen Figur</name>
+        </item>
+        <item xml:id="thi_456">
+            <name>Granitstein</name>
+            <p>mit Quarz</p>
+        </item>
+        <item xml:id="thi_457">
+            <name>Perlen Muschel</name>
+            <p>mit hübscher cufischer Innschrift</p>
+        </item>
+        <item xml:id="thi_458">
+            <name>Platons Werke</name>
+            <p>zwölfter Teil wurde beigelegt</p>
+        </item>
+        <item xml:id="thi_459">
+            <name>Landharten</name>
+        </item>
+        <item xml:id="thi_460">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_461">
+            <name>Schamanischen Kleidung</name>
+        </item>
+        <item xml:id="thi_462">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_463">
+            <name>zwey Medaillen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_464">
+            <name>Weißer Mondstein</name>
+            <p>gesandt wurden drei Stücke mit jener Bezeichnung</p>
+        </item>
+        <item xml:id="thi_465">
+            <name>2 Medaillen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_466">
+            <name>Sinesischen Figur</name>
+        </item>
+        <item xml:id="thi_467">
+            <name>Granit</name>
+            <p>mit Quarz</p>
+        </item>
+        <item xml:id="thi_468">
+            <name>Schriften in 10. Numern</name>
+        </item>
+        <item xml:id="thi_469">
+            <name>Medaille</name>
+            <p>mit der Legende: Georgius III ... 1785, auf dessen Revers: Ingenio et Studio, in Bronze sowie Silber gefertigt</p>
+        </item>
+        <item xml:id="thi_470">
+            <name>drey goldene Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_471">
+            <name>türkische Schädel</name>
+        </item>
+        <item xml:id="thi_472">
+            <name>taurische 20. Copekenstück</name>
+            <p>mit der Aufschrift: .E carica Chersonissa Tavriceskago (in kyrillisch) 1787</p>
+        </item>
+        <item xml:id="thi_473">
+            <name>antiken Figur</name>
+        </item>
+        <item xml:id="thi_474">
+            <name>Comte de Caylus Recueil d’Antiquités</name>
+            <ref type="PPN">137358687</ref>
+        </item>
+        <item xml:id="thi_475">
+            <name>Muschel</name>
+            <p>mit cufischen Aufschriften</p>
+        </item>
+        <item xml:id="thi_476">
+            <name>12te Tom von Erzbischofs Platon Reden</name>
+        </item>
+        <item xml:id="thi_477">
+            <name>Muschel</name>
+            <p>mit cufischen Aufschriften</p>
+        </item>
+        <item xml:id="thi_478">
+            <name>Mütze</name>
+            <p>zur schamanischen Kleidung gehörend</p>
+        </item>
+        <item xml:id="thi_479">
+            <name>Schamanische Zaubertrommel</name>
+        </item>
+        <item xml:id="thi_480">
+            <name>Kirgisische Mütze</name>
+        </item>
+        <item xml:id="thi_481">
+            <name>Kopfputz</name>
+            <p>von einer Wotaekin</p>
+        </item>
+        <item xml:id="thi_482">
+            <name>3. Mungalischen Büchern</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_483">
+            <name>Landcarten</name>
+        </item>
+        <item xml:id="thi_484">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_485">
+            <name>3. goldenen Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_486">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_487">
+            <name>Tentamen Enucleationes Sphingium</name>
+        </item>
+        <item xml:id="thi_488">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_489">
+            <name>Linné Systema Naturae</name>
+            <ref type="PPN">011301325</ref>
+        </item>
+        <item xml:id="thi_490">
+            <name>Schamanischen Mütze</name>
+        </item>
+        <item xml:id="thi_491">
+            <name>Zaubertrummel</name>
+        </item>
+        <item xml:id="thi_492">
+            <name>dreyer Mungalischen Schriften</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_493">
+            <name>Perlenmuschel</name>
+            <p>mit cufischer Inschrift</p>
+        </item>
+        <item xml:id="thi_494">
+            <name>Kochii Tentamen Enucleationis Sphingium</name>
+            <ref type="PPN">838432301</ref>
+        </item>
+        <item xml:id="thi_495">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_496">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_497">
+            <name>Perlenmuschel</name>
+            <p>mit cufischer Inschrift</p>
+        </item>
+        <item xml:id="thi_498">
+            <name>Platon Reden</name>
+            <p>zwölfte Teil</p>
+        </item>
+        <item xml:id="thi_499">
+            <name>3. petrificierten Fragmenten von einem ThierKopfe</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_500">
+            <name>Quarze</name>
+        </item>
+        <item xml:id="thi_501">
+            <name>türkische Schädel</name>
+        </item>
+        <item xml:id="thi_502">
+            <name>Büchern</name>
+            <p>nebst 2. Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_503">
+            <name>Hölterhofs russisches alphabetisches Wörterbuch</name>
+        </item>
+        <item xml:id="thi_504">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_505">
+            <name>Landcarten</name>
+        </item>
+        <item xml:id="thi_506">
+            <name>Schamanischer Zaubertrummel</name>
+        </item>
+        <item xml:id="thi_507">
+            <name>3 petrificirten Fragmenten eines Thierkopfs</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_508">
+            <name>Perlen-Muschel</name>
+            <p>mit cufischer Inschrift</p>
+        </item>
+        <item xml:id="thi_509">
+            <name>Muschel</name>
+        </item>
+        <item xml:id="thi_510">
+            <name>Perlen Muschel</name>
+            <p>mit cufischer Schrift</p>
+        </item>
+        <item xml:id="thi_511">
+            <name>Schamanisch Trummel</name>
+        </item>
+        <item xml:id="thi_512">
+            <name>gedruckte Schriften in 22 Numern</name>
+        </item>
+        <item xml:id="thi_513">
+            <name>9 Kupferne Medaillen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_514">
+            <name>Lamaischer Burchan</name>
+            <p>aus Ton gefertigt, vergoldet</p>
+        </item>
+        <item xml:id="thi_515">
+            <name>Lithoxylon</name>
+            <p>versteinertes Tannen- oder Fichtenholz, aus der Steppe bei Cherson</p>
+        </item>
+        <item xml:id="thi_516">
+            <name>Japonischen</name>
+            <p>gemeint sind Münzen, in sechs Nummern</p>
+        </item>
+        <item xml:id="thi_517">
+            <name>Münzen</name>
+            <p>in sechs Nummern</p>
+        </item>
+        <item xml:id="thi_518">
+            <name>Malachit</name>
+        </item>
+        <item xml:id="thi_519">
+            <name>Tungusischen Lyschi/Schnee Schuhen</name>
+            <ref type="HDL">21.11107/96462a30-f871-4203-b9d3-51bb86a1dbf6</ref>
+            <p>bezieht sich möglicherweise auf das angegebene Paar</p>
+        </item>
+        <item xml:id="thi_520">
+            <name>Landkarten</name>
+            <p>in 38 Nummern</p>
+        </item>
+        <item xml:id="thi_521">
+            <name>Kupferstiche</name>
+            <p>in 37 Nummern</p>
+        </item>
+        <item xml:id="thi_522">
+            <name>Acta Ac. Sc. Petrop. Tom VI</name>
+            <p>Eulers Algebra in 2. Bänden</p>
+            <ref type="PPN">134321049</ref>
+            <ref type="PPN">134321073</ref>
+        </item>
+        <item xml:id="thi_523">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_524">
+            <name>Zwey Schädeln</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_525">
+            <name>Daurischen Tungusen</name>
+        </item>
+        <item xml:id="thi_526">
+            <name>Russischen Büchern</name>
+        </item>
+        <item xml:id="thi_527">
+            <name>12 Numern an Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_528">
+            <name>12 Kupferstiche</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_529">
+            <name>8 Landkarten</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_530">
+            <name>12 Plane</name>
+            <p>von Sibirischen Städten</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_531">
+            <name>Eulers Algebra</name>
+            <p>Eulers Algebra in 2. Bänden</p>
+            <ref type="PPN">134321049</ref>
+            <ref type="PPN">134321073</ref>
+        </item>
+        <item xml:id="thi_532">
+            <name>3 Lamaische Icones</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_533">
+            <name>Lamaischer Gebetbücher</name>
+        </item>
+        <item xml:id="thi_534">
+            <name>Mongolischer Schriften</name>
+        </item>
+        <item xml:id="thi_535">
+            <name>Buraetische</name>
+            <p>Ongons</p>
+        </item>
+        <item xml:id="thi_536">
+            <name>Tungusische</name>
+            <p>Idole</p>
+        </item>
+        <item xml:id="thi_537">
+            <name>Ongons</name>
+            <p>Tungusische</p>
+        </item>
+        <item xml:id="thi_538">
+            <name>Idole</name>
+            <p>Buraetische</p>
+        </item>
+        <item xml:id="thi_539">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_540">
+            <name>20 Numern Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_541">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_542">
+            <name>Opuscula academica collecta</name>
+            <p>Vol, I. et II.</p>
+            <ref type="PPN">150858892</ref>
+            <ref type="PPN">150858906</ref>
+        </item>
+        <item xml:id="thi_543">
+            <name>Slawisch Rußischen Wörterbuchs</name>
+        </item>
+        <item xml:id="thi_544">
+            <name>Commentat. Vol. XII.</name>
+        </item>
+        <item xml:id="thi_545">
+            <name>Opuscul. Vol. III. et IV.</name>
+        </item>
+        <item xml:id="thi_546">
+            <name>zwey Schädel</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_547">
+            <name>Commentat Reg. Soc. Scient. Vol. XII.</name>
+        </item>
+        <item xml:id="thi_548">
+            <name>Büchern</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_549">
+            <name>Landkarten</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_550">
+            <name>Guthry Dissentations sur les Antiquités de Russie</name>
+            <ref type="PPN">155844105</ref>
+        </item>
+        <item xml:id="thi_551">
+            <name>Münzen</name>
+            <p>in 12 Nummern</p>
+        </item>
+        <item xml:id="thi_552">
+            <name>Schriften</name>
+            <p>in 6 Nummern</p>
+        </item>
+        <item xml:id="thi_553">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_554">
+            <name>Jubel Medaille</name>
+        </item>
+        <item xml:id="thi_555">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_556">
+            <name>Gedächtnißmünze</name>
+            <p>zu Ehren der Herren Boehmer und Pütter</p>
+        </item>
+        <item xml:id="thi_557">
+            <name>Münze</name>
+        </item>
+        <item xml:id="thi_558">
+            <name>Bücher</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_559">
+            <name>Zarnikow</name>
+            <p>gemeint ist wahrscheinlich eine Schrift</p>
+        </item>
+        <item xml:id="thi_560">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_561">
+            <name>Medaille</name>
+            <p>Boehmer-Pütterische</p>
+        </item>
+        <item xml:id="thi_562">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_563">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_564">
+            <name>Zigeuner Schädel</name>
+        </item>
+        <item xml:id="thi_565">
+            <name>Tschudische Schädeln</name>
+        </item>
+        <item xml:id="thi_566">
+            <name>Institutiones Physiologicae</name>
+            <ref type="PPN">066401704</ref>
+        </item>
+        <item xml:id="thi_567">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_568">
+            <name>academischen Schriften</name>
+        </item>
+        <item xml:id="thi_569">
+            <name>Münzen</name>
+            <p>unter 16 Nummern</p>
+        </item>
+        <item xml:id="thi_570">
+            <name>Sibirische</name>
+            <p>gemeint sind Münzen</p>
+        </item>
+        <item xml:id="thi_571">
+            <name>academischen Schriften</name>
+        </item>
+        <item xml:id="thi_572">
+            <name>Description d’une Amétiste des pierres gravées</name>
+            <ref type="PPN">155850288</ref>
+        </item>
+        <item xml:id="thi_573">
+            <name>Büchern</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_574">
+            <name>Kupferstichen</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_575">
+            <name>zwey für ihn bestimmte Schädeln</name>
+            <p>aus den Tschudischen Gräbern am obern Irtysch</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_576">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_577">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_578">
+            <name>Mineralien</name>
+        </item>
+        <item xml:id="thi_579">
+            <name>Siränen Schädel</name>
+        </item>
+        <item xml:id="thi_580">
+            <name>Description d’une Amethyste</name>
+            <p>in den Göttinger Anzeigen veröffentlicht</p>
+        </item>
+        <item xml:id="thi_581">
+            <name>14 Kupferstichen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_582">
+            <name>12. Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_583">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_584">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_585">
+            <name>Baron Campenhausens topograph. Beschreibung</name>
+        </item>
+        <item xml:id="thi_586">
+            <name>Decas Cranior.</name>
+            <ref type="PPN">143127330</ref>
+        </item>
+        <item xml:id="thi_587">
+            <name>4 Heft Abbildungen naturhistorischer Gegenstände</name>
+        </item>
+        <item xml:id="thi_588">
+            <name>Siränen Schädel</name>
+        </item>
+        <item xml:id="thi_589">
+            <name>physiologie russisch</name>
+            <ref type="PPN">145268357</ref>
+        </item>
+        <item xml:id="thi_590">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_591">
+            <name>12 Münzen</name>
+            <p>darunter vier marokkanische Münzen</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_592">
+            <name>Büchern</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_593">
+            <name>Münzen</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_594">
+            <name>Dell Eneide Di virgilis Dell Commendator Annibal Caro.</name>
+            <ref type="PPN">315891637</ref>
+        </item>
+        <item xml:id="thi_595">
+            <name>In Padoa Per Pietro Paulo Tozzi. 1609.</name>
+            <ref type="PPN">140966315</ref>
+            <p>die angegebene PPN bezieht sich ein 1625 veröffentlichtes Werk, verweist jedoch auf Pietro Paolo Tozzi</p>
+        </item>
+        <item xml:id="thi_596">
+            <name>Auctarium ad Halleri Elementa Physiologiae: Lausanne 1780. 4.</name>
+            <ref type="PPN">145253295</ref>
+        </item>
+        <item xml:id="thi_597">
+            <name>Apparatum Medicaminum</name>
+            <p>von Johann Friedrich Gmelin, beide Bände werden per PPN angeführt</p>
+            <ref type="PPN">145074544</ref>
+            <ref type="PPN"> 145074552</ref>
+        </item>
+        <item xml:id="thi_598">
+            <name>Mineralien</name>
+        </item>
+        <item xml:id="thi_599">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_600">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_601">
+            <name>Apparatus Medicaminum</name>
+            <p>von Johann Andreas Murray, beide Bände werden per PPN angeführt</p>
+            <ref type="PPN">14507322x</ref>
+            <ref type="PPN">145073238</ref>
+        </item>
+        <item xml:id="thi_602">
+            <name>Blumenbachsche Schriften</name>
+        </item>
+        <item xml:id="thi_603">
+            <name>IVta Decas Craniorum</name>
+            <ref type="PPN">143127322</ref>
+        </item>
+        <item xml:id="thi_604">
+            <name>5te Heft Abbildungen naturhistorischer Gegenstaende</name>
+        </item>
+        <item xml:id="thi_605">
+            <name>Gmelinische Schriften</name>
+        </item>
+        <item xml:id="thi_606">
+            <name>Commentat. de Numis Arabico-Hispanicis, et Indicis</name>
+            <p>von Tychsen, Thomas Christian</p>
+        </item>
+        <item xml:id="thi_607">
+            <name>Girtanners Revolutions Almanach</name>
+            <ref type="PPN">16811089x</ref>
+        </item>
+        <item xml:id="thi_608">
+            <name>Götting. Anzeigen No. 154.</name>
+            <p>von 1797 stammend</p>
+        </item>
+        <item xml:id="thi_609">
+            <name>156.</name>
+            <p>Göttinger Anzeiger, von 1797 stammend</p>
+        </item>
+        <item xml:id="thi_610">
+            <name>No. 8</name>
+            <p>Göttinger Anzeiger, von 1798 stammend</p>
+        </item>
+        <item xml:id="thi_611">
+            <name>29</name>
+            <p>Göttinger Anzeiger, von 1798 stammend</p>
+        </item>
+        <item xml:id="thi_612">
+            <name>Vol. XIII. Commentat.</name>
+        </item>
+        <item xml:id="thi_613">
+            <name>Vol. xiv</name>
+            <p>Kommentare</p>
+        </item>
+        <item xml:id="thi_614">
+            <name>21. Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_615">
+            <name>Homerischen Gemmen Abdrücke</name>
+        </item>
+        <item xml:id="thi_616">
+            <name>Tischbeinischen Homer</name>
+        </item>
+        <item xml:id="thi_617">
+            <name>2. letztere Volumina der neuen Commentationes</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_618">
+            <name>5te Volum. Opusculorum Heynii</name>
+        </item>
+        <item xml:id="thi_619">
+            <name>Revolutions-Almanachs</name>
+            <ref type="PPN">16811089x</ref>
+        </item>
+        <item xml:id="thi_620">
+            <name>Blumenbachs Handbuch der Naturgeschichte</name>
+            <ref type="PPN">146155742</ref>
+        </item>
+        <item xml:id="thi_621">
+            <name>Homerischen Gemmen</name>
+            <p>Abdrücke</p>
+        </item>
+        <item xml:id="thi_622">
+            <name>Gypsabdrücke</name>
+        </item>
+        <item xml:id="thi_623">
+            <name>Heyne-Tischbeinische Werk</name>
+        </item>
+        <item xml:id="thi_624">
+            <name>Büchern</name>
+            <p>nebst Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_625">
+            <name>Mineralien</name>
+            <p>nebst Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_626">
+            <name>Seekarten</name>
+            <p>nebst Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_627">
+            <name>Sibirischen Pelz</name>
+        </item>
+        <item xml:id="thi_628">
+            <name>Squelet eines Casanischen Tataren</name>
+        </item>
+        <item xml:id="thi_629">
+            <name>Donischen Cosaken</name>
+            <p>gemeint ist ein Skelett</p>
+        </item>
+        <item xml:id="thi_630">
+            <name>21. Numern Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_631">
+            <name>de putativis olim iam exustis ignivomibus montibus</name>
+        </item>
+        <item xml:id="thi_632">
+            <name>11. Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_633">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_634">
+            <name>Mineralien</name>
+        </item>
+        <item xml:id="thi_635">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_636">
+            <name>Pelze</name>
+        </item>
+        <item xml:id="thi_637">
+            <name>Histoire primitive
+                des Peuples de la Russie avec une expostition complete de
+                toutes les notions, locales, nationales et traditionelles, necessaires
+                à l’intelligence du quatrieme Livre d’Hérodote par le
+                Comte Jean Potocki. St Petersbourg Imprimé à l’académie
+                des Sciences. 1802. 4. 230 pages.</name>
+        </item>
+        <item xml:id="thi_638">
+            <name>Schrift</name>
+            <p>gemeint ist die Schrift:  Le quarré d’une quantité négative est négatif, et non positiv. Von  Hr. Klostermann stammend</p>
+        </item>
+        <item xml:id="thi_639">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_640">
+            <name>Mineralien</name>
+        </item>
+        <item xml:id="thi_641">
+            <name>Commentat. Tom XIV.</name>
+        </item>
+        <item xml:id="thi_642">
+            <name>Revolutions Almanach</name>
+        </item>
+        <item xml:id="thi_643">
+            <name>Zweyte Ausgabe der Ilias</name>
+        </item>
+        <item xml:id="thi_644">
+            <name>Commentationes XV. Band</name>
+        </item>
+        <item xml:id="thi_645">
+            <name>Heft von Tischbein’s Homer</name>
+        </item>
+        <item xml:id="thi_646">
+            <name>18 Mineralien</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_647">
+            <name>gedruckte Korans</name>
+            <p>in 4to und in 8vo</p>
+        </item>
+        <item xml:id="thi_648">
+            <name>Schrift</name>
+            <p>Mit folgendem Titel: Statuts des differents Etablissemens<lb/>
+                de Catherine II. pour l’Education de la Jeunesse.  à Amsterdam<lb/>
+                1775. 2 Tomes in 8vo. Allenfalls auch rußisch unter Catharinens<lb/>
+                Ukasen seit 1762. in 4to.</p>
+        </item>
+        <item xml:id="thi_649">
+            <name>Münzen</name>
+            <p>nebst Verzeichnis</p>
+        </item>
+        <item xml:id="thi_650">
+            <name>Vol. XV. Commentat Soc. Reg. Scient</name>
+        </item>
+        <item xml:id="thi_651">
+            <name>5tn Hefte von Tischbeins Homer</name>
+        </item>
+        <item xml:id="thi_652">
+            <name>2tn Ausgabe der Ilias</name>
+        </item>
+        <item xml:id="thi_653">
+            <name>Handbuche der vergleichenden Anatomie</name>
+            <ref type="PPN">143053795</ref>
+        </item>
+        <item xml:id="thi_654">
+            <name>Hefte der Abbildungen Naturhistorischer Gegenstände</name>
+        </item>
+        <item xml:id="thi_655">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_656">
+            <name>Compte rendu des Constitutions des Jésuites, par M. Jean-<lb/>
+                Pierre-Francois de Ripert de Monclar, Procureur Général du Roi<lb/>
+                au Parlement de Provence, les 28 Mai, 3 et 4 Juin 1762, en exécution<lb/>
+                de l’Arrêt de la Cour de 15 Mars précédent. 1763. s. l. 548 pag. 8vo.</name>
+            <ref type="PPN">143508040</ref>
+        </item>
+        <item xml:id="thi_657">
+            <name>Stultitiae Laudatio. Desiderii Erasmi Declamatio.<lb/>
+                Editio castiqatissima. Londini, et venit Parisiis, apud Barbon, via Mathuri-<lb/>
+                ensium. M. DCC.LXV klein 8.</name>
+            <ref type="PPN">552588202</ref>
+        </item>
+        <item xml:id="thi_658">
+            <name>Th. Chr. Tychsen. Commentatio de Rei numariae apud Arabes<lb/>
+                oriqine et progressu, cum examine critico Historiae Monetae<lb/>
+                Arabicae Macrizii nuper editae. recitata 1799.</name>
+        </item>
+        <item xml:id="thi_659">
+            <name>Th. C. Tychsen. Commentatio, qua disquiritur quatenus Muhammedes<lb/>
+                aliarum religionum Sectatores toleraverit, cum examine etc. rec. 1801.</name>
+        </item>
+        <item xml:id="thi_660">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_661">
+            <name>Grusiner Schädel</name>
+        </item>
+        <item xml:id="thi_662">
+            <name>19 silbernen</name>
+            <p>gemeint sind Münzen</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_663">
+            <name>kupfernen Münzen</name>
+        </item>
+        <item xml:id="thi_664">
+            <name>Catalogum Bibliothecae Imperialis</name>
+        </item>
+        <item xml:id="thi_665">
+            <name>Musei Petropolitani</name>
+            <ref type="PPN">137559747</ref>
+        </item>
+        <item xml:id="thi_666">
+            <name>Catalogum Bibliothecae Imperialis</name>
+            <p>Teil der Musei Petropolitani, auf die in der PPN verweisen wird</p>
+            <ref type="PPN">137559747</ref>
+        </item>
+        <item xml:id="thi_667">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_668">
+            <name>Lipsii Bibliotheca Numaria</name>
+            <ref type="PPN">135488346</ref>
+        </item>
+        <item xml:id="thi_669">
+            <name>Lexicon Numismaticum</name>
+        </item>
+        <item xml:id="thi_670">
+            <name>Samojeden Kinder-Kleidungen</name>
+            <p>in acht Nummern</p>
+        </item>
+        <item xml:id="thi_671">
+            <name>Nordische Trachten</name>
+        </item>
+        <item xml:id="thi_672">
+            <name>18 Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_673">
+            <name>6 Nummern Schriften</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_674">
+            <name>Samojeden-Schädel</name>
+        </item>
+        <item xml:id="thi_675">
+            <name>Compte rendu des Constitutions des Jésuites, par M. Jean-Pierre-François<lb/>
+                de Ripert de Monclar, Procureur Général du Roi au Parlement de<lb/>
+                Provence.... s.L. (Lion?) 1763. pag. 548. 8.</name>
+        </item>
+        <item xml:id="thi_677">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_678">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_679">
+            <name>5 Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_680">
+            <name>Antiken</name>
+        </item>
+        <item xml:id="thi_681">
+            <name>2 thönerne Menschliche Figuren</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_682">
+            <name>Cameen</name>
+        </item>
+        <item xml:id="thi_683">
+            <name>Dukaten</name>
+            <p>beide Seiten mit erhabener Schrift versehen</p>
+        </item>
+        <item xml:id="thi_684">
+            <name>gedruckte Sachen</name>
+            <p>in neun Nummern</p>
+        </item>
+        <item xml:id="thi_685">
+            <name>Kupferstiche</name>
+        </item>
+        <item xml:id="thi_686">
+            <name>6 ausgestopften Vögeln</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_687">
+            <name>Lob auf Winkelmann</name>
+            <p>gemeint ist eine Schrift</p>
+        </item>
+        <item xml:id="thi_688">
+            <name>2. Medaillen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_689">
+            <name>Medaillen</name>
+        </item>
+        <item xml:id="thi_690">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_691">
+            <name>Mercure de Russie No. V. et VI. Mois de May et de Juin</name>
+        </item>
+        <item xml:id="thi_692">
+            <name>Reponse d’une Ombre à l’observation de W. Scardovy sur l’Emplâtre de Schiffhausen</name>
+        </item>
+        <item xml:id="thi_693">
+            <name>St. Petersb. Journal v. J. 1784</name>
+            <p>nebst Manifest</p>
+        </item>
+        <item xml:id="thi_694">
+            <name>Bücher</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_695">
+            <name>Münzen</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_696">
+            <name>Schinesisches dreysaitiges Instrument</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_697">
+            <name>Balalaika</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_698">
+            <name>arabische Bücher</name>
+        </item>
+        <item xml:id="thi_699">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_700">
+            <name>Beine</name>
+        </item>
+        <item xml:id="thi_701">
+            <name>Statutum Canonicum Petri M.</name>
+            <ref type="PPN">155943553</ref>
+        </item>
+        <item xml:id="thi_702">
+            <name>Bücher</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_703">
+            <name>Münzen</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_704">
+            <name>Schinesisches dreysaitiges Instrument</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_705">
+            <name>Balalaika</name>
+            <p>nebst fünf Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_706">
+            <name>arabische Bücher</name>
+        </item>
+        <item xml:id="thi_707">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_708">
+            <name>Beine</name>
+        </item>
+        <item xml:id="thi_709">
+            <name>Statutum Canonicum Petri M.</name>
+            <ref type="PPN">155943553</ref>
+        </item>
+        <item xml:id="thi_710">
+            <name>N.S. Popowa Dosugi. 1772</name>
+        </item>
+        <item xml:id="thi_711">
+            <name>Nowikows Opyt istoriczeskago Slowarao Rossijskich Pisatelei</name>
+        </item>
+        <item xml:id="thi_712">
+            <name>Catullus Tibullus. Propertius. Multis in locis reftituti Parifus apud Simonem Colinaeum. 1534.</name>
+        </item>
+        <item xml:id="thi_713">
+            <name>Traittez des Barometres, Thermométres, ou Hygrométres. par Mr. D xxx à Amsterdam 1688.</name>
+        </item>
+        <item xml:id="thi_714">
+            <name>M. Georg Litzels Gymn. Spir. Conrect.</name>
+            <p>enthält Beschreibungen von römischen Töpfen und anderen heidnischen Leichengefäßen, welche im 17. Jahrhundert bei Speyer gefunden worden sind.</p>
+        </item>
+        <item xml:id="thi_715">
+            <name>Exemplar vom Virgil</name>
+            <p>gemeint ist eine Schrift des Virgils, mit griechischer Übersetzung</p>
+        </item>
+        <item xml:id="thi_716">
+            <name>Schädel</name>
+            <p>vom Donischen Cosaken stammend</p>
+        </item>
+        <item xml:id="thi_717">
+            <name>zwey Abdrucken der PreißMedaille</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_718">
+            <name>4 silbernen Russisch taurischen Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_719">
+            <name>Münzen</name>
+            <p>unter 20 Nummern</p>
+        </item>
+        <item xml:id="thi_720">
+            <name>Schädel</name>
+        </item>
+        <item xml:id="thi_721">
+            <name>Flora Rossica</name>
+            <ref type="PPN">145639681</ref>
+        </item>
+        <item xml:id="thi_722">
+            <name>Münzen der Chalifen</name>
+        </item>
+        <item xml:id="thi_723">
+            <name>3. Exemplarien</name>
+            <p>gemeint sind drei Exemplare der Abhandlung über die Münzen des Kalifen</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_724">
+            <name>Nic. Schow Charta papy racea, Romae 1788</name>
+        </item>
+        <item xml:id="thi_725">
+            <name>G. Zoege Numi Aegyptii Imperatorii prostantes in Museo Borg. Velistris. Romae 1789</name>
+        </item>
+        <item xml:id="thi_726">
+            <name>Münze</name>
+            <p>aus einer Region bei Kalabrien stammend</p>
+        </item>
+        <item xml:id="thi_727">
+            <name>Mongolische</name>
+            <p>gemeint sind Schriften</p>
+        </item>
+        <item xml:id="thi_728">
+            <name>arabische Schriften</name>
+        </item>
+        <item xml:id="thi_729">
+            <name>Münzen</name>
+            <p>unter 10 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_730">
+            <name>Medaillen</name>
+        </item>
+        <item xml:id="thi_731">
+            <name>Medaillen</name>
+            <p>unter 20 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_732">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_733">
+            <name>Kupferstiche</name>
+        </item>
+        <item xml:id="thi_734">
+            <name>Pyramide</name>
+            <p>aus Orenburg stammend, mit Marmortäfelchen von dort belegt</p>
+        </item>
+        <item xml:id="thi_735">
+            <name>Mongolische Schriften</name>
+        </item>
+        <item xml:id="thi_736">
+            <name>Abdrucke</name>
+            <p>der Preismedaille</p>
+        </item>
+        <item xml:id="thi_737">
+            <name>academischer Schriften</name>
+        </item>
+        <item xml:id="thi_738">
+            <name>Orenburgischen Pyramide</name>
+        </item>
+        <item xml:id="thi_739">
+            <name>Mongolischen Sachen</name>
+        </item>
+        <item xml:id="thi_740">
+            <name>Schriften</name>
+            <p>ebenfalls mongolischer Herkunft</p>
+        </item>
+        <item xml:id="thi_741">
+            <name>Landkarten</name>
+            <p>in einer versiegelten Rolle Nr. 2.</p>
+        </item>
+        <item xml:id="thi_742">
+            <name>Kupferstichen</name>
+            <p>in einer versiegelten Rolle Nr. 2.</p>
+        </item>
+        <item xml:id="thi_743">
+            <name>Handschriften</name>
+            <p>in einer versiegelten Rolle Nr. 2.</p>
+        </item>
+        <item xml:id="thi_744">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_745">
+            <name>Münzen</name>
+            <p>unter 20 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_746">
+            <name>zwey silbernen Abdrücken</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_747">
+            <name>Preis Medaille</name>
+        </item>
+        <item xml:id="thi_748">
+            <name>Täfelchen</name>
+        </item>
+        <item xml:id="thi_749">
+            <name>Vol. IX. Commentat.</name>
+        </item>
+        <item xml:id="thi_750">
+            <name>Mongolischen</name>
+            <p>gemeint sind Schriften, in 23 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_751">
+            <name>Schriften</name>
+            <p>in 23 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_752">
+            <name>Münzen</name>
+            <p>in 10 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_753">
+            <name>Büchern</name>
+            <p>nebst drei Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_754">
+            <name>Münzen</name>
+            <p>nebst drei Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_755">
+            <name>Vocabularia comparativa</name>
+            <ref type="PPN">13595603x</ref>
+        </item>
+        <item xml:id="thi_756">
+            <name>Apotheker Taxe</name>
+        </item>
+        <item xml:id="thi_757">
+            <name>Schädel</name>
+            <p>Teil einer Sammlung von Schädeln</p>
+        </item>
+        <item xml:id="thi_758">
+            <name>Münzen</name>
+            <p>unter 20 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_759">
+            <name>Russischen Büchern</name>
+        </item>
+        <item xml:id="thi_760">
+            <name>russische Medaillen</name>
+            <p>unter 13 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_761">
+            <name>Lowitzens Schrift</name>
+        </item>
+        <item xml:id="thi_762">
+            <name>Landkarten</name>
+            <p>unter 18 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_763">
+            <name>Kupferstiche</name>
+            <p>unter 25 Nummern verzeichnet</p>
+        </item>
+        <item xml:id="thi_764">
+            <name>Virgil</name>
+            <p>gemeint ist eine Schrift</p>
+        </item>
+        <item xml:id="thi_765">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_766">
+            <name>Münzen</name>
+        </item>
+        <item xml:id="thi_767">
+            <name>22. Bogen vom Handbuch der N.G.</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_768">
+            <name>3. Exemplare Tychsen de Numis Cuficis</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_769">
+            <name>Schow</name>
+            <p>gemeint sind Schriften, Teil eines großen Paketes</p>
+        </item>
+        <item xml:id="thi_770">
+            <name>Zoega</name>
+            <p>gemeint sind Schriften, Teil eines großen Paketes, bezieht sich auf Zoega, Jørgen</p>
+        </item>
+        <item xml:id="thi_771">
+            <name>Recueil des principaux Traités in 3 Tomen</name>
+            <p>gemeint sind Schriften, Teil eines großen Paketes</p>
+        </item>
+        <item xml:id="thi_772">
+            <name>Landkarten</name>
+        </item>
+        <item xml:id="thi_773">
+            <name>Kupferstichen</name>
+        </item>
+        <item xml:id="thi_774">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_775">
+            <name>Ambodicks Symbola et Emblemata</name>
+            <ref type="PPN">025329243</ref>
+        </item>
+        <item xml:id="thi_776">
+            <name>Schädeln</name>
+        </item>
+        <item xml:id="thi_777">
+            <name>Talisman</name>
+        </item>
+        <item xml:id="thi_778">
+            <name>40. seltenen Orientalischen Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_779">
+            <name>Münze No. 40.</name>
+        </item>
+        <item xml:id="thi_780">
+            <name>arabisch marocanischen Münzen</name>
+        </item>
+        <item xml:id="thi_781">
+            <name>arabischtürkischen Münzen</name>
+        </item>
+        <item xml:id="thi_782">
+            <name>Malachit</name>
+        </item>
+        <item xml:id="thi_783">
+            <name>10tn Bande der Commentationes</name>
+        </item>
+        <item xml:id="thi_784">
+            <name>31. Numern Münzen</name>
+        </item>
+        <item xml:id="thi_785">
+            <name>29 türkische</name>
+            <p>gemeint sind Münzen</p>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_786">
+            <name>1 Persische</name>
+            <p>gemeint sind Münzen</p>
+        </item>
+        <item xml:id="thi_787">
+            <name>1 Georgianische</name>
+            <p>gemeint sind Münzen</p>
+        </item>
+        <item xml:id="thi_788">
+            <name>Tatischtschefs Istoria Rossiiskaja</name>
+            <p>Wassili Nikititsch Tatischtschew, GND: 119007487</p>
+        </item>
+        <item xml:id="thi_789">
+            <name>Burgii Elementa Oratoria Ed Kamenski</name>
+        </item>
+        <item xml:id="thi_790">
+            <name>Tungusischen</name>
+            <p>gemeint ist ein Schädel</p>
+        </item>
+        <item xml:id="thi_791">
+            <name>zwey ächte Kirghis Kaisakische Schädeln</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_792">
+            <name>Flora Rossica</name>
+            <ref type="PPN">145639681</ref>
+        </item>
+        <item xml:id="thi_793">
+            <name>Medaille</name>
+        </item>
+        <item xml:id="thi_794">
+            <name>Medaille</name>
+            <p>mit einer Legende versehen: Weličestwo twoe vesd‘_ jasno.(kyrillisch) i.e.<lb/>
+                Maiestas Tua ubique clara</p>
+        </item>
+        <item xml:id="thi_795">
+            <name>Denkmünze</name>
+        </item>
+        <item xml:id="thi_796">
+            <name>Medaille</name>
+        </item>
+        <item xml:id="thi_797">
+            <name>Medaille</name>
+            <p>Details der Medaille zeigen einen großen sowie drei kleine Adler, zusätzlich ist eine Legende vorhanden: dobrode’tel’ tvorit’ Blagodušia</p>
+        </item>
+        <item xml:id="thi_798">
+            <name>Pysma Petra Welikago K’Generalufeld Marschalu Grafu Borisu Petrowitschu Scheremetewu Moskwa 1774.</name>
+        </item>
+        <item xml:id="thi_799">
+            <name>Rothes Kupferstich</name>
+        </item>
+        <item xml:id="thi_800">
+            <name>Scipionis Claramontii Caesanetu de Sede Sublunari<lb/>
+                Cometarum Opuscula tria, in Supplementum Anti-Tyhonis<lb/>
+                cedentia: .... Amstela dami. apud Johannem Janssonium<lb/>
+                anno M. DC. XXXVI.</name>
+        </item>
+        <item xml:id="thi_801">
+            <name>pharmacopoea castrensis</name>
+            <ref type="PPN">155872192</ref>
+        </item>
+        <item xml:id="thi_802">
+            <name>pharmacop. Rossica</name>
+            <ref type="PPN">253416841</ref>
+        </item>
+        <item xml:id="thi_803">
+            <name>8te Vol. Commentat. Soc.</name>
+        </item>
+        <item xml:id="thi_804">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_805">
+            <name>4. anfänglich herausgekommenen Commentaria Soc. Gottingens.</name>
+        </item>
+        <item xml:id="thi_806">
+            <name>26. hiebey-gefügte Münzen</name>
+            <linkGrp>
+                <item/>
+                <ref/>
+            </linkGrp>
+        </item>
+        <item xml:id="thi_807">
+            <name>Rußischen Historisch-Geographischen Calender</name>
+        </item>
+        <item xml:id="thi_808">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_809">
+            <name>Kupfer-<lb/>
+                Stichen</name>
+        </item>
+        <item xml:id="thi_810">
+            <name>Bücher</name>
+        </item>
+        <item xml:id="thi_811">
+            <name>Ithischen Enumer. Numismat.</name>
+        </item>
+        <item xml:id="thi_812">
+            <name>Bücher</name>
+            <p>Bücher über Lübeck verfasst</p>
+        </item>
+        <item xml:id="thi_813">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_814">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_815">
+            <name>Büchern</name>
+        </item>
+        <item xml:id="thi_816">
+            <name>grossen Rolle*</name>
+            <p>wurde in einem Paket nebst Verzeichnissen verschickt</p>
+        </item>
+        <item xml:id="thi_817">
+            <name>Microscops</name>
+        </item>
+        <item xml:id="thi_818">
+            <name>Medaille</name>
+        </item>
+        <item xml:id="thi_819">
+            <name>Medaille</name>
+        </item>
+        <item xml:id="thi_820">
+            <name>Schriften</name>
+        </item>
+        <item xml:id="thi_821">
+            <name>apparatus Medicaminum</name>
+            <p>dritte Ausgabe</p>
+            <ref type="PPN">145073130</ref>
+        </item>
+        <item xml:id="thi_822">
+            <name>zweyen Briefen</name>
+            <p>vom 20/31 Dec. und 11/22 Jan.</p>
+        </item>
+        <item xml:id="thi_823">
+            <name>Bibel</name>
+            <p>in armenischer Sprache</p>
+        </item>
+        <item xml:id="thi_824">
+            <name>Lexicon</name>
+            <p>in armenischer Sprache</p>
+        </item>
+        <item xml:id="thi_825">
+            <name>8tn Tom. Commentat.</name>
+        </item>
+        <item xml:id="thi_826">
+            <name>Memoires pour Servir à l’Histoire de Port-Royal.<lb/>
+                par M. Fontaine T I et II à Utrecht 1736</name>
+            <p>verwiesen wird auf eine andere Ausgabe von 1738</p>
+            <ref type="PPN">143434896</ref>
+        </item>
+        <item xml:id="thi_827">
+            <name>Memoires pour servir à l’Histoire de Port-Royal.<lb/>
+                par M. Du Fosse. à Utrecht 1739</name>
+            <p>verwiesen wird auf eine andere Ausgabe von 1738</p>
+            <ref type="PPN">143434896</ref>
+        </item>
+        <item xml:id="thi_828">
+            <name>Mineralien<lb/>
+                No. 63.</name>
+        </item>
+        <item xml:id="thi_829">
+            <name>ein paar kleine Schriften</name>
+            <p>nebst umfangreichen Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_830">
+            <name>Braunschweigischen Lotterie Zetteln</name>
+        </item>
+        <item xml:id="thi_831">
+            <name>Lotterie Zetteln</name>
+        </item>
+        <item xml:id="thi_832">
+            <name>Diplomen</name>
+            <p>für Hofrath Tumansky sowie Professor Stephan</p>
+        </item>
+        <item xml:id="thi_833">
+            <name>Eulers Algebra in 2. Bänden</name>
+            <p>nebst Verzeichnissen</p>
+            <ref type="PPN">134320751</ref>
+        </item>
+        <item xml:id="thi_834">
+            <name>Schriften</name>
+            <p>nebst Verzeichnissen</p>
+        </item>
+        <item xml:id="thi_835">
+            <name>Botanisches Slowar oder Trawnik in 4to davon nur A-C<lb/>
+                1781-83</name>
+        </item>
+        <item xml:id="thi_836">
+            <name>Mémoires touchant la demarcation entre<lb/>
+                la Prusse et l’Autriche</name>
+        </item>
+        <item xml:id="thi_837">
+            <name>getreue Abschrift von dem Ao. 1786</name>
+        </item>
+        <item xml:id="thi_838">
+            <name>Gött Anz. Stück 154.</name>
+            <p>gemeint sind die Göttingischen Anzeigen von gelehrten Sachen, 1797</p>
+        </item>
+        <item xml:id="thi_839">
+            <name>156.</name>
+            <p>gemeint sind die Göttingischen Anzeigen von gelehrten Sachen, 1797</p>
+        </item>
+        <item xml:id="thi_840">
+            <name>8</name>
+            <p>gemeint sind die Göttingischen Anzeigen von gelehrten Sachen, Ao. 798., gemeint ist hier womöglich 1798</p>
+        </item>
+        <item xml:id="thi_841">
+            <name>16.</name>
+            <p>gemeint sind die Göttingischen Anzeigen von gelehrten Sachen, Ao. 798., gemeint ist hier womöglich 1798</p>
+        </item>
+        <item xml:id="thi_842">
+            <name>29.</name>
+            <p>gemeint sind die Göttingischen Anzeigen von gelehrten Sachen, Ao. 798., gemeint ist hier womöglich 1798</p>
+        </item>
+        <item xml:id="thi_843">
+            <name>2 ersten<lb/>
+                Volumina in 4 Bänden</name>
+            <p>gemeint ist die eigene Ausgabe des erwähnten Catalogum Bibliothecae Imperialis von Asch</p>
+        </item>
+        <item xml:id="thi_844">
+            <name>Cuffischer</name>
+            <p>gemeint sind Münzen, unter 107 Nummern</p>
+        </item>
+        <item xml:id="thi_845">
+            <name>Persischer</name>
+            <p>gemeint sind Münzen, unter 107 Nummern</p>
+        </item>
+        <item xml:id="thi_846">
+            <name>Armenischer</name>
+            <p>gemeint sind Münzen, unter 107 Nummern</p>
+        </item>
+        <item xml:id="thi_847">
+            <name>Afrikanischer Münzen</name>
+            <p>gemeint sind Münzen, unter 107 Nummern</p>
+        </item>
+        <item xml:id="thi_848">
+            <name>Introductio in Hist. Med. Litter.</name>
+        </item>
+        <item xml:id="thi_849">
+            <name>Tractat de Numis Cufficis</name>
+        </item>
+     </list>
+</div>

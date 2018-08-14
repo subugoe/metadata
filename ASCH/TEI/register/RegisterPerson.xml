@@ -1,0 +1,3977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns:gnd="http://d-nb.info/gnd/">
+    <list xml:id="person">
+        <item xml:id="per_1">
+            <name>Herrn Chir. Bouttaz</name>
+            <p>im Brief_17940602 wird jener als jung bezeichnet</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_2">
+            <name>Caspar N. Daniel Menck</name>
+            <p>ging der Berufung des Schiffers nach</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_3">
+            <name>Herr Prof. Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_4">
+            <name>Hr. Bouttatz</name>
+            <p>im Brief_17940602 wird jener als jung bezeichnet</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_5">
+            <name>Hrn v. Alopeus</name>
+            <p>russischer und kaiserlicher Gesandter, Minister sowie Ritter</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_6">
+            <name>Jurgen Albrecht Sukau</name>
+            <p>ging dem Beruf des Schiffers nach</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_7">
+            <name>Hrn. Franz Pauli</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_8">
+            <name>Hrn Hofrath D.
+                Walther</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_9">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_10">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_11">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_12">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_13">
+            <name>Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_14">
+            <name>Gatterer</name>
+            <ref type="GND">115367918</ref>
+        </item>
+        <item xml:id="per_15">
+            <name>Herr Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_16">
+            <name>Asch</name>
+            <ref type="GND">118650599</ref>
+        </item>
+        <item xml:id="per_17">
+            <name>Hr. D. Koerber</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_18">
+            <name>Hr. v. Alopaeus</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_19">
+            <name>Hr. Hofrath Gretsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_20">
+            <name>Hr. Strenge</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_21">
+            <name>Fräulein Stifte</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_22">
+            <name>Hrn. Statsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_23">
+            <name>Hr. General Mayor Iwan</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_24">
+            <name>Hr. Collegien Rath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_25">
+            <name>Dezalow</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_26">
+            <name>Hrn. D. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_27">
+            <name>Schiffer Joh. Serpentien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_28">
+            <name>Hr. Strenge</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_29">
+            <name>Hrn. Hofrath Gretsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_30">
+            <name>Herr Gretsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_1024">
+            <name>Schiffer Jacob Comien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_31">
+            <name>Herrn Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_32">
+            <name>Hrn. Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_33">
+            <name>Herrn Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_34">
+            <name>Herrn Hofrath Gretsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_35">
+            <name>Michael Piper</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_36">
+            <name>Hr. Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_37">
+            <name>Schiffer Comien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_38">
+            <name>Hr. Strenge</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_39">
+            <name>Hrn. Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_40">
+            <name>Herr Legationsrath von Moulines</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_41">
+            <name>Baron Asch</name>
+            <ref type="GND">118650599</ref>
+        </item>
+        <item xml:id="per_42">
+            <name>Hr. Collegienrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_43">
+            <name>Herr Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_44">
+            <name>Hofmaler Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_45">
+            <name>Sohne</name>
+            <p>gemeint ist der Sohn von Heyne</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_46">
+            <name>Herrn Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_47">
+            <name>Herrn Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_48">
+            <name>Hr. Hofrath Ritter Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_49">
+            <name>Asch</name>
+            <ref type="GND">118650599</ref>
+        </item>
+        <item xml:id="per_50">
+            <name>Herrn von Beulwitz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_51">
+            <name>Hrn. Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_52">
+            <name>Herrn Hofrath Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_53">
+            <name>Capt Saagers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_54">
+            <name>Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_55">
+            <name>Hrn Euler</name>
+            <ref type="GND">118531379</ref>
+        </item>
+        <item xml:id="per_56">
+            <name>Hrn. Hofrath Kästner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_57">
+            <name>Hrn Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_58">
+            <name>Jens Kriegsmann</name>
+            <p>Kapitän des Schiffes Emanuel</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_59">
+            <name>Hr. Bay</name>
+            <p>Operateur beim Cronstadtschen Hospital </p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_60">
+            <name>Hr. Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_61">
+            <name>Herrn Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_62">
+            <name>Asch</name>
+            <ref type="GND">118650599</ref>
+        </item>
+        <item xml:id="per_63"><!-- nicht in den Briefen auffindbar -->
+            <name>Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <!-- per_64 bis per_113 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="per_114"><!-- nicht in den Briefen auffindbar -->
+            <name>Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <!-- per_115 bis per_120 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="per_121">
+            <name>Herr von Demidoff</name>
+            <p>wird im Brief 17880321_55 als jung bezeichnet</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_122">
+            <name>Herrn Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <!-- per_123 bis per_132 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="per_133">
+            <name>Herrn Dr. Berens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_134">
+            <name>Schumlanski</name>
+            <p>der Chirurgie zugewandt</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_135">
+            <name>Herrn Prof. Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_136">
+            <name>Herrn Prof. Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_137">
+            <name>Dreyer</name>
+            <ref type="GND">118802712</ref>
+            <p>Apothecker Gesellen</p>
+        </item> 
+        <item xml:id="per_138">
+            <name>Herrn Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_139">
+            <name>Hr. Geheimen Raths Hornung</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_140">
+            <name>Schumlanski</name>
+            <p>der Chirurgie zugewandt</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_141">
+            <name>Herrn D. Trendelenburg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_142">
+            <name>Herrn Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_143">
+            <name>Hn. v. Hallers</name>
+            <ref type="GND">118545140</ref>
+        </item>
+        <item xml:id="per_144">
+            <name>H. G.G. Rath Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_145">
+            <name>Hn. LeibMedicus Zimmermann</name>
+            <ref type="GND">118636979</ref>
+        </item>
+        <item xml:id="per_146">
+            <name>H. H. Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_147">
+            <name>Wrisberg</name>
+            <p>ehemaliger Lehrer von Asch</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_148">
+            <name>Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_149">
+            <name>Hr. Schumlanski</name>
+            <p>der Chirurgie zugewandt</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_150">
+            <name>Hn. Prof. Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_151">
+            <name>Haller</name>
+            <ref type="GND">118545140</ref>
+        </item>
+        <item xml:id="per_152">
+            <name>Georg-Auguste</name>
+            <ref type="GND">118538543</ref>
+        </item>
+        <item xml:id="per_153">
+            <name>H. Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_154">
+            <name>Herrn Dr. Trendelenburgs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_155">
+            <name>Herrn Profeßor Joh. Bernoulli</name>
+            <ref type="GND">116170654</ref>
+        </item>
+        <item xml:id="per_156">
+            <name>Hn. Lieutenant Meyer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_157">
+            <name>Hr. Amburger</name>
+            <p>ist dem Hn. Lieutenant Meyer als Kommissionär zuständig</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_158">
+            <name>Hr. Voelkners</name>
+            <p>wird zusammen mit seinem Vater erwähnt</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_159">
+            <name>Herr Karpin</name>
+            <p>Rußischer Wundarzt</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_160">
+            <name>Hrn. Geheimden Rath und Ritter Jean Betzky</name>
+            <p>Geheimden Rath und Ritter</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_161">
+            <name>Georg Auguste</name>
+            <ref type="GND">118538543</ref>
+        </item>
+        <item xml:id="per_162">
+            <name>Herr Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_163">
+            <name>Hr. Hoffrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_164">
+            <name>Hrn. Kaufmann J. Helfrich Beck</name>
+            <p>im Raum Lübeck zu verorten</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_165">
+            <name>Herr Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_166">
+            <name>Hrn. Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_167">
+            <name>Bruder der Rußisch Kayserl. Resident</name>
+            <p>Bruder von Asch</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_168">
+            <name>H. D. Trendelenburgs</name>
+            <p>stand in freundschaftlicher Beziehung zu Asch</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_169">
+            <name>Herr Profeßor Bernoulli</name>
+            <ref type="GND">116170654</ref>
+        </item>
+        <item xml:id="per_170">
+            <name>Winckelmann</name>
+            <ref type="GND">118633600</ref>
+        </item>
+        <item xml:id="per_171">
+            <name>F. von Hrn. Hubers</name>
+            <p>Arzt, in Basel geboren</p>
+            <ref type="GND">121998630</ref>
+        </item>
+        <item xml:id="per_172">
+            <name>Hrn. Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_173">
+            <name>Hrn. Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_174">
+            <name>Hrn. D.Trendelenburgs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_175">
+            <name>Hrn. Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_176">
+            <name>Hrn. Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_177">
+            <name>Hr.Vater</name>
+            <p>Vater von Hrn. Voelkner</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_178">
+            <name>Hrn. Professor Bernoulli</name>
+            <ref type="GND">116170654</ref>
+        </item>
+        <item xml:id="per_179">
+            <name>Hr. Nicolai</name>
+            <ref type="GND">118587668</ref>
+        </item>
+        <item xml:id="per_180">
+            <name>Hrn. Professor Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_181">
+            <name>Hrn. Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_182">
+            <name>Hrn. Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_183">
+            <name>Hrn. G.R. Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_184">
+            <name>Hrn. Sohn</name>
+            <p>Sohn von Voelkner</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_185">
+            <name>Herr Karpinski</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_186">
+            <name>Herrn Joh. Helfried Beck</name>
+            <p>Kaufmann in Lübeck</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_187">
+            <name>Hrn. Hoffrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_188">
+            <name>Sohn</name>
+            <p>Sohn des Hrn. Hoffrath Voelkners</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_189">
+            <name>Hrn. Hrn. Professoren Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_190">
+            <name>Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_191">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_192">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_193">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_194">
+            <name>Hr. StaabsChirurgus Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_195">
+            <name>Lehmanns</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_196">
+            <name>Buffon</name>
+            <ref type="GND">118517252</ref>
+        </item>
+        <item xml:id="per_197">
+            <name>Hrn. Bernoulli’s</name>
+            <ref type="GND">116170654</ref>
+        </item>
+        <item xml:id="per_198">
+            <name>Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_199">
+            <name>Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_200">
+            <name>Hrn.  V. Güldenstaedt</name>
+            <ref type="GND">120640759</ref>
+        </item>
+        <item xml:id="per_201">
+            <name>Hr. Karpinski</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_202">
+            <name>Hr. Hoffrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_203">
+            <name>Hrn-Hrn. Professoren Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_204">
+            <name>Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_205">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_206">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_207">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_208">
+            <name>Blumenbach</name>
+            <ref type="GND">gnd:116208503</ref>
+        </item>
+        <item xml:id="per_209">
+            <name>Hr. Melart</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_210">
+            <name>Hr. Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_211">
+            <name>Hr. Panken</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_212">
+            <name>Hrn. Geheimen Rath Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_213">
+            <name>Hrn. Geheimen Raths Iwan Iwanowitz Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_214">
+            <name>Hr. v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_215">
+            <name>Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_216">
+            <name>Weismann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_217">
+            <name>drey Brüder v. Weismann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_218">
+            <name>General Otto v. W.</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_219">
+            <name>General Weismann</name>
+            <p>wird im Brief vom 17790909 als ledig bezeichnet</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_220">
+            <name>Hrn. Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_221">
+            <name>Hrn. Malart</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_222">
+            <name>Hrn. D. Trendelenburg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_223">
+            <name>Dr. Paeken</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_224">
+            <name>Vater</name>
+            <p>Vater von Dr. Paeken</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_225">
+            <name>Ricaud Tiregale</name>
+            <ref type="GND">100323227</ref>
+        </item>
+        <item xml:id="per_226">
+            <name>Peter der Große</name>
+            <ref type="GND">118740180</ref>
+        </item>
+        <item xml:id="per_227">
+            <name>Peter der Große</name>
+            <ref type="GND">118740180</ref>
+        </item>
+        <item xml:id="per_228">
+            <name>Tiregale</name>
+            <ref type="GND">100323227</ref>
+        </item>
+        <item xml:id="per_229">
+            <name>Herr Hoffrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_230">
+            <name>v. Lizakewitz</name>
+            <p>Rußisch Kayserlichen Hrn. LegationsRath in Dresden</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_231">
+            <name>Hrn. Geheimen Rath v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_232">
+            <name>Hrn v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_233">
+            <name>Hr. Hoffrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_234">
+            <name>Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_235">
+            <name>Hrn. D. Trendelenburg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_236">
+            <name>Dr. Paeken</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_237">
+            <name>Schiffer Sager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_238">
+            <name>Hrn. Geheimen Rath v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_239">
+            <name>Hr. Sager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_240">
+            <name>Hr. Sager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_241">
+            <name>Dr. Paeken</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_242">
+            <name>Hrn. Paecken</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_243">
+            <name>Winkelmann</name>
+            <p>118633600</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_244">
+            <name>Hrn. D. Matthias Paeckens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_245">
+            <name>Hrn. Raicovitz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_246">
+            <name>Hrn. Geheimen Rath v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_247">
+            <name>Frau Gemalin</name>
+            <p>gemeint ist die Frau von Heyne</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_248">
+            <name>Hrn. Prof Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_249">
+            <name>Hrn. Prof. Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_250">
+            <name>Wasili-Ostrow</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_251">
+            <name>Hrn. Hofrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_252">
+            <name>Hr. Lieut. Meier</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_253">
+            <name>Wasili-Ostrog.</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_254">
+            <name>Ostrow</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_255">
+            <name>Hrn. Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_256">
+            <name>Hrn. Profeßors Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_257">
+            <name>Seefahrer Kook</name>
+            <ref type="GND">118522027</ref>
+        </item>
+        <item xml:id="per_258">
+            <name>Herr Geheime Rath v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_259">
+            <name>Hrn. Geheimen Rath v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_260">
+            <name>Herr geheime Rath</name>
+            <p>gemeint ist v. Betzky</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_261">
+            <name>Hr. Hofrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_262">
+            <name>Hr. Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_263">
+            <name>Seefahrer Cook</name>
+            <ref type="GND">118522027</ref>
+        </item>
+        <item xml:id="per_264">
+            <name>Herr Geheime Rath v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_265">
+            <name>Herrn Hofrath Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_266">
+            <name>Hrn. Prof. Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_267">
+            <name>Hartknoch</name>
+            <ref type="GND">124244300</ref>
+        </item>
+        <item xml:id="per_268">
+            <name>Herren Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_269">
+            <name>Hollmann</name>
+            <ref type="GND">11696474X</ref>
+        </item>
+        <item xml:id="per_270">
+            <name>Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_271">
+            <name>Kästner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_272">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_273">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_274">
+            <name>Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_275">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_276">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_277">
+            <name>Beckmann</name>
+            <ref type="GND">118654624</ref>
+        </item>
+        <item xml:id="per_278">
+            <name>Hrn. Professor Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_279">
+            <name>Hrn. Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_280">
+            <name>Apotheker Models</name>
+            <ref type="GND">115842489</ref>
+        </item>
+        <item xml:id="per_281">
+            <name>Apotheker Winterberger</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_282">
+            <name>Apothekers Durops</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_283">
+            <name>Winterberger</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_284">
+            <name>Herr Hartknoch</name>
+            <ref type="GND">124244300</ref>
+        </item>
+        <item xml:id="per_285">
+            <name>Herren Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_286">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_287">
+            <name>Sömmering</name>
+            <ref type="GND">118805193</ref>
+        </item>
+        <item xml:id="per_288">
+            <name>Hrn. geh. R. v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_289">
+            <name>Hrn. v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_290">
+            <name>Hr. Ernst Aug. Petzold</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_291">
+            <name>Fürsten Orlow</name>
+            <ref type="GND">129901717</ref>
+        </item>
+        <item xml:id="per_292">
+            <name>Hr. Chirurgus Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_293">
+            <name>Hrn. Hofrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_294">
+            <name>Hr. D. Dioboldt*</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_295">
+            <name>Herzog Ferdinand von Braunschweig</name>
+            <ref type="GND">11913988X</ref>
+        </item>
+        <item xml:id="per_296">
+            <name>Fürsten Orlofs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_297">
+            <name>Chirurgus Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_298">
+            <name>Petzold</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_299">
+            <name>Hrn. Geh. R. v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_300">
+            <name>Schiffer Gotl. Joach. Wohler</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_301">
+            <name>Maler Golowatschefsky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_302">
+            <name>Schiffer Spickermann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_303">
+            <name>Hrn. geh. R. v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_304">
+            <name>Herr Hofrath</name>
+            <p>gemeint ist Heyne</p>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_305">
+            <name>Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_306">
+            <name>Hrn. Prof. Lichtenberg</name>
+            <ref type="GND">118572628</ref>
+        </item>
+        <item xml:id="per_307">
+            <name>Herr Candidat Bellerman</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_308">
+            <name>Pharmaceutikers Lowitzens</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_309">
+            <name>Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_310">
+            <name>Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_311">
+            <name>Hrn. D. Klints</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_312">
+            <name>Georg Auguste</name>
+            <ref type="GND">118538543</ref>
+        </item>
+        <item xml:id="per_313">
+            <name>Hrn. Prof. Beckmann</name>
+            <ref type="GND">118654624</ref>
+        </item>
+        <item xml:id="per_314">
+            <name>Hrn. v. Adoduroff</name>
+            <p>16jährige Jüngling</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_315">
+            <name>Hrn. Vaters K.</name>
+            <p>Vater des jungen v. Adoduroff</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_316">
+            <name>Hrn. Etats Raths v. Gleboff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_317">
+            <name>Hrn. v. Adoduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_318">
+            <name>H. Adoduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_319">
+            <name>Hr. Adoduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_320">
+            <name>Hr. Hornborg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_321">
+            <name>Hr. v. Adoduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_322">
+            <name>Georg Auguste</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_323">
+            <name>Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_324">
+            <name>Peter des Grossen</name>
+            <ref type="GND">118740180</ref>
+        </item>
+        <item xml:id="per_325">
+            <name>Falconet</name>
+            <ref type="GND">118685872</ref>
+        </item>
+        <item xml:id="per_326">
+            <name>Falconet</name>
+            <ref type="GND">118685872</ref>
+        </item>
+        <item xml:id="per_327">
+            <name>Hrn. Leibarzts Richters</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_328">
+            <name>Doctor creirter Volckmer*</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_329">
+            <name>Hr. v. Haller</name>
+            <ref type="GND">118545140</ref>
+        </item>
+        <item xml:id="per_330">
+            <name>Hr. Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_331">
+            <name>Hr. Ritter Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_332">
+            <name>Hr. Bilich</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_333">
+            <name>Hr. Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_334">
+            <name>Hr. Diobold</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_335">
+            <name>Hrn. Pezold</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_336">
+            <name>Hrn. Hrn. Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_337">
+            <name>Hollmann</name>
+            <ref type="GND">11696474X</ref>
+        </item>
+        <item xml:id="per_338">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_339">
+            <name>Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_340">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_341">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_342">
+            <name>Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_343">
+            <name>Lichtenberg</name>
+            <ref type="GND">118572628</ref>
+        </item>
+        <item xml:id="per_344">
+            <name>Hr. v. Adoduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_345">
+            <name>Tatiana Wasiljewna</name>
+            <p>Schwester von Hr. v. Adoduroff</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_346">
+            <name>Herrn Hornborg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_347">
+            <name>Hrn. Prof. Beckmann</name>
+            <ref type="GND">118654624</ref>
+        </item>
+        <item xml:id="per_348">
+            <name>Hr. Hornborg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_349">
+            <name>Hr. Ritter Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_350">
+            <name>Hr. Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_351">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_352">
+            <name>Madame de Glaiboff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_353">
+            <name>Hrn. Prof. Matthaei</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_354">
+            <name>Hrn. Collegien Rath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_355">
+            <name>Translateur Hornborg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_356">
+            <name>Hr. v. Adaduroffs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_357">
+            <name>Hrn. D. Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_358">
+            <name>Hrn. Ritter Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_359">
+            <name>Herren Professoren Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_360">
+            <name>Baldinger</name>
+            <ref type="GND">116042958</ref>
+        </item>
+        <item xml:id="per_361">
+            <name>Herren Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_362">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_363">
+            <name>Hr. Hornborg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_364">
+            <name>Hr. v. Jelagin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="364">
+            <name>Hr. v. Jelagin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_365">
+            <name>Schiffer G(P?)öttchen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_366">
+            <name>Hrn. Hornburg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_367">
+            <name>Hrn. v. Adadouroffs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_368">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_369">
+            <name>Hrn. Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_370">
+            <name>Schiffer Göttens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_371">
+            <name>Hr. Candidat Bellermann</name>
+            <ref type="GND">116114673</ref>
+        </item>
+        <item xml:id="per_372">
+            <name>Herr Dr. Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_373">
+            <name>Hrn. Prof. Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_374">
+            <name>Schiffer Göttens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_375">
+            <name>Schiffer Sager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_376">
+            <name>Hr. Bellermann</name>
+            <ref type="GND">116114673</ref>
+        </item>
+        <item xml:id="per_377">
+            <name>Hrn Felleisen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_378">
+            <name>Herrn Bernoulli</name>
+            <ref type="GND">116170654</ref>
+        </item>
+        <item xml:id="per_379">
+            <name>Hr. Candidat Bellermann</name>
+            <ref type="GND">116114673</ref>
+        </item>
+        <item xml:id="per_380">
+            <name>Dame v. Glaiboff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_381">
+            <name>Hr. Kosegarten</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_382">
+            <name>Georg Auguste</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_383">
+            <name>Schiffer Göthens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_384">
+            <name>Hrn. Christian Friedrich Rieffenstahl</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_385">
+            <name>Herrn Candidat Bellermann</name>
+            <ref type="GND">116114673</ref>
+        </item>
+        <item xml:id="per_386">
+            <name>Herrn Bernoulli</name>
+            <ref type="GND">116170654</ref>
+        </item>
+        <item xml:id="per_387">
+            <name>Hr. Dr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_388">
+            <name>Schiffer Göthens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_389">
+            <name>Hr. Kosegarten</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_390">
+            <name>Herr Collegien Rath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_391">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_392">
+            <name>Herr Kosegarten</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_393">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_394">
+            <name>Lansbergs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_395">
+            <name>Hrn Kosegarten</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_396">
+            <name>Hölterhoffs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_397">
+            <name>Hrn. Prof. Matthaei</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_398">
+            <name>Hrn. Heym</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_399">
+            <name>Capitain Cooks</name>
+            <ref type="GND">118522027</ref>
+        </item>
+        <item xml:id="per_400">
+            <name>Herrn Hallisen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_401">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="402">
+            <name>Hrn. Collegien Rath Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_403">
+            <name>Hr. Dr. Behnes</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_404">
+            <name>Hr. Dr. Ringebroig</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_405">
+            <name>Schiffer Haase</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_406">
+            <name>Herr Prof. Bause</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_407">
+            <name>Hrn Körber</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_408">
+            <name>Schiffer Haase</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_409">
+            <name>Herr Bause</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_410">
+            <name>Stabchirurgus Bornemann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_411">
+            <name>Hr. Schumlanski</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_412">
+            <name>Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_413">
+            <name>Hrn. v. Jelagin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_414">
+            <name>Hrn. v. Adadouroffs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_415">
+            <name>Herr Hornburg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_416">
+            <name>Hrn Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_417">
+            <name>Hrn. Heym</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_418">
+            <name>Hrn. Stecke</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_419">
+            <name>Dr. Juris</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_420">
+            <name>Hr. Etatsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_421">
+            <name>Hrn. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_422">
+            <name>Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_423">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_424">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_425">
+            <name>Herrn v. Adaduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_426">
+            <name>Herrn v. Jelagin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_427">
+            <name>Hrn. v. Adaduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_428">
+            <name>Herrn Staatsrath und Ritter Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_429">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_430">
+            <name>Hrn. Prof. Lichtenberg</name>
+            <ref type="GND">118572628</ref>
+        </item>
+        <item xml:id="per_431">
+            <name>Hrn Staatsrath v Jelagin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_432">
+            <name>Hrn v. Adaduroffs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_433">
+            <name>Hr. Prosector Schellers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_434">
+            <name>Herr Bause</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_435">
+            <name>Hrn. Körbers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_436">
+            <name>Georg Auguste</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_437">
+            <name>Hrn Dr. Svenske</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_438">
+            <name>Hr. D. Ringeberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_439">
+            <name>Hrn. Prof. Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_440">
+            <name>Herrn Prosector Scheller</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_441">
+            <name>Hrn. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_442">
+            <name>Hrn. D. Stechs</name>
+            <ref type="GND">100340520</ref>
+        </item>
+        <item xml:id="per_443">
+            <name>Herrn Etatsrath Jelagin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_444">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_445">
+            <name>Herrn Hofrath Frank</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_446">
+            <name>Hr Gumprecht</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_447">
+            <name>Herren Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_448">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_449">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_450">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_451">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_452">
+            <name>Mr le Clercs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_453">
+            <name>Mr le Clerc</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_454">
+            <name>Carl XII.</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_455">
+            <name>Herrn Dr. Sprengers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_456">
+            <name>Hrn. Etatsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_457">
+            <name>Hr. Gumprecht</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_458">
+            <name>Hn. Prosector Schellers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_459">
+            <name>Hrn. Ritter Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_460">
+            <name>Hr. Bonckman</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_461">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_462">
+            <name>Herr Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_463">
+            <name>Herrn Etatsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_464">
+            <name>Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_465">
+            <name>Hrn. Collegien Aßessors Joh. G. Kochs</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_466">
+            <name>Hrn. Legationsrath Bonckman</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_467">
+            <name>Herrn Collegien Assessor Kochs</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_468">
+            <name>Herr Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_469">
+            <name>Herrn Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_470">
+            <name>Herrn Collegien Assessor Kochs</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_471">
+            <name>Hrn. Bonckmans</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_472">
+            <name>Hrn Collegien Assessors Joh. Ge. Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_473">
+            <name>Dr. Behnes</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_474">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_475">
+            <name>Hrn. Etatsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_476">
+            <name>Herr Collegien Assessor Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_477">
+            <name>Herr Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_478">
+            <name>Hrn. Hartknoch</name>
+            <ref type="GND">124244300</ref>
+        </item>
+        <item xml:id="per_479">
+            <name>Hrn. H. R. Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_480">
+            <name>Hrn. Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_481">
+            <name>Hrn. Stadthalter Freyherrn v. Dalberg</name>
+            <ref type="GND">118720961</ref>
+        </item>
+        <item xml:id="per_482">
+            <name>Frau v. Glaiboff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_483">
+            <name>H (??) v. Adaduroff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_484">
+            <name>Herr Rath Schäfer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_485">
+            <name>Hrn. Stechs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_486">
+            <name>Dr. Jur. Besten</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_487">
+            <name>Herrn Stuht</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_488">
+            <name>Herrn Professor Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_489">
+            <name>Herr Rath Schäfer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_490">
+            <name>Hofrath Brinckmann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_491">
+            <name>Herrn Etatsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_492">
+            <name>Herrn Assessor nunmehrigen Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_493">
+            <name>Herr Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_494">
+            <name>Capt. Rigel</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_495">
+            <name>Capt. Rigel</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_496">
+            <name>Herren C. Platzmann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_497">
+            <name>Herrn Mannes von Remscheid</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_498">
+            <name>Herrn Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_499">
+            <name>Herrn Stadthalter Baron v. Dalberg</name>
+            <ref type="GND">118720961</ref>
+        </item>
+        <item xml:id="per_500">
+            <name>Herrn Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_501">
+            <name>Dr. Holliday</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_502">
+            <name>Herrn Stuht</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_503">
+            <name>Herrn Prof. Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_504">
+            <name>Herrn Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_505">
+            <name>Hr. Dr. Bornemann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_506">
+            <name>Herren C. Platzmann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_507">
+            <name>Hrn Dr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_508">
+            <name>Hrn Hofrath Kochs</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_509">
+            <name>Schiffer Riegel</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_510">
+            <name>Herrn C. Platzmann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_511">
+            <name>Hrn. Dr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_512">
+            <name>Hrn Stadthalters Bn v. Dalberg Exc.</name>
+            <ref type="GND">118720961</ref>
+        </item>
+        <item xml:id="per_513">
+            <name>Hrn. Hofrath Murrays</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_514">
+            <name>Hrn. Mannes</name>
+            <p>aus Remscheid stammend</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_515">
+            <name>Rath Schäfer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_516">
+            <name>Herr Fueslin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_517">
+            <name>Grafen Rasumofski</name>
+            <ref type="GND">116368004</ref>
+        </item>
+        <item xml:id="per_518">
+            <name>Hrn. Dr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_519">
+            <name>Herr Fueßlin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_520">
+            <name>Herr Dr. Jacob Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_521">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_522">
+            <name>Schiffer Riegel</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_523">
+            <name>Hrn. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_524">
+            <name>Hr. Fueßlin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_525">
+            <name>Hrn Professor Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_526">
+            <name>Herrn Prof. Heym</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_527">
+            <name>Hrn. Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_528">
+            <name>Hr. Weyl</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_529">
+            <name>Hr. Dr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_530">
+            <name>Grafen von Rosumofski</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_531">
+            <name>Herrn Fueßlin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_532">
+            <name>Hrn. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_533">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_534">
+            <name>Georg Auguste</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_535">
+            <name>Herrn Garner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_536">
+            <name>Hrn. Fuesslin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_537">
+            <name>Grafen Rasumofski</name>
+            <ref type="GND">116368004</ref>
+        </item>
+        <item xml:id="per_537">
+            <name>Grafen Rasumofski</name>
+            <ref type="GND">116368004</ref>
+        </item>
+        <item xml:id="per_538">
+            <name>Hrn. Dr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_539">
+            <name>Hr. Fueslin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_540">
+            <name>Hr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_541">
+            <name>Hrn. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_542">
+            <name>Hrn. Adlers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_543">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_544">
+            <name>Herren Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_545">
+            <name>Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_546">
+            <name>Schiffer Sager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_547">
+            <name>Schiffer Serpentien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_548">
+            <name>Hr. Heyn</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_549">
+            <name>S. Serpentien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_550">
+            <name>Herr Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_551">
+            <name>Hrn. Etatsrath Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_552">
+            <name>Heym</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_553">
+            <name>Herrn Prof. Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_554">
+            <name>Herrn Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_555">
+            <name>Herren Hofräthen Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_556">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_557">
+            <name>Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_558">
+            <name>Gatterer</name>
+            <ref type="GND">115367918</ref>
+        </item>
+        <item xml:id="per_559">
+            <name>Hr. CollegienRath Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_560">
+            <name>Hrn. Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_561">
+            <name>Hr. Weickardt</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_562">
+            <name>Herrn Prof. Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_563">
+            <name>Schiffer Jac. Heinr. Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_564">
+            <name>Schiffer Jacob D. Comien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_565">
+            <name>Herren Hofräthe Kästner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_566">
+            <name>Schlötzer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_567">
+            <name>Herrn Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_568">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_569">
+            <name>Herr Forster</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_570">
+            <name>Hr. Collegienrath Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_571">
+            <name>Herr Graf Besborodko</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_572">
+            <name>Herren Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_573">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_574">
+            <name>Herrn Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_575">
+            <name>Herren Professoren Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_576">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_577">
+            <name>Herr von Demidoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_578">
+            <name>Alexander Grigoriewitz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_579">
+            <name>Hr. Panki</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_580">
+            <name>Herrn D. Koerber</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_581">
+            <name>Hr. Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_582">
+            <name>Jacob V. Comien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_583">
+            <name>Rige</name>
+            <p>gemeint ist wahrscheinlich der Schiffer Riegel (Rigel)</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_584">
+            <name>Hrn Hofrath Kochs</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_585">
+            <name>Hrn. Prof. Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_586">
+            <name>Hrn. Geh. J. R. Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_587">
+            <name>Hrn Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_588">
+            <name>Herr Hofrath von Graetsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_589">
+            <name>Hrn. Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_590">
+            <name>Ritter v. Alopoeus</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_591">
+            <name>Hrn. Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_592">
+            <name>Hr. D. Koerber</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_593">
+            <name>Schiffer Comien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_594">
+            <name>Hr. D. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_595">
+            <name>Kästner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_596">
+            <name>Schlötzer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_597">
+            <name>Hr. Hofrath Gretsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_598">
+            <name>Hr. Strenge</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_599">
+            <name>Herr Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_600">
+            <name>Hrn Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_601">
+            <name>Hrn Assess.  Hotzen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="602">
+            <name>Herrn Hofrath Gretsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_603">
+            <name>Michael Piper</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_604">
+            <name>Hr. Dolst</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_605">
+            <name>Schiffer Comien</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_606">
+            <name>Hr. Strenge</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_607">
+            <name>Hrn. Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_608">
+            <name>Herr Legationsrath von Moulines</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_609">
+            <name>Hr. Collegienrath Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_610">
+            <name>Herr Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_611">
+            <name>Cap.tn Bn. Wlodimer Asch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_612">
+            <name>Hrn. Canzelley Rath und Ritter v. Maltzow</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_613">
+            <name>Hrn. v. Moulines</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_614">
+            <name>Michael Piper</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_615">
+            <name>Hr. Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_616">
+            <name>Handelsmann Levin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_617">
+            <name>Hrn. v. Moulines</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_618">
+            <name>Staabschirurgus Schindler</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_619">
+            <name>Herr Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_620">
+            <name>Sächsischen Hofminiatur Maler D.</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_621">
+            <name>Hofraths Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_622">
+            <name>Herren Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_623">
+            <name>Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_624">
+            <name>Hofmaler Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_625">
+            <name>Herrn Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_626">
+            <name>Herrn Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_627">
+            <name>Hr. Hofrath Ritter Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_628">
+            <name>Herrn von Beulwitz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_629">
+            <name>Hrn. Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_630">
+            <name>Herrn Hofrath Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_631">
+            <name>Hrn. Operateur Eman:Bay</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_632">
+            <name>Hofmaler Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_633">
+            <name>Herr Operateur Bay</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_634">
+            <name>Hrn. Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_635">
+            <name>Herrn Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_636">
+            <name>Hrn. H. R. Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_637">
+            <name>Capt Saagers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_638">
+            <name>Baron Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_639">
+            <name>Hrn Euler</name>
+            <ref type="GND">118531379</ref>
+        </item>
+        <item xml:id="per_640">
+            <name>Hrn. Hofrath Kästner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_641">
+            <name>Hrn Hofrath Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_642">
+            <name>Capte. Jens Kriegsmann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_643">
+            <name>Hr. Bay</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_644">
+            <name>Hr. Dolst</name>
+            <ref type="GND">142590754</ref>
+        </item>
+        <item xml:id="per_645">
+            <name>Herrn Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_646">
+            <name>Herrn Chir. Bouttaz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_647">
+            <name>Caspar N. Daniel Menck</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_648">
+            <name>Herr Prof. Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_649">
+            <name>Hr. Bouttatz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="650">
+            <name>Hrn v. Alopeus</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_651">
+            <name>Jurgen Albrecht Sukau</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_652">
+            <name>Hrn. Franz Pauli</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_653">
+            <name>Hrn Hofrath D. Walther</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_654">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_655">
+            <name>Herrn Hofräthen Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_656">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_657">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_658">
+            <name>Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_659">
+            <name>Gatterer</name>
+            <ref type="GND">115367918</ref>
+        </item>
+        <item xml:id="per_660">
+            <name>Herr Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_661">
+            <name>Hr. Professor Vairin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_662">
+            <name>Hofrath Tumansky</name>
+            <ref type="GND">1050037359</ref>
+        </item>
+        <item xml:id="per_663">
+            <name>Professor Stephan</name>
+            <ref type="GND">143255061</ref>
+        </item>
+        <item xml:id="per_664">
+            <name>Herrn Vairin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_665">
+            <name>Hrn. Hofrath Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_666">
+            <name>Herren Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_667">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_668">
+            <name>Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_669">
+            <name>Althoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_670">
+            <name>Hrn. Prof. Hiltebrandt</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_671">
+            <name>Hrn. Hofrath Dr. Joh. Roesslein</name>
+            <ref type="GND">1050037006</ref>
+        </item>
+        <item xml:id="per_672">
+            <name>Hrn H. R. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_673">
+            <name>Apotheker Sievers</name>
+            <ref type="GND">122086104
+            </ref>
+        </item>
+        <item xml:id="per_674">
+            <name>Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_675">
+            <name>Hrn Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_676">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_677">
+            <name>Graf Kohary</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_678">
+            <name>Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_679">
+            <name>Caspar Frid. Wolff</name>
+            <ref type="GND">100706347</ref>
+        </item>
+        <item xml:id="per_680">
+            <name>Senateur Soimonow</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_681">
+            <name>Mediciner Bouttaz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_682">
+            <name>Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_683">
+            <name>Dr. Jaenisch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_684">
+            <name>Hrn. G.R. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_685">
+            <name>Mr. Vairin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_686">
+            <name>Hrn. Prof. Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_687">
+            <name>Hrn Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_688">
+            <name>Hr. Vairin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_689">
+            <name>Hrn. Pr. Hoffman</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_690">
+            <name>Joh. Aug. Sievers</name>
+            <ref type="GND">122086104
+            </ref>
+        </item>
+        <item xml:id="per_691">
+            <name>Johann Jährig</name>
+            <ref type="GND">140645128</ref>
+        </item>
+        <item xml:id="per_692">
+            <name>Hrn Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_693">
+            <name>Iwan Iwanowitz Betzkoy</name>
+            <ref type="GND">118157132</ref>
+        </item>
+        <item xml:id="per_694">
+            <name>Iwan Trubetzkoy</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_695">
+            <name>Baronne Wrede</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_696">
+            <name>Betzkoy</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_697">
+            <name>Stabschirurgus Malitansky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_698">
+            <name>Hr Doctor Carl Ludwig Heyne</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_699">
+            <name>Hrn General Major Denisoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_700">
+            <name>Oberster v. Wolkoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_701">
+            <name>Alexei Iwanowitz Wasiljew</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_702">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_703">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_704">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_705">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_706">
+            <name>Althoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_707">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_708">
+            <name>Hrn. General Director v. Wasiljew</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_709">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_710">
+            <name>Fürstin Daschkow</name>
+            <ref type="GND">118678914</ref>
+        </item>
+        <item xml:id="per_711">
+            <name>Hrn. Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_712">
+            <name>Iwan Fedorowitz Wolkoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_713">
+            <name>Hr. Hofrath Eric Laxmann</name>
+            <ref type="GND">132105640</ref>
+        </item>
+        <item xml:id="per_714">
+            <name>Hr. Dr. Merk</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_715">
+            <name>Captain Bilings</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_716">
+            <name>Herren Hofräthe Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_717">
+            <name>Schlözer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_718">
+            <name>Hrn. Dr. Merks</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_719">
+            <name>Hrn. Oberstlieutenant Andreas v. Meyer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_720">
+            <name>Herrn Heinrich Carl Ernst Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_721">
+            <name>Hr. Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_722">
+            <name>Hrn Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_723">
+            <name>Hrn Boell</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_724">
+            <name>Hr. Reinbott</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_725">
+            <name>Herrn Hofrathe Schlözer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_726">
+            <name>Herrn Bach</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_727">
+            <name>Herren Boehmer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_728">
+            <name>Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_729">
+            <name>Herren Boehmer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_730">
+            <name>Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_731">
+            <name>Hrn. G.h.J. Rath Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_732">
+            <name>Herr Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_733">
+            <name>Herren Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_734">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_735">
+            <name>Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_736">
+            <name>Joachim Ralph</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_737">
+            <name>Hrn Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_738">
+            <name>Hr. EtatsRath Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_739">
+            <name>Hrn. Hofrath Beckmann</name>
+            <ref type="GND">118654624</ref>
+        </item>
+        <item xml:id="per_740">
+            <name>Herr Hofrath Dr. Merk</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_741">
+            <name>Hrn. Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_742">
+            <name>Hrn. Obersten von Meyers</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_743">
+            <name>Hrn. Hofrath Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_744">
+            <name>Hr. Dietrich</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_745">
+            <name>Herrn Schangin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_746">
+            <name>Hrn Hofrath Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_747">
+            <name>Hrn Obrist v. Meyer</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_748">
+            <name>Herr Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_749">
+            <name>Hrn. Hofrath Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_750">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_751">
+            <name>Hr. Prof. Althoff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_752">
+            <name>Carsten Radloff</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_753">
+            <name>Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_754">
+            <name>Dr. Carl Merck</name>
+            <ref type="GND">139562443</ref>
+        </item>
+        <item xml:id="per_755">
+            <name>Hrn. Collegien Assessor Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_756">
+            <name>Etats Rath Hildebrandts</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_757">
+            <name>Hrn Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_758">
+            <name>Ritter Aepinus</name>
+            <ref type="GND">100006132</ref>
+        </item>
+        <item xml:id="per_759">
+            <name>Cammerherrn von Oertzen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_760">
+            <name>Hrn Hofrath Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_761">
+            <name>Thom. Heinrich Jürgens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_762">
+            <name>Hr. Collegien Rath Dr. Basilewitsch</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_763">
+            <name>Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_764">
+            <name>Hrn. CollegienRathe Stephan</name>
+            <ref type="GND">143255061</ref>
+        </item>
+        <item xml:id="per_765">
+            <name>Hrn. Hofrath Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_766">
+            <name>Hr. Hofrath Hiltebrandt</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_767">
+            <name>Hrn. Peter Iwanowitsch Schangin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_768">
+            <name>Hrn Hofraths Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_769">
+            <name>Hrn Hofraths Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_770">
+            <name>Hrn. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_771">
+            <name>Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_772">
+            <name>Herzogl. Meklenburgl. Kammerherrn v. Oertzen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_773">
+            <name>Herr v. Schangin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_774">
+            <name>Hr. Bach</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_775">
+            <name>Etats Rath Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_776">
+            <name>Kammerherrn von Oertzen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_777">
+            <name>Carl Ludwig Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_778">
+            <name>Kaiserin Catharina der Grossen</name>
+            <ref type="GND">118560565</ref>
+        </item>
+        <item xml:id="per_779">
+            <name>Doctor Heyne</name>
+            <p>gemeint ist hier dessen Sohn</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_780">
+            <name>Baron von Oertzen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_781">
+            <name>Herren Hofräthen Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_782">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_783">
+            <name>Hoffmann</name>
+            <ref type="GND">132770830</ref>
+        </item>
+        <item xml:id="per_784">
+            <name>Hrn. G. R. v. Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_785">
+            <name>Hrn. G. R. v. Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_786">
+            <name>Ritter Bn. v. Oertzen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_787">
+            <name>Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_788">
+            <name>Hr. Bach</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_789">
+            <name>Fridr. v. Engel</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_790">
+            <name>Benedict Hermann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_791">
+            <name>Fürsten Orlows</name>
+            <ref type="GND">129901717</ref>
+        </item>
+        <item xml:id="per_792">
+            <name>Hr Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_793">
+            <name>Schiffer Gave</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_794">
+            <name>Hofrath Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_795">
+            <name>Dr. Gregorius Basilewitz</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_796">
+            <name>Dr. Melart</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_797">
+            <name>Hrn. Dieterich</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_798">
+            <name>Hrn. Fuss</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_799">
+            <name>Schubert</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_800">
+            <name>Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_801">
+            <name>Severgin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_802">
+            <name>Herrn EtatsRath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_803">
+            <name>Hofrath Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_804">
+            <name>Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_805">
+            <name>Baron Campenhausen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_806">
+            <name>Hrn EtatsRath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_807">
+            <name>C. Millin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_808">
+            <name>Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_809">
+            <name>Herr Etats Rath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_810">
+            <name>Herren Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_811">
+            <name>Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_812">
+            <name>Freygangs</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_813">
+            <name>Kalkau</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_814">
+            <name>Hrn Collegien Raths Bause</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_815">
+            <name>Hrn. Bause’s</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_816">
+            <name>Jacob Johann Gerdes</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_817">
+            <name>Academiker Georgi</name>
+            <ref type="GND">116562374</ref>
+        </item>
+        <item xml:id="per_818">
+            <name>Hrn. Etats Rath v. Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_819">
+            <name>Hrn. Klostermann’s</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_820">
+            <name>Freygangs</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_821">
+            <name>Herren Pütter</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_822">
+            <name>Wrisberg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_823">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_824">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_825">
+            <name>Osiander</name>
+            <ref type="GND">104103663</ref>
+        </item>
+        <item xml:id="per_826">
+            <name>Herr Etats Rath Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_827">
+            <name>Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_828">
+            <name>Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_829">
+            <name>Freygangs</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_830">
+            <name>Dr. Erlewein’s</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_831">
+            <name>Dr. Levis</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_832">
+            <name>Hr Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_833">
+            <name>Hr. Buhle</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_834">
+            <name>Hrn. OberBerghauptmann Hermann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_835">
+            <name>Herr Elias Jakowkin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_836">
+            <name>Hrn. Etatsrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_837">
+            <name>Jakowkins</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_838">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_839">
+            <name>Hrn. Osiander</name>
+            <ref type="GND">104103663</ref>
+        </item>
+        <item xml:id="per_840">
+            <name>Hrn. G.H.R. Pütters</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_841">
+            <name>Hofraths Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_842">
+            <name>Hrn. Gesandten v. Alopoeus</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_843">
+            <name>Marschal v. Biberstein</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_844">
+            <name>Hrn. Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_845">
+            <name>Collegien Rath Koehler</name>
+            <ref type="GND">116276444</ref>
+        </item>
+        <item xml:id="per_846">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_847">
+            <name>Hofraths Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_848">
+            <name>Tobias Lowitz</name>
+            <ref type="GND">11872925X</ref>
+        </item>
+        <item xml:id="per_849">
+            <name>Joh. Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_850">
+            <name>Elias Jakowkin</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_851">
+            <name>Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_852">
+            <name>Freygang</name>
+            <ref type="GND">100831443</ref>
+        </item>
+        <item xml:id="per_853">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_854">
+            <name>Gesandten v. Alopeus</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_855">
+            <name>Hr. Turneisen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_856">
+            <name>Herrn Hofrath Reuss</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_857">
+            <name>Hr. Bacmeister</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_858">
+            <name>Herrn v. Alopeus</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_859">
+            <name>Hrn. Turneisen</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_860">
+            <name>Grafen v. Buxhoeden</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_861">
+            <name>Herrn Pastor v. Bergmann’s</name>
+            <ref type="GND">116132833</ref>
+        </item>
+        <item xml:id="per_862">
+            <name>Rasche</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_863">
+            <name>Georg-Augustens</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_864">
+            <name>Hr. v. Schloetzer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_865">
+            <name>Hr. Sokoloffski</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_866">
+            <name>Hrn. Joh. Joach. Bellermanns</name>
+            <ref type="GND">116114673</ref>
+        </item>
+        <item xml:id="per_867">
+            <name>Herr Candidat Bellermann</name>
+            <ref type="GND">116114673</ref>
+        </item>
+        <item xml:id="per_868">
+            <name>Hrn. D. Trendelenburgs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_869">
+            <name>Göttchen</name>
+            <p>Betitelung nicht eindeutig, könnte auch Pöttchen heißen</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_870">
+            <name>Hrn. Translateur Hornburg</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_871">
+            <name>Hrn. v. Adaduroffs</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_872">
+            <name>H. v. A.</name>
+            <p>gemeint ist Adaduroff</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_873">
+            <name>Hr. v. A.</name>
+            <p>gemeint ist Adaduroff</p>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_874">
+            <name>Schiffer Wohler</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_875">
+            <name>Hr. Hofr. Voelkner</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_876">
+            <name>Herr Academicus Laxmann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_877">
+            <name>Hrn. Klints</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_878">
+            <name>Ernst Aug. Petzold</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_879">
+            <name>Hrn v. Betzky</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_880">
+            <name>Schiffer Wohler</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_881">
+            <name>Schiffer Spickermann</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_882">
+            <name>Bertolotti</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_883">
+            <name>Hrn. Assessor Heym</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_884">
+            <name>Hr. Schuback</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_885">
+            <name>Herrn Hofrath Schlötzer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_886">
+            <name>Hrn. Hr. Bacmeister</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_887">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_888">
+            <name>Tschulkows</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_889">
+            <name>Hrn. Hofrath Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_890">
+            <name>Hrn. CollegienRath Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_891">
+            <name>Herrn Hofrath Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_892">
+            <name>Herrn Stritter</name>
+            <ref type="GND">100594255</ref>
+        </item>
+        <item xml:id="per_893">
+            <name>Hrn. Hofrath Schlözer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_894">
+            <name>Herrn Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_895">
+            <name>Schiffer Saager</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_896">
+            <name>Tschulkows</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_897">
+            <name>Hrn. Hofrath Klint</name>
+            <ref type="GND">1020726393</ref>
+        </item>
+        <item xml:id="per_898">
+            <name>Hrn. CollegienRath Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_899">
+            <name>Herrn Hofrath Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_900">
+            <name>Herrn Stritter</name>
+            <ref type="GND">100594255</ref>
+        </item>
+        <item xml:id="per_901">
+            <name>Hrn. Hofrath Schlözer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_902">
+            <name>Herrn Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_903">
+            <name>Hr. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_904">
+            <name>Schuback</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_905">
+            <name>Herrn Prof. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_906">
+            <name>Herrn Professor Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_907">
+            <name>Herrn Professors</name>
+            <p>gemeint ist hier eindeutig Heyne</p>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_908">
+            <name>Hrn. D.</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_909">
+            <name>Hrn. Collegien Assessor Ungebaur</name>
+            <ref type="GND"/>
+        </item>
+        <item xml:id="per_910">
+            <name>Herren Hofräthe Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_911">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_912">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_913">
+            <name>Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_914">
+            <name>Hr. Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_915">
+            <name>Hrn. Prof. Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_916">
+            <name>Hr. Bay</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_917">
+            <name>Herr Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_918">
+            <name>Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_919">
+            <name>Maler Hüne</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_920">
+            <name>Hrn Jaenisch</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_921">
+            <name>Rospini</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_922">
+            <name>David Michelson</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_923">
+            <name>Hrn. Johann Jaehrig</name>
+            <ref type="GND">140645128</ref>
+        </item>
+        <item xml:id="per_924">
+            <name>Hrn. Etatsrath und Ritters von Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_925">
+            <name>Herr Jaenisch</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_926">
+            <name>Hrn. Euler</name>
+            <ref type="GND">118531379</ref>
+        </item>
+        <item xml:id="per_927">
+            <name>Hrn Hofrath Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_928">
+            <name>Hrn Bacmeister</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_929">
+            <name>HR Schlözer</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_930">
+            <name>Hr. Jaenisch</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_931">
+            <name>Rospini</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_932">
+            <name>Translateur Jaehrig</name>
+            <ref type="GND">140645128</ref>
+        </item>
+        <item xml:id="per_933">
+            <name>Herrn Hofrath Murray</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_934">
+            <name>Lorenz</name>
+            <p>mit Zunamen Geyer</p>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_935">
+            <name>Hrn. Collegien Assesor Ungebaurs</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_936">
+            <name>Heimberg</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_937">
+            <name>Hr. Jaenisch</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_938">
+            <name>Herren Hofräthe Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_939">
+            <name>Schlözer</name>
+            <ref type="GND">118608339</ref>
+        </item>
+        <item xml:id="per_940">
+            <name>Hrn. Etatsrath u. Ritter v. Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_941">
+            <name>Hr. Collegienassessor v. Poggenpohl</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_942">
+            <name>Poggenpohl</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_943">
+            <name>Herrn Ungebaur</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_944">
+            <name>Samuel Vogel</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_945">
+            <name>Hr. Vogel</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_946">
+            <name>Hr. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_947">
+            <name>Hrn Assessor, Apotheker Hotzen</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_948">
+            <name>Hrn Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_949">
+            <name>Schow</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_950">
+            <name>Zoega</name>
+            <ref type="GND">117009229</ref>
+        </item>
+        <item xml:id="per_951">
+            <name>Hrn Prof. Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_952">
+            <name>Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_953">
+            <name>Erzbischof Eugen</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_954">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_955">
+            <name>Herr Collegien Rath Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_956">
+            <name>Ungebaur</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_957">
+            <name>Hrn. Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_958">
+            <name>Mongolischen Translateur Jaehrig</name>
+            <ref type="GND">140645128</ref>
+        </item>
+        <item xml:id="per_959">
+            <name>Hr. v. Betzky</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_960">
+            <name>Herr Collgien Rath Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_961">
+            <name>Hrn Jaehrig</name>
+            <ref type="GND">140645128</ref>
+        </item>
+        <item xml:id="per_962">
+            <name>Hrn. H. R. Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_963">
+            <name>Herren Hofräthe Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_964">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_965">
+            <name>Tychsen</name>
+            <ref type="GND">gnd: 117439479</ref>
+        </item>
+        <item xml:id="per_966">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_967">
+            <name>Hrn. Dr. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_968">
+            <name>Hrn Hofrath Blumenbach</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_969">
+            <name>Herren Kästner</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_970">
+            <name>Gmelin</name>
+            <ref type="GND">116684674</ref>
+        </item>
+        <item xml:id="per_971">
+            <name>Herren Delius</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_972">
+            <name>Crell</name>
+            <ref type="GND">116725346</ref>
+        </item>
+        <item xml:id="per_973">
+            <name>Lowitz</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_974">
+            <name>Herrn Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_975">
+            <name>Herren Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_976">
+            <name>Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_977">
+            <name>Herren Pütter</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_978">
+            <name>Kästner</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_979">
+            <name>Wrisberg</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_980">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_981">
+            <name>Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_982">
+            <name>v. Martens</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_983">
+            <name>Herr Lowitz</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_984">
+            <name>Lowitzens</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_985">
+            <name>Herr Lowitz</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_986">
+            <name>Lowitzens</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_987">
+            <name>Herrn Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_988">
+            <name>Herrn Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_989">
+            <name>Herrn Tychsen</name>
+            <ref type="GND">117439479</ref>
+        </item>
+        <item xml:id="per_990">
+            <name>Herrn Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_991">
+            <name>Herrn Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_992">
+            <name>Hr. D. Heyne</name>
+            <ref type="GND">11855073X</ref>
+        </item>
+        <item xml:id="per_993">
+            <name>Herren Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_994">
+            <name>Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_995">
+            <name>Apotheker Siewers</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_996">
+            <name>Lowitz</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_997">
+            <name>Jaehrig</name>
+            <ref type="GND">140645128</ref>
+        </item>
+        <item xml:id="per_998">
+            <name>Hofmann</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_999">
+            <name>Herren Reineggs</name>
+            <ref type="GND">102029431</ref>
+        </item>
+        <item xml:id="per_1000">
+            <name>Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_1001">
+            <name>Hrn. Hofrath Blumenbachs</name>
+            <ref type="GND">116208503</ref>
+        </item>
+        <item xml:id="per_1002">
+            <name>Herr Collegien Rath Pallas</name>
+            <ref type="GND">118591371</ref>
+        </item>
+        <item xml:id="per_1003">
+            <name>Herren Hofräthen Wrisberg</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1004">
+            <name>Richter</name>
+            <ref type="GND">116510056</ref>
+        </item>
+        <item xml:id="per_1005">
+            <name>Kästner</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1006">
+            <name>G?HR Pütter</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1007">
+            <name>Hrn. v. Martens</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1008">
+            <name>Webers</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1009">
+            <name>Le Clerc</name>
+            <p>französischen Geschichtschreiber</p>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1010">
+            <name>Weber</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1011">
+            <name>Peter der Grosse</name>
+            <ref type="GND">118740180</ref>
+        </item>
+        <item xml:id="per_1012">
+            <name>Grosfürst Peter Alexiewitz</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1013">
+            <name>Grosfürst Alexei Petrowitz</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1014">
+            <name>Grafen Puteschestwie</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1015">
+            <name>Rospini</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1016">
+            <name>Herrn Hofrath Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_1017">
+            <name>Herr Samuel</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1018">
+            <name>Gebrüder Vogel</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1019">
+            <name>Hr. Hartknoch</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1020">
+            <name>Hrn. Prof. Murray</name>
+            <ref type="GND">117187658</ref>
+        </item>
+        <item xml:id="per_1021">
+            <name>Hr. Hofrath Kaestner</name>
+            <ref type="GND">118714570</ref>
+        </item>
+        <item xml:id="per_1022">
+            <name>Hrn. Prof. Euler</name>
+            <ref type="GND">118531379</ref>
+        </item>
+        <item xml:id="per_1023">
+            <name>Hr. Hofrath Koch</name>
+            <ref type="GND">1050036379</ref>
+        </item>
+        <item xml:id="per_1024">
+            <name>Hr. Voelkner</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1025">
+            <name>Hrn. v. Betzky</name>
+            <ref type="GND"></ref>
+        </item>
+        <item xml:id="per_1026">
+            <name>Seefahrer Cook</name>
+            <ref type="GND">118522027</ref>
+        </item>
+        <item xml:id="per_1027">
+            <name>Hrn. Professor Koch</name>
+            <ref type="GND">1050036379</ref>   
+        </item>
+        <item xml:id="per_1028">
+            <name>Roederer</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1029">
+            <name>Hrn. Koch</name>
+            <ref type="GND">1050036379</ref>   
+        </item>
+        <item xml:id="per_1030">
+            <name>Ambassadeur Fürsten Galitzin</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1031">
+            <name>Herr Hofrath Voelkner</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1032">
+            <name>Hrn. Professor Schweighäuser</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1033">
+            <name>Voelkner</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1034">
+            <name>Hr. Koch</name>
+            <ref type="GND">1050036379</ref>   
+        </item>
+        <item xml:id="per_1035">
+            <name>Hofraths Voelkner</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1036">
+            <name>Wallachischen Hospodars<lb/>
+                Ipsilander</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1037">
+            <name>Baron Peter</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1038">
+            <name>den größeren Peter</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1039">
+            <name>Wöllner</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1040">
+            <name>Büsching</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1041">
+            <name>Lucas</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1042">
+            <name>Jacob Doctor</name>
+            <ref type="GND"></ref>   
+        </item>
+        <item xml:id="per_1043">
+            <name>Königl. Churfürstl. Hannoverischen Residenten</name>
+            <ref type="GND"></ref>   
+        </item>
+    </list>
+</div>

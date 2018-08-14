@@ -1,0 +1,2557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns:gnd="http://d-nb.info/gnd/" xmlns:gn="http://sws.geonames.org/">
+    <list xml:id="place">
+        <item xml:id="pla_1">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_2">
+            <name>Gebirge Buchtorma</name>
+            <P>gemeint ist hier womöglich der Fluss Buchtorma, der an dem Altaigebirge gelegen ist. GND und Geonames verweisen auf dieses Gebirge</P>
+            <ref type="GND">gnd:4001377-7</ref>
+            <ref type="geonames">gn:1511732</ref>
+        </item>
+        <item xml:id="pla_3">
+            <name>Sand Steppe bey Cherson</name>
+            <p>Verweis auf Cherson</p>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_4">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_5">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_6">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_7">
+            <name>Reval</name>
+            <ref type="GND">gnd:5093293-7</ref>
+            <ref type="geonames">gn:588409</ref>
+        </item>
+        <item xml:id="pla_8">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_9">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_10">
+            <name>Georgien</name>
+            <ref type="GND">gnd:4022406-5</ref>
+            <ref type="geonames">gn:614540</ref>
+        </item>
+        <item xml:id="pla_11">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_12">
+            <name>Celle</name>
+            <ref type="GND">gn:4009657-9</ref>
+            <ref type="geonames">gn:2940213</ref>
+        </item>
+        <item xml:id="pla_13">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_14">
+            <name>Eutin</name>
+            <ref type="GND">gn:4015796-9</ref>
+            <ref type="geonames">gn:2928381</ref>
+        </item>
+        <item xml:id="pla_15">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_16">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_17">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_18">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_19">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_20">
+            <name>München</name>
+            <ref type="GND">gnd:4127793-4</ref>
+            <ref type="geonames">gn:2867714</ref>
+        </item>
+        <item xml:id="pla_21">
+            <name>Kolywan</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:1502822</ref>
+        </item>
+        <item xml:id="pla_22">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_23">
+            <name>Baikal</name>
+            <ref type="GND">gnd:4080244-9</ref>
+            <ref type="geonames">gn:2026982</ref>
+        </item>
+        <item xml:id="pla_24">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_25">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_26">
+            <name>Dezalow</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_27">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_28">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_29">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_30">
+            <name>Dresden</name>
+            <ref type="GND">gnd:4012995-0</ref>
+            <ref type="geonames">gn:2935022</ref>
+        </item>
+        <item xml:id="pla_31">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_32">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_33">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_34">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_35">
+            <name>München</name>
+            <ref type="GND">gnd:4127793-4</ref>
+            <ref type="geonames">gn:2867714</ref>
+        </item>
+        <item xml:id="pla_36">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_37">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_38">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_39">
+            <name>London</name>
+            <ref type="GND">gnd:4074335-4</ref>
+            <ref type="geonames">gn:2643743</ref>
+        </item>
+        <item xml:id="pla_40">
+            <name>Paris</name>
+            <ref type="GND">gnd:4044660-8</ref>
+            <ref type="geonames">gn:2988507</ref>
+        </item>
+        <item xml:id="pla_41">
+            <name>Tübingen</name>
+            <ref type="GND">gnd:4061147-4</ref>
+            <ref type="geonames">gn:2820860</ref>
+        </item>
+        <item xml:id="pla_42">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_43">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_44">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_45">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_46">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_47"><!-- nicht in den Briefen auffindbar -->
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_48"><!-- nicht in den Briefen auffindbar -->
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_49"><!-- nicht in den Briefen auffindbar -->
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_50"><!-- nicht in den Briefen auffindbar -->
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <!-- pla_51 bis pla_55 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="pla_56"><!-- nicht in den Briefen auffindbar -->
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_57"><!-- nicht in den Briefen auffindbar -->
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_58"><!-- nicht in den Briefen auffindbar -->
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_59"><!-- nicht in den Briefen auffindbar -->
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_60"><!-- nicht in den Briefen auffindbar -->
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_61"><!-- nicht in den Briefen auffindbar -->
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <!-- pla_62 bis pla_73 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="pla_74">
+            <name>Orenburg</name>
+            <ref type="GND">gnd:4075687-7</ref>
+            <ref type="geonames">gn:515003</ref>
+        </item>
+        <item xml:id="pla_75">
+            <name>Deßau</name>
+            <ref type="GND">gnd:4011536-7</ref>
+            <ref type="geonames">gn:2937959</ref>
+        </item>
+        <item xml:id="pla_76">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <!-- pla_77 bis pla_86 wurden gelöscht, im Backup (22.11.2017) dokumentiert -->
+        <item xml:id="pla_87">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_88">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_89">
+            <name>Hannover</name>
+            <ref type="GND">gnd:4023349-2</ref>
+            <ref type="geonames">gn:2910831</ref>
+        </item>
+        <item xml:id="pla_90">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_91">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_92">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_93">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_94">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_95">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_96">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_97">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_98">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_99">
+            <name>Bern</name>
+            <ref type="GND">gn:4005762-8</ref>
+            <ref type="geonames">gn:2661552</ref>
+        </item>
+        <item xml:id="pla_100">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_101">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_102">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_103">
+            <name>Spa</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2786318</ref>
+        </item>
+        <item xml:id="pla_104">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_105">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_106">
+            <name>Reval</name>
+            <ref type="GND">gnd:5093293-7</ref>
+            <ref type="geonames">gn:588409</ref>
+        </item>
+        <item xml:id="pla_107">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_108">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_109">
+            <name>Regenspurg</name>
+            <ref type="GND">gnd:4048989-9</ref>
+            <ref type="geonames">gn:2849483</ref>
+        </item>
+        <item xml:id="pla_110">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_111">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_112">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_113">
+            <name>Reval</name>
+            <ref type="GND">gnd:5093293-7</ref>
+            <ref type="geonames">gn:588409</ref>
+        </item>
+        <item xml:id="pla_114">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_115">
+            <name>Reval</name>
+            <ref type="GND">gnd:5093293-7</ref>
+            <ref type="geonames">gn:588409</ref>
+        </item>
+        <item xml:id="pla_116">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_117">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_118">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_119">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_120">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_121">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_122">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_123">
+            <name>Ladoga</name>
+            <ref type="GND">gnd:4111182-5</ref>
+            <ref type="geonames">gn:489158</ref>
+        </item>
+        <item xml:id="pla_124">
+            <name>Reval</name>
+            <ref type="GND">gnd:5093293-7</ref>
+            <ref type="geonames">gn:588409</ref>
+        </item>
+        <item xml:id="pla_125">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_126">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_127">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_128">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_129">
+            <name>Pirosowka Sawod</name>
+            <p>Schmelzhütte Pirosowka Sawod (Beresowsk) unweit von Katharinenburg (Swerdlowsk)</p>
+            <ref type="GND">gnd:4294585-9</ref>
+            <ref type="geonames">gn:1486209</ref>
+        </item>
+        <item xml:id="pla_130">
+            <name>Brandenburg Pommern</name>
+            <ref type="GND">gnd:4046744-2</ref>
+            <ref type="geonames">gn:3088388</ref>
+        </item>
+        <item xml:id="pla_131">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_132">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_133">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_134">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_135">
+            <name>Moskau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_136">
+            <name>St. Petersburg</name>
+            <ref type="GND">gnd:4267026-3</ref>
+            <ref type="geonames">gn:498817</ref>
+        </item>
+        <item xml:id="pla_137">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_138">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_139">
+            <name>Stettin</name>
+            <ref type="GND">gnd:4057392-8</ref>
+            <ref type="geonames">gn:3083829</ref>
+        </item>
+        <item xml:id="pla_140">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_141">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_142">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_143">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_144">
+            <name>Frankreich</name>
+            <ref type="GND">gnd:4018145-5</ref>
+            <ref type="geonames">gn:3017382</ref>
+        </item>
+        <item xml:id="pla_145">
+            <name>Stettin</name>
+            <ref type="GND">gnd:4057392-8</ref>
+            <ref type="geonames">gn:3083829</ref>
+        </item>
+        <item xml:id="pla_146">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_147">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_148">
+            <name>Italien</name>
+            <ref type="GND">gnd:4027833-5</ref>
+            <ref type="geonames">gn:3175395</ref>
+        </item>
+        <item xml:id="pla_149">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_150">
+            <name>Rußland</name>
+            <ref type="GND">gnd:4076899-5</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_151">
+            <name>Holland</name>
+            <ref type="GND">gnd:4042203-3</ref>
+            <ref type="geonames">gn:2750405</ref>
+        </item>
+        <item xml:id="pla_152">
+            <name>Orenburg</name>
+            <ref type="GND">gnd:4075687-7</ref>
+            <ref type="geonames">gn:515003</ref>
+        </item>
+        <item xml:id="pla_153">
+            <name>Irkutzk</name>
+            <ref type="GND">gnd:4192640-7</ref>
+            <ref type="geonames">gn:2023469</ref>
+        </item>
+        <item xml:id="pla_154">
+            <name>Kamtzatka</name>
+            <ref type="GND">gnd:4119880-3</ref>
+            <ref type="geonames">gn:2125073</ref>
+        </item>
+        <item xml:id="pla_155">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_156">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_157">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_158">
+            <name>Kamtzatka</name>
+            <ref type="GND">gnd:4119880-3</ref>
+            <ref type="geonames">gn:2125073</ref>
+        </item>
+        <item xml:id="pla_159">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_160">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_161">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_162">
+            <name>Leipzig</name>
+            <ref type="GND">4035206-7</ref>
+            <ref type="geonames">gn:2879139</ref>
+        </item>
+        <item xml:id="pla_163">
+            <name>Hannover</name>
+            <ref type="GND">gnd:4023349-2</ref>
+            <ref type="geonames">gn:2910831</ref>
+        </item>
+        <item xml:id="pla_164">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_165">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_166">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_167">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_168">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_169">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_170">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_171">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_172">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_173">
+            <name>Kassel</name>
+            <ref type="GND">gnd:4029869-3</ref>
+            <ref type="geonames">gn:2892518</ref>
+        </item>
+        <item xml:id="pla_174">
+            <name>Hannover</name>
+            <ref type="GND">gnd:4023349-2</ref>
+            <ref type="geonames">gn:2910831</ref>
+        </item>
+        <item xml:id="pla_175">
+            <name>Braunschweig</name>
+            <ref type="GND">gnd:4008065-1</ref>
+            <ref type="geonames">gn:2945024</ref>
+        </item>
+        <item xml:id="pla_176">
+            <name>Harz</name>
+            <ref type="GND">gnd:4023568-3</ref>
+            <ref type="geonames">gn:2909965</ref>
+        </item>
+        <item xml:id="pla_177">
+            <name>Giessen</name>
+            <ref type="GND">gnd:4020989-1</ref>
+            <ref type="geonames">gn:2920512</ref>
+        </item>
+        <item xml:id="pla_178">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_179">
+            <name>Hamburg</name>
+            <ref type="GND">gnd:4023118-5</ref>
+            <ref type="geonames">gn:2911297</ref>
+        </item>
+        <item xml:id="pla_180">
+            <name>Amsterdam</name>
+            <ref type="GND">gnd:4001783-7</ref>
+            <ref type="geonames">gn:2759794</ref>
+        </item>
+        <item xml:id="pla_181">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_182">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_183">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_184">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_185">
+            <name>Liefland</name>
+            <p>historische Landschaft im Baltikum, PPN verweist auf jenen</p>
+            <ref type="GND">gnd:4004379-4</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_186">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_187">
+            <name>Holstein</name>
+            <p>Schleswig-Holstein</p>
+            <ref type="GND">gnd:4052692-6</ref>
+            <ref type="geonames">gn:2838632</ref>
+        </item>
+        <item xml:id="pla_188">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_189">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_190">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_191">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_192">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_193">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_194">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_195">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_196">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_197">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_198">
+            <name>Liefland</name>
+            <p>historische Landschaft im Baltikum.</p> <!-- GND verweist auf das Baltikum -->
+            <ref type="GND">gnd:4004379-4</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_199">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_200">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_201">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_202">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_203">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_204">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_205">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_206">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_207">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_208">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_209">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_210">
+            <name>Irkutzk</name>
+            <ref type="GND">gnd:4192640-7</ref>
+            <ref type="geonames">gn:2023469</ref>
+        </item>
+        <item xml:id="pla_211">
+            <name>Rußland</name>
+            <ref type="GND">gnd:4076899-5</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_212">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_213">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_214">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_215">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_216">
+            <name>Moskau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_217">
+            <name>London</name>
+            <ref type="GND">gnd:4074335-4</ref>
+            <ref type="geonames">gn:2643743</ref>
+        </item>
+        <item xml:id="pla_218">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_219">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_220">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_221">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_222">
+            <name>Finnland</name>
+            <ref type="GND">gnd:4017243-0</ref>
+            <ref type="geonames">gn:660013</ref>
+        </item>
+        <item xml:id="pla_223">
+            <name>Wiburg</name>
+            <ref type="GND">gnd:4108785-9</ref>
+            <ref type="geonames">gn:470546</ref>
+        </item>
+        <item xml:id="pla_224">
+            <name>Mosco</name>
+            <p>gemeint ist Moskau</p>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_225">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_226">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_227">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_228">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_229">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_230">
+            <name>Schweitz</name>
+            <ref type="GND">gnd:4053881-3</ref>
+            <ref type="geonames">gn:2658434</ref>
+        </item>
+        <item xml:id="pla_231">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_232">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_233">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_234">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_235">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_236">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_237">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_238">
+            <name>Leiden</name>
+            <ref type="GND">gnd:4074118-7</ref>
+            <ref type="geonames">gn:2751773</ref>
+        </item>
+        <item xml:id="pla_239">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_240">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_241">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_242">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_243">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_244">
+            <name>Georgenberg</name>
+            <ref type="GND">gnd:4289235-1</ref>
+            <ref type="geonames">2778701</ref>
+        </item>
+        <item xml:id="pla_245">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_246">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_247">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_248">
+            <name>Wien</name>
+            <ref type="GND">gnd:4066009-6</ref>
+            <ref type="geonames">gn:2761367</ref>
+        </item>
+        <item xml:id="pla_249">
+            <name>Deutschland</name>
+            <ref type="GND">gnd:4011882-4</ref>
+            <ref type="geonames">gn:2921044</ref>
+        </item>
+        <item xml:id="pla_250">
+            <name>Deutschland</name>
+            <ref type="GND">gnd:4011882-4</ref>
+            <ref type="geonames">gn:2921044</ref>
+        </item>
+        <item xml:id="pla_251">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_252">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_253">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_254">
+            <name>Armenien</name>
+            <ref type="GND">gnd:4085931-9</ref>
+            <ref type="geonames">gn:174982</ref>
+        </item>
+        <item xml:id="pla_255">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_256">
+            <name>Armenien</name>
+            <ref type="GND">gnd:4085931-9</ref>
+            <ref type="geonames">gn:174982</ref>
+        </item>
+        <item xml:id="pla_257">
+            <name>Petersburg</name>
+            <ref type="GND">gnd:4267026-3</ref>
+            <ref type="geonames">gn:498817</ref>
+        </item>
+        <item xml:id="pla_258">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_259">
+            <name>Remscheid</name>
+            <ref type="GND">gnd:4049447-0</ref>
+            <ref type="geonames">gn:2848273</ref>
+        </item>
+        <item xml:id="pla_260">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_261">
+            <name>Rußland</name>
+            <ref type="GND">gnd:4076899-5</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_262">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_263">
+            <name>St. Georg</name>
+            <p>gemeint ist Sankt Georg in Hamburg</p>
+            <ref type="GND">gnd:4684423-5</ref>
+            <ref type="geonames">gn:2841631</ref>
+        </item>
+        <item xml:id="pla_264">
+            <name>Georgien</name>
+            <ref type="GND">gnd:4022406-5</ref>
+            <ref type="geonames">gn:614540</ref>
+        </item>
+        <item xml:id="pla_265">
+            <name>Hannover</name>
+            <ref type="GND">gnd:4023349-2</ref>
+            <ref type="geonames">gn:2910831</ref>
+        </item>
+        <item xml:id="pla_266">
+            <name>Georgien</name>
+            <ref type="GND">gnd:4022406-5</ref>
+            <ref type="geonames">gn:614540</ref>
+        </item>
+        <item xml:id="pla_267">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_268">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_269">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_270">
+            <name>St. Georg</name>
+            <p>gemeint ist Sankt Georg in Hamburg</p>
+            <ref type="GND">gnd:4684423-5</ref>
+            <ref type="geonames">gn:2841631</ref>
+        </item>
+        <item xml:id="pla_271">
+            <name>Kuban</name>
+            <ref type="GND">gnd:4033343-7</ref>
+            <ref type="geonames">gn:540073</ref>
+        </item>
+        <item xml:id="pla_272">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_273">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_274">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_275">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_276">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_277">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_278">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_279">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_280">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_281">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_282">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_283">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_284">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_285">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_286">
+            <name>Kislar</name>
+            <p>gemeint ist die Stadt Kisljar, südliches Russland, Teilrepublik Dagestan</p>
+            <ref type="GND"></ref>
+            <ref type="geonames">gn:547840</ref>
+        </item>
+        <item xml:id="pla_287">
+            <name>Ufa</name>
+            <ref type="GND">gnd:4345987-0</ref>
+            <ref type="geonames">gn:479561</ref>
+        </item>
+        <item xml:id="pla_288">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_289">
+            <name>Wilna</name>
+            <ref type="GND">gnd:5057560-0</ref>
+            <ref type="geonames">gn:593116</ref>
+        </item>
+        <item xml:id="pla_290">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_291">
+            <name>Nerczinsk</name>
+            <ref type="GND"></ref>
+            <ref type="geonames">gn:2019326</ref>
+        </item>
+        <item xml:id="pla_292">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_293">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_294">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_295">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_296">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_297">
+            <name>Eutin</name>
+            <ref type="GND">gn:4015796-9</ref>
+            <ref type="geonames">gn:2928381</ref>
+        </item>
+        <item xml:id="pla_298">
+            <name>London</name>
+            <ref type="GND">gnd:4074335-4</ref>
+            <ref type="geonames">gn:2643743</ref>
+        </item>
+        <item xml:id="pla_299">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_300">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_301">
+            <name>Kamtschatka</name>
+            <ref type="GND">gnd:4119880-3</ref>
+            <ref type="geonames">gn:2125072</ref>
+        </item>
+        <item xml:id="pla_302">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_303">
+            <name>Kinburn</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:705873</ref>
+        </item>
+        <item xml:id="pla_304">
+            <name>Dreßden</name>
+            <ref type="GND">gnd:4012995-0</ref>
+            <ref type="geonames">gn:2935022</ref>
+        </item>
+        <item xml:id="pla_305">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_306">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_307">
+            <name>Königsberg</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_308">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_309">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_310">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_311">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_312">
+            <name>Dresden</name>
+            <ref type="GND">gnd:4012995-0</ref>
+            <ref type="geonames">gn:2935022</ref>
+        </item>
+        <item xml:id="pla_313">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_314">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_315">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_316">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_317">
+            <name>München</name>
+            <ref type="GND">gnd:4127793-4</ref>
+            <ref type="geonames">gn:2867714</ref>
+        </item>
+        <item xml:id="pla_318">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_319">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_320">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_321">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_322">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_323">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_324">
+            <name>Oczakow</name>
+            <p>gemeint ist Otschakiw</p>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:698770</ref>
+        </item>
+        <item xml:id="pla_325">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_326">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_327">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_328">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_329">
+            <name>London</name>
+            <ref type="GND">gnd:4074335-4</ref>
+            <ref type="geonames">gn:2643743</ref>
+        </item>
+        <item xml:id="pla_330">
+            <name>Paris</name>
+            <ref type="GND">gnd:4044660-8</ref>
+            <ref type="geonames">gn:2988507</ref>
+        </item>
+        <item xml:id="pla_331">
+            <name>Tübingen</name>
+            <ref type="GND">gnd:4061147-4</ref>
+            <ref type="geonames">gn:2820860</ref>
+        </item>
+        <item xml:id="pla_332">
+            <name>Upsal</name>
+            <p>Uppsala</p>
+            <ref type="GND">gnd:4078659-6</ref>
+            <ref type="geonames">gn:2666199</ref>
+        </item>
+        <item xml:id="pla_333">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_334">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_335">
+            <name>Copenhagen</name>
+            <ref type="GND">gnd:4032399-7</ref>
+            <ref type="geonames">gn:2618425</ref>
+        </item>
+        <item xml:id="pla_336">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_337">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_338">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_339">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_340">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_341">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_342">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_343">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_344">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_345">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_346">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_347">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_348">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_349">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_350">
+            <name>Reval</name>
+            <p>gemeint ist Tallinn</p>
+            <ref type="GND">gnd:5093293-7</ref>
+            <ref type="geonames">gn:588409</ref>
+        </item>
+        <item xml:id="pla_351">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_352">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_353">
+            <name>Georgien</name>
+            <ref type="GND">gnd:4022406-5</ref>
+            <ref type="geonames">gn:614540</ref>
+        </item>
+        <item xml:id="pla_354">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_355">
+            <name>Celle</name>
+            <ref type="GND">gn:4009657-9</ref>
+            <ref type="geonames">gn:2940213</ref>
+        </item>
+        <item xml:id="pla_356">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_357">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_358">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_359">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_360">
+            <name>Nertschinsk</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:2019326</ref>
+        </item>
+        <item xml:id="pla_361">
+            <name>Mongoley</name>
+            <ref type="GND">gnd:4040056-6</ref>
+            <ref type="geonames">gn:2029969</ref>
+        </item>
+        <item xml:id="pla_362">
+            <name>Taurien</name>
+            <p>nicht mehr geläufige Bezeichnung für die Halbinsel Krim</p>
+            <ref type="GND">gnd:4033166-0</ref>
+            <ref type="geonames">gn:703883</ref>
+        </item>
+        <item xml:id="pla_363">
+            <name>Teflis</name>
+            <p>gemeint ist Tiflis</p>
+            <ref type="GND">gnd:4060146-8</ref>
+            <ref type="geonames">gn:611717</ref>
+        </item>
+        <item xml:id="pla_364">
+            <name>Moskau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_365">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_366">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_367">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_368">
+            <name>Wiburg</name>
+            <ref type="GND">gnd:4108785-9</ref>
+            <ref type="geonames">gn:470546</ref>
+        </item>
+        <item xml:id="pla_369">
+            <name>Mongoley</name>
+            <ref type="GND">gnd:4040056-6</ref>
+            <ref type="geonames">gn:2029969</ref>
+        </item>
+        <item xml:id="pla_370">
+            <name>Taurien</name>
+            <p>nicht mehr geläufige Bezeichnung für die Halbinsel Krim</p>
+            <ref type="GND">gnd:4033166-0</ref>
+            <ref type="geonames">gn:703883</ref>
+        </item>
+        <item xml:id="pla_371">
+            <name>Mongoley</name>
+            <ref type="GND">gnd:4040056-6</ref>
+            <ref type="geonames">gn:2029969</ref>
+        </item>
+        <item xml:id="pla_372">
+            <name>Peina</name>
+            <p> frühneuhochdeutsch Peina, heute Peine</p>
+            <ref type="GND">gnd:4045022-3</ref>
+            <ref type="geonames">gn:2855047</ref>
+        </item>
+        <item xml:id="pla_373">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_374">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_375">
+            <name>Stockholm</name>
+            <ref type="GND">gnd:4057648-6</ref>
+            <ref type="geonames">gn:2673730</ref>
+        </item>
+        <item xml:id="pla_376">
+            <name>Polen</name>
+            <ref type="GND">gnd:4046496-9</ref>
+            <ref type="geonames">gn:798544</ref>
+        </item>
+        <item xml:id="pla_377">
+            <name>Constantinopel</name>
+            <ref type="GND">gnd:4073697-0</ref>
+            <ref type="geonames">gn:745044</ref>
+        </item>
+        <item xml:id="pla_378">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_379">
+            <name>Irkutzt</name>
+            <ref type="GND">gnd:4192640-7</ref>
+            <ref type="geonames">gn: 2023469</ref>
+        </item>
+        <item xml:id="pla_380">
+            <name>Tobolsk</name>
+            <ref type="GND">gnd:4257746-9</ref>
+            <ref type="geonames">gn:1489530</ref>
+        </item>
+        <item xml:id="pla_381">
+            <name>Irkuzk</name>
+            <ref type="GND">gnd:4192640-7</ref>
+            <ref type="geonames">gn: 2023469</ref>
+        </item>
+        <item xml:id="pla_382">
+            <name>Nordamerika</name>
+            <ref type="GND">gnd:4042483-2</ref>
+            <ref type="geonames">gn: 6255149</ref>
+        </item>
+        <item xml:id="pla_383">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_384">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_385">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_386">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_387">
+            <name>Oczakow</name>
+            <p>gemeint ist Otschakiw</p>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:698770</ref>
+        </item>
+        <item xml:id="pla_388">
+            <name>Moskwa</name>
+            <p>Fluss in Russland</p>
+            <ref type="GND">gnd:4241772-7</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_389">
+            <name>Dresden</name>
+            <ref type="GND">gnd:4012995-0</ref>
+            <ref type="geonames">gn:2935022</ref>
+        </item>
+        <item xml:id="pla_390">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_391">
+            <name>Zarskoe Selo</name>
+            <p>gemeint ist Puschkin, Stadt südl. St. Petersburg, dem sie administrativ unterstellt ist, bis 1918 Zarskoje Selo, 1918-37 Detskoje Selo.</p>
+            <ref type="GND">gnd:4103454-5</ref>
+            <ref type="geonames">gn:504003</ref>
+        </item>
+        <item xml:id="pla_392">
+            <name>Rußland</name>
+            <ref type="GND">gnd:4076899-5</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_393">
+            <name>Akmetchet</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_394">
+            <name>Polen</name>
+            <ref type="GND">gnd:4046496-9</ref>
+            <ref type="geonames">gn:798544</ref>
+        </item>
+        <item xml:id="pla_395">
+            <name>Leipzig</name>
+            <ref type="GND">4035206-7</ref>
+            <ref type="geonames">gn:2879139</ref>
+        </item>
+        <item xml:id="pla_396">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_397">
+            <name>Buchturma</name>
+            <p>gemeint ist ein Fluss mit jenem Namen</p>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_398">
+            <name>Salair</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:1493224</ref>
+        </item>
+        <item xml:id="pla_399">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_400">
+            <name>Wetzlar</name>
+            <ref type="GND">gnd:4065878-8</ref>
+            <ref type="geonames">gn:2809889</ref>
+        </item>
+        <item xml:id="pla_401">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_402">
+            <name>Wologda</name>
+            <ref type="GND">gnd:4225196-5</ref>
+            <ref type="geonames">gn:472459</ref>
+        </item>
+        <item xml:id="pla_403">
+            <name>St. Petersburg</name>
+            <ref type="GND">gnd:4267026-3</ref>
+            <ref type="geonames">gn:498817</ref>
+        </item>
+        <item xml:id="pla_404">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_405">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_406">
+            <name>Barnaul</name>
+            <ref type="GND">gnd:4004536-5</ref>
+            <ref type="geonames">gn:1510853</ref>
+        </item>
+        <item xml:id="pla_407">
+            <name>Göttingens</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_408">
+            <name>Schlesien</name>
+            <ref type="GND">gnd:4052678-1</ref>
+            <ref type="geonames">gn:3337497</ref>
+        </item>
+        <item xml:id="pla_409">
+            <name>Pommern</name>
+            <ref type="GND">gnd:4046744-2</ref>
+            <ref type="geonames">gn:3089770</ref>
+        </item>
+        <item xml:id="pla_410">
+            <name>Preußen</name>
+            <ref type="GND">gnd:4047194-9</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_411">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_412">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_413">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_414">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_415">
+            <name>Hamburg</name>
+            <ref type="GND">gnd:4023118-5</ref>
+            <ref type="geonames">gn:2911297</ref>
+        </item>
+        <item xml:id="pla_416">
+            <name>Sibirien</name>
+            <ref type="GND">gnd:4054780-2</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_417">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_418">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_419">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_420">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_421">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_422">
+            <name>Wiburg</name>
+            <ref type="GND">gnd:4108785-9</ref>
+            <ref type="geonames">gn:470546</ref>
+        </item>
+        <item xml:id="pla_423">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_424">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_425">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_426">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_427">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_428">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_429">
+            <name>Lübek</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_430">
+            <name>Lübek</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_431">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_432">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_433">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_434">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_435">
+            <name>Kasan</name>
+            <ref type="GND">gnd:4029844-9</ref>
+            <ref type="geonames">gn:551487</ref>
+        </item>
+        <item xml:id="pla_436">
+            <name>Kasan</name>
+            <ref type="GND">gnd:4029844-9</ref>
+            <ref type="geonames">gn:551487</ref>
+        </item>
+        <item xml:id="pla_437">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_438">
+            <name>Kasan</name>
+            <ref type="GND">gnd:4029844-9</ref>
+            <ref type="geonames">gn:551487</ref>
+        </item>
+        <item xml:id="pla_439">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_440">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_441">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_442">
+            <name>Paris</name>
+            <ref type="GND">gnd:4044660-8</ref>
+            <ref type="geonames">gn:2988507</ref>
+        </item>
+        <item xml:id="pla_443">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_444">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_445">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_446">
+            <name>Erfurt</name>
+            <ref type="GND">gnd:4015240-6</ref>
+            <ref type="geonames">gn:2929670</ref>
+        </item>
+        <item xml:id="pla_447">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_448">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_449">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_450">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_451">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_452">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_453">
+            <name>Charkow</name>
+            <ref type="GND">gnd:4009782-1</ref>
+            <ref type="geonames">gn:706483</ref>
+        </item>
+        <item xml:id="pla_454">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_455">
+            <name>Charkow</name>
+            <ref type="GND">gnd:4009782-1</ref>
+            <ref type="geonames">gn:706483</ref>
+        </item>
+        <item xml:id="pla_456">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_457">
+            <name>Speyer</name>
+            <ref type="GND">gnd:4056179-3</ref>
+            <ref type="geonames">gn:2830582</ref>
+        </item>
+        <item xml:id="pla_458">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_459">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_460">
+            <name>Warschau</name>
+            <ref type="GND">gn:4079048-4</ref>
+            <ref type="geonames">gn:756135</ref>
+        </item>
+        <item xml:id="pla_461">
+            <name>Jassy</name>
+            <ref type="GND">gn:2024276-1</ref>
+            <ref type="geonames">gn:675810</ref>
+        </item>
+        <item xml:id="pla_462">
+            <name>Akerman</name>
+            <p>es ist von einem Lager im jeweiligen Brief die Rede</p>
+            <ref type="GND">gn:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_463">
+            <name>Jassy</name>
+            <ref type="GND">gn:2024276-1</ref>
+            <ref type="geonames">gn:675810</ref>
+        </item>
+        <item xml:id="pla_464">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_465">
+            <name>Calabrien</name>
+            <ref type="GND">gnd:4029278-2</ref>
+            <ref type="geonames">gn:2525468</ref>
+        </item>
+        <item xml:id="pla_466">
+            <name>Hamburg</name>
+            <ref type="GND">gnd:4023118-5</ref>
+            <ref type="geonames">gn:2911297</ref>
+        </item>
+        <item xml:id="pla_467">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_468">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_469">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_470">
+            <name>Jassy</name>
+            <ref type="GND">gn:2024276-1</ref>
+            <ref type="geonames">gn:675810</ref>
+        </item>
+        <item xml:id="pla_471">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_472">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_473">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_474">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_475">
+            <name>Cronstadt</name>
+            <ref type="GND">gnd:4098711-5</ref>
+            <ref type="geonames">gn:540771</ref>
+        </item>
+        <item xml:id="pla_476">
+            <name>Milano</name>
+            <ref type="GND">gnd:4037100-1</ref>
+            <ref type="geonames">gn:3173435</ref>
+        </item>
+        <item xml:id="pla_477">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_478">
+            <name>Jassy</name>
+            <ref type="GND">gn:2024276-1</ref>
+            <ref type="geonames">gn:675810</ref>
+        </item>
+        <item xml:id="pla_479">
+            <name>Cherson</name>
+            <ref type="GND">gnd:4085238-6</ref>
+            <ref type="geonames">gn:706448</ref>
+        </item>
+        <item xml:id="pla_480">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_481">
+            <name>London</name>
+            <ref type="GND">gnd:4074335-4</ref>
+            <ref type="geonames">gn:2643743</ref>
+        </item>
+        <item xml:id="pla_482">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_483">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_484">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_485">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_486">
+            <name>Bender</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_487">
+            <name>Jassy</name>
+            <ref type="GND">gn:2024276-1</ref>
+            <ref type="geonames">gn:675810</ref>
+        </item>
+        <item xml:id="pla_488">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_489">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_490">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_491">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_492">
+            <name>Berlin</name>
+            <ref type="GND">gnd:4005728-8</ref>
+            <ref type="geonames">gn:2950157</ref>
+        </item>
+        <item xml:id="pla_493">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_494">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_495">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_496">
+            <name>Preußen</name>
+            <ref type="GND">gnd:4047194-9</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_497">
+            <name>Preußen</name>
+            <ref type="GND">gnd:4047194-9</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_498">
+            <name>Gibraltar</name>
+            <ref type="GND">gnd:4020965-9</ref>
+            <ref type="geonames">gn:2411586</ref>
+        </item>
+        <item xml:id="pla_499">
+            <name>Lübeck</name>
+            <ref type="GND">gnd:4036483-5</ref>
+            <ref type="geonames">gn:2875601</ref>
+        </item>
+        <item xml:id="pla_500">
+            <name>Krasnojarsk</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:1502026</ref>
+        </item>
+        <item xml:id="pla_501">
+            <name>Kiachta</name>
+            <ref type="GND">gnd:4396229-4</ref>
+            <ref type="geonames">gn:2021066</ref>
+        </item>
+        <item xml:id="pla_502">
+            <name>Engelland</name>
+            <ref type="GND">gnd:4014770-8</ref>
+            <ref type="geonames">gn:6269131</ref>
+        </item>
+        <item xml:id="pla_503">
+            <name>Sibirien</name>
+            <ref type="GND">gnd:4054780-2</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_504">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_505">
+            <name>Rußland</name>
+            <ref type="GND">gnd:4076899-5</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_506">
+            <name>Frankfurth</name>
+            <ref type="GND">gnd:4018118-2</ref>
+            <ref type="geonames">gn:2925533</ref>
+        </item>
+        <item xml:id="pla_507">
+            <name>St. Petersburg</name>
+            <ref type="GND">gnd:4267026-3</ref>
+            <ref type="geonames">gn:498817</ref>
+        </item>
+        <item xml:id="pla_508">
+            <name>Rußland</name>
+            <ref type="GND">gnd:4076899-5</ref>
+            <ref type="geonames">gn:2017370</ref>
+        </item>
+        <item xml:id="pla_509">
+            <name>Mosco</name>
+            <p>gemeint ist Moskau</p>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_510">
+            <name>Riga</name>
+            <ref type="GND">gnd:4050042-1</ref>
+            <ref type="geonames">gn:456172</ref>
+        </item>
+        <item xml:id="pla_511">
+            <name>Kahul</name>
+            <p>auch Cahul geschrieben</p>
+            <ref type="GND">gnd:4445910-5</ref>
+            <ref type="geonames">gn:618456</ref>
+        </item>
+        <item xml:id="pla_512">
+            <name>Transylvanien</name>
+            <ref type="GND">gnd:4054835-1</ref>
+            <ref type="geonames">gn:686215</ref>
+        </item>
+        <item xml:id="pla_513">
+            <name>Ungarns</name>
+            <ref type="GND">gnd:4078541-5</ref>
+            <ref type="geonames">gn:719819</ref>
+        </item>
+        <item xml:id="pla_514">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_515">
+            <name>Moscau</name>
+            <ref type="GND">gnd:4074987-3</ref>
+            <ref type="geonames">gn:524901</ref>
+        </item>
+        <item xml:id="pla_516">
+            <name>Dresden</name>
+            <ref type="GND">gnd:4012995-0</ref>
+            <ref type="geonames">gn:2935022</ref>
+        </item>
+        <item xml:id="pla_517">
+            <name>Kurilischen Inseln</name>
+            <ref type="GND">gnd:4110422-5</ref>
+            <ref type="geonames">gn:2122134</ref>
+        </item>
+        <item xml:id="pla_518">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_519">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_520">
+            <name>Wien</name>
+            <ref type="GND">gnd:4066009-6</ref>
+            <ref type="geonames">gn:2761367</ref>
+        </item>
+        <item xml:id="pla_521">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_522">
+            <name>Göttingen</name>
+            <ref type="GND">gnd:4021477-1</ref>
+            <ref type="geonames">gn:2918632</ref>
+        </item>
+        <item xml:id="pla_523">
+            <name>Strasburg</name>
+            <ref type="GND">gnd:4057878-1</ref>
+            <ref type="geonames">gn:2973783</ref>
+        </item>
+        <item xml:id="pla_524">
+            <name>Astrachan</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:580497</ref>
+        </item>
+        <item xml:id="pla_525">
+            <name>Ispahan</name>
+            <ref type="GND">gnd:4072937-0</ref>
+            <ref type="geonames">gn:418863</ref>
+        </item>
+        <item xml:id="pla_526">
+            <name>Menselinsk</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:527529</ref>
+        </item>
+        <item xml:id="pla_527">
+            <name>Deutschland</name>
+            <ref type="GND">gnd:4011882-4</ref>
+            <ref type="geonames">gn:2921044</ref>
+        </item>
+        <item xml:id="pla_528">
+            <name>Frankreich</name>
+            <ref type="GND">gnd:4018145-5</ref>
+            <ref type="geonames">gn:3017382</ref>
+        </item>
+        <item xml:id="pla_529">
+            <name>Perm</name>
+            <ref type="GND">gnd:4216585-4</ref>
+            <ref type="geonames">gn:511196</ref>
+        </item>
+        <item xml:id="pla_530">
+            <name>Orenburg</name>
+            <ref type="GND">gnd:4075687-7</ref>
+            <ref type="geonames">gn:515003</ref>
+        </item>
+        <item xml:id="pla_531">
+            <name>Dezalow</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+        <item xml:id="pla_532">
+            <name>Dezalow</name>
+            <ref type="GND">gnd:</ref>
+            <ref type="geonames">gn:</ref>
+        </item>
+    </list>
+</div>
