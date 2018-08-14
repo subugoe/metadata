@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 13./24.08.1782</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 104</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0089</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1782-10-04"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1782-10-04">
+                  <hi rendition="#left">4. Octob. 82</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1782-08-13" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">13./</hi>
+                     <date when="1782-08-24" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">24.08.1782</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Der kürzlich zum studiren von hier über <name type="place" ref="pla:pla_213">Lübeck</name> abgereiste <name type="person" ref="per:per_392">Herr<lb/>
+               Kosegarten</name> hat meine Briefe vom 13/24 Aug., darinn ich den richtigen<lb/>
+               Empfang Eurer Wohlgebohren geehrtesten Schreiben vom 31. Jul.<lb/>
+               anzuzeigen die Ehre gehabt, mitgenommen, anbey auch einige für das<lb/>
+               <name key="corporation" ref="cor:cor_129">Universitaets Museum</name> bestimmte Sachen, nebst deren zweyen Verzeichnissen.<lb/>
+               Gestern habe ich eine Kiste mit <name key="thing" ref="thi:thi_319">Büchern</name> und Naturalien für das<lb/>
+               <name key="corporation" ref="cor:cor_130">Museum</name> mit <name type="person" ref="per:per_393">Schiffer Saager</name> an die Herren <name key="corporation" ref="cor:cor_131">Heyn und Melzer</name> nach<lb/>
+               <name type="place" ref="pla:pla_214">Lübeck</name> abgesandt. Ihr gütigstes Schreiben vom 21 Aug. theurer<lb/>
+               Gönner, kam eben zu rechter Zeit an, daß ich <name type="person" ref="per:per_394">Lansbergs</name> dort fehlende<lb/>
+               Schriften noch mit derselben Gelegenheit mitsenden konnte. In dem<lb/>
+               zugefügten Bücherverzeichniße sind die mit x bemerkte Schriften schon<lb/>
+               mit <name type="person" ref="per:per_395">Hrn Kosegarten</name> vorausabgegangen, welcher auch ein Päckchen<lb/>
+               Thee für Sie, abzugeben hat.          <name type="person" ref="per:per_396">Hölterhoffs</name> rußischen Cellarium<lb/>
+               bitte in Ihrer eigenen <name key="corporation" ref="cor:cor_338">Bibliothek</name> einen Platz zu gönnen.<lb/>
+               Ich danke Ihnen verbindlichst, theuerster Gönner, für die gütigst<lb/>
+               mitgetheilte Nachrichten und von dort abgesandte <name key="thing" ref="thi:thi_813">Schriften</name> insbesondere<lb/>
+               aber auch für die <name key="thing" ref="thi:thi_320">Denkmünze</name> bey Einweihung der <name key="corporation" ref="cor:cor_132">Georg Auguste</name>. Dies<lb/>
+               schätzbare Stück habe ich den sorgfältigen Bemühungen Eurer Wohlgeb.<lb/>
+               vorzüglich zu danken, die es bey der Regirung daselbst so geneigt<lb/>
+               ausgewürket. Nimmermehr werde ich für eine mir so sehr zur Ehre<lb/>
+               gereichende Gnade desselben genug dankbar seyn können – eine Schuld<lb/>
+               die mir ewig unvergeßlich bleiben wird.           Nun erwarte ich mit<lb/>
+               Ungeduld, was Eure Wohlgebohren über <name type="place" ref="pla:pla_215">Lübeck</name> abgeschickt haben, so mir<lb/>
+               manche vergnügte Stunden machen wird.<lb/>
+               Wenn  Briefe oder Päckchen aus <name type="place" ref="pla:pla_216">Moskau</name> von dem <name type="person" ref="per:per_397">Hrn. Prof. Matthaei</name><lb/>
+               oder <name type="person" ref="per:per_398">Hrn. Heym</name> hier einkommen sollten, werde ich gewiß zur weiteren<lb/>
+               Beförderung derselben alle Sorgfalt tragen.<lb/>
+               Die Nomenuclatur der <name key="thing" ref="thi:thi_321">Rußischen Münzen</name> im <name key="corporation" ref="cor:cor_133">Museo petropolitano</name><lb/>
+               wird wol zur erforderlichen Erläuterung hinlänglich seyn, um Ihre<lb/>
+               vorgehabte Beschreibung von der dasigen Sammlung in einem Programma<lb/>
+               herausgeben zu können. Werden Sie, theuerster Gönner, die Beschrei-<lb/>
+               bung der <name key="thing" ref="thi:thi_322">Römischen</name> nicht auch fortsetzen?<lb/>
+               Mit vieler Freude habe ich aus den G. G. Anzeigen ersehen, was die<lb/>
+               <name key="corporation" ref="cor:cor_134">Universitaet</name> für einen Schatz von den durch <name type="person" ref="per:per_399">Capitain Cooks</name> erhaltenen<lb/>
+               Seltenheiten aus <name type="place" ref="pla:pla_217">London</name> bekommen.<lb/>
+               Dem <name type="person" ref="per:per_400">Herrn Hallisen</name> (???) hier habe die Bitte nicht versagen können<lb/>
+               Zulage nebst Wechsel für seinen Sohn an Eure Wohlgebohren zu adreßiren<lb/>
+               um selbige ihm einhändigen zu lassen.         Der gute Vater ist sehr be-<lb/>
+               kümmert wegen der Aufführung seines Sohnes, ob dieser sich auch<lb/>
+               beeyfert seine Studien dort bald zu endigen – indessen wendet jener<lb/>
+               seine letzten Mittel an ihm dazu behülflich zu seyn. Möchte doch<lb/>
+               der Sohn auch seinen äußersten Fleiß beytragen um sich bald in Stand<lb/>
+               zu setzten in der Medizin mit Beyfall zu promoviren.  Darf ich Sie<lb/>
+               mein bester Gönner, auch ergebenst ersuchen, ihm mit geneigtem Rath<lb/>
+               beyzustehen, und mir bey Gelegenheit wissen zu lassen wie er sich aufführt<lb/>
+               und wie bald er den Pradum (???) dort wird annehmen können.<lb/>
+               Wegen Melart freue ich mich sehr daß er dort der Lehrer Beyfall<lb/>
+               sich erworben.<lb/>
+               Mich Ihnen, theuerster Gönner, und allen dasigen Freunden bestens<lb/>
+               empfehlend, verbleibe mit inniger Verehrung und Ergebenheit<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>Baron Ge. <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

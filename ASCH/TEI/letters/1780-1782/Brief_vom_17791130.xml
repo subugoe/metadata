@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 19./30.11.1779</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 2-3</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0006</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1782-11-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1779-12-28">
+                  <hi rendition="#left">28 Dec</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1779-11-19" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">19./</hi>
+                     <date when="1779-11-30" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">30.11.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrener Herr<lb/>
+                  Hochzuverehrender Herr Hoffrath<lb/>
+               </salute>
+            </opener>
+            <p>Nun habe ich die unbeschreibliche Freude Euer Wohlgebohren schuldigst<lb/>
+               anzuzeigen, daß ich vom <name type="person" ref="per:per_242">Hrn. Paecken</name> das unterm 7. Jun. mitgegebene<lb/>
+               Schreiben mit den <name key="thing" ref="thi:thi_245">Commentat. Soc. R. Vol. 1</name>, den hochgeschätzten Brief<lb/>
+               vom 19. Sept. mit der Post, auch über <name type="place" ref="pla:pla_147">Lübeck</name> den Packt mit den <name key="thing" ref="thi:thi_246">4 Bänden<lb/>
+                  der alten Commentarien</name> samt der <name key="thing" ref="thi:thi_811">Ithischen Enumer. Numismat.</name> nebst allen<lb/>
+               übrigen beygefügten überaus angenehmen Schriften alhier richtig empfangen<lb/>
+               habe; wofür ich der <name key="corporation" ref="cor:cor_83">Königlichen Societaet der Wissenschaften</name> und Ihnen,<lb/>
+               theurer Gönner, meine ehrerbietige Danksagungen hiemit feyerlichst<lb/>
+               entrichte. Ausserdem setzen auch die unschätzbaren Merkmale einer<lb/>
+               so hervorstechenden Wohlgewogenheit, welche die <name key="corporation" ref="cor:cor_84">Universitaet</name>, selbst<lb/>
+               im letzteren Programm Ansehung meiner dort zu äußern beliebet hat,<lb/>
+               mich in die äußerste Verbindlichkeit, welche Ehrenbezeigung ich auf keine<lb/>
+               Weise zu verdienen weiß. Wie sehr ich dadurch gerührt worden, läßt<lb/>
+               sich nur nach dem Maaße meiner unbeschränkten Verehrung und Erge-<lb/>
+               benheit beurtheilen. Allemal werde ich es mir zum größten Ruhme<lb/>
+               rechnen, daß unsre alma mater den schwachen Beweisen meiner<lb/>
+               innigen Erkenntlichkeit ihres hohen mir nicht gleichgültigen Beyfalls<lb/>
+               gewürdiget hat.          Aber wie gros ist auch meine Verpflichtung gegen<lb/>
+               Eure Wohlgebohren, indem Sie einer Art Schuldigkeit so schönen Anstrich<lb/>
+               gegeben.    Diese seltene auszierende Güte wird mir ewig unvergeßlich<lb/>
+               bleiben.      Künftig Frühjahr soll das Portrait unfehlbar dahin abfolgen<lb/>
+               da ich den ganzen Werth der mir auch dadurch zufließenden Ehre stark<lb/>
+               empfinde.<lb/><pb n="2v"/>
+               Mit ungemeinem Ergötzen habe ich den 2tn Theil der vortreflichen Antiquar.<lb/>
+               Abhandlungen gelesen, und diese erwecken gleich heftige Begierde nach<lb/>
+               dem noch nicht erhaltenen ersten Theil, welchen aus Ihrer Freygebigkeit;<lb/>
+               theuerster Gönner, so wie die weitere gütige Zusendung der medicinischen<lb/>
+               Streitschriften mir gehorsamst ausbitte, die mir hier ein so nützliches<lb/>
+               und lauteres Vergnügen machen.          Darf ich einen Wunsch thun, daß<lb/>
+               die lehrreiche Lobrede auf <name type="person" ref="per:per_243">Winkelmann</name> auch in den Antiquarischen Abhandl.<lb/>
+               gedruckt würde.<lb/>
+               Mit einigem Befremden sieht man zu <name type="person" ref="per:per_244">Hrn. D. Matthias Paeckens</name> Streitschrift<lb/>
+               zweyerley Titeln. In den hier von ihm ausgetheilten Exemplarien ist<lb/>
+               mit unserer Bescheidenheit das sich selbst dort zugetheilte von ausge-<lb/>
+               lassen worden.<lb/>
+               Die <name key="thing" ref="thi:thi_247">Formulae Medicamentorum Neap. 1773.</name> habe ich nur in der Moldau<lb/>
+               bey <name type="person" ref="per:per_245">Hrn. Raicovitz</name>, Italiänischen Arzt und Secretair des <name type="person" ref="per:per_1036">Wallachischen Hospodars<lb/>
+                  Ipsilander</name>, gesehen. Bisher hats mir nicht geglückt selbige aus <name type="place" ref="pla:pla_148">Italien</name><lb/>
+               zu bekommen.<lb/>
+               In dieser Zeit werden Eure Wohlgebohren über <name type="place" ref="pla:pla_149">Lübeck</name> meine ergebenste<lb/>
+               Schreiben vom 8/19 Aug. u 4/15 Sept. nebst den damit abgefertigten Sachen, wobey<lb/>
+               auch die <name key="thing" ref="thi:thi_248">Medaillen</name> und Kästchen mit <name key="thing" ref="thi:thi_249">Russischen Marmorarten</name> vom <name type="person" ref="per:per_246">Hrn. <lb/>
+                  Geheimen Rath v. Betzky</name> mit befindlich sind, durch den Hrn. <name key="corporation" ref="cor:cor_85">Heyn u. Meltzer</name><lb/>
+               Besorgung erhalten haben, wovon ich auch in andern Briefen vom 29 Aug/9. Sept.<lb/>
+               und 16/27 Sept. zu erwähnen die Ehre gehabt habe. Gerne möchte ich Seine<lb/>
+               Excellenz hier von deren richtigen Anlangen daselbst versichert<lb/>
+               sehen.<lb/><pb n="3r"/>
+               Das gütige Andenken Ihrer hochverehrten <name type="person" ref="per:per_247">Frau Gemalin</name> ist mir<lb/>
+               sehr schmeichelnd. ich bitte inständigst die so geneigte Frau Hofräthin<lb/>
+               dagegen meines ergebensten Respects zu versichern. Auch an des<lb/>
+               würdigen <name type="person" ref="per:per_248">Hrn. Prof Blumenbachs</name> Glückseeligkeit in der Liebe<lb/>
+               nehme ich frölichen Antheil, wünsche zugleich Ihnen allen beständiges<lb/>
+               Vergnügen und Wohlergehen.   Einschlüße an Ihn und <name type="person" ref="per:per_249">Hrn. Prof.<lb/>
+               Murray</name> ersuche gütigst zustellen zu lassen.<lb/>
+               Der Eisgang hindert jetzt hier die Gemeinschaft mit <name type="person" ref="per:per_250">Wasili-<lb/>
+                  Ostrow</name>, dahero habe ich <name type="person" ref="per:per_251">Hrn. Hofrath Voelkner</name> diese Tage nicht<lb/>
+               sprechen können.   <name type="person" ref="per:per_252">Hr. Lieut. Meier</name> in seinen Briefen über <name type="place" ref="pla:pla_150">Rußland</name><lb/>
+               schreibt unrichtig <name type="person" ref="per:per_253">Wasili-Ostrog.</name> Dies bedeutet ein Stockhaus oder<lb/>
+               Gefängnis: <name type="person" ref="per:per_254">Ostrow</name> aber eine Insel.<lb/>
+               Leben Sie immer wohl, verehrungswürdiger Gönner! Ich empfehle<lb/>
+               mich der fortdauer Ihrer so sehr schätzbaren Wohlgewogenheit, und<lb/>
+               verbleibe mit allerersinnlichster Hochachtung und Ergebenheit<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Euer Wohlgebohren<lb/>
+               </salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>Baron Ge. <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

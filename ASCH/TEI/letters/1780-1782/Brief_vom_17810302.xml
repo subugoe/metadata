@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 19.02./02.03.1781</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 51-52</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0053</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1781-03-22"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1781-03-22">
+                  <hi rendition="#left">22 März 81</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1781-02-19" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">19.02./</hi>
+                     <date when="1780-03-02" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">02.03.1781</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Mit <name type="person" ref="per:per_311">Hrn. D. Klints</name> glücklicher Ankunft alhier hatte ich das unbeschreibliche<lb/>
+               Vergnügen Eurer Wohlgebohren angenehmstes Schreiben vom 3tn Sept. mit allen<lb/>
+               Beylagen, und nachher das vom 10. Decemb. zu erhalten. Beyde haben mich<lb/>
+               unendlich erfreut.  Ich kan Ihnen, theuerster Gönner, für die darinn so<lb/>
+               gütig geäußerte Merkmale der freundschaftlichsten Wohlgewogenheit nicht<lb/>
+               genug danken. Besonders bin ich auch für alle geneigte Aufname der<lb/>
+               schwachen Proben meiner zuthätigsten Erkenntlichkeit gegen den dortigen <name key="corporation" ref="cor:cor_108">Musen</name><lb/>
+               Sitz für so viele zugeflossene Wohlthaten außerst gerührt und verbunden, welche<lb/>
+               Güte Sie nun gar bis auf das übersandte <name key="thing" ref="thi:thi_286">Portrait</name> auszubreiten gewürdigt haben.<lb/>
+               Könte ich dies <name key="thing" ref="thi:thi_287">Bild</name> so redend machen um alle Empfindungen meiner unbeschränkten<lb/>
+               Ergebenheit für <name type="person" ref="per:per_312">Georg Auguste</name> auszudrücken, aber was noch erwünschter wäre<lb/>
+               könte ich selbst gegenwärtig jemals Gelegenheit dazu finden. Die auf dem<lb/>
+               <name key="thing" ref="thi:thi_288">Gemälde</name> vorgestellte <name key="thing" ref="thi:thi_289">Romanzoffsche Medaille</name> hat eine Verknüpfung mit den<lb/>
+               Wichtigsten Begebenheiten in meinem Leben, da ich während dem letzten Türken<lb/>
+               Kriege bey diesem Helde ununterbrochen zu seyn das Glück gehabt, deßen erhabne<lb/>
+               Seele als Menschenfreund ich eben so sehr als seine glänzende Thaten bewundre.<lb/>
+               Schon seit mehreren Wochen habe ich von der <name key="corporation" ref="cor:cor_109">Kais. Acad. der freyen Künste</name> das<lb/>
+               Diplom für Eure Wohgebohren empfangen, und werde es nebst einem andern Diplom<lb/>
+               von der hiesigen <name key="corporation" ref="cor:cor_110">freyen Oeconomischen Gesellschaft</name> für <name type="person" ref="per:per_313">Hrn. Prof. Beckmann</name>, mit dem<lb/>
+               ehestens dahin reisenden <name type="person" ref="per:per_314">Hrn. v. Adoduroff</name> abzusenden die Ehre haben. Dieser<lb/>
+               16jährige Jüngling hat unlängst durch das Ableben seines verdienstvollen <name type="person" ref="per:per_315">Hrn. Vaters<lb/>
+               K.</name> geheimen Raths Senateurs und Ritters, sehr viel verlohren.     Seine Vormünder<lb/>
+               wollten ihn nach die <name key="corporation" ref="cor:cor_111">StutgardtischeMilitair Academie</name> schicken, allein Ihre Kaiserliche<lb/>
+               Majestät für sein Bestes besorgt haben allerhöchst zu befehlen geruhet, daß er in der<lb/>
+               durch viele Vorzüge berühmten <name key="corporation" ref="cor:cor_112">Göttingischen Universität</name> 4 Jahre lang studiren solle.<lb/>
+               Seine dadurch ganz erfreute Frau Schwester, und mit seltenen Kenntnißen gezierte<lb/>
+               Gemalin des <name type="person" ref="per:per_316">Hrn. Etats Raths v. Gleboff</name> wünscht demnach sehnlichst Ihren geliebten<lb/>
+               Bruder dort in möglichst guter Aufsicht unterbracht zu wissen: und deswegen<lb/>
+               hat sie mir aufgetragen auf das dringendste Eure Wohlgebohren zu ersuchen die<lb/>
+               schätzbarste Wohlgewogenheit zu haben diesen jungen <name type="person" ref="per:per_317">Hrn. v. Adoduroff</name> Ihrer besondern<lb/>
+               Güte und Vorsorge theilhaftig werden zu lassen, und ihn in Ihrem Hause aufzunehmen,<lb/>
+               damit er unter Ihrer weisen Führung dort seine Studien glücklich ausführen könne.<lb/><pb n="51v"/>
+               Zu seinem Auffenthalt in <name type="place" ref="pla:pla_172">Göttingen</name> sind jährlich 2000. Rbl. bestimmt, so daß er<lb/>
+               auch, einen von Ihnen dort auszuerlesenden Hofmeister beständig um sich zu haben,<lb/>
+               davon bezahlen könne, welchem außer den nöthigen Unterrichtungen hauptsächlich<lb/>
+               die Bildung eines edlen Herzens mit anzuempfehlen wäre.  Der <name type="person" ref="per:per_318">H. Adoduroff</name><lb/>
+               hat im Lateinischen, Italienischen und französischen schon einen Anfang gemacht,<lb/>
+               und soll in diesen, auch zugleich in der deutschen Sprache, eine Vollkommenheit<lb/>
+               zu erreichen trachten, hernach auch im Englischen sich unterrichten lassen.<lb/>
+               Die so genannten Humaniora, Geographie, Geschichte, Philosophie, Mathematic, Archi-<lb/>
+               tectur, Moral, Naturlehre, Naturgeschichte, die Natur- und Völker Rechte, Politic,<lb/>
+               Statistic p sind für einen Cavalier nöthige Kenntniße, welche <name type="person" ref="per:per_319">Hr. Adoduroff</name> zu<lb/>
+               erlangen allen Fleiß anwenden, anbey die Music, Zeichnen, Tanzen, Fechten,<lb/>
+               Reiten nicht versäumen wird. Nach 14 Tagen gedenkt er von hier abzureisen<lb/>
+               und <name type="person" ref="per:per_320">Hr. Hornborg</name> Translateur vom <name key="corporation" ref="cor:cor_113">K. ReichsCollegium</name> der auswärtigen Affairen<lb/>
+               wird ihn dahin begleiten, auch dort Euer Wohlgebohren die für ein Jahr bestimmte<lb/>
+               Summe von 2000 Rbl. zur Bestreitung aller Unkosten zustellen.          Die<lb/>
+               Familie wird hier sorgen, daß auch künftighin gleiche Summen zeitig dahin<lb/>
+               übermacht werden.          Verzeihen Sie, theuerster Menschenfreund, daß wir<lb/>
+               ohne vorher Erlaubniß dazu abzuwarten, so frey weg uns an Sie wenden, und<lb/>
+               Ihnen eine Beschwerlichkeit auflegen, die wir selbst bey der kürze der Zeit nicht<lb/>
+               unterstehen dürften, wenn wir nicht schon gewiß wären, daß Ihre Neigung<lb/>
+               zum Wohlthun eben so groß als unser Zutrauen zu Ihrer unverdienten<lb/>
+               Willfährigkeit ist. Nichts ist auch billiger als daß von obgedachter Summe<lb/>
+               jährlich ein Theil Ihnen für so viele Mühewaltung zukomme; wie Sie es selbst<lb/>
+               zu bestimmen die Güte haben werden.    Der <name type="person" ref="per:per_321">Hr. v. Adoduroff</name> wird Ihrer<lb/>
+               geneigten Führung gänzlich übergeben. Er soll nur Ihren Rath und Willen<lb/>
+               genau befolgen, und nichts ohne Ihre Genehmigung unternehmen. Wenn es<lb/>
+               die Umstände erlauben, so könnte er wohl während der Ferien in Gesellschaft<lb/>
+               seines Hofmeisters kleine Reisen, etwa nach <name type="place" ref="pla:pla_173">Cassel</name>, <name type="place" ref="pla:pla_174">Hannover</name>, <name type="place" ref="pla:pla_175">Braunschweig</name><lb/>
+               oder nach dem <name type="place" ref="pla:pla_176">Harz</name> machen.        Monatlich könnte er etwa 5. Thlr. zu seiner<lb/>
+               eignen Disposition bekommen, damit er gutthätigen Gebrauch davon zu machen<lb/>
+               sich angewöhne.         Vielleicht schreibe ich gar zu umständlich – Vergeben Sie<lb/>
+               mirs, allerbester Freund! es geschieht nur um Ihnen die Absichten der <lb/>
+               Adoduroffschen Familie zu eröfnen. Alles bleibt übrigens Ihren eigenen<lb/>
+               Einsichten daselbst ganz und gar überlassen, welches gewiß unsrer Erwartung<lb/>
+               völlig entsprechen wird – Solte aber wider Vermuthen es nicht angehen daß<lb/>
+               dieser Fremdling so vorzüglich glücklich werde in Ihrem Hause Wohnung und Tisch zu<lb/><pb n="52r"/>
+               bekommen, so haben Eure Wohlgebohren doch diese Geneigtheit es so einzurichten,<lb/>
+               daß er so nah als möglich bey Ihnen und gleichsam unter Ihren Augen wohnen<lb/>
+               auch die übrigen Vortheile Ihres Beyraths und Führung während seinem Daseyn<lb/>
+               genieße. Dieses ist um so mehr nöthig, da er als ein einziger Sohn von seinem<lb/>
+               schon in hohem Alter gewesenen Hrn Vater vielleicht gar zu zärtliche Schonung<lb/>
+               gehabt, und der Hofmeister deswegen auch mit zu vieler Nachsicht Ihn behandelt<lb/>
+               haben mag. Dieserhalben hat seine hellsehende Frau Schwester es für zuträg-<lb/>
+               licher erachtet, daß der bisherige Hofmeister abgelassen, und lieber nach Eurer<lb/>
+               Wohlgebohren Wahl ihm ein anderer dort bestellt werde. Wenn ich bitten darf<lb/>
+               mein verehrter Gönner, erfreuen Sie uns doch mit einer trostvollen Antwort<lb/>
+               daß Sie diesen Fremdling in Ihrem Hause einen Platz gönnen werden. Sein<lb/>
+               ganzes künftiges Glück hängt von dieser Entscheidung ab: und wie verbindlich werden<lb/>
+               Sie sich dadurch die Adoduroffsche Familie machen! ich selbst bin es Ihnen schon längst.<lb/>
+               Ihr in die entfernteste Länder ausgebreiteter Ruhm, der Glanz der <name type="person" ref="per:per_322">Georg Auguste</name>,<lb/>
+               locken Ausländer zu sich – möchten nur diese auch mit Begierde die Weisheit<lb/>
+               dort schöpfen um einst als würdige Männer ins Vaterland zurückzukommen!<lb/>
+               Für alles Gute so dem jungen <name type="person" ref="per:per_323">Lowitz</name> dort wiederfährt, danke ich herzlich.<lb/>
+               Die colossalische Statue Kaisers <name type="person" ref="per:per_324">Peter des Grossen</name> ist fertig.  <name type="person" ref="per:per_325">Falconet</name> hat<lb/>
+               sie unvergleichlich ausgeführt, wenn es gleich mit dem ersten Guße nicht ganz<lb/>
+               gerathen war. Der Kopf von der Person und vom Pferde hatte gemangelt,<lb/>
+               so hernach doch durch glücklichen Zuguß des Metalls vollkommen ersetzt worden.<lb/>
+               Aber unverzeihlich ist der Fehler daß <name type="person" ref="per:per_326">Falconet</name> den grossen Stein an beyden<lb/>
+               Enden zu kurz behauen; weswegen man die abgeschlagene Stücke wieder<lb/>
+               ansetzen müssen. Aus Ahndung wurde Falconet zur Statue nicht weiter<lb/>
+               zugelassen. Nie glaube ich hat irgend eine andre so erstaunend viel als<lb/>
+               diese gekostet – doch ist sie ein großes Meister Stück und wird allezeit<lb/>
+               dem Künstler Ehre machen.             Auf der rechten Seite des Felsens ist folgende<lb/>
+               Inscription mit metallenen verguldten Lettern angebracht:<lb/>
+               <lb/>
+               PETRU PERVOMU							PETRO PRIMO<lb/>
+               EKATERINA VTORAJA         auf der linken Seite: 	CATHARINA SECVNDA<lb/>
+               LETA 178 (in kyrillisch)						MDCCLXXX<lb/>
+               <lb/>
+               Nur die letzte Zahl das eigentliche Jahr anzuzeigen fehlt noch an beyden Aufschriften.<lb/>
+               Jetzt ist man mit der Balustrade beschäftiget: vermuthlich wird die Eröfnung<lb/>
+               des Monuments nächsten Sommer geschehen; zu welcher Feyer man auch eine<lb/>
+               <name key="thing" ref="thi:thi_290">Medaille</name> ververtiget, dessen Revers die Attitude der Statue vorstellen wird.<lb/>
+               Der Nutzen des neuerichteten Hospitals daselbst ist für die studirende Jugend<lb/>
+               sehr erheblich, zumal unter des vortrefflichen <name type="person" ref="per:per_327">Hrn. Leibarzts Richters</name> Verwaltung.<lb/>
+               Daß aber die Medicinischen Collegien dort nicht mehr lateinisch gehalten werden,<lb/>
+               bedaure ich. Ausländer der Deutschen Sprache unkundig verlieren dadurch viel, und<lb/><pb n="52v"/>
+               sind genöthigt andre <name key="corporation" ref="cor:cor_114">Universitäten</name> wo lateinisch abgehandelt wird vorzuziehen.<lb/>
+               Noch neulich kam ein in <name type="place" ref="pla:pla_177">Giessen</name> zum <name type="person" ref="per:per_328">Doctor creirter Volckmer*</name> hieher der kein<lb/>
+               Lateinisch Wort versteht, den man deswegen hier abweisen mußte. So einer<lb/>
+               kann im Rußischen Reiche kein medicinisch Amt erhalten. Ich frug ihn, wie er<lb/>
+               es beym öffentlichen Disputieren gemacht? Er antwortete, daß er nur<lb/>
+               nego minorem sagen dürfen – der praeses hätte das übrige gethan.  Und<lb/>
+               doch steht auf der Practischen Streitschrift Autor et Respondens. Ein noch<lb/>
+               keckeres Betragen als das, was der <name type="person" ref="per:per_329">Hr. v. Haller</name> schon in einer Schrift in<lb/>
+               folgenden Ausdrücken so treffend beschrieben.... neque speciminis nomen<lb/>
+               miki fatis verum videtur, quoties candidatus alienae industriae fetum<lb/>
+               venice voce fua et horulae audaeia tuetur _ _<lb/>
+               <name type="person" ref="per:per_330">Hr. Bertolotti</name> ist von <name type="place" ref="pla:pla_178">Berlin</name> über <name type="place" ref="pla:pla_179">Hamburg</name> nach <name type="place" ref="pla:pla_180">Amsterdam</name> gereißt.<lb/>
+               Befriedigend genug für mich, daß die ihm mitgegebenen Päckchen in <name type="place" ref="pla:pla_181">Göttingen</name><lb/>
+               wohl eingetroffen sind – Wenn Eure Wohlgebohren eine gute Addresse<lb/>
+               wie die Packete von <name type="place" ref="pla:pla_182">Lübeck</name> aus nach <name type="place" ref="pla:pla_183">Göttingen</name> am sichersten zu befördern wären<lb/>
+               den Herren <name key="corporation" ref="cor:cor_115">Heyn und Meltzer</name> mitzutheilen wüßten, würde es mir überaus lieb seyn.<lb/>
+               Vermuthlich wird der <name type="person" ref="per:per_331">Hr. Ritter Murray</name> ein verwichenen Monat über<lb/>
+               <name type="place" ref="pla:pla_182">Stettin</name> abgefertigtes Päckchen mit Koliwanischen Sämereyen schon erhalten<lb/>
+               haben, so <name type="person" ref="per:per_332">Hr. Bilich</name>, ein Berliner, von hier mitgenommen.<lb/>
+               Der <name type="person" ref="per:per_333">Hr. Klint</name> ist jetzt in <name type="place" ref="pla:pla_184">Moscau</name> – <name type="person" ref="per:per_334">Hr. Diobold</name> hat hier beym General<lb/>
+               Hospital die anatomische Lehrstelle erhalten – <name type="person" ref="per:per_335">Hrn. Pezold</name> aber habe noch<lb/>
+               nicht gesehen, indem er sich in <name type="place" ref="pla:pla_185">Liefland</name> aufhält.<lb/>
+               Meine geflißnen Empfehlungen bitte gelegenheitlich dasigen Gönnern auch<lb/>
+               namentlich den <name type="person" ref="per:per_336">Hrn. Hrn. Pütter</name>, <name type="person" ref="per:per_337">Hollmann</name>, <name type="person" ref="per:per_338">Wrisberg</name>, <name type="person" ref="per:per_339">Murray</name>, <name type="person" ref="per:per_340">Blumenbach</name>, <name type="person" ref="per:per_341">Gmelin</name>,<lb/>
+               <name type="person" ref="per:per_342">Baldinger</name>, <name type="person" ref="per:per_343">Lichtenberg</name> gütigst zu entrichten. Gott erhalte Sie alle und jeden<lb/>
+               in vollkommenem Wohlseyn. Mit diesem innigsten Wunsche und Versicherung<lb/>
+               meiner wahren Verehrung und Ergebenheit verbleibe ich auf immer<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>
+                  Baron Georg <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

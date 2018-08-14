@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 02./13.03.1781</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 53</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0055</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1781-04-16"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1781-04-16">
+                  <hi rendition="#left">16.04.1781</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1781-03-02" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">02./</hi>
+                     <date when="1780-03-13" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">13.03.1781</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrener Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Morgen reist <name type="person" ref="per:per_344">Hr. v. Adoduroff</name> von hier nach <name type="place" ref="pla:pla_186">Göttingen</name>, wovon<lb/>
+               schon in meinem letzteren Schreiben vom 19 Febr./2. März  vorläufig zu melden<lb/>
+               die Ehre gehabt. Nochmals wiederholen wir, und fürnemlich seine<lb/>
+               aller Hochachtung würdige Frau Schwester <name type="person" ref="per:per_345">Tatiana Wasiljewna</name>,<lb/>
+               die angelegentlichste Bitte, Theuerster Gönner, den dort zum studiren<lb/>
+               gewidneten jungen Cavalier Ihrer besonderen Vorsorge und gütigsten<lb/>
+               Anleitung bestens empfohlen seyn zu lassen. Dem dahin mitreisenden<lb/>
+               <name type="person" ref="per:per_346">Herrn Hornborg</name> habe ich das von der <name key="corporation" ref="cor:cor_116">Academie der freyen Künste</name> in<lb/>
+               rothem Portefeuille erhaltene Diplom für Eure Wohlgebohren, wie auch<lb/>
+               den dazu gehörigen Schlüssel mitgegeben, und ein ander Diplom für <name type="person" ref="per:per_347">Hrn.<lb/>
+                  Prof. Beckmann</name>, auch noch mehrere <name key="thing" ref="thi:thi_291">Mongolische</name>, <name key="thing" ref="thi:thi_292">Sinesische Handschriften</name>,<lb/>
+               <name key="thing" ref="thi:thi_293">Kupferstiche</name> für die <name key="corporation" ref="cor:cor_117">Universitaets Bibliothek</name> zugefügt. Außerdem<lb/>
+               hat <name type="person" ref="per:per_348">Hr. Hornborg</name> noch einige <name key="thing" ref="thi:thi_294">Bücher</name>, <name key="thing" ref="thi:thi_295">Kupferstiche</name> <name key="thing" ref="thi:thi_296">Münzen</name> für das <name key="corporation" ref="cor:cor_118">Museum</name><lb/>
+               von mir erhalten, um solche Eurer Wohlgebohren abzugeben; davon die<lb/>
+               4. im Portefeuille befindlichen Verzeichniße ausführlicher anzeigen.<lb/>
+               Der Seltenheit wegen sind die <name key="thing" ref="thi:thi_297">Münzen No. 1 bis 57</name> mit neuen Stempeln<lb/>
+               kürzlich nachgemacht, zugleich auch die Güte des Metalls mit beobachtet<lb/>
+               worden. Nunmehro glaube ich, allerbester Freund, daß die Sammlung<lb/>
+               dorten von <name key="thing" ref="thi:thi_298">Russischen Münzen</name> und <name key="thing" ref="thi:thi_299">Medaillen</name> eine der vollständigsten<lb/>
+               ist, dergleichen auch in diesem Reiche eine Seltenheit seyn mag.<lb/>
+               Die in <name type="place" ref="pla:pla_187">Holstein</name> Ao 1742. geprägte merkwürdige <name key="thing" ref="thi:thi_300">Medaille</name> mit der Büste<lb/>
+               der Kaiserin Elisabeth, und auf dem Revers mit der Legende Firmamenta<lb/>
+               Imperii Russici habe hier nicht habhaft werden können: es soll mich<lb/>
+               freuen wenn selbige im <name key="corporation" ref="cor:cor_119">Göttingischen Museum</name> nicht mangelt.<lb/>
+               Ich erinnere mich nicht angezeigt zu haben daß die den<lb/>
+               24 Jun/5 Jul.  sub No. 138 expedierte <name key="thing" ref="thi:thi_301">Marmor Täfelchen</name> alle aus dem<lb/>
+               Catharinburgischen sind. – Bey dem <name key="thing" ref="thi:thi_302">Malachitartig Berg-<lb/>
+               grün</name> mit Bergart sub No. 46* sind schöne dunkelgrün spiesigte<lb/>
+               Crystallen zu bemerken.<lb/>
+               Von den heute mitfolgenden Sachen lege auch ein Verzeichnis<lb/>
+               bey p      das Göttingische Päckchen aber erwarte ich aus<lb/>
+               <name type="place" ref="pla:pla_188">Cronstadt</name> mit Ungeduld, da selbiges schon so nahe ist.<lb/>
+               Haben Sie die Güte in Ihrem schätzbarsten Wohlwollen<lb/>
+               denjenigen zu erhalten, der von ganzer Seele Sie verehrt<lb/>
+               und nie aufhören wird zu seyn<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>
+                  Baron <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

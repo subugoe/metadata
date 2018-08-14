@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 09./20.08.1782</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 94</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0085</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1782-09-30"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1782-09-30">
+                  <hi rendition="#left">30. Sept. 1782 </hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1782-08-09" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">09./</hi>
+                     <date when="1782-08-20" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">09./20.08.1782</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochgeehrtester Herr Hofrath<lb/>
+               </salute>
+            </opener>
+            <p>Vorgestern, den 7. Augt, ist die Inauguration der<lb/>
+               herrlichen Bildsäule Peter des Grossen unter Abfeurung<lb/>
+               aller Canonen von den Festungswerken und Jagdschiffen<lb/>
+               auch dreymaligen Lauffeuer der in Parade gestellten Garde-<lb/>
+               und Feld-Regimentern auf die feyerlichste Art hier voll-<lb/>
+               zogen worden, wovon Ueberbringer dieses <name type="person" ref="per:per_381">Hr. Kosegarten</name><lb/>
+               umständlichern Nachricht geben kan; welchen ich Eurer<lb/>
+               Wohlgebohren besonderer Wohlgewogenheit hiemit zu em-<lb/>
+               pfehlen die Ehre habe.          Dieser Pharmaceutiker ist<lb/>
+               gesonnen die Medizinische Studien in <name type="place" ref="pla:pla_204">Strasburg</name> fortzusetzen,<lb/>
+               in Meynung daß seine Mitteln in theurerem <name type="place" ref="pla:pla_205">Göttingen</name><lb/>
+               zu verweilen nicht hinreichen möchten. Zudem hofft er<lb/>
+               auch in jenem Orte, wo die Collegien lateinisch gehalten werden<lb/>
+               sich besser in dieser Sprache zu perfectionieren. Gar gerne<lb/>
+               hat er einige Päckchen für <name type="person" ref="per:per_382">Georg Auguste</name>, auch ein versiegelt<lb/>
+               Päckchen Thee, für Sie, theuerster Gönner, mitgenommen.<lb/>
+               Die übrigen noch zurückgebliebenen Sachen sollen mit<lb/>
+               einer andern Schifsgelegenheit nachfolgen. Indessen<lb/>
+               hoffe ich, daß die verwichen Jahr den 24 Sept./5 Octobr. mit <name type="person" ref="per:per_383">Schiffer<lb/>
+                  Göthens</name> expedirte aber erst diesen Frühling von <name type="place" ref="pla:pla_206">Cronstadt</name><lb/>
+               abgeseegelte, an den Kaufmann in <name type="place" ref="pla:pla_207">Lübeck</name> <name type="person" ref="per:per_384">Hrn. Christian<lb/>
+               Friedrich Rieffenstahl</name> adreßierte Sachen, imgleichen was<lb/>
+               dem <name type="person" ref="per:per_385">Herrn Candidat Bellermann</name> den 12/23 Oct. mitgegeben, wie<lb/>
+               auch mein Brief vom 9/20 März nebst Beylagen durch meines<lb/>
+               Freundes <name type="person" ref="per:per_386">Herrn Bernoulli</name> gütige Besorgung aus <name type="place" ref="pla:pla_208">Berlin</name>,<lb/>
+               glücklich bey Ihnen werden angelangt seyn.<lb/>
+               Mit gegenwärtiger Gelegenheit übersende für das<lb/>
+               <name key="corporation" ref="cor:cor_126">Museum</name> zwey versiegelte Päcke gedruckte Sachen und<lb/>
+               <name key="thing" ref="thi:thi_316">Kupferstiche</name> enthaltend, auch einige andere Sachen mehr,<lb/>
+               wie zwey hiebey gefügte Verzeichnisse anzeigen.<lb/>
+               Der durch entferntere Reisen berühmte <name type="person" ref="per:per_387">Hr. Dr. Reineggs</name><lb/>
+               ist vor einigen Monaten aus Persien hier angekommen, <lb/>
+               und wird ehestens wieder dahin zurückreisen.<lb/>
+               Allen geehrtesten Herrn Mitgliedern daselbst, und besonders<lb/>
+               Ihnen, theuerster Gönner, mich bestens empfehlend, verbleibe<lb/>
+               mit ausnehmender Vererhrung und Ergebenheit<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>Baron Ge. <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

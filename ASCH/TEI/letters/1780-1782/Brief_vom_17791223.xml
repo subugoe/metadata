@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 12./23.12.1779</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 4-5</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0010</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1782-11-12"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1780-01-18">
+                  <hi rendition="#left">18. Jan</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1779-12-12" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">12./</hi>
+                     <date when="1779-12-23" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">23.12.1779</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>                  
+               </salute>
+            </opener>
+            <p>Neue Freude und Vergnügen sind dieser Tagen durch Euer<lb/>
+               Wohlgebohren überaus werthe Briefe unterm 20. u. 30. Nov. mir<lb/>
+               zugeflossen. Beym jeden frohen Anblick der äusseren Aufschrift<lb/>
+               wallt schon mein ganzes Herz entgegen, um deren süssen Inhalt<lb/>
+               zu vernehmen. So angenehm ist alles theurer Gönner! was <lb/>
+               von Ihrer Hand mir zukömmt. Mit Dankbarkeit erkenne ich<lb/>
+               auch den Werth, wenn Sie etwas von der Ihnen so kostbaren Zeit<lb/>
+               für mich anzuwenden belieben.<lb/>
+               Der <name type="person" ref="per:per_258">Herr Geheime Rath v. Betzky</name> ist durch das an Ihn ge-<lb/>
+               richtete Universitaets Schreiben sehr erfreut gewesen: Se. Excellenz<lb/>
+               hat mir aufgetragen alle würdige und hochberühmte Lehrer daselbst<lb/>
+               und insbesondere Eure Wohlgebohren von seiner Hochachtung und<lb/>
+               Ergebenheit zu versichern, mit beygefügtem Ausdruck daß nichts<lb/>
+               angenehmer seyn würde als davon wahre Proben geben zu können.<lb/>
+               Aus desselben für <name type="place" ref="pla:pla_155">Göttingen</name> sehr eingenommenen Bezeigen, besonders<lb/>
+               daß den durchreisenden Eleven der hiesigen <name key="corporation" ref="cor:cor_87">Acad. d. Künste</name> dort so gütig<lb/>
+               begegnet worden, zweifle ich gar nicht, daß eine Aufnahme als<lb/>
+               EhrenMitglied bey d. <name key="corporation" ref="cor:cor_88">Königl. Societaet der Wissenschaften</name> daselbst<lb/>
+               dem <name type="person" ref="per:per_259">Hrn. Geheimen Rath v. Betzky</name> sehr schmeichelhaft seyn wird, in<lb/>
+               welchem Falle Eure Wohlgebohren das Diplom durch die Post gerade<lb/>
+               an Se. Excellenz werden gelangen lassen.<lb/><pb n="4v"/>
+               Der <name type="person" ref="per:per_260">Herr geheime Rath</name> hat sich auch gegen mich erkläret, daß<lb/>
+               Er der hiesigen <name key="corporation" ref="cor:cor_89">Akademie der Künste</name> durch die Aufnahme eines der<lb/>
+               größten Männer in den Alterthümern und schönen Wissenschaften<lb/>
+               gerne eine Zierde zutheilen möchte. Eure Wohlgebohren werden<lb/>
+               doch Ihre geneigte Einwilligung dazu nicht versagen.<lb/>
+               <name type="person" ref="per:per_261">Hr. Hofrath Voelkner</name> wird im beyfolgenden Einschlusse wegen des<lb/>
+               Druckes von hiesigen ErziehungsAnstalten sich näher erkläret haben;<lb/>
+               und läßt noch besonders Eure Wohlgebohren sehr angelegentlich<lb/>
+               ersuchen, die geneigte Vorsorge für seinen Sohn daselbst nicht zu<lb/>
+               entziehen. Ich gestehe es hat den rechtschaffenen Vater heftig<lb/>
+               bekümmert, daß im letzteren Schreiben von seines Sohnes Aufführung<lb/>
+               gar nichts erwähnet worden, so er gar nicht zu dessen Lob auslegen<lb/>
+               kan, vielmehr befürchtet daß dessen bestimmter Aufenthalt in<lb/>
+               <name type="place" ref="pla:pla_156">Strasburg</name> bey einer Unlust zum Studiren vollends nachteilig<lb/>
+               seyn möchte. Der redliche Vater hat das Vermögen nicht es zu<lb/>
+               ändern, sonsten würde der Sohn länger in <name type="place" ref="pla:pla_157">Göttingen</name> bleiben müssen.<lb/>
+               Mein Schreiben vom 19/30 Nov. wird daselbst schon zu Handen ge-<lb/>
+               kommen seyn. Gestern hat der von hier abgereiste <name type="person" ref="per:per_262">Hr. Bertolotti</name>,<lb/>
+               Bruder meines Freundes, ein anderes vom 11/22 Dec. nebst einem Päckchen<lb/>
+               mit rareren <name key="thing" ref="thi:thi_252">Medaillen</name> und <name key="thing" ref="thi:thi_253">Münzen</name> in 10 Numern unter Euer Wohlgeb.<lb/>
+               Addreße mitgenommen, welche wohl einige Wochen später dort eintreffen <lb/>
+               möchten.<lb/>
+               Der berühmte Englische <name type="person" ref="per:per_263">Seefahrer Cook</name> ist mit zweyen Schiffen zu 20.<lb/>
+               Canonen, diesen Sommer in <name type="place" ref="pla:pla_158">Kamtzatka</name> glücklich angelangt, und will da überwintern, um künftig Jahr den Weeg nördlich zu versuchen.<lb/><pb n="5r"/>
+               Für den geneigten Glückwunsch zu meiner Aufnahme bey der hiesigen<lb/>
+               <name key="corporation" ref="cor:cor_90">Academie d. Wiss.</name> Danke herzlich. Meinen ergebensten Empfehl<lb/>
+               ersuche unsere gemeinschaftlichen Freunde daselbst zu entrichten<lb/>
+               und versichert zu seyn, daß ich mit inniger Verehrung unabläßig<lb/>
+               bin<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Euer Wohlgebohren<lb/>
+               </salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>Baron Ge. <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+         <postscript>
+            <p>N.S. den Augenblick war <name type="person" ref="per:per_1024">Hr. Voelkner</name> bey mir mit dem Auftrage<lb/>
+               Eure Wohlgeboren wissen zu lassen, daß er mit nächster Post<lb/>
+               wegen des Druckes von den Erziehungs Anstalten ein mehreres<lb/>
+               zu schreiben die Ehre haben werde.<lb/>
+               Der Ausdruck Monseigneur gefällt dem <name type="person" ref="per:per_1025">Hrn. v. Betzky</name> nicht; da<lb/>
+               hier eigentlich nur Se. Kays. Hoheit so benannt werden.<lb/>
+            </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

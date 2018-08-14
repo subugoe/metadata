@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 24.05./04.06.1780</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 21</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0022</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1780-08-05"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1780-08-05">
+                  <hi rendition="#left">5 Augt</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1780-05-24" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">24.05./</hi>
+                     <date when="1780-06-04" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">04.06.1780</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr,<lb/>
+                  Hochzuverehrender Herr Hofrath,<lb/>                  
+               </salute>
+            </opener>
+            <p>Ich eile jetzt den erfreulichen Empfang Eurer Wohlgebohren<lb/>
+               verehrten Schreibens vom 22. April samt allen schätzbaren Beylagen<lb/>
+               anzukündigen, und meinen verbindlichsten Dank dafür zu entrichten.<lb/>
+               Sehr viele angenehme Stunden werde ich nun dadurch haben, so wie<lb/>
+               von einigen andern Schriften, die die <name type="person" ref="per:per_285">Herren Murray</name> <name type="person" ref="per:per_286">Blumenbach</name><lb/>
+               und <name type="person" ref="per:per_287">Sömmering</name> mir gütigst zukommen laßen, an welche Gönner<lb/>
+               ich ehestens meine Dankbarkeit schriftlich bezeugen werde.<lb/>
+               Vom <name type="person" ref="per:per_288">Hrn. geh. R. v. Betzky</name> folgt hiebey ein Antworts Schreiben<lb/>
+               und <name key="thing" ref="thi:thi_257">zwey Medaillen</name>, nämlich eine silberne auf dem Transport des <name key="thing" ref="thi:thi_258">grossen<lb/>
+                  Steines</name> u. eine bronzene auf <name type="person" ref="per:per_289">Hrn. v. Betzky</name> zu Eurer Wohlgebohren<lb/>
+               eigenem Gebrauch. Erlauben Sie theuerster Freund daß ich 1# Thé<lb/>
+               noch zufügen darf.<lb/>
+               Für das <name key="corporation" ref="cor:cor_96">Museum</name> sende ich eine kleine Preis <name key="thing" ref="thi:thi_259">Medaille</name> in Bronze<lb/>
+               für die hiesige <name key="corporation" ref="cor:cor_97">Academie der Künste</name> mit der <name key="thing" ref="thi:thi_260">Legende Za Ekspressij<lb/>
+               s’ natur’i – c. P. (kyrillisch) d. 1779</name> nebst einig anderen Sachen nebst deren<lb/>
+               Verzeichniß. Alle diese Sachen überbringt ein dahin zum Studiren<lb/>
+               reisender <name type="person" ref="per:per_290">Hr. Ernst Aug. Petzold</name> aus <name type="place" ref="pla:pla_163">Hannover</name>, der in<name type="place" ref="pla:pla_164">Moscau</name> die<lb/>
+               <name key="thing" ref="thi:thi_261">Pharmacie cultivirt</name> hat, und den ich als eines dasigen Eingebohrnen<lb/>
+               in Ihrer aller hohen Wohlgewogenheit und Schutz bestens zu empfehlen<lb/>
+               die Ehre habe.<lb/>
+               Ein den <name type="person" ref="per:per_291">Fürsten Orlow</name> auf der Reise begleitender <name type="person" ref="per:per_292">Hr. Chirurgus<lb/>
+                  Freygang</name> hat einen Brief vom 5/16 May nebst beygefügten <name key="thing" ref="thi:thi_262">Kalmukkischen<lb/>
+                     Handschriften</name> und <name key="thing" ref="thi:thi_263">7. Medaillen</name> für das <name key="corporation" ref="cor:cor_98">Göttingische Museum</name>, unter Eurer<lb/>
+               Wohlgebohren Addreße, zur Beförderung mitgenommen, welches<lb/>
+               hoffentlich, so wie auch ein älteres Schreiben vom 8/19 April Ihnen<lb/>
+               richtig wird zu Händen gekommen seyn.<lb/>
+               Dem <name type="person" ref="per:per_293">Hrn. Hofrath Voelkner</name>, der seinen Respect versichert,<lb/>
+               habe ich den Einschluß zugestellt – Lauter SeegensWünsche machen<lb/>
+               wir hier für das geliebte <name type="place" ref="pla:pla_165">Göttingen</name>, worinn gewiß niemand<lb/>
+               mich übertreffen kan, gleichwie in der reinsten Verehrung, womit<lb/>
+               ich ewig verharre<lb/>
+               
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">ganz ergebenster Diener<lb/>Baron Ge. <name type="person" ref="per:per_16">Asch</name>. </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

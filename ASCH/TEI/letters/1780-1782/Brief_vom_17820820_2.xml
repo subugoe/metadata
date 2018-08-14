@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Brief des Barons von Asch an Heyne vom 09./20.08.1782</title>
+            <author>
+               <name xml:id="asch" ref="http://d-nb.info/gnd/118650599">
+                  <name type="personRoleName">Baron</name>
+                  <name type="forename">Georg Thomas</name>
+                  <name type="nameLink">von</name>
+                  <name type="surname">Asch</name>
+               </name>
+            </author>
+            <respStmt>
+               <name ref="http://d-nb.info/gnd/1035269503">Gudrun Bucher</name>
+               <resp key="trc">Transkription</resp>
+            </respStmt>
+            <respStmt>
+               <name>Domenic Ambraß</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+            <respStmt>
+               <name>Alexander Leinemann</name>
+               <resp key="mrk">Kodierung</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name ref="sigel.staatsbibliothek-berlin.de/suche/?isil=DE-7">Niedersächsische
+                  Staats- und Universitätsbibliothek Göttingen</name>
+            </publisher>
+            <date>2017</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Niedersächsische Staats- und Universitätsbibliothek
+                     Göttingen</repository>
+                  <idno>
+                     <idno type="sgn">COD. MS. ASCH 1 : 1 (1780/82) : BL. 94</idno>
+                     <idno type="recordID">DE_611_BF_5619_1780_1782|LOG_0085</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition scheme="css" xml:id="rubricated">font-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="underlined">text-decoration: underline;
+               text-decoration-color: #662200;</rendition>
+            <rendition scheme="css" xml:id="right">text-align: right;</rendition>
+            <rendition scheme="css" xml:id="left">text-align: left;</rendition>
+            <rendition scheme="css" xml:id="center">text-align: center;</rendition>
+         </tagsDecl>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterCorporation.xml"
+               ident="cor">
+               <p>Linkliste für Körperschaften</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPerson.xml"
+               ident="per">
+               <p>Linkliste für Personen</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-9]+)" replacementPattern="RegisterPlace.xml"
+               ident="pla">
+               <p>Linkliste für geografische Angaben</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-z_0-1]+)" replacementPattern="RegisterThing.xml"
+               ident="thi">
+               <p>Linkliste für alle Arten von Objekten (auch Schriften)</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <calendarDesc>
+            <calendar xml:id="cal_ISO">
+               <p>ISO 8601 calendar = Gregorianischer Kalender</p>
+            </calendar>
+            <calendar xml:id="cal_OS">
+               <p>Old Style calendar = Julianischer Kalender</p>
+            </calendar>
+         </calendarDesc>
+         <correspDesc>
+            <correspAction type="received">
+               <name xml:id="heyne" ref="http://d-nb.info/gnd/11855073X">
+                  <name type="forename">Christian Gottlob</name>
+                  <name type="surname">Heyne</name>
+               </name>
+               <name type="place">Göttingen</name>
+               <date when="1782-09-30"/>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language ident="ger">Deutsch</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   
+   
+   <text type="letter">
+      <body>
+         <div type="notice_of_receipt">
+            <ab>
+               <add hand="#heyne"/>
+               <date when="1782-09-30">
+                  <hi rendition="#left">30 Sept. 82</hi>
+               </date>
+            </ab>
+         </div>
+         <div>
+            <opener>
+               <add hand="asch" resp="#asch"/>
+               <dateline>
+                  <date when="1782-08-09" calendar="#cal_OS">
+                     <hi rendition="#right #rubricated">09./</hi>
+                     <date when="1782-08-20" calendar="#cal_ISO">
+                        <hi rendition="#rubricated">09./20.08.1782</hi>
+                     </date>
+                  </date>
+               </dateline>
+               <salute>Wohlgebohrner Herr<lb/>
+                  Hochzuverehrender Herr Hofrath<lb/>
+                  Theuerster Gönner<lb/>
+               </salute>
+            </opener>
+            <p>Mit äusserstem Vergnügen eile ich noch heute Euer Wohlgeb.<lb/>
+               den richtigen Empfang Ihres werthgeschätzten Briefes vom 31. Jul.<lb/>
+               zu melden. Ich freue mich daß die verschiedenen Versendungen<lb/>
+               dort glücklich angelangt sind; und die mit <name type="person" ref="per:per_388">Schiffer Göthens</name><lb/>
+               den 24 Sept/5. Oct. abgesandten Kleinigkeiten werden auch wol nicht lange<lb/>
+               mehr ausbleiben.<lb/>
+               Das dort so genannte rußische Fieber oder die Influenza<lb/>
+               nennen wir hier die Sibirische oder Schinesische Krankheit, weil<lb/>
+               unsre Leute an der Gränze bey <name type="place" ref="pla:pla_209">Kiachta</name> damit zuerst befallen<lb/>
+               worden. Ueber <name type="place" ref="pla:pla_210">Irkutzk</name> hat diese Krankheit sich sehr schnell<lb/>
+               durch ganz <name type="place" ref="pla:pla_211">Rußland</name> ausgebreitet. Selbst die Crimm, Neu= und<lb/>
+               Weiß=Rußland sind nicht verschont geblieben. Man kan wol<lb/>
+               sie nicht besser als febris catarrhalis epidemica benigna<lb/>
+               nennen. Meine Kranken groß und klein habe ich alle ohne<lb/>
+               Aderlässe mit gelinden rhabarbarinis cum minuta dosi Iperaeanae<lb/>
+               auf zu 2. mal des Tages einige gran kermes mineralis gebraucht,<lb/>
+               leicht wieder hergestellt. Den 4tn Tag geschah gemeinigl. Eine<lb/>
+               vollkommene crisis per exputorationem, sudorem, vrinam.<lb/>
+               Im verwichenen Jahr haben wir hier seit Julius außerordentl. <lb/>
+               viel Näße gehabt, im December abwechselnd  2 Tage grimmige<lb/>
+               Kälte, und 2 Tage Regenwetter oder wenigstens feuchte warme Lufft<lb/>
+               das ..., daß das alte ... im ... ... ....., muß .... .... werden.<lb/>
+               Die <name key="thing" ref="thi:thi_317">Antike</name> welche Ueberbringer dieses <name type="person" ref="per:per_389">Hr. Kosegarten</name><lb/>
+               nebst Briefe vom 9/20 August abzugeben hat, scheint mir aus einem<lb/>
+               Aegyptischen Sarcophag genommen zu seyn. Der spitzige<lb/>
+               Bart, der Adler auf der Brust, die Aufschrift darunter, hat<lb/>
+               wenigstens viel ähnliches mit den Gemälden die man auf<lb/>
+               jenen zu bemerken pflegt.<lb/>
+               Der <name type="person" ref="per:per_390">Herr Collegien Rath Voelkner</name>, ein beständiger Vereh-<lb/>
+               rer von Euer Wohlgebohren, wird an Sie zu schreiben nicht<lb/>
+               ermangeln.<lb/>
+               Die G. G. Anzeigen kommen seit 2 Monathen hier wieder ...<lb/>
+               ... an. Für die von dort abgefertigte Commentarien<lb/>
+               danke ich verbindlichst allen geehrten Herrn Mitgliedern, und<lb/>
+               insbesondere Ihnen, theuerster Gönner – haben Sie auch<lb/>
+               die Gewogenheit gelegenheitlich allen und jeden meine erge-<lb/>
+               benste Empfehlungen zu machen.   Mit ausnehmender<lb/>
+               Hochachtung und inniger Ergebenheit beharre<lb/>
+            </p>
+            <closer>
+               <salute rendition="#center">Eurer Wohlgebohren<lb/></salute>
+               <signed rendition="#right">gehorsamster Diener<lb/>Baron <name type="person" ref="per:per_16">Asch</name>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
