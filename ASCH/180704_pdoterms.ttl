@@ -40,10 +40,10 @@ pdo:Agent a owl:Class ;
     rdfs:comment "A person, organization or group that acts or may act."@en .
 
 pdo:CorporateBody a owl:Class ;
-	  rdfs:label "Corporate Body"@en , "Körperschaft"@de ;
-	  rdfs:subClassOf pdo:Agent, crm:E40_Legal_Body , foaf:Organization , gndo:CorporateBody ;
-	  rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#CorporateBody> ;
-	  rdfs:comment "A group of people recognized by law as one agent."@en .
+    rdfs:label "Corporate Body"@en , "Körperschaft"@de ;
+    rdfs:subClassOf pdo:Agent, crm:E40_Legal_Body , foaf:Organization , gndo:CorporateBody ;
+    rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#CorporateBody> ;
+    rdfs:comment "A group of people recognized by law as one agent."@en .
 
 pdo:Custody a owl:Class , skos:Concept ;
     rdfs:label "Custody"@en , "Aufbewahrung"@de ;
@@ -70,10 +70,10 @@ pdo:Exploration a owl:Class , skos:Concept ;
     rdfs:comment "Journey or voyage to search for the discovery of resources."@en .
 	
 pdo:Group a owl:Class ;
-	  rdfs:label "Group"@en , "Gruppe"@de ;
-	  rdfs:subClassOf pdo:Agent , crm:E74_Group , foaf:Group , gndo:GroupOfPersons ;
-	  rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Group> ;
-	  rdfs:comment "Two or more persons interacting with a common goal."@en .
+    rdfs:label "Group"@en , "Gruppe"@de ;
+    rdfs:subClassOf pdo:Agent , crm:E74_Group , foaf:Group , gndo:GroupOfPersons ;
+    rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Group> ;
+    rdfs:comment "Two or more persons interacting with a common goal."@en .
 	
 pdo:Item a owl:Class
     rdfs:label "Item"@en , "Objekt"@de ;
@@ -82,10 +82,16 @@ pdo:Item a owl:Class
     rdfs:comment "A real world thing."@en .
 	
 pdo:Person a owl:Class ;
-	  rdfs:label "Person"@en , "Person"@de ;
-	  rdfs:subClassOf pdo:Agent , crm:E21_Person , foaf:Person , gndo:Person ;
-	  rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Person> ;
-	  rdfs:comment "An individual human being."@en .
+    rdfs:label "Person"@en , "Person"@de ;
+    rdfs:subClassOf pdo:Agent , crm:E21_Person , foaf:Person , gndo:Person ;
+    rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Person> ;
+    rdfs:comment "An individual human being."@en .
+
+pdo:Place a owl:Class ;
+    rdfs:label "Place"@en , "Ort"@de ;
+    rdfs:subClassOf dcterms:Location , edm:Place , prov:Location , crm:E53_Place ;
+    rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#Place> ;
+    rdfs:comment "A geographic location"@en .
 	
 pdo:Record a owl:Class ;
     rdfs:label "Record"@en , "Datensatz"@de ;
@@ -104,7 +110,7 @@ pdo:Time a owl:Class ;
 # Properties #
 ##############
 
-pdo:assitentOf a owl:ObjectProperty ;
+pdo:assistentOf a owl:ObjectProperty ;
     rdfs:label "Assistent of"@en , "Mitarbeiter von"@de ;
     rdfs:subPropertyOf dc:relation ;
     rdfs:isDefinedBy <http://purl.org/asch/pdo/180704#assistentOf> ;
