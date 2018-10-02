@@ -1,0 +1,3273 @@
+{"@context": 
+ ["http://www.w3.org/ns/anno.jsonld",
+  "http://iiif.io/api/presentation/3/context.json"],
+ "id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238/collection",
+ "type": "Collection",
+ "label": "Jahrbuch des Alstervereins e. V.",
+ "summary": "Ein wundervolles Jahrbuch mit vielen lustigen Geschichten und Gedichten.",
+ "metadata": [
+       {"id": [
+          {"gbv-ppn": "PPN637045238",
+           "zdb-id": "2577994-1"}
+        ]
+       },
+
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01007",
+          "label": "object type",
+          "language": "en"}
+       ],
+       "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht023",
+           "label": "Serial",
+           "language": "en" }
+       ]
+       }, 
+       
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01008",
+          "label": "issued",
+          "language": "en"}
+       ],
+       "value": [
+          {"@type": "http://terminology.lido-schema.org/eventType/publication",
+           "id": "_:myPublicationEvent",
+           "metadata": [
+              {"label": [
+                  {"@id": "http://purl.org/dc/elements/1.1/date",
+                   "label": "date",
+                   "language": "en"}
+               ],
+               "value" : "[1.]1901 - [9.]1909; 10.1910 - 26.1942; 27.1946/47 -"                
+              },
+              {"label": [
+                  {"@id": "http://purl.org/asch/pdo/180704#tookPlaceAt",
+                   "label": "took place at",
+                   "language": "en"}
+              ],
+              "value": "Hamburg-Bergstedt"
+              },
+              {"label": [
+                  {"@id": "http://dublincore.org/documents/dcmi-terms/#elements-publisher",
+                   "label": "publisher",
+                   "language": "en"}              
+               ],
+               "value": "Alsterverein"
+              }
+             ]
+         }
+       ]
+       },
+       
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01009",
+          "label": "language",
+          "language": "en"} 
+        ],
+        "value": "ger"
+        }
+   ],
+ "seeAlso": [
+      {"id": "http://mets.sub.uni-hamburg.de/goobi/PPN637045238", 
+       "type": "Dataset",
+       "format": "text/xml"
+       }
+ ],
+ 
+ "items": [ 
+   {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/manifest",
+    "type": "Manifest",
+    "label": "Jahrbuch des Alstervereins e. V. ; 10.1910",
+    "partOf": [ {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238/collection" , "type": "Collection" , "gbv-ppn": "PPN637045238"} ],    
+    "_comment": "!!!TEST: Rechteinformationen findet man unter jedem einzelnen Canvas!!!",
+    "metadata": [
+       {"id": [
+          {"gbv-ppn": "PPN637045238_0010"}
+        ]
+       },
+                
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01007",
+          "label": "object type",
+          "language": "en"}
+       ],
+       "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht007",
+           "label": "Volume",
+           "language": "en" }
+       ]
+       },         
+       
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01008",
+          "label": "issued",
+          "language": "en"}
+       ],
+       "value": [
+          {"@type": "http://terminology.lido-schema.org/eventType/publication",
+           "id": "_:myPublicationEvent",
+           "metadata": [
+              {"label": [
+                  {"@id": "http://purl.org/dc/elements/1.1/date",
+                   "label": "date",
+                   "language": "en"}
+               ],
+               "value" : "1910"                
+              },
+              {"label": [
+                  {"@id": "http://dublincore.org/documents/dcmi-terms/#elements-publisher",
+                   "label": "publisher",
+                   "language": "en"}              
+               ],
+               "value": "Alsterverein"
+              }
+             ]
+         }
+        ]
+       },       
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01009",
+          "label": "language",
+          "language": "en"} 
+        ],
+        "value": "ger"
+        },
+       {"label": [
+         {"@id": "http://www.europeana.eu/schemas/edm/dataProvider",
+          "label": "data provider",
+          "language": "en"}
+       ],
+       "value": [
+          {"@id": "http://ld.zdb-services.de/resource/organisations/DE-18",
+           "label": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ]
+       }        
+    ],
+    "summary": "Der 10. Band des Jahrbuchs des Alstervereins",
+    "thumbnail": [{"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000004.tif", "type": "Image"}],
+    "logo": [{"id": "http://www.sub.uni-hamburg.de/Images/stabi_logo.jpg", "type": "Image"}],
+    "seeAlso": [ {"id": "http://mets.sub.uni-hamburg.de/goobi/PPN637045238_0010", "type": "Dataset", "format": "text/xml" } ],
+    "items":[
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0001",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0000/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0000/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000001.tif",
+              "type": "Image",
+              "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0000/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000001.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            }
+           ]             
+         }
+        ]        
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0002",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0001/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0001/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000002.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0001/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000002.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            }
+           ]             
+         }
+        ]        
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0003",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0003/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0003/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000003.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0003/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000003.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            }
+           ]             
+         }
+        ]        
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0004",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0004/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0004/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000004.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0004/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000004.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0005",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0005/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0005/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000005.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0005/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000005.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0006",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0006/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0006/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000006.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0006/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000006.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0007",
+       "type": "Canvas",
+       "label": "3",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0007/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0007/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000007.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0007/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000007.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0008",
+       "type": "Canvas",
+       "label": "4",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0008/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0008/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000008.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0008/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000008.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0009",
+       "type": "Canvas",
+       "label": "5",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0009/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0009/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000009.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0009/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000009.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0010",
+       "type": "Canvas",
+       "label": "6",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0010/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0010/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000010.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0010/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000010.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0011",
+       "type": "Canvas",
+       "label": "7",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0011/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0011/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000011.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0011/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000011.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0012",
+       "type": "Canvas",
+       "label": "8",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0012/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0012/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000012.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0012/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000012.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0013",
+       "type": "Canvas",
+       "label": "9",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0013/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0013/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000013.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0013/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000013.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0014",
+       "type": "Canvas",
+       "label": "10",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",  
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0014/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0014/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000014.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0014/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000014.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0015",
+       "type": "Canvas",
+       "label": "11",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+              "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0015/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0015/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000015.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0015/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000015.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0016",
+       "type": "Canvas",
+       "label": "12",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0016/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0016/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000016.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0016/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000016.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0017",
+       "type": "Canvas",
+       "label": "13",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",    
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0017/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0017/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000017.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0017/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000017.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0018",
+       "type": "Canvas",
+       "label": "14",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0018/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0018/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000018.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0018/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000018.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0019",
+       "type": "Canvas",
+       "label": "15",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/", 
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0019/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0019/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000019.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0019/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000019.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0020",
+       "type": "Canvas",
+       "label": "16",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0020/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0020/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000020.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0020/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000020.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0021",
+       "type": "Canvas",
+       "label": "17",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0021/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0021/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000021.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0021/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000021.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0022",
+       "type": "Canvas",
+       "label": "18",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0022/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0022/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000022.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0022/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000022.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0023",
+       "type": "Canvas",
+       "label": "19",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0023/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0023/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000023.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0023/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000023.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0024",
+       "type": "Canvas",
+       "label": "20",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0024/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0024/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000024.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0024/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000024.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0025",
+       "type": "Canvas",
+       "label": "21",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0025/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0025/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000025.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0025/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000025.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0026",
+       "type": "Canvas",
+       "label": "22",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0026/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0026/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000026.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0026/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000026.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0027",
+       "type": "Canvas",
+       "label": "23",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0027/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0027/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000027.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0027/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000027.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0028",
+       "type": "Canvas",
+       "label": "24",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0028/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0028/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000028.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0028/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000028.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0029",
+       "type": "Canvas",
+       "label": "25",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0029/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0029/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000029.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0029/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000029.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0030",
+       "type": "Canvas",
+       "label": "26",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0030/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0030/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000030.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0030/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000030.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0031",
+       "type": "Canvas",
+       "label": "27",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0031/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0031/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000031.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0031/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000031.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0032",
+       "type": "Canvas",
+       "label": "28",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0032/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0032/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000032.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0032/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000032.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0033",
+       "type": "Canvas",
+       "label": "29",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0033/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0033/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000033.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0033/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000033.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0034",
+       "type": "Canvas",
+       "label": "30",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0034/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0034/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000034.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0034/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000034.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0035",
+       "type": "Canvas",
+       "label": "31",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0035/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0035/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000035.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0035/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000035.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0036",
+       "type": "Canvas",
+       "label": "32",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0036/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0036/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000036.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0036/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000036.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0037",
+       "type": "Canvas",
+       "label": "33",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0037/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0037/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000037.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0037/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000037.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0038",
+       "type": "Canvas",
+       "label": "34",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0038/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0038/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000038.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0038/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000038.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0039",
+       "type": "Canvas",
+       "label": "35",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0039/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0039/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000039.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0039/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000039.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0040",
+       "type": "Canvas",
+       "label": "36",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0040/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0040/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000040.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0040/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000040.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0041",
+       "type": "Canvas",
+       "label": "37",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0041/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0041/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000041.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0041/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000041.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0042",
+       "type": "Canvas",
+       "label": "38",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0042/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0042/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000042.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0042/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000042.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0043",
+       "type": "Canvas",
+       "label": "39",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0043/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0043/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000043.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0043/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000043.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0044",
+       "type": "Canvas",
+       "label": "40",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0044/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0044/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000044.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0044/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000044.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0045",
+       "type": "Canvas",
+       "label": "41",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0045/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0045/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000045.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0045/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000045.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0046",
+       "type": "Canvas",
+       "label": "42",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0046/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0046/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000046.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0046/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000046.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0047",
+       "type": "Canvas",
+       "label": "43",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0047/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0047/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000047.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0047/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000047.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0048",
+       "type": "Canvas",
+       "label": "44",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0048/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0048/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000048.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0048/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000048.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0049",
+       "type": "Canvas",
+       "label": "45",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0049/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0049/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000049.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0049/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000049.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0050",
+       "type": "Canvas",
+       "label": "46",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0050/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0050/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000050.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0050/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000050.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0051",
+       "type": "Canvas",
+       "label": "47",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0051/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0051/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000051.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0051/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000051.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0052",
+       "type": "Canvas",
+       "label": "48",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0052/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0052/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000052.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0052/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000052.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0053",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0053/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0053/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000053.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0053/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000053.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0054",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0054/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0054/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000054.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0054/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000054.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0055",
+       "type": "Canvas",
+       "label": "-",
+       "rights": "http://creativecommons.org/licenses/by/3.0/de/",
+       "metadata": [
+       {"label": [
+         {"@id": "http://purl.org/dc/terms/created",
+          "label": "date created",
+          "language": "en"}
+       ],
+       "value": "2013"
+       },
+       {"label": [
+           {"@id": "http://purl.org/dc/elements/1.1/creator",
+            "label": "creator",
+            "language": "en"}
+        ],
+        "value": "Staats- und Universitätsbibliothek Hamburg Carl von Ossietzky"}
+       ],       
+       "items": [
+         {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0055/annos",
+          "type": "AnnotationPage",
+          "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0055/anno1",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/1000/0/00000055.tif",
+                "type": "Image",
+                "format": "image/tiff"                 
+               }
+            },
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/PHYS_0055/anno2",
+             "type": "Annotation",
+             "motivation": "painting",
+             "body": 
+               {"id": "http://gcs.sub.uni-hamburg.de/PPN637045238_0010/2000/0/00000055.tif",
+                "type": "Image",
+                "format": "image/tiff"
+                }
+               }
+              ]
+            }
+         ]
+       }       
+     ],
+    "structures": [
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0004",
+       "type": "Range",
+       "metadata": [       
+         {"label": [
+            {"@id": "http://ddb.vocnet.org/label/lab01007",
+             "label": "object type",
+             "language": "en"}
+          ], 
+          "value": "Einband"}
+        ],
+         "items": [
+           {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0001",
+            "type": "Canvas"},
+           {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0002",
+            "type": "Canvas"}
+        ]        
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0005",
+       "type": "Range",
+       "metadata": [       
+         {"label": [
+             {"@id": "http://ddb.vocnet.org/label/lab01007",
+              "label": "object type",
+              "language": "en"}
+       ], 
+          "value": "Titelseite"}
+        ],
+        "items": [
+           {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0003",
+            "type": "Canvas"}
+        ]
+        },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0006",
+       "type": "Range",
+       "metadata": [       
+       {"label": [
+         {"@id": "http://ddb.vocnet.org/label/lab01007",
+          "label": "object type",
+          "language": "en"}
+       ],
+       "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht017",
+           "label": "Table of Contents",
+           "language": "en" }
+       ]
+       }
+        ],
+        "items": [
+           {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0004",
+            "type": "Canvas"}
+        ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0007",
+       "type": "Range",
+       "metadata": [
+          {"label": [
+             {"@id": "http://ddb.vocnet.org/label/lab01007",
+              "label": "object type",
+              "language": "en"}
+           ],
+           "value": "Titelseite"}
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0005",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0006",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0008",
+       "type": "Range",
+       "label": "Prolog",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0007",
+           "type": "Canvas"} 
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0010",
+       "type": "Range",
+       "label": "Heimkehr der Germanen von der Jagd",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0009",
+           "type": "Range",
+           "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht015",
+           "label": "Illustration",
+           "language": "en" }
+        ]
+       }
+           ],
+           "items": [
+               {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0008",
+                "type": "Canvas"} ]
+          },                    
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0009",
+           "type": "Canvas"}             
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0012",
+       "type": "Range",
+       "label": "Germanisches Begräbnis",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+         ],
+         "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0011",
+            "type": "Range",
+            "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht015",
+           "label": "Illustration",
+           "language": "en" }
+        ]
+       }
+             ],
+             "items": [
+                {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0010",
+                 "type": "Canvas"}]
+             },
+             {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0011",
+              "type": "Canvas"
+             }             
+         ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0014",
+       "type": "Range",
+       "label": "Johann von Hummelsbüttel lauert einem Kaufmannszuge auf",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+         ],
+         "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0013",
+            "type": "Range",
+            "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht015",
+           "label": "Illustration",
+           "language": "en" }
+        ]
+       }
+             ],
+             "items": [
+                {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0012",
+                 "type": "Canvas"}]
+             },
+             {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0013",
+              "type": "Canvas"
+             }             
+         ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0016",
+       "type": "Range",
+       "label": "Johann von Hummelsbüttels Heimkehr vom Überfall nach der Burg",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+         ],
+         "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0015",
+            "type": "Range",
+            "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht015",
+           "label": "Illustration",
+           "language": "en" }
+        ]
+       }
+             ],
+             "items": [
+                {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0014",
+                 "type": "Canvas"}]
+             },
+             {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0015",
+              "type": "Canvas"
+             }             
+         ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0018",
+       "type": "Range",
+       "label": "Die Einweihung der Schutzhütte an der Alsterquelle",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+         ],
+         "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0017",
+            "type": "Range",
+            "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht015",
+           "label": "Illustration",
+           "language": "en" }
+        ]
+       }
+             ],
+             "items": [
+                {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0016",
+                 "type": "Canvas"}]
+             },
+             {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0017",
+              "type": "Canvas"
+             }             
+         ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0020",
+       "type": "Range",
+       "label": "De Metköst op de Mellenborg",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+         ],
+         "items": [
+            {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0019",
+            "type": "Range",
+            "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht015",
+           "label": "Illustration",
+           "language": "en" }
+        ]
+       }
+             ],
+             "items": [
+                {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0018",
+                 "type": "Canvas"}]
+             },
+             {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0019",
+              "type": "Canvas"
+             }             
+         ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0021",
+       "type": "Range",
+       "label": "Wir und der Heimatschutz",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0020",
+           "type": "Canvas"} 
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0022",
+       "type": "Range",
+       "label": "Ein ausgegangenes Alsterdorf",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0021",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0022",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0023",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0024",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0023",
+       "type": "Range",
+       "label": "Noch etwas von der alten Kistenkastenschutenschifferei auf der Alster",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0025",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0026",
+           "type": "Canvas"}            
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0024",
+       "type": "Range",
+       "label": "Die alten Butterbauern",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0027",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0028",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0029",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0025",
+       "type": "Range",
+       "label": "Die Altenmühle bei Bergstedt",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0030",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0031",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0026",
+       "type": "Range",
+       "label": "Die Gedenktafel in der Bergstedter Kirche",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0032",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0033",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0034",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0035",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0036",
+           "type": "Canvas"}                      
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0027",
+       "type": "Range",
+       "label": "Bauernnot in der ersten Hälfte des 18. Jahrhunderts",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0037",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0038",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0039",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0028",
+       "type": "Range",
+       "label": "Die Kuh von Poppenbüttel",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0040",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0041",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0042",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0029",
+       "type": "Range",
+       "label": "Offener Brief an die Redaktion und die Mitglieder",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0043",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0044",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0030",
+       "type": "Range",
+       "label": "Etwas über Hochdeutsch und Plattdeutsch",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0045",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0046",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0031",
+       "type": "Range",
+       "label": "Tätigkeitsbericht",
+       "metadata": [
+        {"label": [
+          {"@id": "http://ddb.vocnet.org/label/lab01007",
+           "label": "object type",
+           "language": "en"}
+        ],
+        "value": [
+          {"@id": "http://ddb.vocnet.org/hierarchietyp/ht006",
+           "label": "Article",
+           "language": "en" }
+        ]
+       }
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0047",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0048",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0049",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0050",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0051",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0052",
+           "type": "Canvas"},
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0053",
+           "type": "Canvas"}
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0032",
+       "type": "Range",
+       "metadata": [
+          {"label": [
+             {"@id": "http://ddb.vocnet.org/label/lab01007",
+              "label": "object type",
+              "language": "en"}
+           ],
+           "value": "Werbung"}
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0054",
+           "type": "Canvas"} 
+       ]
+      },
+      {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/range/LOG_0033",
+       "type": "Range",
+       "metadata": [
+          {"label": [
+              {"@id": "http://ddb.vocnet.org/label/lab01007",
+               "label": "object type",
+               "language": "en"}
+           ],
+           "value": "Einband"}
+       ],
+       "items": [
+          {"id": "http://resolver.sub.uni-hamburg.de/goobi/PPN637045238_0010/canvas/PHYS_0055",
+           "type": "Canvas"} 
+       ]
+      }      
+    ]
+   }
+ ]
+}
