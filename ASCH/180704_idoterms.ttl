@@ -21,7 +21,7 @@
 
 
 <http://purl.org/asch/ido/180704#> a owl:Ontology ;
-	rdfs:label "Item Description Ontology (PDO)"@en ;
+	rdfs:label "Item Description Ontology (IDO)"@en ;
 	rdfs:comment "This ontology defines core classes and properties for the description of items. The ontology was developed for the description of of items from university collections but is not limited to this context."@en ;
 	rdfs:comment "Created by Stefanie Rühle (SUB Göttingen)"@en ;
 	owl:versionInfo "2018-07-04 (version 3.0)"^^xsd:string .
