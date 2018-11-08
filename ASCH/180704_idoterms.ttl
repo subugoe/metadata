@@ -53,7 +53,7 @@ ido:Artifact a owl:Class ;
 	
 ido:Collection a owl:Class ;
     rdfs:label "Collection"@en , "Sammlung"@de ;
-    rdfs:subClassOf pdo:Item , dcmitype:"Collection" , nms:Collection , crm:E78_Collection ;
+    rdfs:subClassOf dcmitype:Collection , nms:Collection , crm:E78_Collection ;
     rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Collection> ;
     rdfs:comment "An aggregation of items collected by an agent on a particular topic."@en ;
     rdfs:seeAlso aat:300025976 .
