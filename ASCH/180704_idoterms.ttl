@@ -32,7 +32,7 @@
 ###########
 
 ido:Appearance a owl:Class ;
-    rdfs:Label "appearance"@en , "Aussehen"@de ;
+    rdfs:label "appearance"@en , "Aussehen"@de ;
     rdfs:subClassOf rdfs:Resource , crm:E26_Physical_Feature ;
     rdfs:isDefinedBy <http://purl.org/asch/ido/180704#Appearance> ;
     rdfs:comment "The physical characteristics of an item."@en .
