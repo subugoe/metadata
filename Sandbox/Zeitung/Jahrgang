@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetRecord>    
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:mods="http://www.loc.gov/mods/v3"
+        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+        <!-- Jahrgang -->
+        <metadata>
+            <mets:mets
+                xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+                xmlns:mets="http://www.loc.gov/METS/"
+                xmlns:dv="http://dfg-viewer.de/profil-der-metadaten/"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mets:dmdSec ID="dmd_01">
+                    <mets:mdWrap MDTYPE="MODS">
+                        <mets:xmlData>
+                            <mods:mods>
+                                <!-- Beziehungen zur Gesamtaufnahme -->
+                                <mods:relatedItem>
+                                    <!-- Titel -->
+                                    <mods:titleInfo>
+                                        <mods:title>Die Test-Zeitung</mods:title>
+                                        <mods:subTitle>Nachrichten aus dem Nirgendwo</mods:subTitle>
+                                        <mods:partNumber>Reihe A</mods:partNumber>
+                                        <mods:partName>Wirtschaftsteil</mods:partName>
+                                    </mods:titleInfo>
+                                    <mods:titleInfo type="abbreviated">
+                                        <mods:title>TZ</mods:title>
+                                    </mods:titleInfo>
+                                    <!-- Angaben zum Datensatz der Gesamtaufnahme -->
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier source="gbv"
+                                            >749501820</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                </mods:relatedItem>
+                                <!-- Identifier -->
+                                <mods:identifier type="urn"
+                                    >urn:nbn:de:bsz:14-db-id1234567</mods:identifier>
+                                <!-- Jahrgangszählung -->
+                                <mods:part order="1879">
+                                    <mods:detail type="volume">
+                                        <mods:number>Jahrgang 1879</mods:number>
+                                    </mods:detail>
+                                </mods:part>
+                                <!-- Angaben zum Datensatz -->
+                                <mods:recordInfo>
+                                    <mods:recordIdentifier source="gbv"
+                                        >749501820_1879</mods:recordIdentifier>
+                                </mods:recordInfo>
+                            </mods:mods>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:dmdSec>
+                <!-- Administrative Metadaten -->
+                <mets:amdSec ID="amd_01">
+                    <mets:rightsMD>
+                        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                            <mets:xmlData>
+                                <dv:rights>
+                                    <dv:owner>Stadtbibliothek Kleinstadt</dv:owner>
+                                    <dv:ownerLogo>http://beispiel.de/logo.gif</dv:ownerLogo>
+                                    <dv:license>https://creativecommons.org/publicdomain/mark/1.0/</dv:license>
+                                    <dv:aggregator>SLUB Dresden</dv:aggregator>
+                                    <dv:aggregatorLogo>http://digital.slub-dresden.de/logo.gif</dv:aggregatorLogo>
+                                </dv:rights>
+                                <dv:links>
+                                    <dv:presentation>http://example/mein.digiportal.de/7654321</dv:presentation>
+                                </dv:links>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:rightsMD>
+                </mets:amdSec>
+                <!-- Logische Struktur für Jahrgang mit Ausgaben 2 mal am Tag-->
+                <mets:structMap TYPE="LOGICAL">
+                    <mets:div ID="log_001" TYPE="newspaper" LABEL="Die Test-Zeitung">
+                        <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/GA"/>
+                        <mets:div ID="log_002" ADMID="amd_01" DMDID="dmd_01" TYPE="year"
+                            LABEL="1878">
+                            <mets:div ID="log_003" TYPE="month" ORDERLABEL="04">
+                                <mets:div ID="log_004" TYPE="day" ORDERLABEL="15">
+                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="15_1">
+                                        <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue-1"/>
+                                    </mets:div>
+                                    <mets:div ID="log_006" TYPE="issue" ORDERLABEL="15_2">
+                                        <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue_2"/>
+                                    </mets:div>
+                                    <mets:div ID="log_004" TYPE="day" ORDERLABEL="16">
+                                        <mets:div ID="log_005" TYPE="issue" ORDERLABEL="16_1">
+                                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue-3"/>
+                                        </mets:div>
+                                        <mets:div ID="log_006" TYPE="issue" ORDERLABEL="16_2">
+                                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue_4"/>
+                                        </mets:div>                                    
+                                    </mets:div>
+                                </mets:div>    
+                            </mets:div> 
+                            <mets:div ID="log_003" TYPE="month" ORDERLABEL="05">
+                                <mets:div ID="log_004" TYPE="day" ORDERLABEL="01">
+                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="01_1">
+                                        <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue-5"/>
+                                    </mets:div>
+                                    <mets:div ID="log_006" TYPE="issue" ORDERLABEL="01_2">
+                                        <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue_6"/>
+                                    </mets:div>
+                                    <mets:div ID="log_004" TYPE="day" ORDERLABEL="02">
+                                        <mets:div ID="log_005" TYPE="issue" ORDERLABEL="02_1">
+                                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue-7"/>
+                                        </mets:div>
+                                        <mets:div ID="log_006" TYPE="issue" ORDERLABEL="02_2">
+                                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Issue_8"/>
+                                        </mets:div>                                    
+                                    </mets:div>
+                                </mets:div>    
+                            </mets:div>
+                        </mets:div>
+                    </mets:div>
+                </mets:structMap>
+            </mets:mets>
+        </metadata>
+    </record>
+</GetRecord>
