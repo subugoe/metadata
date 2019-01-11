@@ -15,7 +15,7 @@
                         <mets:xmlData>
                             <mods:mods>
                                 <!-- Beziehungen zur Gesamtaufnahme -->
-                                <mods:relatedItem>
+                                <mods:relatedItem type="host">
                                     <!-- Titel -->
                                     <mods:titleInfo>
                                         <mods:title>Die Test-Zeitung</mods:title>
