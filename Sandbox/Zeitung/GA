@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetRecord>
+    <!-- mods:title -->
+    <!-- Einfacher Titel -->
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:mods="http://www.loc.gov/mods/v3"
+        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+        <!-- Gesamtaufnahme -->
+        <metadata>
+            <mets:mets
+                xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+                xmlns:mets="http://www.loc.gov/METS/"
+                xmlns:dv="http://dfg-viewer.de/profil-der-metadaten/"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mets:dmdSec ID="dmd_01">
+                    <mets:mdWrap MDTYPE="MODS">
+                        <mets:xmlData>
+                            <mods:mods>
+                                <!-- Titel -->
+                                <mods:titleInfo>
+                                    <mods:title>Die Test-Zeitung</mods:title>
+                                    <mods:subTitle>Nachrichten aus dem Nirgendwo</mods:subTitle>
+                                    <mods:partNumber>Reihe A</mods:partNumber>
+                                    <mods:partName>Wirtschaftsteil</mods:partName>
+                                </mods:titleInfo>
+                                <mods:titleInfo type="abbreviated">
+                                    <mods:title>TZ</mods:title>
+                                </mods:titleInfo>
+                                <!-- Medientyp -->
+                                <mods:typeOfResource>text</mods:typeOfResource>
+                                <!-- Erscheinungsangaben -->
+                                <mods:originInfo eventType="publication">
+                                    <mods:edition>Neue Ausgabe</mods:edition>
+                                    <mods:place>
+                                        <mods:placeTerm type="text"
+                                            valueURI="http://d-nb.info/gnd/4267463-3">Novo
+                                            Mesto</mods:placeTerm>
+                                    </mods:place>
+                                    <mods:publisher>Verlagshaus Haus und Hof</mods:publisher>
+                                    <mods:dateIssued point="start">1888</mods:dateIssued>
+                                    <mods:dateIssued point="end">1919</mods:dateIssued>
+                                    <mods:frequency>Daily</mods:frequency>
+                                </mods:originInfo>
+                                <mods:originInfo eventType="distribution">
+                                    <mods:place>
+                                        <mods:placeTerm type="text"
+                                            valueURI="http://d-nb.info/gnd/4003860-9"
+                                            >Außereuropäische Länder</mods:placeTerm>
+                                    </mods:place>
+                                </mods:originInfo>
+                                <!-- Erscheinungsverlauf des Digitalisats -->
+                                <mods:note type="date/sequential designation">1912,Jan.-Dez.; mehr
+                                    nicht digitalisiert</mods:note>
+                                <!-- Sprachangabe -->
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >ger</mods:languageTerm>
+                                </mods:language>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >eng</mods:languageTerm>
+                                </mods:language>
+                                <!-- ZDB-ID der analogen Ausgabe -->
+                                <mods:relatedItem type="original">
+                                    <mods:identifier type="zdb">9304x</mods:identifier>
+                                </mods:relatedItem>
+                                <!-- Identifier -->
+                                <mods:identifier type="zdb">2746698X</mods:identifier>
+                                <mods:identifier type="urn"
+                                    >urn:nbn:de:bsz:14-db-id3991969516</mods:identifier>
+                                <!-- Rechteangaben -->
+                                <mods:accessCondition type="restriction on access"
+                                    xlink:href="http://purl.org/coar/access_right/c_abf2"
+                                    displayLabel="Access Status">open access</mods:accessCondition>
+                                <mods:accessCondition type="use and reproduction"
+                                    xlink:href="https://creativecommons.org/publicdomain/mark/1.0/"
+                                    >Public Domain Dedication 1.0</mods:accessCondition>
+                                <!-- Angaben zum Datensatz -->
+                                <mods:recordInfo>
+                                    <mods:recordIdentifier source="gbv"
+                                        >749501820</mods:recordIdentifier>
+                                </mods:recordInfo>
+                            </mods:mods>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mets:dmdSec>
+                <!-- Administrative Metadaten -->
+                <mets:amdSec ID="amd_01">
+                    <mets:rightsMD>
+                        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                            <mets:xmlData>
+                                <dv:rights>
+                                    <dv:owner>Stadtbibliothek Kleinstadt</dv:owner>
+                                    <dv:ownerLogo>http://beispiel.de/logo.gif</dv:ownerLogo>
+                                    <dv:license>https://creativecommons.org/publicdomain/mark/1.0/</dv:license>
+                                    <dv:aggregator>SLUB Dresden</dv:aggregator>
+                                    <dv:aggregatorLogo>http://digital.slub-dresden.de/logo.gif</dv:aggregatorLogo>
+                                </dv:rights>
+                                <dv:links>
+                                    <dv:reference>http://example/mein.opac.de/1234567</dv:reference>
+                                    <dv:presentation>http://example/mein.digiportal.de/1234567</dv:presentation>
+                                </dv:links>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:rightsMD>
+                </mets:amdSec>
+                <!-- Logische Struktur -->
+                <mets:structMap TYPE="LOGICAL">
+                    <mets:div ID="log_001" ADMID="amd_01" DMDID="dmd_01" TYPE="newspaper" LABEL="Die Test-Zeitung">
+                        <mets:div ID="log_002" TYPE="year" LABEL="1878">
+                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Jahrgang.xml"/>
+                        </mets:div>                           
+                    </mets:div>
+                </mets:structMap>
+            </mets:mets>
+        </metadata>
+    </record>
+</GetRecord>
