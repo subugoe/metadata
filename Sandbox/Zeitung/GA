@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GetRecord>
     <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:mods="http://www.loc.gov/mods/v3"
         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
@@ -94,23 +93,38 @@
                                     <dv:aggregator>SLUB Dresden</dv:aggregator>
                                     <dv:aggregatorLogo>http://digital.slub-dresden.de/logo.gif</dv:aggregatorLogo>
                                 </dv:rights>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:rightsMD>
+                    <mets:digiprovMD>
+                        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                            <mets:xmlData>
                                 <dv:links>
                                     <dv:reference>http://example/mein.opac.de/1234567</dv:reference>
                                     <dv:presentation>http://example/mein.digiportal.de/1234567</dv:presentation>
                                 </dv:links>
                             </mets:xmlData>
                         </mets:mdWrap>
-                    </mets:rightsMD>
+                    </mets:digiprovMD>
                 </mets:amdSec>
                 <!-- Logische Struktur -->
                 <mets:structMap TYPE="LOGICAL">
-                    <mets:div ID="log_001" ADMID="amd_01" DMDID="dmd_01" TYPE="newspaper" LABEL="Die Test-Zeitung">
+                    <mets:div ID="log_001" ADMID="amd_01" DMDID="dmd_01" TYPE="newspaper"
+                        LABEL="Die Test-Zeitung">
                         <mets:div ID="log_002" TYPE="year" LABEL="1878">
-                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Jahrgang.xml"/>
-                        </mets:div>                           
+                            <mets:mptr LOCTYPE="URL"
+                                xlink:href="http://LinkZumMETSdatensatz/Jahrgang_1878.xml"/>
+                        </mets:div>
+                        <mets:div ID="log_003" TYPE="year" LABEL="1879">
+                            <mets:mptr LOCTYPE="URL"
+                                xlink:href="http://LinkZumMETSdatensatz/Jahrgang_1879.xml"/>
+                        </mets:div>
+                        <mets:div ID="log_004" TYPE="year" LABEL="1880">
+                            <mets:mptr LOCTYPE="URL"
+                                xlink:href="http://LinkZumMETSdatensatz/Jahrgang_1880.xml"/>
+                        </mets:div>
                     </mets:div>
                 </mets:structMap>
             </mets:mets>
         </metadata>
     </record>
-</GetRecord>
