@@ -1,0 +1,170 @@
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:mods="http://www.loc.gov/mods/v3"
+        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+        <!-- Ausgabe -->
+        <metadata>
+            <mets:mets
+                xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
+                xmlns:mets="http://www.loc.gov/METS/"
+                xmlns:dv="http://dfg-viewer.de/profil-der-metadaten/"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mets:dmdSec ID="dmd_0001">
+                    <mets:mdWrap MDTYPE="MODS">
+                        <mets:xmlData>
+                            <mods:mods>
+                                <mods:typeOfResource>text</mods:typeOfResource>
+                                <mods:originInfo eventType="publication">
+                                    <mods:dateIssued encoding="iso8601">1879-02-17</mods:dateIssued>                                    
+                                </mods:originInfo>
+                                <mods:originInfo eventType="digitization">
+                                    <mods:dateCaptured encoding="iso8601">2017-03-21</mods:dateCaptured>
+                                    <mods:publisher>Hochschulbibliothek Hinterm Berg</mods:publisher>                                    
+                                </mods:originInfo>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
+                                    <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+                                </mods:language>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code">rus</mods:languageTerm>
+                                    <mods:scriptTerm authoritiy="iso15924" type="code">Cyrl</mods:scriptTerm> 
+                                </mods:language>
+                                <mods:physicalDescription>
+                                    <mods:extent>20 Seiten</mods:extent>
+                                </mods:physicalDescription>
+                                <mods:relatedItem type="host">
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier source="gbv">749501820</mods:recordIdentifier>                                        
+                                    </mods:recordInfo>
+                                    <mods:identifier type="zdb">2746698X</mods:identifier>
+                                    <mods:relatedItem type="original">
+                                        <mods:identifier type="zdb">9304x</mods:identifier>
+                                    </mods:relatedItem>
+                                    <mods:titleInfo>
+                                        <mods:title>Die Test-Zeitung</mods:title>
+                                        <mods:subTitle>Nachrichten aus dem Nirgendwo</mods:subTitle>
+                                        <mods:partNumber>Reihe A</mods:partNumber>
+                                        <mods:Name>Wirtschaftsteil</mods:Name>
+                                    </mods:titleInfo>
+                                </mods:relatedItem>
+                                <mods:identifier type="urn">urn:nbn:de:blabla:21-db-id123456789</mods:identifier>
+                                <mods:location>
+                                    <mods:physicalLocation>DE-7</mods:physicalLocation>
+                                    <mods:shelfLocator>Zt 23-3456</mods:shelfLocator>
+                                </mods:location>
+                                <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Dedication 1.0</mods:accessCondition>
+                                <mods:accessCondition type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_abf2" displayLabel="Access Status">open access</mods:accessCondition>
+                                <mods:part order="1879021702">
+                                    <mods:detail type="issue">
+                                        <mods:number>17. Februar 1879</mods:number>
+                                        <mods:title>Mittagsausgabe</mods:title>
+                                    </mods:detail>                                    
+                                </mods:part>
+                                <mods:recordInfo>
+                                    <mods:recordIdentifier source="gbv">123456789_1879021702</mods:recordIdentifier>                                    
+                                </mods:recordInfo>
+                            </mods:mods>
+                        </mets:xmlData>
+                    </mets:mdWrap>                    
+                </mets:dmdSec>
+                <mets:amdSec ID="amd_01">
+                    <mets:rightsMD>
+                        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
+                            <mets:xmlData>
+                                <dv:rights>
+                                    <dv:owner>Stadtbibliothek Kleinstadt</dv:owner>
+                                    <dv:ownerLogo>http://beispiel.de/logo.gif</dv:ownerLogo>
+                                    <dv:license>https://creativecommons.org/publicdomain/mark/1.0/</dv:license>
+                                    <dv:aggregator>SLUB Dresden</dv:aggregator>
+                                    <dv:aggregatorLogo>http://digital.slub-dresden.de/logo.gif</dv:aggregatorLogo>
+                                </dv:rights>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:rightsMD>
+                    <mets:digiprovMD>
+                        <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
+                            <mets:xmlData>
+                                <dv:links>
+                                    <dv:reference>http://example/mein.opac.de/1234567</dv:reference>
+                                    <dv:presentation>http://example/mein.digiportal.de/1234567</dv:presentation>
+                                </dv:links>
+                            </mets:xmlData>
+                        </mets:mdWrap>
+                    </mets:digiprovMD>
+                </mets:amdSec>
+                <mets:structMap TYPE="LOGICAL">
+                    <mets:divd ID="log_001" TYPE="newspaper" LABEL="Die Test-Zeitung">
+                        <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/GA"/>
+                        <mets:div ID="log_002" TYPE="year" LABEL="1878">
+                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Jahrgang"/>
+                            <mets:div ID="log_003" TYPE="month" ORDERLABEL="04">
+                                <mets:div ID="log_004" TYPE="day" ORDERLABEL="15">
+                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="15_1">
+                                        <mets:div ID="log_025" TYPE="section" LABEL="Aus der Region"/>
+                                        <mets:div ID="log_026" TYPE="section" LABEL="Unser Kummerkasten"/>
+                                        <mets:div ID="log_027" TYPE="section" LABEL="Vermischte Nachrichten">
+                                            <mets:div ID="log_030" TYPE="article" LABEL="Sieben auf einen Streich"/>
+                                            <mets:div ID="log_031" TYPE="article" LABEL="Der Bürgermeister wacht"/>
+                                            <mets:div ID="log_032" TYPE="article" LABEL="Kein Haus - kein Herd"/>                                            
+                                        </mets:div>
+                                        <mets:div ID="log_028" TYPE="section" LABEL="Anzeigen"/>
+                                    </mets:div>
+                                </mets:div>
+                            </mets:div>
+                        </mets:div>
+                    </mets:divd>
+                </mets:structMap>
+                <mets:structMap TYPE="PHYSICAL"> 
+                    <mets:div
+                        ID="PHYS_0000" TYPE="physSequence">
+                        <mets:div
+                            ID="PHYS_0001" ORDER="1" ORDERLABEL="I" TYPE="page">
+                            <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+                        </mets:div>
+                        <mets:div
+                            ID="PHYS_0002" ORDER="2" ORDERLABEL="II" TYPE="page">
+                            <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+                        </mets:div>
+                        <mets:div
+                            ID="PHYS_0003" ORDER="3" ORDERLABEL="III" TYPE="page">
+                            <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+                        </mets:div>
+                        <mets:div
+                            ID="PHYS_0004" ORDER="4" ORDERLABEL="IV" TYPE="page">
+                            <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+                        </mets:div>
+                    </mets:div>
+                </mets:structMap>
+                <mets:structLink>
+                    <mets:smLink xlink:to="PHYS_0001" xlink:from="log_005"/>
+                    <mets:smLink xlink:to="PHYS_0002" xlink:from="log_005"/>
+                    <mets:smLink xlink:to="PHYS_0003" xlink:from="log_005"/>
+                    <mets:smLink xlink:to="PHYS_0004" xlink:from="log_005"/>
+                    <mets:smLink xlink:to="PHYS_0001" xlink:from="log_025"/>
+                    <mets:smLink xlink:to="PHYS_0001" xlink:from="log_026"/>
+                    <mets:smLink xlink:to="PHYS_0002" xlink:from="log_027"/>
+                    <mets:smLink xlink:to="PHYS_0003" xlink:from="log_027"/>
+                    <mets:smLink xlink:to="PYHS_0002" xlink:from="log_030"/>
+                    <mets:smLink xlink:to="PHYS_0002" xlink:from="log_031"/>
+                    <mets:smLink xlink:to="PHYS_0003" xlink:from="log_032"/>
+                    <mets:smLink xlink:to="PYHS_0004" xlink:from="log_032"/>
+                    <mets:smLink xlink:to="PYHS_0004" xlink:from="log_028"/>
+                </mets:structLink>
+                <mets:fileSec>
+                    <mets:fileGrp USE="DEFAULT">
+                        <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpeg">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000001.jpg"/>
+                        </mets:file>
+                        <mets:file ID="FILE_0002_DEFAULT" MIMETYPE="image/jpeg">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000002.jpg"/>
+                        </mets:file>
+                        <mets:file ID="FILE_0003_DEFAULT" MIMETYPE="image/jpeg">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000003.jpg"/>
+                        </mets:file>
+                        <mets:file ID="FILE_0004_DEFAULT" MIMETYPE="image/jpeg">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000004.jpg"/>
+                        </mets:file>
+                    </mets:fileGrp>
+                </mets:fileSec>
+            </mets:mets>
+        </metadata>
+    </record>                
