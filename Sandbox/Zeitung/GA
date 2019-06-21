@@ -71,11 +71,13 @@
                                     displayLabel="Access Status">open access</mods:accessCondition>
                                 <mods:accessCondition type="use and reproduction"
                                     xlink:href="https://creativecommons.org/publicdomain/mark/1.0/"
-                                    >Public Domain Dedication 1.0</mods:accessCondition>
+                                    >Public Domain Mark 1.0</mods:accessCondition>
                                 <!-- Angaben zum Datensatz -->
                                 <mods:recordInfo>
-                                    <mods:recordIdentifier source="gbv"
-                                        >749501820</mods:recordIdentifier>
+                                    <mods:recordIdentifier source="gbv">749501820</mods:recordIdentifier>
+                                </mods:recordInfo>
+                                <mods:recordInfo>
+                                    <mods:recordIdentifier source="zdb-ppn">345679023</mods:recordIdentifier>
                                 </mods:recordInfo>
                             </mods:mods>
                         </mets:xmlData>
@@ -111,15 +113,15 @@
                 <mets:structMap TYPE="LOGICAL">
                     <mets:div ID="log_001" ADMID="amd_01" DMDID="dmd_01" TYPE="newspaper"
                         LABEL="Die Test-Zeitung">
-                        <mets:div ID="log_002" TYPE="year" LABEL="1878">
+                        <mets:div ID="log_002" TYPE="year" LABEL="Jahrgang 1878" ORDERLABEL="1878">
                             <mets:mptr LOCTYPE="URL"
                                 xlink:href="http://LinkZumMETSdatensatz/Jahrgang_1878.xml"/>
                         </mets:div>
-                        <mets:div ID="log_003" TYPE="year" LABEL="1879">
+                        <mets:div ID="log_003" TYPE="year" LABEL="1879" ORDERLABEL="1879">
                             <mets:mptr LOCTYPE="URL"
                                 xlink:href="http://LinkZumMETSdatensatz/Jahrgang_1879.xml"/>
                         </mets:div>
-                        <mets:div ID="log_004" TYPE="year" LABEL="1880">
+                        <mets:div ID="log_004" TYPE="year" LABEL="1880" ORDERLABEL="1880">
                             <mets:mptr LOCTYPE="URL"
                                 xlink:href="http://LinkZumMETSdatensatz/Jahrgang_1880.xml"/>
                         </mets:div>
