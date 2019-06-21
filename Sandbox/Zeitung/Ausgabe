@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>    
     <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xmlns:mods="http://www.loc.gov/mods/v3"
         xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
@@ -14,26 +15,37 @@
                             <mods:mods>
                                 <mods:typeOfResource>text</mods:typeOfResource>
                                 <mods:originInfo eventType="publication">
-                                    <mods:dateIssued encoding="iso8601">1879-02-17</mods:dateIssued>                                    
+                                    <mods:dateIssued encoding="iso8601">1879-02-17</mods:dateIssued>
                                 </mods:originInfo>
                                 <mods:originInfo eventType="digitization">
-                                    <mods:dateCaptured encoding="iso8601">2017-03-21</mods:dateCaptured>
-                                    <mods:publisher>Hochschulbibliothek Hinterm Berg</mods:publisher>                                    
+                                    <mods:dateCaptured encoding="iso8601"
+                                        >2017-03-21</mods:dateCaptured>
+                                    <mods:publisher>Hochschulbibliothek Hinterm
+                                        Berg</mods:publisher>
                                 </mods:originInfo>
                                 <mods:language>
-                                    <mods:languageTerm authority="iso639-2b" type="code">ger</mods:languageTerm>
-                                    <mods:scriptTerm authority="iso15924" type="code">Latn</mods:scriptTerm>
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >ger</mods:languageTerm>
+                                    <mods:scriptTerm authority="iso15924" type="code"
+                                        >Latn</mods:scriptTerm>
                                 </mods:language>
                                 <mods:language>
-                                    <mods:languageTerm authority="iso639-2b" type="code">rus</mods:languageTerm>
-                                    <mods:scriptTerm authoritiy="iso15924" type="code">Cyrl</mods:scriptTerm> 
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >rus</mods:languageTerm>
+                                    <mods:scriptTerm authoritiy="iso15924" type="code"
+                                        >Cyrl</mods:scriptTerm>
                                 </mods:language>
                                 <mods:physicalDescription>
                                     <mods:extent>20 Seiten</mods:extent>
                                 </mods:physicalDescription>
                                 <mods:relatedItem type="host">
                                     <mods:recordInfo>
-                                        <mods:recordIdentifier source="gbv">749501820</mods:recordIdentifier>                                        
+                                        <mods:recordIdentifier source="gbv"
+                                            >749501820</mods:recordIdentifier>
+                                    </mods:recordInfo>
+                                    <mods:recordInfo>
+                                        <mods:recordIdentifier source="zdb-ppn"
+                                            >345679023</mods:recordIdentifier>
                                     </mods:recordInfo>
                                     <mods:identifier type="zdb">2746698X</mods:identifier>
                                     <mods:relatedItem type="original">
@@ -46,25 +58,34 @@
                                         <mods:Name>Wirtschaftsteil</mods:Name>
                                     </mods:titleInfo>
                                 </mods:relatedItem>
-                                <mods:identifier type="urn">urn:nbn:de:blabla:21-db-id123456789</mods:identifier>
+                                <mods:identifier type="urn"
+                                    >urn:nbn:de:blabla:21-db-id123456789</mods:identifier>
                                 <mods:location>
                                     <mods:physicalLocation>DE-7</mods:physicalLocation>
                                     <mods:shelfLocator>Zt 23-3456</mods:shelfLocator>
                                 </mods:location>
-                                <mods:accessCondition type="use and reproduction" xlink:href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Dedication 1.0</mods:accessCondition>
-                                <mods:accessCondition type="restriction on access" xlink:href="http://purl.org/coar/access_right/c_abf2" displayLabel="Access Status">open access</mods:accessCondition>
+                                <mods:accessCondition type="use and reproduction"
+                                    xlink:href="https://creativecommons.org/publicdomain/mark/1.0/"
+                                    >Public Domain Mark 1.0</mods:accessCondition>
+                                <mods:accessCondition type="restriction on access"
+                                    xlink:href="http://purl.org/coar/access_right/c_abf2"
+                                    displayLabel="Access Status">open access</mods:accessCondition>
                                 <mods:part order="1879021702">
+                                    <mods:detail type="volume">
+                                        <mods:number>Jahrgang 1879</mods:number>
+                                    </mods:detail>
                                     <mods:detail type="issue">
                                         <mods:number>17. Februar 1879</mods:number>
                                         <mods:title>Mittagsausgabe</mods:title>
-                                    </mods:detail>                                    
+                                    </mods:detail>
                                 </mods:part>
                                 <mods:recordInfo>
-                                    <mods:recordIdentifier source="gbv">123456789_1879021702</mods:recordIdentifier>                                    
+                                    <mods:recordIdentifier source="gbv"
+                                        >123456789_1879021702</mods:recordIdentifier>
                                 </mods:recordInfo>
                             </mods:mods>
                         </mets:xmlData>
-                    </mets:mdWrap>                    
+                    </mets:mdWrap>
                 </mets:dmdSec>
                 <mets:amdSec ID="amd_01">
                     <mets:rightsMD>
@@ -94,17 +115,18 @@
                 <mets:structMap TYPE="LOGICAL">
                     <mets:divd ID="log_001" TYPE="newspaper" LABEL="Die Test-Zeitung">
                         <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/GA"/>
-                        <mets:div ID="log_002" TYPE="year" LABEL="1878">
-                            <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/Jahrgang"/>
-                            <mets:div ID="log_003" TYPE="month" ORDERLABEL="04">
-                                <mets:div ID="log_004" TYPE="day" ORDERLABEL="15">
-                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="15_1">
+                        <mets:div ID="log_002" TYPE="year" LABEL="Jahrgang 1879" ORDERLABEL="1879">
+                            <mets:mptr LOCTYPE="URL"
+                                xlink:href="http://LinkZumMETSdatensatz/Jahrgang"/>
+                            <mets:div ID="log_003" TYPE="month" ORDERLABEL="1879-02">
+                                <mets:div ID="log_004" TYPE="day" ORDERLABEL="1879-02-17">
+                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="1879-02-17" LABEL="17. Februar 1879, Mittagsausgabe">
                                         <mets:div ID="log_025" TYPE="section" LABEL="Aus der Region"/>
                                         <mets:div ID="log_026" TYPE="section" LABEL="Unser Kummerkasten"/>
                                         <mets:div ID="log_027" TYPE="section" LABEL="Vermischte Nachrichten">
                                             <mets:div ID="log_030" TYPE="article" LABEL="Sieben auf einen Streich"/>
                                             <mets:div ID="log_031" TYPE="article" LABEL="Der Bürgermeister wacht"/>
-                                            <mets:div ID="log_032" TYPE="article" LABEL="Kein Haus - kein Herd"/>                                            
+                                            <mets:div ID="log_032" TYPE="article" LABEL="Kein Haus - kein Herd"/>
                                         </mets:div>
                                         <mets:div ID="log_028" TYPE="section" LABEL="Anzeigen"/>
                                     </mets:div>
@@ -113,23 +135,18 @@
                         </mets:div>
                     </mets:divd>
                 </mets:structMap>
-                <mets:structMap TYPE="PHYSICAL"> 
-                    <mets:div
-                        ID="PHYS_0000" TYPE="physSequence">
-                        <mets:div
-                            ID="PHYS_0001" ORDER="1" ORDERLABEL="I" TYPE="page">
+                <mets:structMap TYPE="PHYSICAL">
+                    <mets:div ID="PHYS_0000" TYPE="physSequence">
+                        <mets:div ID="PHYS_0001" ORDER="1" ORDERLABEL="I" TYPE="page">
                             <mets:fptr FILEID="FILE_0001_DEFAULT"/>
                         </mets:div>
-                        <mets:div
-                            ID="PHYS_0002" ORDER="2" ORDERLABEL="II" TYPE="page">
+                        <mets:div ID="PHYS_0002" ORDER="2" ORDERLABEL="II" TYPE="page">
                             <mets:fptr FILEID="FILE_0002_DEFAULT"/>
                         </mets:div>
-                        <mets:div
-                            ID="PHYS_0003" ORDER="3" ORDERLABEL="III" TYPE="page">
+                        <mets:div ID="PHYS_0003" ORDER="3" ORDERLABEL="III" TYPE="page">
                             <mets:fptr FILEID="FILE_0003_DEFAULT"/>
                         </mets:div>
-                        <mets:div
-                            ID="PHYS_0004" ORDER="4" ORDERLABEL="IV" TYPE="page">
+                        <mets:div ID="PHYS_0004" ORDER="4" ORDERLABEL="IV" TYPE="page">
                             <mets:fptr FILEID="FILE_0004_DEFAULT"/>
                         </mets:div>
                     </mets:div>
@@ -152,19 +169,37 @@
                 <mets:fileSec>
                     <mets:fileGrp USE="DEFAULT">
                         <mets:file ID="FILE_0001_DEFAULT" MIMETYPE="image/jpeg">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000001.jpg"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Image/00000001.jpg"/>
                         </mets:file>
                         <mets:file ID="FILE_0002_DEFAULT" MIMETYPE="image/jpeg">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000002.jpg"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Image/00000002.jpg"/>
                         </mets:file>
                         <mets:file ID="FILE_0003_DEFAULT" MIMETYPE="image/jpeg">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000003.jpg"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Image/00000003.jpg"/>
                         </mets:file>
                         <mets:file ID="FILE_0004_DEFAULT" MIMETYPE="image/jpeg">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Image/00000004.jpg"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Image/00000004.jpg"/>
+                        </mets:file>
+                    </mets:fileGrp>
+                    <mets:fileGrp USE="FULLTEXT">
+                        <mets:file ID="FILE_0001_FULLTEXT" MIMETYPE="text/xml">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000001.xml"/>
+                        </mets:file>
+                        <mets:file ID="FILE_0021_FULLTEXT" MIMETYPE="text/xml">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000002.xml"/>
+                        </mets:file>
+                        <mets:file ID="FILE_0003_FULLTEXT" MIMETYPE="text/xml">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000003.xml"/>
+                        </mets:file>
+                        <mets:file ID="FILE_0004_FULLTEXT" MIMETYPE="text/xml">
+                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000004.xml"/>
                         </mets:file>
                     </mets:fileGrp>
                 </mets:fileSec>
             </mets:mets>
         </metadata>
-    </record>                
+    </record>              
