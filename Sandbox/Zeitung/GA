@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:mods="http://www.loc.gov/mods/v3"
-        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-        <!-- Gesamtaufnahme -->
-        <metadata>
             <mets:mets
                 xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
                 xmlns:mets="http://www.loc.gov/METS/"
@@ -55,7 +50,7 @@
                                 </mods:language>
                                 <mods:language>
                                     <mods:languageTerm authority="iso639-2b" type="code"
-                                        >eng</mods:languageTerm>
+                                        >rus</mods:languageTerm>
                                 </mods:language>
                                 <!-- ZDB-ID der analogen Ausgabe -->
                                 <mods:relatedItem type="original">
@@ -74,10 +69,12 @@
                                     >Public Domain Mark 1.0</mods:accessCondition>
                                 <!-- Angaben zum Datensatz -->
                                 <mods:recordInfo>
-                                    <mods:recordIdentifier source="gbv">749501820</mods:recordIdentifier>
+                                    <mods:recordIdentifier source="gbv"
+                                        >749501820</mods:recordIdentifier>
                                 </mods:recordInfo>
                                 <mods:recordInfo>
-                                    <mods:recordIdentifier source="zdb-ppn">345679023</mods:recordIdentifier>
+                                    <mods:recordIdentifier source="zdb-ppn"
+                                        >345679023</mods:recordIdentifier>
                                 </mods:recordInfo>
                             </mods:mods>
                         </mets:xmlData>
@@ -128,5 +125,3 @@
                     </mets:div>
                 </mets:structMap>
             </mets:mets>
-        </metadata>
-    </record>
