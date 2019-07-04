@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>    
-    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:mods="http://www.loc.gov/mods/v3"
-        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-        <!-- Jahrgang -->
-        <metadata>
             <mets:mets
                 xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
                 xmlns:mets="http://www.loc.gov/METS/"
@@ -86,44 +81,60 @@
                             LABEL="Jahrgang 1879" ORDERLABEL="1879">
                             <mets:div ID="log_003" TYPE="month" ORDERLABEL="1879-02">
                                 <mets:div ID="log_004" TYPE="day" ORDERLABEL="1879-02-16">
-                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="1879-02-16" LABEL="16. Februar 1879, Morgenausgabe">
+                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="1879-02-16"
+                                        LABEL="16. Februar 1879, Morgenausgabe">
                                         <mets:mptr LOCTYPE="URL"
-                                            xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom16Februar"/>
+                                            xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom16Februar"
+                                        />
                                     </mets:div>
-                                    <mets:div ID="log_006" TYPE="issue" ORDERLABEL="1879-02-16" LABEL="16. Februar 1879, Mittagsausgabe">
+                                    <mets:div ID="log_006" TYPE="issue" ORDERLABEL="1879-02-16"
+                                        LABEL="16. Februar 1879, Mittagsausgabe">
                                         <mets:mptr LOCTYPE="URL"
-                                            xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom16Februar"/>
+                                            xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom16Februar"
+                                        />
                                     </mets:div>
                                     <mets:div ID="log_007" TYPE="day" ORDERLABEL="1879-02-17">
-                                        <mets:div ID="log_008" TYPE="issue" ORDERLABEL="1879-02-17" LABEL="17. Februar 1879, Morgenausgabe">
+                                        <mets:div ID="log_008" TYPE="issue" ORDERLABEL="1879-02-17"
+                                            LABEL="17. Februar 1879, Morgenausgabe">
                                             <mets:mptr LOCTYPE="URL"
-                                                xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom17Februar"/>
+                                                xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom17Februar"
+                                            />
                                         </mets:div>
-                                        <mets:div ID="log_009" TYPE="issue" ORDERLABEL="1879-02-17" LABEL="17. Februar 1879, Mittagsausgabe">
+                                        <mets:div ID="log_009" TYPE="issue" ORDERLABEL="1879-02-17"
+                                            LABEL="17. Februar 1879, Mittagsausgabe">
                                             <mets:mptr LOCTYPE="URL"
-                                                xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom17Februar"/>
+                                                xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom17Februar"
+                                            />
                                         </mets:div>
                                     </mets:div>
                                 </mets:div>
                             </mets:div>
                             <mets:div ID="log_010" TYPE="month" ORDERLABEL="1879-03">
                                 <mets:div ID="log_011" TYPE="day" ORDERLABEL="1879-03-01">
-                                    <mets:div ID="log_012" TYPE="issue" ORDERLABEL="1879-03-01" LABEL="1. März 1879, Morgenausgabe">
+                                    <mets:div ID="log_012" TYPE="issue" ORDERLABEL="1879-03-01"
+                                        LABEL="1. März 1879, Morgenausgabe">
                                         <mets:mptr LOCTYPE="URL"
-                                            xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom1Maerz"/>
+                                            xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom1Maerz"
+                                        />
                                     </mets:div>
-                                    <mets:div ID="log_013" TYPE="issue" ORDERLABEL="1879-03-01" LABEL="1. März 1879, Mittagsausgabe">
+                                    <mets:div ID="log_013" TYPE="issue" ORDERLABEL="1879-03-01"
+                                        LABEL="1. März 1879, Mittagsausgabe">
                                         <mets:mptr LOCTYPE="URL"
-                                            xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom1Maerz"/>
+                                            xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom1Maerz"
+                                        />
                                     </mets:div>
                                     <mets:div ID="log_014" TYPE="day" ORDERLABEL="1879-03-02">
-                                        <mets:div ID="log_005" TYPE="issue" ORDERLABEL="1879-03-02" LABEL="2. März 1879, Morgenausgabe">
+                                        <mets:div ID="log_005" TYPE="issue" ORDERLABEL="1879-03-02"
+                                            LABEL="2. März 1879, Morgenausgabe">
                                             <mets:mptr LOCTYPE="URL"
-                                                xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom2Maerz"/>
+                                                xlink:href="http://LinkZumMETSdatensatz/IssueMorgenausgabevom2Maerz"
+                                            />
                                         </mets:div>
-                                        <mets:div ID="log_015" TYPE="issue" ORDERLABEL="1879-03-02" LABEL="2. März 1879, Mittagsausgabe">
+                                        <mets:div ID="log_015" TYPE="issue" ORDERLABEL="1879-03-02"
+                                            LABEL="2. März 1879, Mittagsausgabe">
                                             <mets:mptr LOCTYPE="URL"
-                                                xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom2Maerz"/>
+                                                xlink:href="http://LinkZumMETSdatensatz/IssueMittagsausgabevom2Maerz"
+                                            />
                                         </mets:div>
                                     </mets:div>
                                 </mets:div>
@@ -132,5 +143,3 @@
                     </mets:div>
                 </mets:structMap>
             </mets:mets>
-        </metadata>
-    </record>
