@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>    
-    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:mods="http://www.loc.gov/mods/v3"
-        xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
-        <!-- Ausgabe -->
-        <metadata>
             <mets:mets
                 xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/mets/mets.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"
                 xmlns:mets="http://www.loc.gov/METS/"
@@ -87,6 +82,79 @@
                         </mets:xmlData>
                     </mets:mdWrap>
                 </mets:dmdSec>
+                <mods:dmdSec ID="dmd_0002">
+                    <mets:mdWrap MDTYPE="MODS">
+                        <mets:xmlData>
+                            <mods:mods>
+                                <mods:titleInfo>
+                                    <mods:title>Sieben auf einen Streich</mods:title>
+                                </mods:titleInfo>
+                                <mods:name>
+                                    <mods:namePart type="family">Schneider</mods:namePart>
+                                    <mods:namePart type="given">Felix</mods:namePart>
+                                    <mods:displayForm>Felix Schneider</mods:displayForm>
+                                    <mods:role>
+                                        <mods:roleTerm authority="marcrelator" type="code"
+                                            >aut</mods:roleTerm>
+                                    </mods:role>
+                                </mods:name>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >ger</mods:languageTerm>
+                                </mods:language>
+                            </mods:mods>
+
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mods:dmdSec>
+                <mods:dmdSec ID="dmd_0003">
+                    <mets:mdWrap MDTYPE="MODS">
+                        <mets:xmlData>
+                            <mods:mods>
+                                <mods:titleInfo>
+                                    <mods:title>Der Bürgermeister wacht</mods:title>
+                                </mods:titleInfo>
+                                <mods:name>
+                                    <mods:namePart type="family">Ratlos</mods:namePart>
+                                    <mods:namePart type="given">Willi</mods:namePart>
+                                    <mods:displayForm>Willi Ratlos</mods:displayForm>
+                                    <mods:role>
+                                        <mods:roleTerm authority="marcrelator" type="code"
+                                            >aut</mods:roleTerm>
+                                    </mods:role>
+                                </mods:name>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >ger</mods:languageTerm>
+                                </mods:language>
+                            </mods:mods>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mods:dmdSec>
+                <mods:dmdSec ID="dmd_0004">
+                    <mets:mdWrap MDTYPE="MODS">
+                        <mets:xmlData>
+                            <mods:mods>
+                                <mods:titleInfo>
+                                    <mods:title>Kein Haus - kein Herd</mods:title>
+                                </mods:titleInfo>
+                                <mods:name>
+                                    <mods:namePart type="family">Heimlos</mods:namePart>
+                                    <mods:namePart type="given">Harry</mods:namePart>
+                                    <mods:displayForm>Harry Heimlos</mods:displayForm>
+                                    <mods:role>
+                                        <mods:roleTerm authority="marcrelator" type="code"
+                                            >aut</mods:roleTerm>
+                                    </mods:role>
+                                </mods:name>
+                                <mods:language>
+                                    <mods:languageTerm authority="iso639-2b" type="code"
+                                        >ger</mods:languageTerm>
+                                </mods:language>
+                            </mods:mods>
+                        </mets:xmlData>
+                    </mets:mdWrap>
+                </mods:dmdSec>
                 <mets:amdSec ID="amd_01">
                     <mets:rightsMD>
                         <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
@@ -113,41 +181,52 @@
                     </mets:digiprovMD>
                 </mets:amdSec>
                 <mets:structMap TYPE="LOGICAL">
-                    <mets:divd ID="log_001" TYPE="newspaper" LABEL="Die Test-Zeitung">
+                    <mets:div ID="log_001" TYPE="newspaper" LABEL="Die Test-Zeitung">
                         <mets:mptr LOCTYPE="URL" xlink:href="http://LinkZumMETSdatensatz/GA"/>
                         <mets:div ID="log_002" TYPE="year" LABEL="Jahrgang 1879" ORDERLABEL="1879">
                             <mets:mptr LOCTYPE="URL"
                                 xlink:href="http://LinkZumMETSdatensatz/Jahrgang"/>
                             <mets:div ID="log_003" TYPE="month" ORDERLABEL="1879-02">
                                 <mets:div ID="log_004" TYPE="day" ORDERLABEL="1879-02-17">
-                                    <mets:div ID="log_005" TYPE="issue" ORDERLABEL="1879-02-17" LABEL="17. Februar 1879, Mittagsausgabe">
+                                    <mets:div ID="log_005" ADMID="amd_01" DMDID="dmd_0001"
+                                        TYPE="issue" ORDERLABEL="1879-02-17"
+                                        LABEL="17. Februar 1879, Mittagsausgabe">
                                         <mets:div ID="log_025" TYPE="section" LABEL="Aus der Region"/>
-                                        <mets:div ID="log_026" TYPE="section" LABEL="Unser Kummerkasten"/>
-                                        <mets:div ID="log_027" TYPE="section" LABEL="Vermischte Nachrichten">
-                                            <mets:div ID="log_030" TYPE="article" LABEL="Sieben auf einen Streich"/>
-                                            <mets:div ID="log_031" TYPE="article" LABEL="Der Bürgermeister wacht"/>
-                                            <mets:div ID="log_032" TYPE="article" LABEL="Kein Haus - kein Herd"/>
+                                        <mets:div ID="log_026" TYPE="section"
+                                            LABEL="Unser Kummerkasten"/>
+                                        <mets:div ID="log_027" TYPE="section"
+                                            LABEL="Vermischte Nachrichten">
+                                            <mets:div ID="log_030" DMDID="dmd_0002" TYPE="article"
+                                                LABEL="Sieben auf einen Streich"/>
+                                            <mets:div ID="log_031" DMDID="dmd_0003" TYPE="article"
+                                                LABEL="Der Bürgermeister wacht"/>
+                                            <mets:div ID="log_032" DMDID="dmd_0004" TYPE="article"
+                                                LABEL="Kein Haus - kein Herd"/>
                                         </mets:div>
                                         <mets:div ID="log_028" TYPE="section" LABEL="Anzeigen"/>
                                     </mets:div>
                                 </mets:div>
                             </mets:div>
                         </mets:div>
-                    </mets:divd>
+                    </mets:div>
                 </mets:structMap>
                 <mets:structMap TYPE="PHYSICAL">
                     <mets:div ID="PHYS_0000" TYPE="physSequence">
-                        <mets:div ID="PHYS_0001" ORDER="1" ORDERLABEL="I" TYPE="page">
+                        <mets:div CONTENTIDS="urn:nbn:de:dieIstNichtEcht" ID="PHYS_0001" ORDER="1" ORDERLABEL="I" TYPE="page">
                             <mets:fptr FILEID="FILE_0001_DEFAULT"/>
+                            <mets:fptr FILEID="FILE_0001_FULLTEXT"/>
                         </mets:div>
-                        <mets:div ID="PHYS_0002" ORDER="2" ORDERLABEL="II" TYPE="page">
+                        <mets:div CONTENTIDS="urn:nbn:de:dieIstAuchNichtEcht" ID="PHYS_0002" ORDER="2" ORDERLABEL="II" TYPE="page">
                             <mets:fptr FILEID="FILE_0002_DEFAULT"/>
+                            <mets:fptr FILEID="FILE_0002_FULLTEXT"/>
                         </mets:div>
-                        <mets:div ID="PHYS_0003" ORDER="3" ORDERLABEL="III" TYPE="page">
+                        <mets:div CONTENTIDS="urn:nbn:de:dieIstErstRechtNichtEcht" ID="PHYS_0003" ORDER="3" ORDERLABEL="III" TYPE="page">
                             <mets:fptr FILEID="FILE_0003_DEFAULT"/>
+                            <mets:fptr FILEID="FILE_0003_FULLTEXT"/>
                         </mets:div>
-                        <mets:div ID="PHYS_0004" ORDER="4" ORDERLABEL="IV" TYPE="page">
+                        <mets:div CONTENTIDS="urn:nbn:de:undDieIstSowiesoNichtEcht" ID="PHYS_0004" ORDER="4" ORDERLABEL="IV" TYPE="page">
                             <mets:fptr FILEID="FILE_0004_DEFAULT"/>
+                            <mets:fptr FILEID="FILE_0004_FULLTEXT"/>
                         </mets:div>
                     </mets:div>
                 </mets:structMap>
@@ -187,19 +266,21 @@
                     </mets:fileGrp>
                     <mets:fileGrp USE="FULLTEXT">
                         <mets:file ID="FILE_0001_FULLTEXT" MIMETYPE="text/xml">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000001.xml"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Volltext/00000001.xml"/>
                         </mets:file>
-                        <mets:file ID="FILE_0021_FULLTEXT" MIMETYPE="text/xml">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000002.xml"/>
+                        <mets:file ID="FILE_0002_FULLTEXT" MIMETYPE="text/xml">
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Volltext/00000002.xml"/>
                         </mets:file>
                         <mets:file ID="FILE_0003_FULLTEXT" MIMETYPE="text/xml">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000003.xml"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Volltext/00000003.xml"/>
                         </mets:file>
                         <mets:file ID="FILE_0004_FULLTEXT" MIMETYPE="text/xml">
-                            <mets:FLocat LOCTYPE="URL" xlink:href="http://Link/zum/Volltext/00000004.xml"/>
+                            <mets:FLocat LOCTYPE="URL"
+                                xlink:href="http://Link/zum/Volltext/00000004.xml"/>
                         </mets:file>
                     </mets:fileGrp>
                 </mets:fileSec>
-            </mets:mets>
-        </metadata>
-    </record>              
+            </mets:mets>            
