@@ -50,7 +50,7 @@
                                         <mods:title>Die Test-Zeitung</mods:title>
                                         <mods:subTitle>Nachrichten aus dem Nirgendwo</mods:subTitle>
                                         <mods:partNumber>Reihe A</mods:partNumber>
-                                        <mods:partName>Wirtschaftsteil</mods:Name>
+                                        <mods:partName>Wirtschaftsteil</mods:partName>
                                     </mods:titleInfo>
                                 </mods:relatedItem>
                                 <mods:identifier type="urn"
