@@ -37,11 +37,7 @@
                                     <mods:recordInfo>
                                         <mods:recordIdentifier source="gbv"
                                             >749501820</mods:recordIdentifier>
-                                    </mods:recordInfo>
-                                    <mods:recordInfo>
-                                        <mods:recordIdentifier source="zdb-ppn"
-                                            >345679023</mods:recordIdentifier>
-                                    </mods:recordInfo>
+                                    </mods:recordInfo>                                
                                     <mods:identifier type="zdb">2746698X</mods:identifier>
                                     <mods:relatedItem type="original">
                                         <mods:identifier type="zdb">9304x</mods:identifier>
