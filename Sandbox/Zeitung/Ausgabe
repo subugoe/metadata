@@ -152,7 +152,7 @@
                     </mets:mdWrap>
                 </mods:dmdSec>
                 <mets:amdSec ID="amd_01">
-                    <mets:rightsMD>
+                    <mets:rightsMD ID="rights_01">
                         <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVRIGHTS">
                             <mets:xmlData>
                                 <dv:rights>
@@ -165,7 +165,7 @@
                             </mets:xmlData>
                         </mets:mdWrap>
                     </mets:rightsMD>
-                    <mets:digiprovMD>
+                    <mets:digiprovMD ID="digiprov_01">
                         <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DVLINKS">
                             <mets:xmlData>
                                 <dv:links>
